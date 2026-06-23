@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "history",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "W którym roku miał miejsce Chrzest Polski?",
+      "options": ["952", "966", "988", "1025"],
+      "correctAnswer": "966",
+      "explanation": "Chrzest Polski miał miejsce w 966 roku za panowania Mieszka I."
+    },
+    {
+      "id": "q2",
+      "topic": "history",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Bolesław I Chrobry był pierwszym koronowanym królem Polski.",
+      "correctAnswer": true,
+      "explanation": "Bolesław I Chrobry został koronowany w 1025 roku jako pierwszy król Polski."
+    },
+    {
+      "id": "q3",
+      "topic": "history",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Ile rozbiorów Polski miało miejsce?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": "3",
+      "explanation": "Trzy rozbiory Polski miały miejsce w latach 1772, 1793 i 1795."
+    },
+    {
+      "id": "q4",
+      "topic": "history",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Kiedy Polska odzyskała niepodległość?",
+      "options": ["1905", "1914", "1918", "1921"],
+      "correctAnswer": "1918",
+      "explanation": "Polska odzyskała niepodległość 11 listopada 1918 roku."
+    },
+    {
+      "id": "q5",
+      "topic": "symbols",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Jak nazywa się hymn Polski?",
+      "options": ["Rota", "Mazurek Dąbrowskiego", "Bogurodzica", "Gaude Mater Polonia"],
+      "correctAnswer": "Mazurek Dąbrowskiego",
+      "explanation": "Hymn Polski to 'Mazurek Dąbrowskiego', napisany w 1797 roku przez Józefa Wybickiego."
+    },
+    {
+      "id": "q6",
+      "topic": "symbols",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Jakie kolory ma flaga Polski (od góry do dołu)?",
+      "options": ["Czerwono-biała", "Biało-czerwona", "Biało-niebieska", "Czerwono-żółta"],
+      "correctAnswer": "Biało-czerwona",
+      "explanation": "Flaga Polski składa się z dwóch pasów: białego na górze i czerwonego na dole."
+    },
+    {
+      "id": "q7",
+      "topic": "symbols",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Godło Polski to biały orzeł na niebieskim tle.",
+      "correctAnswer": false,
+      "explanation": "Godło Polski to biały orzeł w złotej koronie na czerwonym (nie niebieskim) tle."
+    },
+    {
+      "id": "q8",
+      "topic": "geography",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Jaka jest stolica Polski?",
+      "options": ["Kraków", "Warszawa", "Gdańsk", "Wrocław"],
+      "correctAnswer": "Warszawa",
+      "explanation": "Stolica Polski to Warszawa."
+    },
+    {
+      "id": "q9",
+      "topic": "geography",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Jaka jest najdłuższa rzeka w Polsce?",
+      "options": ["Odra", "Bug", "Wisła", "Warta"],
+      "correctAnswer": "Wisła",
+      "explanation": "Wisła jest najdłuższą rzeką Polski — ma 1047 km długości."
+    },
+    {
+      "id": "q10",
+      "topic": "geography",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Polska jest członkiem Unii Europejskiej od 1999 roku.",
+      "correctAnswer": false,
+      "explanation": "Polska przystąpiła do UE w 2004 roku. W 1999 roku Polska wstąpiła do NATO."
+    },
+    {
+      "id": "q11",
+      "topic": "famous-poles",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Kto jest autorem teorii heliocentrycznej?",
+      "options": ["Galileusz", "Mikołaj Kopernik", "Isaac Newton", "Jan Heweliusz"],
+      "correctAnswer": "Mikołaj Kopernik",
+      "explanation": "Mikołaj Kopernik stworzył teorię heliocentryczną — że Ziemia krąży wokół Słońca."
+    },
+    {
+      "id": "q12",
+      "topic": "famous-poles",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Ile Nagród Nobla otrzymała Maria Skłodowska-Curie?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": "2",
+      "explanation": "Maria Skłodowska-Curie otrzymała dwie Nagrody Nobla — z fizyki (1903) i chemii (1911)."
+    },
+    {
+      "id": "q13",
+      "topic": "famous-poles",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Kto napisał 'Pana Tadeusza'?",
+      "options": ["Juliusz Słowacki", "Adam Mickiewicz", "Henryk Sienkiewicz", "Fryderyk Chopin"],
+      "correctAnswer": "Adam Mickiewicz",
+      "explanation": "Adam Mickiewicz jest autorem 'Pana Tadeusza', uważanego za najważniejszy polski epos narodowy."
+    },
+    {
+      "id": "q14",
+      "topic": "culture",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Ile tradycyjnych potraw podaje się na Wigilię?",
+      "options": ["7", "10", "12", "15"],
+      "correctAnswer": "12",
+      "explanation": "Tradycyjnie na Wigilię podaje się 12 potraw."
+    },
+    {
+      "id": "q15",
+      "topic": "culture",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Pierogi to tradycyjne polskie danie.",
+      "correctAnswer": true,
+      "explanation": "Pierogi to jedno z najbardzej znanych tradycyjnych polskich dań, z różnymi nadzieniami."
+    },
+    {
+      "id": "q16",
+      "topic": "history",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Kiedy uchwalono Konstytucję 3 Maja?",
+      "options": ["1789", "1791", "1793", "1795"],
+      "correctAnswer": "1791",
+      "explanation": "Konstytucja 3 Maja została uchwalona 3 maja 1791 roku. Była drugą na świecie nowoczesną konstytucją."
+    },
+    {
+      "id": "q17",
+      "topic": "language",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Jak po polsku powiedzieć 'Thank you'?",
+      "options": ["Proszę", "Przepraszam", "Dziękuję", "Do widzenia"],
+      "correctAnswer": "Dziękuję",
+      "explanation": "'Dziękuję' oznacza 'Thank you' po polsku."
+    },
+    {
+      "id": "q18",
+      "topic": "geography",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Jaki jest najwyższy szczyt w Polsce?",
+      "options": ["Śnieżka", "Rysy", "Babia Góra", "Kasprowy Wierch"],
+      "correctAnswer": "Rysy",
+      "explanation": "Rysy (2499 m n.p.m.) to najwyższy szczyt w polskich Tatrach."
+    }
+  ]
+}

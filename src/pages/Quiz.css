@@ -1,0 +1,61 @@
+/* ===== Quiz Page ===== */
+.quiz {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.quiz__header {
+  margin-bottom: var(--space-sm);
+}
+
+.quiz__title {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-sm);
+}
+
+.quiz__subtitle {
+  color: var(--text-secondary);
+  font-size: var(--fs-base);
+  max-width: 560px;
+}
+
+/* ===== Empty State ===== */
+.quiz__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-3xl) var(--space-xl);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  min-height: 320px;
+}
+
+.quiz__empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--accent-subtle);
+  color: var(--accent);
+  margin-bottom: var(--space-xl);
+}
+
+.quiz__empty-title {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+  margin-bottom: var(--space-sm);
+}
+
+.quiz__empty-desc {
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  max-width: 380px;
+  line-height: 1.6;
+}

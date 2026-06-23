@@ -1,0 +1,249 @@
+{
+  "topics": [
+    {
+      "id": "history",
+      "title": "Historia Polski",
+      "icon": "📜",
+      "description": "Najważniejsze wydarzenia, daty i postacie w historii Polski",
+      "sections": [
+        {
+          "id": "history-origins",
+          "title": "Początki państwa polskiego",
+          "content": "Historia Polski rozpoczyna się od dynastii Piastów. Mieszko I, pierwszy historycznie udokumentowany władca, przyjął chrzest w 966 roku, co uważa się za symboliczny początek państwa polskiego. Jego syn, Bolesław I Chrobry, został pierwszym królem Polski w 1025 roku.",
+          "keyFacts": [
+            "966 — Chrzest Polski za panowania Mieszka I",
+            "1025 — Bolesław I Chrobry zostaje pierwszym królem Polski",
+            "Dynastia Piastów panowała od X do XIV wieku",
+            "Gniezno było pierwszą stolicą Polski"
+          ],
+          "importantDates": [
+            { "year": "966", "event": "Chrzest Polski — przyjęcie chrześcijaństwa" },
+            { "year": "1025", "event": "Koronacja Bolesława I Chrobrego" },
+            { "year": "1038", "event": "Przeniesienie stolicy do Krakowa" }
+          ],
+          "importantPeople": [
+            { "name": "Mieszko I", "role": "Pierwszy historyczny władca Polski" },
+            { "name": "Bolesław I Chrobry", "role": "Pierwszy koronowany król Polski" }
+          ]
+        },
+        {
+          "id": "history-golden-age",
+          "title": "Złoty wiek i Rzeczpospolita",
+          "content": "XVI wiek to złoty wiek Polski. W 1569 roku zawarto Unię Lubelską, tworząc Rzeczpospolitą Obojga Narodów — jedno z największych państw Europy. Polska była wówczas potęgą polityczną i kulturalną. Konstytucja 3 Maja 1791 roku była drugą na świecie (po amerykańskiej) nowoczesną konstytucją.",
+          "keyFacts": [
+            "1569 — Unia Lubelska, powstanie Rzeczypospolitej Obojga Narodów",
+            "1573 — Pierwsza wolna elekcja",
+            "3 maja 1791 — Konstytucja 3 Maja, druga nowoczesna konstytucja na świecie",
+            "Rzeczpospolita Obojga Narodów łączyła Polskę i Litwę"
+          ],
+          "importantDates": [
+            { "year": "1569", "event": "Unia Lubelska" },
+            { "year": "1573", "event": "Pierwsza wolna elekcja króla" },
+            { "year": "1791", "event": "Uchwalenie Konstytucji 3 Maja" }
+          ],
+          "importantPeople": [
+            { "name": "Zygmunt II August", "role": "Ostatni Jagiellon, inicjator Unii Lubelskiej" },
+            { "name": "Stanisław August Poniatowski", "role": "Ostatni król Polski, współautor Konstytucji 3 Maja" }
+          ]
+        },
+        {
+          "id": "history-partitions",
+          "title": "Rozbiory i walka o niepodległość",
+          "content": "W latach 1772–1795 Polska została podzielona między Rosję, Prusy i Austrię w trzech rozbiorach. Przez 123 lata Polska nie istniała na mapie Europy. Polacy wielokrotnie walczyli o wolność — Powstanie Kościuszkowskie (1794), Powstanie Listopadowe (1830), Powstanie Styczniowe (1863). Niepodległość odzyskano 11 listopada 1918 roku.",
+          "keyFacts": [
+            "1772, 1793, 1795 — trzy rozbiory Polski",
+            "123 lata bez niepodległości (1795–1918)",
+            "11 listopada 1918 — odzyskanie niepodległości",
+            "Józef Piłsudski — Naczelnik Państwa po odzyskaniu niepodległości"
+          ],
+          "importantDates": [
+            { "year": "1772", "event": "Pierwszy rozbiór Polski" },
+            { "year": "1793", "event": "Drugi rozbiór Polski" },
+            { "year": "1795", "event": "Trzeci rozbiór — Polska znika z mapy" },
+            { "year": "1918", "event": "Odzyskanie niepodległości" }
+          ],
+          "importantPeople": [
+            { "name": "Tadeusz Kościuszko", "role": "Przywódca Powstania Kościuszkowskiego" },
+            { "name": "Józef Piłsudski", "role": "Naczelnik Państwa, odzyskanie niepodległości" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Kultura i Tradycje",
+      "icon": "🎭",
+      "description": "Polskie zwyczaje, święta, tradycje i kultura",
+      "sections": [
+        {
+          "id": "culture-holidays",
+          "title": "Najważniejsze święta",
+          "content": "Polacy obchodzą wiele świąt religijnych i państwowych. Boże Narodzenie (25–26 grudnia) to najważniejsze święto rodzinne. Wigilia (24 grudnia) obejmuje 12 potraw, dzielenie się opłatkiem i zostawianie pustego miejsca przy stole. Wielkanoc to drugie najważniejsze święto — z tradycją święconki, pisanek i śmigusa-dyngusa.",
+          "keyFacts": [
+            "Wigilia — 12 potraw, opłatek, puste miejsce przy stole",
+            "Wielkanoc — święconka, pisanki, śmigus-dyngus (Lany Poniedziałek)",
+            "1 listopada — Wszystkich Świętych, odwiedzanie grobów",
+            "3 maja — Święto Konstytucji 3 Maja",
+            "11 listopada — Święto Niepodległości"
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "culture-cuisine",
+          "title": "Kuchnia polska",
+          "content": "Polska kuchnia jest bogata i różnorodna. Do najpopularniejszych dań należą pierogi (z mięsem, serem, kapustą), bigos (kapusta z mięsem), żurek (kwaśna zupa żytnia), barszcz czerwony i kotlet schabowy. Na Wigilię podaje się tradycyjnie karp, barszcz z uszkami i kutię.",
+          "keyFacts": [
+            "Pierogi — najpopularniejsze polskie danie, z różnymi nadzieniami",
+            "Bigos — 'myśliwski gulasz' z kapusty i mięsa",
+            "Żurek — kwaśna zupa na zakwasie żytnim",
+            "Barszcz czerwony — z buraków, podawany z uszkami",
+            "Kotlet schabowy — panierowany schab"
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "title": "Geografia",
+      "icon": "🗺️",
+      "description": "Geografia Polski — miasta, rzeki, regiony i sąsiedzi",
+      "sections": [
+        {
+          "id": "geography-basics",
+          "title": "Podstawowe informacje",
+          "content": "Polska leży w Europie Środkowej. Stolica — Warszawa. Powierzchnia — ok. 312 696 km². Ludność — ok. 38 milionów. Polska jest członkiem Unii Europejskiej od 2004 roku i NATO od 1999 roku. Waluta — złoty polski (PLN).",
+          "keyFacts": [
+            "Stolica: Warszawa",
+            "Powierzchnia: ok. 312 696 km²",
+            "Ludność: ok. 38 milionów",
+            "Waluta: złoty polski (PLN)",
+            "Członek UE od 2004 roku, NATO od 1999 roku",
+            "Sąsiedzi: Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa, Rosja (obwód kaliningradzki)"
+          ],
+          "importantDates": [
+            { "year": "1999", "event": "Przystąpienie do NATO" },
+            { "year": "2004", "event": "Przystąpienie do Unii Europejskiej" }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "geography-cities-rivers",
+          "title": "Miasta i rzeki",
+          "content": "Największe miasta Polski to Warszawa (stolica), Kraków (dawna stolica), Łódź, Wrocław, Poznań, Gdańsk i Szczecin. Najdłuższa rzeka to Wisła (1047 km), która przepływa przez Kraków i Warszawę. Druga co do długości jest Odra (854 km).",
+          "keyFacts": [
+            "Wisła — najdłuższa rzeka Polski (1047 km)",
+            "Odra — druga najdłuższa rzeka (854 km)",
+            "Warszawa — stolica, największe miasto",
+            "Kraków — dawna stolica, Wawel",
+            "Gdańsk — miasto nad Bałtykiem, kolebka Solidarności",
+            "Tatry — najwyższe góry, Rysy (2499 m n.p.m.)"
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ]
+    },
+    {
+      "id": "famous-poles",
+      "title": "Znani Polacy",
+      "icon": "⭐",
+      "description": "Wybitni Polacy — naukowcy, artyści, przywódcy",
+      "sections": [
+        {
+          "id": "famous-poles-science",
+          "title": "Nauka",
+          "content": "Polska wydała wielu wybitnych naukowców. Mikołaj Kopernik stworzył teorię heliocentryczną — że Ziemia krąży wokół Słońca. Maria Skłodowska-Curie dwukrotnie otrzymała Nagrodę Nobla (fizyka i chemia) i odkryła rad i polon.",
+          "keyFacts": [
+            "Mikołaj Kopernik — teoria heliocentryczna, 'De revolutionibus'",
+            "Maria Skłodowska-Curie — 2 Nagrody Nobla, odkrycie radu i polonu",
+            "Polon — nazwany na cześć Polski"
+          ],
+          "importantDates": [
+            { "year": "1473", "event": "Urodziny Mikołaja Kopernika" },
+            { "year": "1543", "event": "Publikacja 'De revolutionibus'" },
+            { "year": "1903", "event": "Pierwszy Nobel Marii Skłodowskiej-Curie (fizyka)" },
+            { "year": "1911", "event": "Drugi Nobel Marii Skłodowskiej-Curie (chemia)" }
+          ],
+          "importantPeople": [
+            { "name": "Mikołaj Kopernik", "role": "Astronom, twórca teorii heliocentrycznej" },
+            { "name": "Maria Skłodowska-Curie", "role": "Fizyk i chemik, podwójna noblistka" }
+          ]
+        },
+        {
+          "id": "famous-poles-art",
+          "title": "Sztuka i literatura",
+          "content": "Fryderyk Chopin to najsłynniejszy polski kompozytor, znany z mazurków, polonezów i nokturnów. Adam Mickiewicz jest uważany za największego polskiego poetę — autora 'Pana Tadeusza'. Wisława Szymborska otrzymała Nagrodę Nobla w dziedzinie literatury w 1996 roku.",
+          "keyFacts": [
+            "Fryderyk Chopin — najsłynniejszy polski kompozytor, mazurki i polonezy",
+            "Adam Mickiewicz — 'Pan Tadeusz', największy poeta polski",
+            "Henryk Sienkiewicz — Nobel 1905, 'Quo Vadis'",
+            "Wisława Szymborska — Nobel 1996, poetka",
+            "Andrzej Wajda — reżyser, Oscar honorowy"
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            { "name": "Fryderyk Chopin", "role": "Kompozytor, pianista" },
+            { "name": "Adam Mickiewicz", "role": "Poeta, autor 'Pana Tadeusza'" },
+            { "name": "Wisława Szymborska", "role": "Poetka, noblistka" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "symbols",
+      "title": "Symbole Narodowe",
+      "icon": "🦅",
+      "description": "Symbole, hymn, flaga i godło Polski",
+      "sections": [
+        {
+          "id": "symbols-main",
+          "title": "Flaga, godło i hymn",
+          "content": "Flaga Polski składa się z dwóch poziomych pasów — białego (na górze) i czerwonego (na dole). Godło Polski to biały orzeł w złotej koronie na czerwonym tle. Hymn Polski to 'Mazurek Dąbrowskiego', napisany w 1797 roku przez Józefa Wybickiego. Pierwsza linijka brzmi: 'Jeszcze Polska nie zginęła, kiedy my żyjemy'.",
+          "keyFacts": [
+            "Flaga: biało-czerwona (biały na górze, czerwony na dole)",
+            "Godło: biały orzeł w złotej koronie na czerwonym tle",
+            "Hymn: 'Mazurek Dąbrowskiego' (1797)",
+            "Autor hymnu: Józef Wybicki",
+            "2 maja — Dzień Flagi Rzeczypospolitej Polskiej"
+          ],
+          "importantDates": [
+            { "year": "1797", "event": "Napisanie 'Mazurka Dąbrowskiego'" },
+            { "year": "1927", "event": "Oficjalne przyjęcie hymnu" }
+          ],
+          "importantPeople": [
+            { "name": "Józef Wybicki", "role": "Autor słów hymnu polskiego" },
+            { "name": "Jan Henryk Dąbrowski", "role": "Generał, bohater hymnu" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Język Polski",
+      "icon": "📝",
+      "description": "Podstawowe zwroty, gramatyka i rozmówki",
+      "sections": [
+        {
+          "id": "language-basics",
+          "title": "Podstawowe zwroty",
+          "content": "Język polski należy do rodziny języków słowiańskich. Podstawowe zwroty: Dzień dobry (powitanie formalne), Cześć (powitanie nieformalne), Dziękuję (podziękowanie), Proszę (proszę), Przepraszam (przepraszam), Do widzenia (pożegnanie).",
+          "keyFacts": [
+            "Dzień dobry — formalne powitanie",
+            "Cześć — nieformalne powitanie i pożegnanie",
+            "Dziękuję — podziękowanie",
+            "Proszę — proszę / nie ma za co",
+            "Przepraszam — przepraszam",
+            "Do widzenia — pożegnanie formalne",
+            "Tak / Nie — yes / no",
+            "Język polski — język słowiański, alfabet łaciński z polskimi znakami"
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ]
+    }
+  ]
+}
