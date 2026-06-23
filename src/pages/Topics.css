@@ -1,0 +1,99 @@
+/* ===== Topics Page ===== */
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.topics__header {
+  margin-bottom: var(--space-sm);
+}
+
+.topics__title {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-sm);
+}
+
+.topics__subtitle {
+  color: var(--text-secondary);
+  font-size: var(--fs-base);
+  max-width: 560px;
+}
+
+/* ===== Topic Cards Grid ===== */
+.topics__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-lg);
+}
+
+.topics__card {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-xl);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
+}
+
+.topics__card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-subtle), var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.topics__card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.topics__card-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.topics__card-title {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-semibold);
+}
+
+.topics__card-desc {
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: var(--space-lg);
+}
+
+.topics__card-footer {
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.topics__card-count {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+  .topics__grid {
+    grid-template-columns: 1fr;
+  }
+}

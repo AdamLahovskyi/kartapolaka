@@ -1,0 +1,2619 @@
+{
+  "topics": [
+    {
+      "id": "symbols",
+      "title": "Symbole narodowe Polski",
+      "icon": "🇵🇱",
+      "description": "Temat przedstawia najważniejsze symbole narodowe Polski: godło, flagę, hymn oraz legendę o Lechu.",
+      "sections": [
+        {
+          "id": "symbols-1",
+          "title": "Symbole narodowe Polski",
+          "content": "Symbolami narodowymi Polski są godło, flaga i hymn. Godłem Polski jest Orzeł Biały na czerwonym tle ze złotą koroną, złotymi szponami i dziobem. Głowa orła zwrócona jest w prawą stronę. Wizerunek białego orła wprowadził do godła państwowego Przemysł II z dynastii Piastów w 1295 roku.",
+          "keyFacts": [
+            "Godłem Polski jest Orzeł Biały na czerwonym tle.",
+            "Orzeł ma złotą koronę, złote szpony i złoty dziób.",
+            "Przemysł II wprowadził wizerunek białego orła do godła państwowego.",
+            "26 czerwca obchodzona jest rocznica ustanowienia godła."
+          ],
+          "importantDates": [
+            {
+              "year": "1295",
+              "event": "Przemysł II wprowadził wizerunek białego orła do godła państwowego."
+            },
+            {
+              "year": "26 czerwca",
+              "event": "Dzień koronacji Przemysła II i rocznica ustanowienia godła."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Przemysł II",
+              "role": "król Polski z dynastii Piastów, który wprowadził wizerunek orła białego do godła państwowego"
+            }
+          ]
+        },
+        {
+          "id": "symbols-2",
+          "title": "Legenda o Lechu",
+          "content": "Według legendy Lech, mityczny założyciel Polski i brat Czecha oraz Rusa, jadąc na północ zobaczył wielkie gniazdo. Wyleciał z niego biały orzeł, który rozpostarł skrzydła na tle czerwonego nieba. Lech postanowił tam zostać, a miejsce nazwał Gnieznem, na pamiątkę napotkanego gniazda orłów.",
+          "keyFacts": [
+            "Lech jest legendarnym założycielem Polski.",
+            "Gniezno według legendy otrzymało nazwę od gniazda orłów.",
+            "Biały orzeł stał się symbolem Polski.",
+            "Gniezno było pierwszą stolicą Polski."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Lech",
+              "role": "mityczny założyciel Polski"
+            },
+            {
+              "name": "Czech",
+              "role": "legendarny brat Lecha"
+            },
+            {
+              "name": "Rus",
+              "role": "legendarny brat Lecha"
+            }
+          ]
+        },
+        {
+          "id": "symbols-3",
+          "title": "Flaga Polski",
+          "content": "Flaga Polski jest biało-czerwona: kolor biały znajduje się na górze, a czerwony na dole. Kolor biały symbolizuje czystość intencji narodu polskiego, natomiast kolor czerwony oznacza ogień i krew, odwagę oraz waleczność.",
+          "keyFacts": [
+            "Flaga Polski ma dwa kolory: biały i czerwony.",
+            "Biały kolor znajduje się na górze flagi.",
+            "Czerwony kolor znajduje się na dole flagi.",
+            "Biel oznacza czystość intencji, a czerwień odwagę i waleczność."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "symbols-4",
+          "title": "Hymn Polski",
+          "content": "Hymnem Polski jest „Mazurek Dąbrowskiego”. Jest oficjalnym hymnem Polski od 26 lutego 1927 roku. Słowa pieśni napisał Józef Wybicki, a utwór powstał w lipcu 1797 roku w Reggio Emilia we Włoszech. Pierwotny tytuł pieśni brzmiał „Pieśń Legionów Polskich we Włoszech”.",
+          "keyFacts": [
+            "Hymnem Polski jest „Mazurek Dąbrowskiego”.",
+            "Autorem słów hymnu jest Józef Wybicki.",
+            "Autor melodii jest nieznany.",
+            "Melodia hymnu oparta jest na motywach mazurka.",
+            "Pieśń była śpiewana przez Polaków w czasie powstań, emigracji i wojen."
+          ],
+          "importantDates": [
+            {
+              "year": "1797",
+              "event": "Powstała pieśń „Pieśń Legionów Polskich we Włoszech”."
+            },
+            {
+              "year": "26 lutego 1927",
+              "event": "„Mazurek Dąbrowskiego” został oficjalnym hymnem Polski."
+            },
+            {
+              "year": "1830-1831",
+              "event": "Pieśń zagrzewała do walki powstańców listopadowych."
+            },
+            {
+              "year": "1863-1864",
+              "event": "Pieśń była śpiewana podczas powstania styczniowego."
+            },
+            {
+              "year": "1905-1907",
+              "event": "Pieśń śpiewali uczestnicy rewolucji."
+            },
+            {
+              "year": "1848",
+              "event": "Podczas Wiosny Ludów pieśń śpiewano między innymi w Pradze, Wiedniu i Berlinie."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Józef Wybicki",
+              "role": "autor słów hymnu Polski"
+            }
+          ]
+        }
+      ],
+      "category": "symbols"
+    },
+    {
+      "id": "geography-general",
+      "title": "Geografia i administracja Polski",
+      "icon": "🗺️",
+      "description": "Temat zawiera podstawowe informacje o położeniu Polski, granicach, rzekach, jeziorach, górach, zabytkach i województwach.",
+      "sections": [
+        {
+          "id": "geography-general-1",
+          "title": "Stolica i granice Polski",
+          "content": "Stolicą Polski jest Warszawa, która ma około 2 miliony mieszkańców. Pierwszą stolicą Polski było Gniezno, a drugą Kraków. Polska graniczy z siedmioma państwami: Niemcami, Czechami, Słowacją, Ukrainą, Białorusią, Litwą i Rosją.",
+          "keyFacts": [
+            "Stolicą Polski jest Warszawa.",
+            "Pierwszą stolicą Polski było Gniezno.",
+            "Drugą stolicą Polski był Kraków.",
+            "Polska graniczy z siedmioma państwami.",
+            "Od zachodu Polska graniczy z Niemcami.",
+            "Od południa Polska graniczy z Czechami i Słowacją.",
+            "Od wschodu Polska graniczy z Ukrainą i Białorusią.",
+            "Od północy Polska graniczy z Litwą i Rosją, czyli obwodem kaliningradzkim."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "geography-general-2",
+          "title": "Rzeki, jeziora, morze i góry",
+          "content": "Najdłuższe rzeki w Polsce to Wisła, Odra, Warta i Bug. Wisła przepływa przez Warszawę, Kraków i Gdańsk, Odra przez Wrocław, a Warta przez Poznań. Największe jeziora to Śniardwy i Mamry, a najgłębsze jezioro to Hańcza. Polska ma dostęp do Morza Bałtyckiego, do którego wpływają główne polskie rzeki: Wisła i Odra. Do dużych miast nad Bałtykiem należą Gdynia, Gdańsk i Sopot, czyli Trójmiasto, a także Świnoujście i Kołobrzeg. W Polsce znajdują się Tatry z najwyższym szczytem Rysy, Sudety z najwyższym szczytem Śnieżka, Bieszczady i Góry Świętokrzyskie.",
+          "keyFacts": [
+            "Najdłuższe rzeki Polski to Wisła, Odra, Warta i Bug.",
+            "Największe jeziora to Śniardwy i Mamry.",
+            "Najgłębszym jeziorem jest Hańcza.",
+            "Polska leży nad Morzem Bałtyckim.",
+            "Gdańsk, Gdynia i Sopot tworzą Trójmiasto.",
+            "Najwyższy szczyt Tatr to Rysy.",
+            "Najwyższy szczyt Sudetów to Śnieżka."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "geography-general-3",
+          "title": "Parki narodowe, pustynia i zabytki",
+          "content": "W Polsce są 23 parki narodowe, między innymi Białowieski Park Narodowy i Wielkopolski Park Narodowy. W Polsce znajduje się także Pustynia Błędowska, największy obszar lotnych piasków w Polsce i jeden z największych tego typu obszarów w Europie, o powierzchni około 33 km². Rozciąga się ona od dzielnicy Błędów w Dąbrowie Górniczej na zachodzie do gminy Klucze na wschodzie. Do zabytków średniowiecznych w Polsce należą Zamek Królewski na Wawelu w Krakowie, Kościół Mariacki i Sukiennice na Starym Mieście w Krakowie oraz Zamek Krzyżacki w Malborku.",
+          "keyFacts": [
+            "W Polsce są 23 parki narodowe.",
+            "Pustynia Błędowska ma około 33 km².",
+            "Pustynia Błędowska jest największym obszarem lotnych piasków w Polsce i jednym z największych tego typu obszarów w Europie.",
+            "Ważne zabytki średniowieczne to Wawel, Kościół Mariacki, Sukiennice i Zamek Krzyżacki w Malborku."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "geography-general-4",
+          "title": "Województwa Polski",
+          "content": "W Polsce jest 16 województw: dolnośląskie, kujawsko-pomorskie, lubelskie, łódzkie, lubuskie, małopolskie, mazowieckie, opolskie, podkarpackie, podlaskie, pomorskie, śląskie, świętokrzyskie, warmińsko-mazurskie, wielkopolskie i zachodniopomorskie.",
+          "keyFacts": [
+            "Polska dzieli się na 16 województw.",
+            "Stolicą województwa mazowieckiego jest Warszawa.",
+            "Stolicą województwa małopolskiego jest Kraków.",
+            "Stolicą województwa wielkopolskiego jest Poznań.",
+            "Województwo kujawsko-pomorskie ma dwie stolice: Bydgoszcz i Toruń.",
+            "Województwo lubuskie ma dwie stolice: Gorzów Wielkopolski i Zieloną Górę."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ],
+      "category": "geography"
+    },
+    {
+      "id": "polish-cities",
+      "title": "Najważniejsze miasta Polski",
+      "icon": "🏙️",
+      "description": "Temat opisuje Warszawę, Kraków, Gdańsk, Trójmiasto i Wrocław oraz ich najważniejsze zabytki i symbole.",
+      "sections": [
+        {
+          "id": "geography-cities-1",
+          "title": "Warszawa",
+          "content": "Warszawa to największe miasto Polski. Leży w sercu Europy, nad Wisłą. W Warszawie warto zobaczyć Stare Miasto z Zamkiem Królewskim i kolumną Zygmunta, który przeniósł stolicę z Krakowa do Warszawy. Ważnymi miejscami są także Muzeum Powstania Warszawskiego, Łazienki Królewskie, Pałac Kultury i Nauki oraz Centrum Nauki Kopernika.\n\nNa Krakowskim Przedmieściu znajduje się Pałac Prezydencki, pomnik konny Józefa Poniatowskiego, pomnik Adama Mickiewicza i pomnik Mikołaja Kopernika. W Kościele Świętego Krzyża znajdują się urny z sercem Fryderyka Chopina oraz Władysława Reymonta. Symbolem Warszawy jest Syrenka.",
+          "keyFacts": [
+            "Warszawa jest największym miastem Polski.",
+            "Warszawa leży nad Wisłą.",
+            "Zygmunt III Waza przeniósł stolicę z Krakowa do Warszawy.",
+            "W Warszawie znajduje się Zamek Królewski.",
+            "W Kościele Świętego Krzyża znajduje się serce Fryderyka Chopina.",
+            "Symbolem Warszawy jest Syrenka."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Zygmunt III Waza",
+              "role": "król, który przeniósł stolicę z Krakowa do Warszawy"
+            },
+            {
+              "name": "Józef Poniatowski",
+              "role": "postać upamiętniona pomnikiem konnym na Krakowskim Przedmieściu"
+            },
+            {
+              "name": "Adam Mickiewicz",
+              "role": "polski poeta upamiętniony pomnikiem w Warszawie"
+            },
+            {
+              "name": "Mikołaj Kopernik",
+              "role": "uczony upamiętniony pomnikiem w Warszawie"
+            },
+            {
+              "name": "Fryderyk Chopin",
+              "role": "kompozytor, którego serce znajduje się w Kościele Świętego Krzyża"
+            },
+            {
+              "name": "Władysław Reymont",
+              "role": "pisarz, którego serce znajduje się w Kościele Świętego Krzyża"
+            }
+          ]
+        },
+        {
+          "id": "geography-cities-2",
+          "title": "Kraków",
+          "content": "Kraków położony jest nad Wisłą. To dawna stolica Polski i siedziba królów. W Krakowie warto zobaczyć Kościół Mariacki, w którym znajduje się wspaniały ołtarz Wita Stwosza ukazujący Matkę Boską w otoczeniu apostołów oraz Wniebowzięcie. Ważne miejsca to także Rynek Główny, Sukiennice oraz Zamek na Wawelu, dawna rezydencja Jagiellonów.\n\nW Katedrze na Wawelu Świętych Stanisława i Wacława odbywały się koronacje królów. Znajdują się tam sarkofagi królów polskich oraz krypty nagrobne wielkich Polaków, między innymi Jana III Sobieskiego, Świętej królowej Jadwigi, Tadeusza Kościuszki, Józefa Piłsudskiego, Adama Mickiewicza, Juliusza Słowackiego oraz Lecha Kaczyńskiego z małżonką. Kazimierz jest historyczną żydowską dzielnicą Krakowa.",
+          "keyFacts": [
+            "Kraków leży nad Wisłą.",
+            "Kraków był dawną stolicą Polski.",
+            "Kościół Mariacki ma ołtarz Wita Stwosza.",
+            "Wawel był rezydencją Jagiellonów.",
+            "Katedra na Wawelu była miejscem koronacji królów.",
+            "Smok jest symbolem Krakowa.",
+            "Kazimierz to historyczna żydowska dzielnica Krakowa."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Wit Stwosz",
+              "role": "twórca ołtarza w Kościele Mariackim"
+            },
+            {
+              "name": "Jan III Sobieski",
+              "role": "król Polski pochowany w katedrze na Wawelu"
+            },
+            {
+              "name": "Święta królowa Jadwiga",
+              "role": "królowa Polski pochowana w katedrze na Wawelu"
+            },
+            {
+              "name": "Tadeusz Kościuszko",
+              "role": "naczelnik upamiętniony w kryptach na Wawelu"
+            },
+            {
+              "name": "Józef Piłsudski",
+              "role": "marszałek Polski pochowany w katedrze na Wawelu"
+            },
+            {
+              "name": "Adam Mickiewicz",
+              "role": "poeta pochowany w kryptach na Wawelu"
+            },
+            {
+              "name": "Juliusz Słowacki",
+              "role": "poeta pochowany w kryptach na Wawelu"
+            },
+            {
+              "name": "Lech Kaczyński",
+              "role": "prezydent Polski pochowany z małżonką na Wawelu"
+            }
+          ]
+        },
+        {
+          "id": "geography-cities-3",
+          "title": "Gdańsk i Trójmiasto",
+          "content": "Gdańsk jest położony nad Morzem Bałtyckim, u ujścia Motławy do Wisły, nad Zatoką Gdańską. Jest jednym z najstarszych miast Polski. To tutaj 1 września 1939 roku rozpoczęła się II wojna światowa. W sierpniu 1980 roku w Gdańsku powstała Solidarność, która dała impuls do upadku komunizmu w Europie Środkowej.\n\nW Gdańsku warto przejść się Drogą Królewską, zwiedzić Kościół Mariacki, obejrzeć tryptyk „Sąd Ostateczny” Hansa Memlinga w Muzeum Narodowym oraz posłuchać carillonu w Katedrze Oliwskiej. W Gdyni można odwiedzić statek „Dar Pomorza”, oceanarium i wybrać się statkiem na wycieczkę morską. W Sopocie warto pospacerować po najdłuższym molo nad Morzem Bałtyckim. Symbolem Gdańska jest Fontanna Neptuna.",
+          "keyFacts": [
+            "Gdańsk leży nad Morzem Bałtyckim.",
+            "Gdańsk jest jednym z najstarszych miast Polski.",
+            "1 września 1939 roku na Westerplatte rozpoczęła się II wojna światowa.",
+            "W sierpniu 1980 roku w Gdańsku powstała Solidarność.",
+            "W Gdańsku znajduje się Fontanna Neptuna.",
+            "W Gdyni znajduje się statek „Dar Pomorza”.",
+            "Sopot ma najdłuższe molo nad Morzem Bałtyckim."
+          ],
+          "importantDates": [
+            {
+              "year": "1 września 1939",
+              "event": "Początek II wojny światowej na Westerplatte."
+            },
+            {
+              "year": "sierpień 1980",
+              "event": "Powstanie Solidarności w Gdańsku."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Hans Memling",
+              "role": "autor tryptyku „Sąd Ostateczny”"
+            }
+          ]
+        },
+        {
+          "id": "geography-cities-4",
+          "title": "Wrocław",
+          "content": "Wrocław położony jest nad Odrą. To miasto 12 wysp i ponad 100 mostów. Należy do najstarszych, największych i najpiękniejszych miast w Polsce. We Wrocławiu warto zobaczyć Ostrów Tumski, katedrę św. Jana Chrzciciela, wrocławski Ratusz, Aulę Leopoldina, Park Szczytnicki z Ogrodem Japońskim, Ogród Botaniczny oraz Panoramę Racławicką.\n\nPanorama Racławicka to słynne malowidło Jana Styki i Wojciecha Kossaka, które przedstawia bitwę pod Racławicami z 4 kwietnia 1794 roku. Wrocław jest ważnym ośrodkiem kultury z teatrami, kinami, operą, teatrem muzycznym, muzeami i galeriami. Symbolem Wrocławia są krasnale.",
+          "keyFacts": [
+            "Wrocław leży nad Odrą.",
+            "Wrocław to miasto 12 wysp i ponad 100 mostów.",
+            "Ostrów Tumski jest ważnym zabytkiem Wrocławia.",
+            "We Wrocławiu znajduje się Panorama Racławicka.",
+            "Panorama Racławicka przedstawia bitwę pod Racławicami.",
+            "Symbolem Wrocławia są krasnale."
+          ],
+          "importantDates": [
+            {
+              "year": "4 kwietnia 1794",
+              "event": "Bitwa pod Racławicami przedstawiona na Panoramie Racławickiej."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jan Styka",
+              "role": "współautor Panoramy Racławickiej"
+            },
+            {
+              "name": "Wojciech Kossak",
+              "role": "współautor Panoramy Racławickiej"
+            }
+          ]
+        }
+      ],
+      "category": "geography"
+    },
+    {
+      "id": "national-food",
+      "title": "Potrawy narodowe",
+      "icon": "🍽️",
+      "description": "Temat przedstawia wyłącznie przykłady znanych polskich potraw i deserów.",
+      "sections": [
+        {
+          "id": "culture-food-1",
+          "title": "Znane potrawy narodowe",
+          "content": "Do znanych polskich potraw narodowych należą bigos, żurek i flaczki. Bigos przygotowuje się z kapusty z kawałkami kiełbasy lub mięsa. Żurek to tradycyjna zupa przygotowywana na zakwasie żytnim, często podawana z kiełbasą lub jajkiem. Flaczki są potrawą mięsną w formie gęstej zupy, której głównym składnikiem są paski flaków wołowych. Wśród popularnych słodkich potraw wymieniono makowiec, sernik, szarlotkę, galaretkę, pączki i faworki.",
+          "keyFacts": [
+            "Bigos robi się z kapusty i kawałków kiełbasy lub mięsa.",
+            "Żurek jest zupą przygotowywaną na zakwasie żytnim.",
+            "Flaczki to gęsta zupa z paskami flaków wołowych.",
+            "Do znanych słodkości należą makowiec, sernik, szarlotka, pączki i faworki."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ],
+      "category": "culture"
+    },
+    {
+      "id": "holidays-traditions",
+      "title": "Najważniejsze święta narodowe, religijne i tradycje",
+      "icon": "🎉",
+      "description": "Temat opisuje wyłącznie polskie święta państwowe, religijne oraz związane z nimi zwyczaje i obrzędy.",
+      "sections": [
+        {
+          "id": "culture-holidays-1",
+          "title": "Najważniejsze święta narodowe",
+          "content": "Do najważniejszych świąt narodowych w Polsce należą: Dzień Niepodległości, Święto Konstytucji, Dzień Flagi Polskiej, Dzień Polonii i Polaków za Granicą oraz Dzień Wojska Polskiego. Dzień Niepodległości obchodzony jest 11 listopada i wiąże się z odzyskaniem przez Polskę niepodległości w 1918 roku. Najważniejsze obchody odbywają się w Warszawie przy Grobie Nieznanego Żołnierza oraz przy pomniku Józefa Piłsudskiego.\n\nŚwięto Konstytucji obchodzone jest 3 maja i upamiętnia uchwalenie Konstytucji 3 maja w 1791 roku. Była to pierwsza konstytucja w Europie. Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą przypadają 2 maja. Dzień Wojska Polskiego obchodzony jest 15 sierpnia.",
+          "keyFacts": [
+            "11 listopada obchodzony jest Dzień Niepodległości.",
+            "Polska odzyskała niepodległość w 1918 roku.",
+            "3 maja obchodzone jest Święto Konstytucji.",
+            "Konstytucja 3 maja została uchwalona w 1791 roku.",
+            "2 maja obchodzony jest Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą.",
+            "15 sierpnia obchodzony jest Dzień Wojska Polskiego."
+          ],
+          "importantDates": [
+            {
+              "year": "11 listopada",
+              "event": "Dzień Niepodległości."
+            },
+            {
+              "year": "1918",
+              "event": "Polska odzyskała niepodległość."
+            },
+            {
+              "year": "3 maja 1791",
+              "event": "Uchwalenie Konstytucji 3 maja."
+            },
+            {
+              "year": "2 maja",
+              "event": "Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą."
+            },
+            {
+              "year": "15 sierpnia",
+              "event": "Dzień Wojska Polskiego."
+            },
+            {
+              "year": "1 sierpnia",
+              "event": "Narodowy Dzień Pamięci Powstania Warszawskiego."
+            },
+            {
+              "year": "1 marca",
+              "event": "Dzień Pamięci Żołnierzy Wyklętych."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Józef Piłsudski",
+              "role": "postać związana z odzyskaniem przez Polskę niepodległości"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-2",
+          "title": "Najważniejsze święta religijne",
+          "content": "Do najważniejszych świąt religijnych należą Wielkanoc, Boże Narodzenie, Zielone Świątki, Wszystkich Świętych, Boże Ciało, Niedziela Palmowa, Trzech Króli oraz Matki Bożej Zielnej. Święta te są związane z rokiem liturgicznym i ważnymi wydarzeniami chrześcijańskimi.",
+          "keyFacts": [
+            "Wielkanoc to Zmartwychwstanie Jezusa.",
+            "Boże Narodzenie obchodzone jest 25 grudnia.",
+            "Zielone Świątki przypadają 50 dni po Wielkanocy.",
+            "Wszystkich Świętych obchodzone jest 1 listopada.",
+            "Boże Ciało przypada 60 dni po Wielkanocy.",
+            "Niedziela Palmowa jest niedzielą przed Wielkanocą.",
+            "Trzech Króli obchodzone jest 6 stycznia.",
+            "Matki Bożej Zielnej obchodzone jest 15 sierpnia."
+          ],
+          "importantDates": [
+            {
+              "year": "25 grudnia",
+              "event": "Boże Narodzenie."
+            },
+            {
+              "year": "50 dni po Wielkanocy",
+              "event": "Zielone Świątki."
+            },
+            {
+              "year": "1 listopada",
+              "event": "Wszystkich Świętych."
+            },
+            {
+              "year": "60 dni po Wielkanocy",
+              "event": "Boże Ciało."
+            },
+            {
+              "year": "niedziela przed Wielkanocą",
+              "event": "Niedziela Palmowa."
+            },
+            {
+              "year": "6 stycznia",
+              "event": "Trzech Króli."
+            },
+            {
+              "year": "15 sierpnia",
+              "event": "Matki Bożej Zielnej."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "centralna postać świąt chrześcijańskich"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-3",
+          "title": "Adwent i Mikołajki",
+          "content": "Adwent oznacza początek roku liturgicznego i jest okresem oczekiwania na przyjście Jezusa Chrystusa oraz bezpośredniego przygotowania do Bożego Narodzenia. Obejmuje cztery niedziele przed Bożym Narodzeniem. Do symboli i zwyczajów adwentowych należą wieniec adwentowy, świeca roratka oraz roraty.\n\nŚwięty Mikołaj obchodzony jest 6 grudnia. Prawdziwy święty Mikołaj był biskupem, patronem podróżnych i uczonych oraz opiekunem ubogich i dzieci. W Mikołajki dzieciom daruje się prezenty.",
+          "keyFacts": [
+            "Adwent rozpoczyna rok liturgiczny.",
+            "Adwent obejmuje cztery niedziele przed Bożym Narodzeniem.",
+            "Wieniec adwentowy ma cztery świece symbolizujące cztery niedziele adwentowe.",
+            "Świeca roratka symbolizuje Maryję.",
+            "Roraty to msze o wschodzie słońca w okresie adwentu.",
+            "6 grudnia obchodzone są Mikołajki."
+          ],
+          "importantDates": [
+            {
+              "year": "6 grudnia",
+              "event": "Mikołajki."
+            },
+            {
+              "year": "25 grudnia",
+              "event": "Boże Narodzenie, do którego przygotowuje Adwent."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "centralna postać Adwentu i Bożego Narodzenia"
+            },
+            {
+              "name": "Maryja",
+              "role": "symbolizowana przez świecę roratkę"
+            },
+            {
+              "name": "Święty Mikołaj",
+              "role": "biskup, patron podróżnych i uczonych, opiekun ubogich i dzieci"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-4",
+          "title": "Wigilia i Boże Narodzenie",
+          "content": "Wigilia Bożego Narodzenia przypada 24 grudnia. Tradycyjnie wieczerza wigilijna rozpoczyna się wraz z pierwszą gwiazdką na niebie, która symbolicznie nawiązuje do Gwiazdy Betlejemskiej. W Wigilię rodzina zbiera się razem, modli się, czyta fragment Ewangelii, dzieli się opłatkiem, składa sobie życzenia, je kolację, śpiewa kolędy, wręcza prezenty i idzie na Pasterkę.\n\nDo tradycji wigilijnych należy wkładanie sianka pod obrus, przygotowanie 12 potraw, zostawianie pustego talerza dla nieoczekiwanego gościa lub jako pamięć o zmarłych, dzielenie się opłatkiem oraz noszenie w portfelu łuski wigilijnego karpia, aby zapewnić dostatek. Potrawy wigilijne są bezmięsne. Należą do nich między innymi ryba smażona, śledzie, pierogi, kapusta z grzybami, kluski z makiem, naleśniki z makiem, sałatki i surówki, kompot z suszonych owoców, makowiec i sernik.",
+          "keyFacts": [
+            "Wigilia Bożego Narodzenia przypada 24 grudnia.",
+            "Wieczerza wigilijna rozpoczyna się wraz z pierwszą gwiazdką.",
+            "Na Wigilię przygotowuje się 12 potraw.",
+            "Na stole zostawia się jeden pusty talerz.",
+            "W Wigilię dzielimy się opłatkiem i składamy sobie życzenia.",
+            "Pasterka to pierwsza msza związana z Bożym Narodzeniem.",
+            "Boże Narodzenie obchodzone jest 25 grudnia."
+          ],
+          "importantDates": [
+            {
+              "year": "24 grudnia",
+              "event": "Wigilia Bożego Narodzenia."
+            },
+            {
+              "year": "25 grudnia",
+              "event": "Boże Narodzenie."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "według tradycji chrześcijańskiej narodził się w Boże Narodzenie"
+            },
+            {
+              "name": "Maryja",
+              "role": "matka Jezusa"
+            },
+            {
+              "name": "Józef",
+              "role": "opiekun Jezusa"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-5",
+          "title": "Trzech Króli, Sylwester, Nowy Rok i karnawał",
+          "content": "Święto Trzech Króli, czyli Objawienie Pańskie, obchodzone jest 6 stycznia. Upamiętnia przybycie Kaspra, Melchiora i Baltazara do Betlejem, aby oddać pokłon nowonarodzonemu Jezusowi. W tym dniu święci się kredę i wodę, a na drzwiach domu pisze się litery K+M+B albo C+M+B oraz aktualny rok.\n\nSylwester przypada 31 grudnia, a Nowy Rok 1 stycznia. W Kościele katolickim 1 stycznia obchodzona jest uroczystość Świętej Bożej Rodzicielki. Karnawał, zwany także zapustami, to okres zimowych balów i zabaw. Rozpoczyna się najczęściej w dniu Trzech Króli, a kończy się we wtorek przed Środą Popielcową. Ostatnie trzy dni karnawału nazywają się ostatkami.",
+          "keyFacts": [
+            "Trzech Króli obchodzone jest 6 stycznia.",
+            "Trzej Królowie to Kacper, Melchior i Baltazar.",
+            "Na drzwiach zapisuje się K+M+B albo C+M+B oraz aktualny rok.",
+            "Sylwester przypada 31 grudnia.",
+            "Nowy Rok przypada 1 stycznia.",
+            "Karnawał zaczyna się najczęściej w dniu Trzech Króli.",
+            "Ostatki to ostatnie trzy dni karnawału."
+          ],
+          "importantDates": [
+            {
+              "year": "31 grudnia",
+              "event": "Sylwester."
+            },
+            {
+              "year": "1 stycznia",
+              "event": "Nowy Rok i uroczystość Świętej Bożej Rodzicielki."
+            },
+            {
+              "year": "6 stycznia",
+              "event": "Święto Trzech Króli."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Kacper",
+              "role": "jeden z Trzech Króli"
+            },
+            {
+              "name": "Melchior",
+              "role": "jeden z Trzech Króli"
+            },
+            {
+              "name": "Baltazar",
+              "role": "jeden z Trzech Króli"
+            },
+            {
+              "name": "Jezus Chrystus",
+              "role": "postać, której pokłon oddali Trzej Królowie"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-6",
+          "title": "Wielki Post, Wielki Tydzień i Wielkanoc",
+          "content": "Środa Popielcowa, zwana Popielcem, jest pierwszym dniem Wielkiego Postu. Tego dnia kapłan czyni popiołem znak krzyża na głowie wiernego, mówiąc: „Pamiętaj, że jesteś prochem i w proch się obrócisz” albo „Nawracajcie się i wierzcie w Ewangelię”. Wielki Post trwa 40 dni. W tym czasie odprawiane są nabożeństwa Drogi Krzyżowej i Gorzkich Żalów.\n\nWielki Tydzień poprzedza najważniejsze święto chrześcijan, czyli Zmartwychwstanie Pańskie. Niedziela Palmowa rozpoczyna najważniejsze obchody kościelne związane ze Świętem Wielkanocy i upamiętnia triumfalny wjazd Chrystusa do Jerozolimy. Triduum Paschalne obejmuje Wielki Czwartek, Wielki Piątek i Wielką Sobotę. Wielkanoc, czyli Zmartwychwstanie Pańskie albo Pascha, to najważniejsze święto wszystkich chrześcijan.",
+          "keyFacts": [
+            "Środa Popielcowa rozpoczyna Wielki Post.",
+            "Wielki Post trwa 40 dni.",
+            "Nabożeństwa Wielkiego Postu to Droga Krzyżowa i Gorzkie Żale.",
+            "Niedziela Palmowa upamiętnia wjazd Chrystusa do Jerozolimy.",
+            "Triduum Paschalne obejmuje Wielki Czwartek, Wielki Piątek i Wielką Sobotę.",
+            "Wielkanoc jest najważniejszym świętem chrześcijańskim."
+          ],
+          "importantDates": [
+            {
+              "year": "Wielki Czwartek",
+              "event": "Wspomnienie Ostatniej Wieczerzy i ustanowienia Eucharystii oraz kapłaństwa."
+            },
+            {
+              "year": "Wielki Piątek",
+              "event": "Wspomnienie śmierci Jezusa na krzyżu."
+            },
+            {
+              "year": "Wielka Sobota",
+              "event": "Poświęcenie ognia i paschału."
+            },
+            {
+              "year": "Wielkanoc",
+              "event": "Zmartwychwstanie Pańskie."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "centralna postać Wielkiego Tygodnia i Wielkanocy"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-7",
+          "title": "Święconka, pisanki i zwyczaje wielkanocne",
+          "content": "Święconka to pokarm święcony w koszyku wielkanocnym. Do koszyka wkłada się baranka, jajka, chleb, sól, mięso i kiełbasę oraz babkę drożdżową. Każdy z tych pokarmów ma znaczenie symboliczne. Baranek oznacza Zmartwychwstałego Jezusa, jajka symbolizują nowe życie, chleb — Ciało Chrystusa, sól — życie, prawdę i oczyszczenie, a babka drożdżowa — wzrastanie wiary, nadziei i miłości.\n\nDo zwyczajów wielkanocnych należą także malowane jajka. Pisanki maluje się różnymi farbami, kraszanki farbuje się na jednolity kolor, nalepianki ozdabia się wycinankami z papieru, drapanki wyskrobuje się we wzorki, a oklejanki ozdabia się tkaninami, nitkami lub papierem. Lany poniedziałek, czyli Śmigus-dyngus, to drugi dzień Wielkanocy, w którym Polacy wzajemnie oblewają się wodą.",
+          "keyFacts": [
+            "Święconka to pokarm święcony w koszyku wielkanocnym.",
+            "Baranek symbolizuje Zmartwychwstałego Jezusa.",
+            "Jajka symbolizują nowe życie.",
+            "Pisanki, kraszanki, nalepianki, drapanki i oklejanki to rodzaje malowanych jajek.",
+            "Lany poniedziałek to drugi dzień Wielkanocy.",
+            "Śmigus-dyngus polega na wzajemnym oblewaniu się wodą."
+          ],
+          "importantDates": [
+            {
+              "year": "drugi dzień Wielkanocy",
+              "event": "Lany poniedziałek, czyli Śmigus-dyngus."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "symbolizowany przez baranka wielkanocnego"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-8",
+          "title": "Zielone Świątki, Boże Ciało i święta maryjne",
+          "content": "Zesłanie Ducha Świętego, czyli Zielone Świątki, to święto, podczas którego domy i podwórka ozdabia się drzewkami brzozy, a okna i podłogi pachnącym tatarakiem. W tradycji ludowej Zielone Święta oznaczają pożegnanie wiosny i powitanie lata oraz są świętem rolników i pasterzy.\n\nBoże Ciało to uroczystość Najświętszego Ciała i Krwi Pańskiej. Wspomina Ostatnią Wieczerzę oraz przeistoczenie chleba i wina w Ciało i Krew Jezusa Chrystusa. Tego dnia odbywa się procesja ulicami miasta do czterech ołtarzy. Wierni przynoszą do domu gałęzie brzozowe, które według tradycji mają chronić przed nieszczęściami i sprzyjać urodzajowi. 15 sierpnia obchodzone jest święto Matki Bożej Zielnej oraz w Polsce Matki Bożej Częstochowskiej; do kościoła przynosi się wtedy kwiaty i zioła do poświęcenia.",
+          "keyFacts": [
+            "Zielone Świątki to Zesłanie Ducha Świętego.",
+            "W Zielone Świątki ozdabia się domy brzozą i tatarakiem.",
+            "Boże Ciało wiąże się z procesją do czterech ołtarzy.",
+            "W Boże Ciało przynosi się do domu gałązki brzozy.",
+            "15 sierpnia święci się kwiaty i zioła."
+          ],
+          "importantDates": [
+            {
+              "year": "15 sierpnia",
+              "event": "Święto Matki Bożej Zielnej, Matki Bożej Częstochowskiej, Dzień Wojska Polskiego i rocznica Bitwy Warszawskiej."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jezus Chrystus",
+              "role": "centralna postać uroczystości Bożego Ciała"
+            },
+            {
+              "name": "Matka Boża",
+              "role": "postać związana ze świętem Matki Bożej Zielnej i Matki Bożej Częstochowskiej"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-9",
+          "title": "Wszystkich Świętych i Zaduszki",
+          "content": "Uroczystość Wszystkich Świętych obchodzona jest 1 listopada. Jest to dzień ku czci wszystkich znanych i nieznanych świętych. W tym dniu Polacy idą na cmentarz i modlą się za zmarłych. Zaduszki obchodzone są 2 listopada i również są dniem modlitwy za zmarłych.",
+          "keyFacts": [
+            "Wszystkich Świętych obchodzone jest 1 listopada.",
+            "Tego dnia wspomina się wszystkich znanych i nieznanych świętych.",
+            "Polacy idą na cmentarze i modlą się za zmarłych.",
+            "Zaduszki obchodzone są 2 listopada."
+          ],
+          "importantDates": [
+            {
+              "year": "1 listopada",
+              "event": "Uroczystość Wszystkich Świętych."
+            },
+            {
+              "year": "2 listopada",
+              "event": "Zaduszki."
+            }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "culture-holidays-10",
+          "title": "Tradycje i obrzędy doroczne",
+          "content": "Do polskich tradycji i obrzędów należą między innymi tłusty czwartek, topienie Marzanny, prima aprilis, noc świętojańska, katarzynki i andrzejki. W tłusty czwartek Polacy jedzą pączki. Topienie Marzanny, obchodzone 21 marca, wiąże się z pierwszym dniem wiosny i dawnym zwyczajem pożegnania zimy.\n\nPrima aprilis, obchodzony 1 kwietnia, jest dniem żartów. Noc świętojańska, czyli wigilia Dnia Świętego Jana, przypada 24 czerwca i wiąże się z wróżbami dotyczącymi miłości i małżeństwa. Katarzynki, obchodzone z 24 na 25 listopada, są wróżbami chłopców o dziewczyny. Andrzejki, obchodzone z 29 na 30 listopada, są wróżbami dziewczyn o chłopaków i zamykają rok kościelny.",
+          "keyFacts": [
+            "W tłusty czwartek je się pączki.",
+            "Topienie Marzanny obchodzone jest 21 marca.",
+            "Prima aprilis to dzień żartów.",
+            "Noc świętojańska związana jest z wróżbami o miłości i małżeństwie.",
+            "Katarzynki są wróżbami chłopców o dziewczyny.",
+            "Andrzejki są wróżbami dziewczyn o chłopaków.",
+            "Dzień Matki przypada 26 maja.",
+            "Dzień Babci przypada 21 stycznia.",
+            "Dzień Dziadka przypada 22 stycznia.",
+            "Dzień Ojca przypada 23 czerwca."
+          ],
+          "importantDates": [
+            {
+              "year": "21 marca",
+              "event": "Topienie Marzanny, pierwszy dzień wiosny i dzień wagarowicza."
+            },
+            {
+              "year": "1 kwietnia",
+              "event": "Prima aprilis."
+            },
+            {
+              "year": "24 czerwca",
+              "event": "Noc świętojańska."
+            },
+            {
+              "year": "24-25 listopada",
+              "event": "Katarzynki."
+            },
+            {
+              "year": "29-30 listopada",
+              "event": "Andrzejki."
+            },
+            {
+              "year": "26 maja",
+              "event": "Dzień Matki."
+            },
+            {
+              "year": "21 stycznia",
+              "event": "Dzień Babci."
+            },
+            {
+              "year": "22 stycznia",
+              "event": "Dzień Dziadka."
+            },
+            {
+              "year": "23 czerwca",
+              "event": "Dzień Ojca."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Święty Jan",
+              "role": "postać związana z nocą świętojańską"
+            },
+            {
+              "name": "Święty Andrzej",
+              "role": "postać związana z andrzejkami"
+            }
+          ]
+        },
+        {
+          "id": "culture-holidays-11",
+          "title": "Polskie tradycje w mojej rodzinie",
+          "content": "W rodzinnych tradycjach polskich na Mikołajki daruje się prezenty, a w Wigilię Bożego Narodzenia dzieli się opłatkiem, kładzie sianko pod biały obrus, gotuje 12 potraw, zostawia pusty talerz dla nieoczekiwanego gościa i idzie na Pasterkę. Na Trzech Króli święci się wodę i kredę, a na drzwiach zapisuje się litery K+M+B oraz aktualny rok.\n\nW Niedzielę Palmową święci się wierzbę, w Wielką Sobotę święconkę, a w Niedzielę Wielkanocną rodzina dzieli się poświęconym jajkiem. Na Zielone Świątki ozdabia się domy tatarakiem i gałązkami brzozy. Na Boże Ciało odbywa się procesja do czterech ołtarzy, a w oktawie Bożego Ciała święci się wianki. Na Matki Bożej Zielnej święci się kwiaty i zioła, a na Wszystkich Świętych oraz przez cały listopad chodzi się na cmentarz i modli za zmarłych.",
+          "keyFacts": [
+            "Na Mikołajki daruje się prezenty.",
+            "W Wigilię dzieli się opłatkiem i przygotowuje 12 potraw.",
+            "Na stole wigilijnym zostawia się pusty talerz dla nieoczekiwanego gościa.",
+            "Na Trzech Króli na drzwiach zapisuje się K+M+B i aktualny rok.",
+            "W Wielką Sobotę święci się święconkę.",
+            "W Niedzielę Wielkanocną dzieli się poświęconym jajkiem.",
+            "Na Zielone Świątki domy ozdabia się tatarakiem i brzozą.",
+            "Na Boże Ciało odbywa się procesja do czterech ołtarzy.",
+            "Na Wszystkich Świętych odwiedza się cmentarze."
+          ],
+          "importantDates": [
+            {
+              "year": "6 grudnia",
+              "event": "Mikołajki."
+            },
+            {
+              "year": "24 grudnia",
+              "event": "Wigilia Bożego Narodzenia."
+            },
+            {
+              "year": "6 stycznia",
+              "event": "Trzech Króli."
+            },
+            {
+              "year": "15 sierpnia",
+              "event": "Matki Bożej Zielnej."
+            },
+            {
+              "year": "1 listopada",
+              "event": "Wszystkich Świętych."
+            },
+            {
+              "year": "26 maja",
+              "event": "Dzień Matki."
+            },
+            {
+              "year": "21 stycznia",
+              "event": "Dzień Babci."
+            },
+            {
+              "year": "22 stycznia",
+              "event": "Dzień Dziadka."
+            },
+            {
+              "year": "23 czerwca",
+              "event": "Dzień Ojca."
+            }
+          ],
+          "importantPeople": []
+        }
+      ],
+      "category": "culture"
+    },
+    {
+      "id": "nobel-laureates",
+      "title": "Polacy, którzy otrzymali Nagrodę Nobla",
+      "icon": "🏅",
+      "description": "Temat przedstawia siedmioro polskich laureatów Nagrody Nobla; Maria Skłodowska-Curie otrzymała tę nagrodę dwukrotnie.",
+      "sections": [
+        {
+          "id": "famous-nobel-1",
+          "title": "Maria Skłodowska-Curie",
+          "content": "Maria Skłodowska-Curie była wybitną polską uczoną. Otrzymała Nagrodę Nobla dwukrotnie: w 1903 roku w dziedzinie fizyki, wspólnie z mężem Piotrem Curie i Henrim Becquerelem, oraz w 1911 roku w dziedzinie chemii. Była pierwszą kobietą wyróżnioną Nagrodą Nobla, pierwszą osobą nagrodzoną Noblem dwukrotnie oraz jedyną osobą nagrodzoną Noblem w dwóch różnych dziedzinach nauk przyrodniczych.",
+          "keyFacts": [
+            "Maria Skłodowska-Curie otrzymała dwie Nagrody Nobla.",
+            "W 1903 roku dostała Nagrodę Nobla z fizyki.",
+            "W 1911 roku dostała Nagrodę Nobla z chemii.",
+            "Odkryła polon i rad.",
+            "Pod jej kierunkiem prowadzono badania nad leczeniem raka za pomocą promieniotwórczości."
+          ],
+          "importantDates": [
+            {
+              "year": "1867-1934",
+              "event": "Lata życia Marii Skłodowskiej-Curie."
+            },
+            {
+              "year": "1903",
+              "event": "Nagroda Nobla w dziedzinie fizyki."
+            },
+            {
+              "year": "1911",
+              "event": "Nagroda Nobla w dziedzinie chemii."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Maria Skłodowska-Curie",
+              "role": "polska uczona, dwukrotna laureatka Nagrody Nobla"
+            }
+          ]
+        },
+        {
+          "id": "famous-nobel-2",
+          "title": "Polscy nobliści literaccy",
+          "content": "Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla w 1905 roku za całą twórczość, szczególnie za powieść „Quo vadis”. Jest także autorem Trylogii: „Ogniem i mieczem”, „Potop” i „Pan Wołodyjowski”. Władysław Reymont otrzymał Literacką Nagrodę Nobla w 1924 roku za powieść „Chłopi”, w której przedstawił życie wiejskie, tradycje i obrzędy. Czesław Miłosz otrzymał Literacką Nagrodę Nobla w 1980 roku za całą twórczość poetycką. Wisława Szymborska otrzymała Literacką Nagrodę Nobla w 1996 roku za całą twórczość. Olga Tokarczuk otrzymała Literacką Nagrodę Nobla w 2019 roku za rok 2018; znane jej powieści to „Księgi Jakubowe” i „Bieguni”.",
+          "keyFacts": [
+            "Henryk Sienkiewicz otrzymał Nobla głównie za twórczość literacką, w tym „Quo vadis”.",
+            "Władysław Reymont otrzymał Nobla za powieść „Chłopi”.",
+            "Czesław Miłosz otrzymał Nobla za twórczość poetycką.",
+            "Wisława Szymborska otrzymała Nobla za całą twórczość.",
+            "Olga Tokarczuk otrzymała Nobla za rok 2018."
+          ],
+          "importantDates": [
+            {
+              "year": "1846-1925",
+              "event": "Lata życia Henryka Sienkiewicza."
+            },
+            {
+              "year": "1905",
+              "event": "Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla."
+            },
+            {
+              "year": "1867-1925",
+              "event": "Lata życia Władysława Reymonta."
+            },
+            {
+              "year": "1924",
+              "event": "Władysław Reymont otrzymał Literacką Nagrodę Nobla."
+            },
+            {
+              "year": "1911-2004",
+              "event": "Lata życia Czesława Miłosza."
+            },
+            {
+              "year": "1980",
+              "event": "Czesław Miłosz otrzymał Literacką Nagrodę Nobla."
+            },
+            {
+              "year": "1923-2012",
+              "event": "Lata życia Wisławy Szymborskiej."
+            },
+            {
+              "year": "1996",
+              "event": "Wisława Szymborska otrzymała Literacką Nagrodę Nobla."
+            },
+            {
+              "year": "1962",
+              "event": "Rok urodzenia Olgi Tokarczuk."
+            },
+            {
+              "year": "2019",
+              "event": "Olga Tokarczuk otrzymała Literacką Nagrodę Nobla za rok 2018."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Henryk Sienkiewicz",
+              "role": "polski pisarz i publicysta, laureat Literackiej Nagrody Nobla"
+            },
+            {
+              "name": "Władysław Reymont",
+              "role": "polski pisarz, laureat Literackiej Nagrody Nobla"
+            },
+            {
+              "name": "Czesław Miłosz",
+              "role": "polski poeta, laureat Literackiej Nagrody Nobla"
+            },
+            {
+              "name": "Wisława Szymborska",
+              "role": "polska poetka, laureatka Literackiej Nagrody Nobla"
+            },
+            {
+              "name": "Olga Tokarczuk",
+              "role": "polska pisarka, eseistka, poetka i psycholog, laureatka Literackiej Nagrody Nobla"
+            }
+          ]
+        },
+        {
+          "id": "famous-nobel-3",
+          "title": "Lech Wałęsa",
+          "content": "Lech Wałęsa był liderem Solidarności i prezydentem Polski w latach 1990-1995. W 1983 roku otrzymał Pokojową Nagrodę Nobla.",
+          "keyFacts": [
+            "Lech Wałęsa był liderem Solidarności.",
+            "Był prezydentem Polski w latach 1990-1995.",
+            "Otrzymał Pokojową Nagrodę Nobla w 1983 roku."
+          ],
+          "importantDates": [
+            {
+              "year": "1943",
+              "event": "Rok urodzenia Lecha Wałęsy."
+            },
+            {
+              "year": "1983",
+              "event": "Lech Wałęsa otrzymał Pokojową Nagrodę Nobla."
+            },
+            {
+              "year": "1990-1995",
+              "event": "Lech Wałęsa był prezydentem Polski."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Lech Wałęsa",
+              "role": "lider Solidarności, prezydent Polski, laureat Pokojowej Nagrody Nobla"
+            }
+          ]
+        }
+      ],
+      "category": "famous-poles"
+    },
+    {
+      "id": "notable-poles",
+      "title": "Polacy, których warto poznać",
+      "icon": "🌟",
+      "description": "Temat przedstawia wybitnych Polaków ze świata nauki, sztuki, literatury, historii, religii, filmu, muzyki i sportu.",
+      "sections": [
+        {
+          "id": "famous-people-1",
+          "title": "Wśród uczonych i wynalazców",
+          "content": "Mikołaj Kopernik był najsławniejszym polskim astronomem, a także lekarzem i tłumaczem. Urodził się w Toruniu, a pochowany został w katedrze we Fromborku. Stworzył teorię heliocentryczną, według której to nie Ziemia, lecz Słońce jest centrum układu słonecznego, a Ziemia i inne planety obracają się wokół Słońca.\n\nMaria Skłodowska-Curie była wybitną polską uczoną. Otrzymała Nagrodę Nobla dwukrotnie: w 1903 roku w dziedzinie fizyki oraz w 1911 roku w dziedzinie chemii. Urodziła się w Warszawie, a pochowana została w Paryżu, w Panteonie. Była pierwszą kobietą wyróżnioną Nagrodą Nobla i jedyną osobą nagrodzoną Noblem w dwóch różnych dziedzinach nauk przyrodniczych.",
+          "keyFacts": [
+            "Mikołaj Kopernik stworzył teorię heliocentryczną.",
+            "Według teorii heliocentrycznej Słońce jest centrum układu słonecznego.",
+            "Maria Skłodowska-Curie otrzymała Nagrodę Nobla dwukrotnie.",
+            "Maria Skłodowska-Curie dostała Nobla z fizyki i chemii."
+          ],
+          "importantDates": [
+            {
+              "year": "1473-1543",
+              "event": "Lata życia Mikołaja Kopernika."
+            },
+            {
+              "year": "1867-1934",
+              "event": "Lata życia Marii Skłodowskiej-Curie."
+            },
+            {
+              "year": "1903",
+              "event": "Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie fizyki."
+            },
+            {
+              "year": "1911",
+              "event": "Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie chemii."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Mikołaj Kopernik",
+              "role": "polski astronom, lekarz i tłumacz, twórca teorii heliocentrycznej"
+            },
+            {
+              "name": "Maria Skłodowska-Curie",
+              "role": "polska uczona, dwukrotna laureatka Nagrody Nobla"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-2",
+          "title": "Kompozytorzy",
+          "content": "Fryderyk Chopin był najwybitniejszym polskim kompozytorem i pianistą. Urodził się w Żelazowej Woli, pochowany został w Paryżu, a jego serce znajduje się w Kościele Świętego Krzyża w Warszawie. Chopin stworzył nowy romantyczny gatunek w historii muzyki — balladę instrumentalną fortepianową.\n\nStanisław Moniuszko był polskim kompozytorem, dyrygentem, pedagogiem i organistą. Urodził się w Ubielu na Białorusi, a pochowany został w Warszawie. Był autorem około 268 pieśni, operetek, baletów i oper. Do znanych oper Moniuszki należą „Halka”, „Straszny dwór” i „Paria”.\n\nKarol Szymanowski był polskim kompozytorem i pianistą, uznawanym za ojca polskiej muzyki XX wieku. Ignacy Jan Paderewski był znakomitym polskim pianistą, kompozytorem i politykiem. W 1919 roku był premierem Polski i ministrem spraw zagranicznych RP.",
+          "keyFacts": [
+            "Fryderyk Chopin jest jednym z najwybitniejszych polskich kompozytorów.",
+            "Serce Chopina znajduje się w Kościele Świętego Krzyża w Warszawie.",
+            "Stanisław Moniuszko jest autorem oper „Halka”, „Straszny dwór” i „Paria”.",
+            "Karol Szymanowski jest nazywany ojcem polskiej muzyki XX wieku.",
+            "Ignacy Jan Paderewski był pianistą, kompozytorem i politykiem.",
+            "Paderewski był premierem Polski i ministrem spraw zagranicznych RP."
+          ],
+          "importantDates": [
+            {
+              "year": "1810-1849",
+              "event": "Lata życia Fryderyka Chopina."
+            },
+            {
+              "year": "1819-1872",
+              "event": "Lata życia Stanisława Moniuszki."
+            },
+            {
+              "year": "1882-1937",
+              "event": "Lata życia Karola Szymanowskiego."
+            },
+            {
+              "year": "1860-1941",
+              "event": "Lata życia Ignacego Jana Paderewskiego."
+            },
+            {
+              "year": "1919",
+              "event": "Ignacy Jan Paderewski był premierem Polski i ministrem spraw zagranicznych RP."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Fryderyk Chopin",
+              "role": "polski kompozytor i pianista"
+            },
+            {
+              "name": "Stanisław Moniuszko",
+              "role": "polski kompozytor, dyrygent, pedagog i organista"
+            },
+            {
+              "name": "Karol Szymanowski",
+              "role": "polski kompozytor i pianista"
+            },
+            {
+              "name": "Ignacy Jan Paderewski",
+              "role": "polski pianista, kompozytor, polityk, premier Polski i minister spraw zagranicznych RP"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-3",
+          "title": "Malarze",
+          "content": "Jan Matejko był najsławniejszym polskim malarzem i twórcą obrazów historycznych. Urodził się i został pochowany w Krakowie. Do jego najbardziej znanych obrazów należą „Bitwa pod Grunwaldem”, „Konstytucja 3 Maja 1791 roku”, „Chrzest Litwy” i „Kazanie Skargi”.\n\nJacek Malczewski był polskim malarzem i jednym z głównych przedstawicieli symbolizmu. Do jego najbardziej znanych obrazów należą „Wigilia na Syberii” i „Melancholia”. Wśród współczesnych malarzy wymieniono Jerzego Nowosielskiego, Franciszka Starowieyskiego i Jerzego Dudę-Gracza.",
+          "keyFacts": [
+            "Jan Matejko tworzył obrazy historyczne.",
+            "Do znanych obrazów Matejki należy „Bitwa pod Grunwaldem”.",
+            "Jacek Malczewski był przedstawicielem symbolizmu.",
+            "Do znanych obrazów Malczewskiego należą „Wigilia na Syberii” i „Melancholia”."
+          ],
+          "importantDates": [
+            {
+              "year": "1838-1893",
+              "event": "Lata życia Jana Matejki."
+            },
+            {
+              "year": "1854-1929",
+              "event": "Lata życia Jacka Malczewskiego."
+            },
+            {
+              "year": "1923-2011",
+              "event": "Lata życia Jerzego Nowosielskiego."
+            },
+            {
+              "year": "1930-2009",
+              "event": "Lata życia Franciszka Starowieyskiego."
+            },
+            {
+              "year": "1941-2004",
+              "event": "Lata życia Jerzego Dudy-Gracza."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jan Matejko",
+              "role": "polski malarz, twórca obrazów historycznych"
+            },
+            {
+              "name": "Jacek Malczewski",
+              "role": "polski malarz, przedstawiciel symbolizmu"
+            },
+            {
+              "name": "Jerzy Nowosielski",
+              "role": "współczesny polski malarz"
+            },
+            {
+              "name": "Franciszek Starowieyski",
+              "role": "współczesny polski malarz"
+            },
+            {
+              "name": "Jerzy Duda-Gracz",
+              "role": "współczesny polski malarz"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-4",
+          "title": "Ludzie pióra",
+          "content": "Adam Mickiewicz był wielkim polskim poetą i działaczem politycznym. Urodził się w Nowogródku na Białorusi, a pochowany został na Wawelu. Do jego znanych utworów należą „Pan Tadeusz” oraz dramat „Dziady”. Henryk Sienkiewicz był polskim pisarzem, który w 1905 roku otrzymał Literacką Nagrodę Nobla za całokształt twórczości, głównie za „Quo vadis”. Był autorem Trylogii: „Ogniem i mieczem”, „Potop” i „Pan Wołodyjowski”.\n\nMikołaj Rej został uznany za ojca języka polskiego. Maria Konopnicka była polską poetką i nowelistką, autorką utworów dla dzieci oraz wiersza patriotycznego „Rota”, do którego muzykę napisał Feliks Nowowiejski. Juliusz Słowacki był poetą polskiego romantyzmu, urodzonym w Krzemieńcu i pochowanym na Wawelu. Napisał między innymi „Kordiana”, „Beniowskiego” i „Balladynę”. Jan Kochanowski był poetą renesansu i jednym z najwybitniejszych twórców tej epoki w Europie.\n\nJózef Ignacy Kraszewski był polskim pisarzem, historykiem i działaczem politycznym. Jako pierwszy nazwał Żytomierz stolicą Polaków na Ukrainie. Józef Konrad Korzeniowski był pisarzem polskiego pochodzenia, urodzonym koło Berdyczowa. Janusz Wiśniewski jest współczesnym polskim pisarzem, a Jarosław Iwaszkiewicz był polskim poetą związanym z okolicami Winnicy. Bolesław Prus był pisarzem okresu pozytywizmu, autorem między innymi „Lalki” i „Faraona”.",
+          "keyFacts": [
+            "Adam Mickiewicz napisał „Pana Tadeusza” i „Dziady”.",
+            "Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla w 1905 roku.",
+            "Mikołaj Rej jest uznawany za ojca języka polskiego.",
+            "Maria Konopnicka napisała wiersz patriotyczny „Rota”.",
+            "Juliusz Słowacki był poetą polskiego romantyzmu.",
+            "Jan Kochanowski był poetą renesansu.",
+            "Józef Ignacy Kraszewski nazwał Żytomierz stolicą Polaków na Ukrainie.",
+            "Bolesław Prus jest autorem „Lalki” i „Faraona”."
+          ],
+          "importantDates": [
+            {
+              "year": "1798-1855",
+              "event": "Lata życia Adama Mickiewicza."
+            },
+            {
+              "year": "1846-1925",
+              "event": "Lata życia Henryka Sienkiewicza."
+            },
+            {
+              "year": "1905",
+              "event": "Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla."
+            },
+            {
+              "year": "1505-1569",
+              "event": "Lata życia Mikołaja Reja."
+            },
+            {
+              "year": "1842-1910",
+              "event": "Lata życia Marii Konopnickiej."
+            },
+            {
+              "year": "1809-1849",
+              "event": "Lata życia Juliusza Słowackiego."
+            },
+            {
+              "year": "1530-1584",
+              "event": "Lata życia Jana Kochanowskiego."
+            },
+            {
+              "year": "1812-1887",
+              "event": "Lata życia Józefa Ignacego Kraszewskiego."
+            },
+            {
+              "year": "1857-1924",
+              "event": "Lata życia Józefa Konrada Korzeniowskiego."
+            },
+            {
+              "year": "1954",
+              "event": "Rok urodzenia Janusza Wiśniewskiego."
+            },
+            {
+              "year": "1894-1980",
+              "event": "Lata życia Jarosława Iwaszkiewicza."
+            },
+            {
+              "year": "1847-1912",
+              "event": "Lata życia Bolesława Prusa."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Adam Mickiewicz",
+              "role": "polski poeta i działacz polityczny"
+            },
+            {
+              "name": "Henryk Sienkiewicz",
+              "role": "polski pisarz, laureat Literackiej Nagrody Nobla"
+            },
+            {
+              "name": "Mikołaj Rej",
+              "role": "pierwszy polski pisarz, ojciec języka polskiego"
+            },
+            {
+              "name": "Maria Konopnicka",
+              "role": "polska poetka i nowelistka"
+            },
+            {
+              "name": "Feliks Nowowiejski",
+              "role": "kompozytor muzyki do wiersza „Rota”"
+            },
+            {
+              "name": "Juliusz Słowacki",
+              "role": "poeta polskiego romantyzmu"
+            },
+            {
+              "name": "Jan Kochanowski",
+              "role": "poeta polskiego renesansu"
+            },
+            {
+              "name": "Józef Ignacy Kraszewski",
+              "role": "polski pisarz, historyk i działacz polityczny"
+            },
+            {
+              "name": "Józef Konrad Korzeniowski",
+              "role": "pisarz polskiego pochodzenia"
+            },
+            {
+              "name": "Janusz Wiśniewski",
+              "role": "współczesny polski pisarz"
+            },
+            {
+              "name": "Jarosław Iwaszkiewicz",
+              "role": "polski poeta"
+            },
+            {
+              "name": "Bolesław Prus",
+              "role": "polski pisarz okresu pozytywizmu"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-5",
+          "title": "W służbie ojczyzny i świata",
+          "content": "Józef Piłsudski był jednym z największych bohaterów narodowych Polaków. Był Pierwszym Marszałkiem Polski, Naczelnikiem Państwa w latach 1918-1922 oraz Naczelnym Wodzem Armii Polskiej. Odegrał bardzo ważną rolę w odzyskaniu przez Polskę niepodległości i w tworzeniu II Rzeczypospolitej w 1918 roku.\n\nTadeusz Kościuszko był polskim i amerykańskim generałem oraz przywódcą powstania narodowego przeciw Rosji i Prusom w 1794 roku. Walczył o wolność narodu polskiego i o niepodległość Ameryki Północnej. Lech Wałęsa był liderem „Solidarności” i prezydentem Polski w latach 1990-1995. Otrzymał Pokojową Nagrodę Nobla w 1983 roku. Władysław Anders był generałem Armii Polskiej i dowódcą żołnierzy, którzy w maju 1944 roku zdobyli Monte Cassino.",
+          "keyFacts": [
+            "Józef Piłsudski był Pierwszym Marszałkiem Polski.",
+            "Józef Piłsudski odegrał bardzo ważną rolę w odzyskaniu przez Polskę niepodległości w 1918 roku.",
+            "Tadeusz Kościuszko walczył o wolność Polski i niepodległość Ameryki Północnej.",
+            "Lech Wałęsa był liderem „Solidarności” i prezydentem Polski.",
+            "Lech Wałęsa otrzymał Pokojową Nagrodę Nobla.",
+            "Władysław Anders dowodził żołnierzami, którzy zdobyli Monte Cassino."
+          ],
+          "importantDates": [
+            {
+              "year": "1867-1935",
+              "event": "Lata życia Józefa Piłsudskiego."
+            },
+            {
+              "year": "1918-1922",
+              "event": "Józef Piłsudski był Naczelnikiem Państwa."
+            },
+            {
+              "year": "1918",
+              "event": "Polska odzyskała niepodległość i powstała II Rzeczpospolita."
+            },
+            {
+              "year": "1746-1817",
+              "event": "Lata życia Tadeusza Kościuszki."
+            },
+            {
+              "year": "1794",
+              "event": "Tadeusz Kościuszko stanął na czele powstania przeciw Rosji i Prusom."
+            },
+            {
+              "year": "1943",
+              "event": "Rok urodzenia Lecha Wałęsy."
+            },
+            {
+              "year": "1983",
+              "event": "Lech Wałęsa otrzymał Pokojową Nagrodę Nobla."
+            },
+            {
+              "year": "1990-1995",
+              "event": "Lech Wałęsa był prezydentem Polski."
+            },
+            {
+              "year": "1892-1970",
+              "event": "Lata życia Władysława Andersa."
+            },
+            {
+              "year": "maj 1944",
+              "event": "Żołnierze Władysława Andersa zdobyli Monte Cassino."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Józef Piłsudski",
+              "role": "Pierwszy Marszałek Polski, Naczelnik Państwa i Naczelny Wódz Armii Polskiej"
+            },
+            {
+              "name": "Tadeusz Kościuszko",
+              "role": "polski i amerykański generał, przywódca powstania narodowego"
+            },
+            {
+              "name": "Lech Wałęsa",
+              "role": "lider „Solidarności”, prezydent Polski i laureat Pokojowej Nagrody Nobla"
+            },
+            {
+              "name": "Władysław Anders",
+              "role": "generał Armii Polskiej, dowódca spod Monte Cassino"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-6",
+          "title": "Polscy święci i błogosławieni",
+          "content": "Święty Jan Paweł II, czyli Karol Wojtyła, był pierwszym papieżem Słowianinem. Był poetą, poliglotą, aktorem, dramaturgiem i pedagogiem. Urodził się w Wadowicach, pochowany został w Watykanie, a 27 kwietnia 2014 roku w Rzymie odbyła się jego kanonizacja. Przyjął postawę papieża bliskiego ludziom, odbył wiele pielgrzymek zagranicznych i spotykał się z duchownymi innych wyznań.\n\nŚwięty Wojciech był biskupem, męczennikiem i patronem Polski. Błogosławiony Jerzy Aleksander Popiełuszko był kapelanem warszawskiej „Solidarności” i został zamordowany przez komunistów. Święta Jadwiga była królem Polski, żoną Władysława II Jagiełły, prowadziła działalność charytatywną i była mecenasem Akademii Krakowskiej.",
+          "keyFacts": [
+            "Jan Paweł II był pierwszym papieżem Słowianinem.",
+            "Jan Paweł II został kanonizowany w 2014 roku.",
+            "Święty Wojciech jest patronem Polski.",
+            "Jerzy Popiełuszko był kapelanem warszawskiej „Solidarności”.",
+            "Święta Jadwiga była mecenasem Akademii Krakowskiej."
+          ],
+          "importantDates": [
+            {
+              "year": "18 maja 1920 - 2 kwietnia 2005",
+              "event": "Lata życia Jana Pawła II."
+            },
+            {
+              "year": "27 kwietnia 2014",
+              "event": "Kanonizacja Jana Pawła II w Rzymie."
+            },
+            {
+              "year": "956-997",
+              "event": "Lata życia Świętego Wojciecha."
+            },
+            {
+              "year": "1039",
+              "event": "Najazd Brzetysława Czeskiego na Polskę; relikwie Świętego Wojciecha znalazły się później w Pradze."
+            },
+            {
+              "year": "1947-1984",
+              "event": "Lata życia Jerzego Popiełuszki."
+            },
+            {
+              "year": "1373/74-1399",
+              "event": "Lata życia Świętej Jadwigi."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jan Paweł II",
+              "role": "papież, poeta, poliglota, aktor, dramaturg i pedagog"
+            },
+            {
+              "name": "Karol Wojtyła",
+              "role": "imię i nazwisko Jana Pawła II przed wyborem na papieża"
+            },
+            {
+              "name": "Święty Wojciech",
+              "role": "biskup, męczennik i patron Polski"
+            },
+            {
+              "name": "Jerzy Aleksander Popiełuszko",
+              "role": "kapelan warszawskiej „Solidarności”, błogosławiony"
+            },
+            {
+              "name": "Święta Jadwiga",
+              "role": "król Polski, mecenas Akademii Krakowskiej"
+            },
+            {
+              "name": "Władysław II Jagiełło",
+              "role": "książę litewski i późniejszy król Polski, mąż Jadwigi"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-7",
+          "title": "Filmowcy i śpiewacy",
+          "content": "Andrzej Wajda był polskim reżyserem filmowym i teatralnym, który otrzymał Oscara za całokształt twórczości. Do jego znanych filmów należą „Kanał”, „Popiół i diament”, „Człowiek z marmuru”, „Ziemia obiecana” i „Pan Tadeusz”. Jerzy Hoffmann był polskim reżyserem i scenarzystą, który zekranizował Trylogię Henryka Sienkiewicza. Paweł Pawlikowski otrzymał Oscara za film „Ida”, a Ewa Braun otrzymała Oscara za dekorację wnętrz do filmu „Lista Schindlera”.\n\nWśród polskich aktorów wymieniono Piotra Adamczyka, Cezarego Pazurę i Bogusława Lindę. Popularne zespoły muzyczne to „Stare Dobre Małżeństwo”, „Czerwone Gitary”, „Feel”, „Taraka” i „Enej”. Wśród śpiewaczek i śpiewaków wymieniono Natalię Kukulską, Annę Wyszkoni, Edytę Górniak, Ewę Farną, Melę Koteluk, Honoratę Skarbek, Kasię Popowską, Ewelinę Lisowską i Mariusza Kwietnia.",
+          "keyFacts": [
+            "Andrzej Wajda otrzymał Oscara za całokształt twórczości.",
+            "Jerzy Hoffmann zekranizował Trylogię Henryka Sienkiewicza.",
+            "Paweł Pawlikowski otrzymał Oscara za film „Ida”.",
+            "Ewa Braun otrzymała Oscara za dekorację wnętrz do filmu „Lista Schindlera”.",
+            "Do znanych polskich zespołów należą „Stare Dobre Małżeństwo”, „Czerwone Gitary”, „Feel”, „Taraka” i „Enej”."
+          ],
+          "importantDates": [
+            {
+              "year": "1926-2016",
+              "event": "Lata życia Andrzeja Wajdy."
+            },
+            {
+              "year": "1932",
+              "event": "Rok urodzenia Jerzego Hoffmanna."
+            },
+            {
+              "year": "1957",
+              "event": "Rok urodzenia Pawła Pawlikowskiego."
+            },
+            {
+              "year": "2015",
+              "event": "Paweł Pawlikowski otrzymał Oscara za film „Ida”."
+            },
+            {
+              "year": "1944",
+              "event": "Rok urodzenia Ewy Braun."
+            },
+            {
+              "year": "1994",
+              "event": "Ewa Braun otrzymała Oscara za dekorację wnętrz do filmu „Lista Schindlera”."
+            },
+            {
+              "year": "1972",
+              "event": "Rok urodzenia Piotra Adamczyka."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Andrzej Wajda",
+              "role": "polski reżyser filmowy i teatralny"
+            },
+            {
+              "name": "Jerzy Hoffmann",
+              "role": "polski reżyser i scenarzysta filmowy"
+            },
+            {
+              "name": "Paweł Pawlikowski",
+              "role": "polski reżyser, laureat Oscara"
+            },
+            {
+              "name": "Ewa Braun",
+              "role": "polska scenografka i dekoratorka wnętrz, laureatka Oscara"
+            },
+            {
+              "name": "Piotr Adamczyk",
+              "role": "polski aktor"
+            },
+            {
+              "name": "Cezary Pazura",
+              "role": "polski aktor"
+            },
+            {
+              "name": "Bogusław Linda",
+              "role": "polski aktor"
+            },
+            {
+              "name": "Natalia Kukulska",
+              "role": "polska piosenkarka"
+            },
+            {
+              "name": "Anna Wyszkoni",
+              "role": "polska piosenkarka"
+            },
+            {
+              "name": "Edyta Górniak",
+              "role": "polska piosenkarka"
+            }
+          ]
+        },
+        {
+          "id": "famous-people-8",
+          "title": "Sportowcy",
+          "content": "Wśród znanych polskich sportowców wymieniono Anitę Włodarczyk, Zbigniewa Bródkę, Kamila Stocha, Justynę Kowalczyk, Roberta Lewandowskiego, Jakuba Błaszczykowskiego i Andrzeja Gołotę. Reprezentują oni różne dziedziny sportu: lekkoatletykę, łyżwiarstwo szybkie, skoki narciarskie, biegi narciarskie, piłkę nożną i boks.",
+          "keyFacts": [
+            "Anita Włodarczyk jest rekordzistką świata w rzucie młotem.",
+            "Zbigniew Bródka jest polskim łyżwiarzem szybkim i mistrzem olimpijskim.",
+            "Kamil Stoch jest polskim skoczkiem narciarskim i mistrzem olimpijskim.",
+            "Justyna Kowalczyk jest polską biegaczką narciarską i mistrzynią olimpijską.",
+            "Robert Lewandowski i Jakub Błaszczykowski są polskimi piłkarzami.",
+            "Andrzej Gołota jest polskim bokserem."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Anita Włodarczyk",
+              "role": "polska lekkoatletka, rekordzistka świata w rzucie młotem"
+            },
+            {
+              "name": "Zbigniew Bródka",
+              "role": "polski łyżwiarz szybki, mistrz olimpijski"
+            },
+            {
+              "name": "Kamil Stoch",
+              "role": "polski skoczek narciarski, mistrz olimpijski"
+            },
+            {
+              "name": "Justyna Kowalczyk",
+              "role": "polska biegaczka narciarska, mistrzyni olimpijska"
+            },
+            {
+              "name": "Robert Lewandowski",
+              "role": "polski piłkarz"
+            },
+            {
+              "name": "Jakub Błaszczykowski",
+              "role": "polski piłkarz"
+            },
+            {
+              "name": "Andrzej Gołota",
+              "role": "polski bokser"
+            }
+          ]
+        }
+      ],
+      "category": "famous-poles"
+    },
+    {
+      "id": "polish-zhytomyr",
+      "title": "Polskie ślady w Żytomierzu",
+      "icon": "🏛️",
+      "description": "Temat opisuje historię Żytomierza, polską społeczność miasta oraz miejsca pamięci związane z Polakami.",
+      "sections": [
+        {
+          "id": "history-zhytomyr-1",
+          "title": "Historia Żytomierza i polskiej społeczności",
+          "content": "Żytomierz został założony w 884 roku i jest pięknym historycznym miastem. Został odłączony od Rzeczypospolitej w 1793 roku, w wyniku drugiego rozbioru. Miasto jest jednym z najważniejszych skupisk osób polskiego pochodzenia na Ukrainie. W latach trzydziestych tysiące Polaków z miasta i okolic zostało aresztowanych, rozstrzelanych lub deportowanych do Kazachstanu.",
+          "keyFacts": [
+            "Żytomierz został założony w 884 roku.",
+            "W 1793 roku został odłączony od Rzeczypospolitej w wyniku drugiego rozbioru.",
+            "Żytomierz jest jednym z ważnych ośrodków Polaków na Ukrainie.",
+            "W latach trzydziestych wielu Polaków z Żytomierza i okolic zostało represjonowanych."
+          ],
+          "importantDates": [
+            {
+              "year": "884",
+              "event": "Założenie Żytomierza."
+            },
+            {
+              "year": "1793",
+              "event": "Odłączenie Żytomierza od Rzeczypospolitej w wyniku drugiego rozbioru."
+            },
+            {
+              "year": "lata 30. XX wieku",
+              "event": "Aresztowania, rozstrzelania i deportacje Polaków z Żytomierza i okolic."
+            }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "history-zhytomyr-2",
+          "title": "Polacy urodzeni w Żytomierzu",
+          "content": "W Żytomierzu urodzili się między innymi Juliusz Zarębski, Tadeusz Borowski, Jarosław Dąbrowski i Mieczysław Pawlikowski. Juliusz Zarębski był kompozytorem i słynnym pianistą, którego karierę przerwała przedwczesna śmierć. Tadeusz Borowski był polskim poetą, prozaikiem i publicystą. Jarosław Dąbrowski był generałem i jednym z działaczy przygotowujących powstanie styczniowe w 1863 roku. Mieczysław Pawlikowski był polskim wojskowym Polskich Sił Powietrznych na Zachodzie, a po wojnie aktorem teatralnym i filmowym.",
+          "keyFacts": [
+            "Juliusz Zarębski był kompozytorem i pianistą.",
+            "Tadeusz Borowski był poetą, prozaikiem i publicystą.",
+            "Jarosław Dąbrowski był generałem związanym z przygotowaniami do powstania styczniowego.",
+            "Mieczysław Pawlikowski służył w Polskich Siłach Powietrznych na Zachodzie i został dwukrotnie odznaczony Krzyżem Walecznym."
+          ],
+          "importantDates": [
+            {
+              "year": "1854-1885",
+              "event": "Lata życia Juliusza Zarębskiego."
+            },
+            {
+              "year": "1922-1951",
+              "event": "Lata życia Tadeusza Borowskiego."
+            },
+            {
+              "year": "1836-1871",
+              "event": "Lata życia Jarosława Dąbrowskiego."
+            },
+            {
+              "year": "1863",
+              "event": "Jarosław Dąbrowski działał w przygotowaniach do powstania styczniowego."
+            },
+            {
+              "year": "1920-1978",
+              "event": "Lata życia Mieczysława Pawlikowskiego."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Juliusz Zarębski",
+              "role": "kompozytor i pianista urodzony w Żytomierzu"
+            },
+            {
+              "name": "Tadeusz Borowski",
+              "role": "polski poeta, prozaik i publicysta urodzony w Żytomierzu"
+            },
+            {
+              "name": "Jarosław Dąbrowski",
+              "role": "generał, działacz związany z przygotowaniami do powstania styczniowego"
+            },
+            {
+              "name": "Mieczysław Pawlikowski",
+              "role": "polski wojskowy, aktor teatralny i filmowy"
+            }
+          ]
+        },
+        {
+          "id": "history-zhytomyr-3",
+          "title": "Cmentarz polski w Żytomierzu",
+          "content": "W Żytomierzu znajduje się cmentarz polski, jeden z największych poza granicami Polski, po Cmentarzu Łyczakowskim we Lwowie i Rossie w Wilnie. Spoczywają tam między innymi Juliusz Zarębski, rodzice Ignacego Jana Paderewskiego, krewni Stanisława Moniuszki i Józefa Kraszewskiego oraz Bronisław Matyjewicz-Maciejewicz, polski lotnik i jeden z pierwszych polskich pilotów.",
+          "keyFacts": [
+            "Cmentarz polski w Żytomierzu jest jednym z największych poza granicami Polski.",
+            "Na cmentarzu spoczywa Juliusz Zarębski.",
+            "Na cmentarzu spoczywają bliscy Ignacego Jana Paderewskiego.",
+            "Na cmentarzu pochowani są także krewni Stanisława Moniuszki i Józefa Kraszewskiego."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Juliusz Zarębski",
+              "role": "kompozytor i pianista pochowany na cmentarzu polskim w Żytomierzu"
+            },
+            {
+              "name": "Ignacy Jan Paderewski",
+              "role": "polski pianista i polityk, którego rodzina jest związana z cmentarzem w Żytomierzu"
+            },
+            {
+              "name": "Stanisław Moniuszko",
+              "role": "polski kompozytor, którego krewni są pochowani w Żytomierzu"
+            },
+            {
+              "name": "Józef Ignacy Kraszewski",
+              "role": "polski pisarz, którego krewni są pochowani w Żytomierzu"
+            },
+            {
+              "name": "Bronisław Matyjewicz-Maciejewicz",
+              "role": "polski lotnik i jeden z pierwszych polskich pilotów"
+            }
+          ]
+        },
+        {
+          "id": "history-zhytomyr-4",
+          "title": "Filharmonia, pomniki i tablice pamiątkowe",
+          "content": "W Żytomierzu znajduje się piękna Filharmonia, dawny teatr dramatyczny, która do rewolucji bolszewickiej była ośrodkiem kultury polskiej w obwodzie żytomierskim. Znaczący wkład w budowę tego teatru w drugiej połowie XIX wieku wniósł Józef Ignacy Kraszewski, który mieszkał w Żytomierzu, pełnił ważne funkcje, był kuratorem szkół polskich i dyrektorem Teatru Żytomierskiego. Dzięki niemu teatr gościł znakomitych artystów z Europy oraz Polski. Obok Katedry stoi pomnik Jana Pawła II, postawiony w 10. rocznicę wizyty Papieża na Ukrainie, a przy ulicy Schidnej stoi pomnik Jarosława Dąbrowskiego. W Żytomierzu znajdują się także tablice pamiątkowe poświęcone między innymi Ignacemu Janowi Paderewskiemu, Jarosławowi Dąbrowskiemu, Józefowi Kraszewskiemu, Lechowi Kaczyńskiemu, Zygmuntowi Felińskiemu, Róży Czackiej, Juliuszowi Zarębskiemu, Kasperowi Borowskiemu i Janowi Samuelowi Ożdze.",
+          "keyFacts": [
+            "Żytomierska Filharmonia była dawniej teatrem dramatycznym.",
+            "Do rewolucji bolszewickiej była ośrodkiem kultury polskiej.",
+            "Józef Ignacy Kraszewski wniósł ważny wkład w rozwój teatru w Żytomierzu.",
+            "W Żytomierzu znajduje się pomnik Jana Pawła II.",
+            "W mieście są liczne tablice pamiątkowe związane z Polakami."
+          ],
+          "importantDates": [
+            {
+              "year": "druga połowa XIX wieku",
+              "event": "Józef Ignacy Kraszewski wniósł wkład w budowę teatru w Żytomierzu."
+            },
+            {
+              "year": "1920",
+              "event": "Zawarto militarny sojusz między Polską a Ukrainą, upamiętniony tablicą na fasadzie kina „Ukraina”."
+            },
+            {
+              "year": "1944",
+              "event": "Latem w jednym z budynków przy ulicy Michajłowskiej mieścił się główny sztab polskich jednostek wojskowych na Żytomierszczyźnie."
+            },
+            {
+              "year": "1851",
+              "event": "Zygmunt Feliński studiował w Seminarium Duchownym w Żytomierzu."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Józef Ignacy Kraszewski",
+              "role": "polski pisarz, kurator szkół polskich i dyrektor Teatru Żytomierskiego"
+            },
+            {
+              "name": "Jan Paweł II",
+              "role": "papież upamiętniony pomnikiem w Żytomierzu"
+            },
+            {
+              "name": "Jarosław Dąbrowski",
+              "role": "generał upamiętniony pomnikiem i tablicą w Żytomierzu"
+            },
+            {
+              "name": "Ignacy Jan Paderewski",
+              "role": "postać upamiętniona tablicami w Żytomierzu"
+            },
+            {
+              "name": "Lech Kaczyński",
+              "role": "postać upamiętniona tablicą i ulicą w Żytomierzu"
+            },
+            {
+              "name": "Zygmunt Feliński",
+              "role": "arcybiskup Warszawy, związany z seminarium w Żytomierzu"
+            },
+            {
+              "name": "Róża Czacka",
+              "role": "założycielka Zgromadzenia Sióstr Franciszkanek Służebnic Krzyża"
+            },
+            {
+              "name": "Kasper Borowski",
+              "role": "biskup diecezji łucko-żytomierskiej"
+            },
+            {
+              "name": "Jan Samuel Ożga",
+              "role": "biskup, który uczynił Żytomierz stolicą diecezji i rozpoczął budowę katedry św. Zofii"
+            }
+          ]
+        },
+        {
+          "id": "history-zhytomyr-5",
+          "title": "Kościoły, organizacje polonijne i ulice",
+          "content": "W Żytomierzu znajdują się piękne kościoły: Katedra Świętej Zofii, Kościół Seminaryjny Świętego Jana z Dukli, Kościół Bożego Miłosierdzia na Malowance i Kościół Świętego Wacława na Kroszni. W mieście funkcjonują także polonijne organizacje i zespoły artystyczne, między innymi Dom Polski imienia Ignacego Jana Paderewskiego, zespoły „Poleskie Sokoły” i dziecięcy zespół „Dzwoneczki”, chór imienia J. Zarębskiego oraz Stowarzyszenie Lekarzy Polskiego Pochodzenia imienia św. Łukasza. W Żytomierzu pojawiły się ulice Jana Pawła II, Lecha Kaczyńskiego i Zygmunta Felińskiego.",
+          "keyFacts": [
+            "Najważniejsze kościoły to Katedra Świętej Zofii, Kościół Seminaryjny Świętego Jana z Dukli, Kościół Bożego Miłosierdzia i Kościół Świętego Wacława.",
+            "W Żytomierzu działa Dom Polski imienia Ignacego Jana Paderewskiego.",
+            "W mieście działają zespoły „Poleskie Sokoły” i „Dzwoneczki”.",
+            "W Żytomierzu są ulice Jana Pawła II, Lecha Kaczyńskiego i Zygmunta Felińskiego."
+          ],
+          "importantDates": [],
+          "importantPeople": [
+            {
+              "name": "Ignacy Jan Paderewski",
+              "role": "patron Domu Polskiego w Żytomierzu"
+            },
+            {
+              "name": "Juliusz Zarębski",
+              "role": "patron chóru w Żytomierzu"
+            },
+            {
+              "name": "Jan Paweł II",
+              "role": "patron ulicy w Żytomierzu"
+            },
+            {
+              "name": "Lech Kaczyński",
+              "role": "patron ulicy w Żytomierzu"
+            },
+            {
+              "name": "Zygmunt Feliński",
+              "role": "patron ulicy w Żytomierzu, arcybiskup Warszawy zesłany na Syberię"
+            }
+          ]
+        }
+      ],
+      "category": "history"
+    },
+    {
+      "id": "polish-history",
+      "title": "Polska i jej historia",
+      "icon": "📜",
+      "description": "Temat przedstawia dzieje Polski od dynastii Piastów do Polskiej Rzeczypospolitej Ludowej i Solidarności.",
+      "sections": [
+        {
+          "id": "history-poland-1",
+          "title": "Dynastia Piastów",
+          "content": "Pierwszą dynastią rządzącą Polską była dynastia Piastów. Mieszko I, pierwszy władca Polski, poślubił czeską księżniczkę Dobrawę. Jego najważniejszym osiągnięciem było przyjęcie chrztu w 966 roku i wprowadzenie chrześcijaństwa w państwie polskim. Bolesław Chrobry, syn Mieszka I, był pierwszym królem Polski i został koronowany w 1025 roku.\n\nPo śmierci Bolesława III Krzywoustego w 1138 roku Polska została podzielona między jego potomków, co zapoczątkowało prawie dwustuletnie rozbicie dzielnicowe. Za panowania Władysława Łokietka okres rozbicia dzielnicowego zakończył się. Kazimierz III Wielki przeprowadził liczne reformy, rozbudował Wawel i ufundował pierwszy uniwersytet w Polsce w 1364 roku. Po jego bezpotomnej śmierci wygasła dynastia Piastów jako władców Polski.",
+          "keyFacts": [
+            "Mieszko I był pierwszym władcą Polski.",
+            "Chrzest Polski miał miejsce w 966 roku.",
+            "Bolesław Chrobry był pierwszym królem Polski.",
+            "Rozbicie dzielnicowe rozpoczęło się po śmierci Bolesława III Krzywoustego.",
+            "Władysław Łokietek zakończył okres rozbicia dzielnicowego.",
+            "Kazimierz III Wielki ufundował pierwszy uniwersytet w Polsce.",
+            "Po śmierci Kazimierza Wielkiego wygasła dynastia Piastów."
+          ],
+          "importantDates": [
+            {
+              "year": "966",
+              "event": "Chrzest Polski za panowania Mieszka I."
+            },
+            {
+              "year": "1025",
+              "event": "Koronacja Bolesława Chrobrego na pierwszego króla Polski."
+            },
+            {
+              "year": "1138",
+              "event": "Początek rozbicia dzielnicowego po śmierci Bolesława III Krzywoustego."
+            },
+            {
+              "year": "1320",
+              "event": "Władysław Łokietek koronował się na króla Polski."
+            },
+            {
+              "year": "1364",
+              "event": "Kazimierz III Wielki ufundował pierwszy uniwersytet w Polsce."
+            },
+            {
+              "year": "1370",
+              "event": "Śmierć Kazimierza Wielkiego i wygaśnięcie dynastii Piastów."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Mieszko I",
+              "role": "pierwszy władca Polski"
+            },
+            {
+              "name": "Dobrawa",
+              "role": "czeska księżniczka i żona Mieszka I"
+            },
+            {
+              "name": "Bolesław Chrobry",
+              "role": "pierwszy król Polski"
+            },
+            {
+              "name": "Bolesław III Krzywousty",
+              "role": "władca, po którego śmierci rozpoczęło się rozbicie dzielnicowe"
+            },
+            {
+              "name": "Władysław Łokietek",
+              "role": "król, który zakończył okres rozbicia dzielnicowego"
+            },
+            {
+              "name": "Kazimierz III Wielki",
+              "role": "król Polski, reformator i fundator pierwszego uniwersytetu w Polsce"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-2",
+          "title": "Dynastia Andegawenów i Jagiellonów",
+          "content": "Po śmierci Kazimierza Wielkiego w 1370 roku tron polski przejął Ludwik Węgierski z dynastii Andegawenów. Po jego śmierci w Polsce nastąpił długi okres bezkrólewia. W 1384 roku królem Polski została jego córka Jadwiga Andegaweńska, która w 1385 roku wyszła za Władysława II Jagiełłę. W 1386 roku Jagiełło został koronowany na władcę Polski.\n\nZa panowania Jagiellonów podpisano unię w Krewie między Polską i Litwą. W 1410 roku zjednoczona armia polsko-litewska pokonała Krzyżaków w bitwie pod Grunwaldem. W tym okresie rozwijała się polska kultura, nauka i ekonomia, a ważnymi postaciami byli Mikołaj Kopernik i Jan Kochanowski.",
+          "keyFacts": [
+            "Po śmierci Kazimierza Wielkiego tron przejął Ludwik Węgierski.",
+            "Jadwiga Andegaweńska została królem Polski w 1384 roku.",
+            "Władysław II Jagiełło został koronowany na władcę Polski w 1386 roku.",
+            "Unia w Krewie połączyła Polskę i Litwę.",
+            "W bitwie pod Grunwaldem armia polsko-litewska pokonała Krzyżaków.",
+            "Za Jagiellonów rozwijały się kultura, nauka i gospodarka."
+          ],
+          "importantDates": [
+            {
+              "year": "1370",
+              "event": "Ludwik Węgierski przejął tron polski po śmierci Kazimierza Wielkiego."
+            },
+            {
+              "year": "1384",
+              "event": "Jadwiga Andegaweńska została królem Polski."
+            },
+            {
+              "year": "1385",
+              "event": "Jadwiga Andegaweńska wyszła za Władysława II Jagiełłę."
+            },
+            {
+              "year": "1386",
+              "event": "Władysław II Jagiełło został koronowany na władcę Polski."
+            },
+            {
+              "year": "1410",
+              "event": "Bitwa pod Grunwaldem."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Ludwik Węgierski",
+              "role": "król Polski z dynastii Andegawenów"
+            },
+            {
+              "name": "Jadwiga Andegaweńska",
+              "role": "król Polski, córka Ludwika Węgierskiego"
+            },
+            {
+              "name": "Władysław II Jagiełło",
+              "role": "wielki książę litewski i król Polski"
+            },
+            {
+              "name": "Mikołaj Kopernik",
+              "role": "uczony związany z rozwojem nauki w okresie jagiellońskim"
+            },
+            {
+              "name": "Jan Kochanowski",
+              "role": "poeta związany z rozwojem kultury polskiej"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-3",
+          "title": "I Rzeczpospolita",
+          "content": "W 1569 roku Polska i Litwa podpisały unię lubelską, tworząc Rzeczpospolitą Obojga Narodów. Po bezpotomnej śmierci Zygmunta II Augusta, ostatniego króla z dynastii Jagiellonów, w 1573 roku wprowadzono wolną elekcję. W XVII wieku Rzeczpospolita była uwikłana w konflikty ze Szwecją, Kozakami i Rosją.\n\nW czasie kryzysu państwa pojawiło się liberum veto i wzrosła zależność od sąsiadów. Mimo trudności Jan III Sobieski pokonał armię turecką w bitwie pod Wiedniem w 1683 roku. Pod koniec XVIII wieku podjęto próby reform państwa. 3 maja 1791 roku uchwalono Konstytucję 3 maja, pierwszą konstytucję w Europie i drugą na świecie.",
+          "keyFacts": [
+            "Unia lubelska utworzyła Rzeczpospolitą Obojga Narodów.",
+            "Po śmierci Zygmunta II Augusta wprowadzono wolną elekcję.",
+            "W XVII wieku Rzeczpospolita walczyła między innymi ze Szwecją, Kozakami i Rosją.",
+            "Jan III Sobieski pokonał Turków pod Wiedniem.",
+            "Konstytucja 3 maja była pierwszą konstytucją w Europie."
+          ],
+          "importantDates": [
+            {
+              "year": "1569",
+              "event": "Unia lubelska i utworzenie Rzeczypospolitej Obojga Narodów."
+            },
+            {
+              "year": "1573",
+              "event": "Wprowadzenie wolnej elekcji."
+            },
+            {
+              "year": "1655-1660",
+              "event": "Potop szwedzki."
+            },
+            {
+              "year": "1683",
+              "event": "Jan III Sobieski pokonał Turków w bitwie pod Wiedniem."
+            },
+            {
+              "year": "3 maja 1791",
+              "event": "Uchwalenie Konstytucji 3 maja."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Zygmunt II August",
+              "role": "ostatni król Polski z dynastii Jagiellonów"
+            },
+            {
+              "name": "Jan III Sobieski",
+              "role": "król Polski, zwycięzca bitwy pod Wiedniem"
+            },
+            {
+              "name": "Stanisław August Poniatowski",
+              "role": "ostatni król Polski, inicjator reform"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-4",
+          "title": "Rozbiory i okres pod zaborami",
+          "content": "Trzy rozbiory Polski w latach 1772, 1793 i 1795 położyły kres próbom naprawy państwa. Rzeczpospolita Obojga Narodów przestała istnieć, a jej terytorium zostało podzielone między Rosję, Prusy i Austrię. Po III rozbiorze Polska zniknęła z mapy świata na 123 lata.\n\nW 1794 roku wybuchło powstanie kościuszkowskie przeciwko Rosji i Prusom, ale zakończyło się klęską. W 1807 roku Polacy wspierali działania Napoleona, licząc na odzyskanie niepodległości. Z ziem zabranych przez Prusy utworzono Księstwo Warszawskie. Po klęsce Napoleona w 1815 roku powstało Królestwo Polskie zależne od Rosji.",
+          "keyFacts": [
+            "Polska została podzielona przez Rosję, Prusy i Austrię.",
+            "Rozbiory Polski miały miejsce w latach 1772, 1793 i 1795.",
+            "Po III rozbiorze Polska zniknęła z mapy świata na 123 lata.",
+            "Powstanie kościuszkowskie wybuchło w 1794 roku.",
+            "W 1807 roku utworzono Księstwo Warszawskie.",
+            "Po 1815 roku powstało Królestwo Polskie zależne od Rosji."
+          ],
+          "importantDates": [
+            {
+              "year": "1772",
+              "event": "I rozbiór Polski przez Rosję, Prusy i Austrię."
+            },
+            {
+              "year": "1793",
+              "event": "II rozbiór Polski przez Rosję i Prusy."
+            },
+            {
+              "year": "1794",
+              "event": "Powstanie kościuszkowskie."
+            },
+            {
+              "year": "1795",
+              "event": "III rozbiór Polski przez Rosję, Prusy i Austrię."
+            },
+            {
+              "year": "1807",
+              "event": "Utworzenie Księstwa Warszawskiego."
+            },
+            {
+              "year": "1815",
+              "event": "Powstanie Królestwa Polskiego zależnego od Rosji."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Tadeusz Kościuszko",
+              "role": "przywódca powstania kościuszkowskiego"
+            },
+            {
+              "name": "Napoleon Bonaparte",
+              "role": "władca Francji, z którym Polacy wiązali nadzieje na odzyskanie niepodległości"
+            },
+            {
+              "name": "Aleksander I",
+              "role": "car Rosji, który nadał konstytucję Królestwu Polskiemu"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-5",
+          "title": "Powstania narodowe",
+          "content": "W okresie zaborów Polacy podejmowali zbrojne i polityczne działania mające na celu odzyskanie niepodległości. W latach 1830-1831 trwało Powstanie Listopadowe przeciwko Rosji. Zakończyło się klęską Polaków, ale walka o wolność trwała dalej.\n\nW latach 1863-1864 trwało Powstanie Styczniowe przeciwko Imperium Rosyjskiemu. Również zakończyło się klęską, jednak stało się ważnym symbolem dążeń niepodległościowych Polaków.",
+          "keyFacts": [
+            "Powstanie Listopadowe było skierowane przeciwko Rosji.",
+            "Powstanie Listopadowe trwało w latach 1830-1831.",
+            "Powstanie Styczniowe było skierowane przeciwko Imperium Rosyjskiemu.",
+            "Powstanie Styczniowe trwało w latach 1863-1864.",
+            "Oba powstania zakończyły się klęską Polaków."
+          ],
+          "importantDates": [
+            {
+              "year": "1830-1831",
+              "event": "Powstanie Listopadowe."
+            },
+            {
+              "year": "1863-1864",
+              "event": "Powstanie Styczniowe."
+            }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "history-poland-6",
+          "title": "II Rzeczpospolita",
+          "content": "Za początek II Rzeczypospolitej uznaje się 11 listopada 1918 roku, kiedy Józef Piłsudski objął władzę wojskową w Warszawie. W wyniku jego działań wojska niemieckie wycofały się z miasta, a tworzące się polskie instytucje państwowe nadały mu tytuł Naczelnika Państwa.\n\nPierwsze lata niepodległości były okresem niepokojów społecznych i konfliktów. W latach 1918-1921 Polska prowadziła równocześnie kilka wojen z sąsiadami. Najpoważniejszym konfliktem tego okresu była wojna polsko-bolszewicka. W 1920 roku miała miejsce Bitwa Warszawska, zwana Cudem nad Wisłą, w której Polacy pokonali bolszewików.",
+          "keyFacts": [
+            "II Rzeczpospolita powstała w 1918 roku.",
+            "11 listopada 1918 roku Józef Piłsudski objął władzę wojskową w Warszawie.",
+            "Józef Piłsudski otrzymał tytuł Naczelnika Państwa.",
+            "W latach 1918-1921 Polska prowadziła wojny z sąsiadami.",
+            "Bitwa Warszawska z 1920 roku nazywana jest Cudem nad Wisłą.",
+            "Polacy pokonali bolszewików w wojnie polsko-bolszewickiej."
+          ],
+          "importantDates": [
+            {
+              "year": "11 listopada 1918",
+              "event": "Początek II Rzeczypospolitej i objęcie władzy wojskowej przez Józefa Piłsudskiego."
+            },
+            {
+              "year": "1918-1921",
+              "event": "Okres wojen Polski z sąsiadami."
+            },
+            {
+              "year": "1919-1921",
+              "event": "Wojna polsko-bolszewicka."
+            },
+            {
+              "year": "1920",
+              "event": "Bitwa Warszawska, zwana Cudem nad Wisłą."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Józef Piłsudski",
+              "role": "Naczelnik Państwa, postać związana z odzyskaniem niepodległości przez Polskę"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-7",
+          "title": "II wojna światowa",
+          "content": "1 września 1939 roku rozpoczęła się II wojna światowa. Niemcy zaatakowały Polskę, a 17 września 1939 roku Związek Radziecki również uderzył na Polskę. Była to realizacja tajnego paktu Ribbentrop-Mołotow, nazywanego niekiedy IV rozbiorem Polski.\n\n18 maja 1944 roku odbyła się bitwa o Monte Cassino, zwana także bitwą o Rzym. Drugi Korpus Polski pod dowództwem generała Władysława Andersa zdobył wzgórze Monte Cassino. 1 sierpnia 1944 roku wybuchło Powstanie Warszawskie, którego celem było wyzwolenie stolicy spod władzy Niemców. Powstanie zakończyło się klęską, a Warszawa została zniszczona. W 1945 roku zakończyła się II wojna światowa i rozpoczął się okres zależności Polski od ZSRR oraz rządów komunistycznych.",
+          "keyFacts": [
+            "II wojna światowa rozpoczęła się 1 września 1939 roku.",
+            "17 września 1939 roku Związek Radziecki zaatakował Polskę.",
+            "Pakt Ribbentrop-Mołotow określany jest jako IV rozbiór Polski.",
+            "Drugi Korpus Polski zdobył Monte Cassino.",
+            "Powstanie Warszawskie wybuchło 1 sierpnia 1944 roku.",
+            "Po 1945 roku rozpoczął się okres zależności Polski od ZSRR i rządów komunistycznych."
+          ],
+          "importantDates": [
+            {
+              "year": "1 września 1939",
+              "event": "Początek II wojny światowej i atak Niemiec na Polskę."
+            },
+            {
+              "year": "17 września 1939",
+              "event": "Atak Związku Radzieckiego na Polskę."
+            },
+            {
+              "year": "18 maja 1944",
+              "event": "Bitwa o Monte Cassino."
+            },
+            {
+              "year": "1 sierpnia 1944",
+              "event": "Wybuch Powstania Warszawskiego."
+            },
+            {
+              "year": "1945",
+              "event": "Koniec II wojny światowej i początek zależności Polski od ZSRR oraz rządów komunistycznych."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Władysław Anders",
+              "role": "generał, dowódca Drugiego Korpusu Polskiego pod Monte Cassino"
+            }
+          ]
+        },
+        {
+          "id": "history-poland-8",
+          "title": "Polska Rzeczpospolita Ludowa i Solidarność",
+          "content": "W 1952 roku utworzono Polską Rzeczpospolitą Ludową. Uchwalono stalinowską konstytucję, zwiększono terror polityczny oraz prześladowania opozycji, Kościoła katolickiego i działaczy publicznych. Okres ten trwał aż do śmierci Stalina w 1953 roku.\n\nW 1980 roku powstała Solidarność, czyli ogólnopolski związek zawodowy i ruch społeczny walczący z komunizmem. Powstała w Gdańsku, a jej przywódcą był Lech Wałęsa. W latach 1981-1983 obowiązywał stan wojenny, wprowadzony 13 grudnia 1981 roku i zniesiony 22 lipca 1983 roku. Od 6 lutego do 5 kwietnia 1989 roku odbywały się obrady Okrągłego Stołu, które zakończyły się porozumieniem i ustaleniem terminu częściowo wolnych wyborów parlamentarnych na 4 czerwca 1989 roku.",
+          "keyFacts": [
+            "Polska Rzeczpospolita Ludowa została utworzona w 1952 roku.",
+            "W PRL prześladowano opozycję, Kościół i działaczy publicznych.",
+            "Solidarność powstała w 1980 roku w Gdańsku.",
+            "Przywódcą Solidarności był Lech Wałęsa.",
+            "Stan wojenny trwał od 13 grudnia 1981 do 22 lipca 1983 roku.",
+            "Obrady Okrągłego Stołu odbyły się w 1989 roku.",
+            "Pierwsze częściowo wolne wybory wyznaczono na 4 czerwca 1989 roku."
+          ],
+          "importantDates": [
+            {
+              "year": "1952",
+              "event": "Utworzenie Polskiej Rzeczypospolitej Ludowej."
+            },
+            {
+              "year": "1953",
+              "event": "Śmierć Stalina."
+            },
+            {
+              "year": "1956",
+              "event": "Protesty robotników w Poznaniu."
+            },
+            {
+              "year": "1970",
+              "event": "Protesty robotników na Wybrzeżu."
+            },
+            {
+              "year": "1980",
+              "event": "Powstanie Solidarności."
+            },
+            {
+              "year": "13 grudnia 1981",
+              "event": "Wprowadzenie stanu wojennego w Polsce."
+            },
+            {
+              "year": "22 lipca 1983",
+              "event": "Zniesienie stanu wojennego."
+            },
+            {
+              "year": "6 lutego - 5 kwietnia 1989",
+              "event": "Obrady Okrągłego Stołu."
+            },
+            {
+              "year": "4 czerwca 1989",
+              "event": "Pierwsze częściowo wolne wybory do parlamentu."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Lech Wałęsa",
+              "role": "przywódca Solidarności i przedstawiciel demokratycznej opozycji"
+            },
+            {
+              "name": "Czesław Kiszczak",
+              "role": "minister spraw wewnętrznych, przedstawiciel władz PRL podczas rozmów Okrągłego Stołu"
+            },
+            {
+              "name": "Józef Stalin",
+              "role": "przywódca ZSRR, z którego okresem związano stalinizację PRL"
+            }
+          ]
+        }
+      ],
+      "category": "history"
+    },
+    {
+      "id": "polish-modern-state",
+      "title": "Najważniejsze wydarzenia, ustrój i współczesna Polska",
+      "icon": "🏛️",
+      "description": "Temat zbiera najważniejsze daty, bitwy, powstania, rozbiory, ustrój państwa oraz informacje o współczesnej Polsce.",
+      "sections": [
+        {
+          "id": "history-events-1",
+          "title": "Najważniejsze daty w historii Polski",
+          "content": "W 966 roku odbył się chrzest Polski. 1 września 1939 roku rozpoczęła się II wojna światowa atakiem Niemiec na Westerplatte. 17 września 1939 roku Związek Radziecki zaatakował Polskę, co było realizacją tajnego paktu Ribbentrop-Mołotow, nazywanego IV rozbiorem Polski. W 1940 roku doszło do zbrodni katyńskiej, podczas której zamordowano ponad dwadzieścia tysięcy polskich oficerów i przedstawicieli elity naukowej.\n\nW 1989 roku rozpoczęła się III Rzeczpospolita i transformacja demokratyczna. 12 marca 1999 roku Polska wstąpiła do NATO, a 1 maja 2004 roku do Unii Europejskiej.",
+          "keyFacts": [
+            "Chrzest Polski odbył się w 966 roku.",
+            "II wojna światowa rozpoczęła się 1 września 1939 roku.",
+            "17 września 1939 roku Związek Radziecki zaatakował Polskę.",
+            "Pakt Ribbentrop-Mołotow nazywany jest IV rozbiorem Polski.",
+            "W 1940 roku miała miejsce zbrodnia katyńska.",
+            "Polska wstąpiła do NATO w 1999 roku.",
+            "Polska wstąpiła do Unii Europejskiej w 2004 roku."
+          ],
+          "importantDates": [
+            {
+              "year": "966",
+              "event": "Chrzest Polski."
+            },
+            {
+              "year": "1 września 1939",
+              "event": "Atak Niemiec na Polskę i początek II wojny światowej."
+            },
+            {
+              "year": "17 września 1939",
+              "event": "Atak Związku Radzieckiego na Polskę."
+            },
+            {
+              "year": "1940",
+              "event": "Zbrodnia katyńska."
+            },
+            {
+              "year": "1989",
+              "event": "Utworzenie III Rzeczypospolitej."
+            },
+            {
+              "year": "12 marca 1999",
+              "event": "Wstąpienie Polski do NATO."
+            },
+            {
+              "year": "1 maja 2004",
+              "event": "Wstąpienie Polski do Unii Europejskiej."
+            }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "history-events-2",
+          "title": "Ważne bitwy",
+          "content": "W 1410 roku w bitwie pod Grunwaldem armia polsko-litewska rozgromiła Krzyżaków. W 1683 roku w bitwie pod Wiedniem Jan III Sobieski pokonał armię turecką. 15 sierpnia 1920 roku miała miejsce Bitwa Warszawska, zwana Cudem nad Wisłą, w której Polacy pokonali bolszewików.\n\n18 maja 1944 roku odbyła się bitwa o Monte Cassino, zwana także bitwą o Rzym. Drugi Korpus Polski dowodzony przez generała Władysława Andersa zdobył wzgórze Monte Cassino.",
+          "keyFacts": [
+            "Bitwa pod Grunwaldem odbyła się w 1410 roku.",
+            "Jan III Sobieski zwyciężył pod Wiedniem w 1683 roku.",
+            "Bitwa Warszawska z 1920 roku nazywana jest Cudem nad Wisłą.",
+            "Bitwa o Monte Cassino odbyła się 18 maja 1944 roku.",
+            "Monte Cassino zdobył Drugi Korpus Polski generała Władysława Andersa."
+          ],
+          "importantDates": [
+            {
+              "year": "1410",
+              "event": "Bitwa pod Grunwaldem."
+            },
+            {
+              "year": "1683",
+              "event": "Bitwa pod Wiedniem."
+            },
+            {
+              "year": "15 sierpnia 1920",
+              "event": "Bitwa Warszawska, czyli Cud nad Wisłą."
+            },
+            {
+              "year": "18 maja 1944",
+              "event": "Bitwa o Monte Cassino."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Jan III Sobieski",
+              "role": "król Polski, zwycięzca bitwy pod Wiedniem"
+            },
+            {
+              "name": "Władysław Anders",
+              "role": "generał, dowódca Drugiego Korpusu Polskiego pod Monte Cassino"
+            }
+          ]
+        },
+        {
+          "id": "history-events-3",
+          "title": "Powstania narodowe",
+          "content": "W 1794 roku wybuchło powstanie kościuszkowskie przeciwko Rosji i Prusom. Zakończyło się ono klęską, po której nastąpił III rozbiór Polski. Rok później Polska zniknęła z mapy świata na 123 lata.\n\nW latach 1830-1831 trwało Powstanie Listopadowe przeciw Rosji, a w latach 1863-1864 Powstanie Styczniowe przeciwko Imperium Rosyjskiemu. 1 sierpnia 1944 roku wybuchło Powstanie Warszawskie, którego celem było wyzwolenie stolicy spod władzy Niemców. W 1980 roku powstała Solidarność.",
+          "keyFacts": [
+            "Powstanie kościuszkowskie wybuchło w 1794 roku.",
+            "Po powstaniu kościuszkowskim nastąpił III rozbiór Polski.",
+            "Powstanie Listopadowe trwało w latach 1830-1831.",
+            "Powstanie Styczniowe trwało w latach 1863-1864.",
+            "Powstanie Warszawskie wybuchło 1 sierpnia 1944 roku.",
+            "Solidarność powstała w 1980 roku."
+          ],
+          "importantDates": [
+            {
+              "year": "1794",
+              "event": "Powstanie kościuszkowskie."
+            },
+            {
+              "year": "1830-1831",
+              "event": "Powstanie Listopadowe."
+            },
+            {
+              "year": "1863-1864",
+              "event": "Powstanie Styczniowe."
+            },
+            {
+              "year": "1 sierpnia 1944",
+              "event": "Powstanie Warszawskie."
+            },
+            {
+              "year": "1980",
+              "event": "Powstanie Solidarności."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Tadeusz Kościuszko",
+              "role": "przywódca powstania kościuszkowskiego"
+            }
+          ]
+        },
+        {
+          "id": "history-events-4",
+          "title": "Rozbiory i Rzeczpospolite",
+          "content": "Polska została podzielona przez Rosję, Prusy i Austrię w czasie trzech rozbiorów. I rozbiór Polski odbył się w 1772 roku, II rozbiór w 1793 roku, a III rozbiór w 1795 roku. Po III rozbiorze Polska przestała istnieć jako państwo na 123 lata.\n\nI Rzeczpospolita została utworzona w 1569 roku po podpisaniu unii lubelskiej przez Polskę i Litwę, a zlikwidowana w 1795 roku. II Rzeczpospolita została utworzona w 1918 roku i istniała do 1939 roku. III Rzeczpospolita została utworzona w 1989 roku.",
+          "keyFacts": [
+            "I rozbiór Polski odbył się w 1772 roku.",
+            "II rozbiór Polski odbył się w 1793 roku.",
+            "III rozbiór Polski odbył się w 1795 roku.",
+            "I Rzeczpospolita powstała w 1569 roku.",
+            "II Rzeczpospolita powstała w 1918 roku.",
+            "III Rzeczpospolita powstała w 1989 roku."
+          ],
+          "importantDates": [
+            {
+              "year": "1569",
+              "event": "Utworzenie I Rzeczypospolitej po unii lubelskiej."
+            },
+            {
+              "year": "1772",
+              "event": "I rozbiór Polski."
+            },
+            {
+              "year": "1793",
+              "event": "II rozbiór Polski."
+            },
+            {
+              "year": "1795",
+              "event": "III rozbiór Polski i koniec I Rzeczypospolitej."
+            },
+            {
+              "year": "1918",
+              "event": "Utworzenie II Rzeczypospolitej."
+            },
+            {
+              "year": "1939",
+              "event": "Koniec II Rzeczypospolitej."
+            },
+            {
+              "year": "1989",
+              "event": "Utworzenie III Rzeczypospolitej."
+            }
+          ],
+          "importantPeople": []
+        },
+        {
+          "id": "history-events-5",
+          "title": "III Rzeczpospolita",
+          "content": "III Rzeczpospolita powstała w wyniku przemian ustrojowych 1989 roku, rozmów Okrągłego Stołu oraz częściowo wolnych wyborów z 4 czerwca 1989 roku. Wybory te oznaczały początek transformacji demokratycznej i koniec rządów komunistycznych w Polsce. W 1999 roku Polska wstąpiła do NATO, a w 2004 roku do Unii Europejskiej.\n\n10 kwietnia 2010 roku doszło do katastrofy polskiego samolotu pod Smoleńskiem. Zginęło 96 osób, w tym prezydent Lech Kaczyński i jego żona Maria Kaczyńska.",
+          "keyFacts": [
+            "III Rzeczpospolita została utworzona w wyniku przemian ustrojowych 1989 roku.",
+            "4 czerwca 1989 roku odbyły się częściowo wolne wybory parlamentarne.",
+            "Wybory z 1989 roku oznaczały początek transformacji demokratycznej w Polsce.",
+            "Polska wstąpiła do NATO 12 marca 1999 roku.",
+            "Polska wstąpiła do Unii Europejskiej 1 maja 2004 roku.",
+            "Katastrofa smoleńska wydarzyła się 10 kwietnia 2010 roku.",
+            "W katastrofie smoleńskiej zginęło 96 osób."
+          ],
+          "importantDates": [
+            {
+              "year": "4 czerwca 1989",
+              "event": "Częściowo wolne wybory parlamentarne i początek transformacji demokratycznej w Polsce."
+            },
+            {
+              "year": "12 marca 1999",
+              "event": "Wstąpienie Polski do NATO."
+            },
+            {
+              "year": "1 maja 2004",
+              "event": "Wstąpienie Polski do Unii Europejskiej."
+            },
+            {
+              "year": "10 kwietnia 2010",
+              "event": "Katastrofa polskiego samolotu pod Smoleńskiem."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Lech Wałęsa",
+              "role": "polityk związany z powstaniem III Rzeczypospolitej"
+            },
+            {
+              "name": "Lech Kaczyński",
+              "role": "prezydent Polski, zginął w katastrofie smoleńskiej"
+            }
+          ]
+        },
+        {
+          "id": "history-events-6",
+          "title": "Prezydenci i współczesna polityka",
+          "content": "Pierwszym prezydentem Polski był Gabriel Narutowicz, wybrany w 1922 roku. Pełnił urząd tylko przez kilka dni i został zamordowany. W III Rzeczypospolitej prezydentami byli Lech Wałęsa, Aleksander Kwaśniewski, Lech Kaczyński, Bronisław Komorowski, Andrzej Duda oraz Karol Nawrocki. Karol Nawrocki objął urząd prezydenta 6 sierpnia 2025 roku. Premierem Polski jest Donald Tusk.\n\nDo partii politycznych w Polsce wymienionych w materiale należą Prawo i Sprawiedliwość oraz Platforma Obywatelska.",
+          "keyFacts": [
+            "Gabriel Narutowicz był pierwszym prezydentem Polski.",
+            "Lech Wałęsa był prezydentem w latach 1990-1995.",
+            "Aleksander Kwaśniewski był prezydentem w latach 1995-2005.",
+            "Lech Kaczyński był prezydentem w latach 2005-2010.",
+            "Bronisław Komorowski był prezydentem w latach 2010-2015.",
+            "Andrzej Duda był prezydentem w latach 2015-2025.",
+            "Karol Nawrocki jest prezydentem Polski od 6 sierpnia 2025 roku.",
+            "Donald Tusk jest premierem Polski."
+          ],
+          "importantDates": [
+            {
+              "year": "1922",
+              "event": "Gabriel Narutowicz został pierwszym prezydentem Polski."
+            },
+            {
+              "year": "1990-1995",
+              "event": "Prezydentura Lecha Wałęsy."
+            },
+            {
+              "year": "1995-2005",
+              "event": "Prezydentura Aleksandra Kwaśniewskiego."
+            },
+            {
+              "year": "2005-2010",
+              "event": "Prezydentura Lecha Kaczyńskiego."
+            },
+            {
+              "year": "2010-2015",
+              "event": "Prezydentura Bronisława Komorowskiego."
+            },
+            {
+              "year": "2015-2025",
+              "event": "Prezydentura Andrzeja Dudy."
+            },
+            {
+              "year": "6 sierpnia 2025",
+              "event": "Karol Nawrocki objął urząd Prezydenta Rzeczypospolitej Polskiej."
+            }
+          ],
+          "importantPeople": [
+            {
+              "name": "Gabriel Narutowicz",
+              "role": "pierwszy prezydent Polski"
+            },
+            {
+              "name": "Lech Wałęsa",
+              "role": "prezydent III Rzeczypospolitej"
+            },
+            {
+              "name": "Aleksander Kwaśniewski",
+              "role": "prezydent III Rzeczypospolitej"
+            },
+            {
+              "name": "Lech Kaczyński",
+              "role": "prezydent III Rzeczypospolitej"
+            },
+            {
+              "name": "Bronisław Komorowski",
+              "role": "prezydent III Rzeczypospolitej"
+            },
+            {
+              "name": "Andrzej Duda",
+              "role": "prezydent III Rzeczypospolitej"
+            },
+            {
+              "name": "Karol Nawrocki",
+              "role": "Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025 roku"
+            },
+            {
+              "name": "Donald Tusk",
+              "role": "premier Polski"
+            }
+          ]
+        },
+        {
+          "id": "history-events-7",
+          "title": "Ustrój polityczny Polski",
+          "content": "Polska jest republiką parlamentarną. Parlament w Polsce jest dwuizbowy i składa się z Sejmu oraz Senatu. Sejm ma 460 posłów i jest izbą niższą, natomiast Senat ma 100 senatorów i jest izbą wyższą.\n\nWładzę ustawodawczą sprawują Sejm i Senat, władzę wykonawczą Rada Ministrów i Prezydent, a władzę sądowniczą sądy i trybunały.",
+          "keyFacts": [
+            "Polska jest republiką parlamentarną.",
+            "Parlament Polski jest dwuizbowy.",
+            "Sejm ma 460 posłów.",
+            "Senat ma 100 senatorów.",
+            "Władza ustawodawcza to Sejm i Senat.",
+            "Władza wykonawcza to Rada Ministrów i Prezydent.",
+            "Władza sądownicza to sądy i trybunały."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "history-events-8",
+          "title": "Miejsca pamięci Polaków zamordowanych na Ukrainie",
+          "content": "W materiale wymieniono miejsca związane ze zbrodniami na Polakach na terytorium dzisiejszej Ukrainy. W Piątniczkach pod Charkowem oraz w Bykowni koło Kijowa w 1940 roku ofiarami NKWD byli polscy jeńcy i przedstawiciele elit. Na Wołyniu w latach 1943-1944 Polacy byli mordowani przez oddziały UPA.",
+          "keyFacts": [
+            "Piątniczki pod Charkowem są jednym z miejsc pamięci zbrodni katyńskiej.",
+            "Bykownia koło Kijowa jest miejscem pochówku ofiar represji sowieckich, w tym Polaków.",
+            "Na Wołyniu w latach 1943-1944 Polacy byli mordowani przez oddziały UPA.",
+            "Ofiarami zbrodni były także osoby cywilne."
+          ],
+          "importantDates": [
+            {
+              "year": "1940",
+              "event": "Zbrodnie NKWD na polskich jeńcach i przedstawicielach elit, między innymi w Piątniczkach i Bykowni."
+            },
+            {
+              "year": "1943-1944",
+              "event": "Zbrodnie na Polakach na Wołyniu dokonane przez oddziały UPA."
+            }
+          ],
+          "importantPeople": []
+        }
+      ],
+      "category": "history"
+    },
+    {
+      "id": "time-vocabulary",
+      "title": "Kiedy? Dni tygodnia, pory roku i miesiące",
+      "icon": "📅",
+      "description": "Temat zawiera podstawowe polskie określenia czasu, dni tygodnia, pór roku i miesięcy.",
+      "sections": [
+        {
+          "id": "language-time-1",
+          "title": "Określenia czasu",
+          "content": "Do podstawowych określeń czasu należą: dzisiaj, dziś, jutro, wczoraj, rano, przedwczoraj, pojutrze, przed południem, w południe, po południu, wieczorem, w ciągu dnia, codziennie, teraz i dwa dni temu.\n\nMożna także powiedzieć: w tym roku, miesiącu lub tygodniu; w następnym roku, miesiącu lub tygodniu; w zeszłym albo ubiegłym roku, miesiącu lub tygodniu. Inne ważne określenia to: czasem, zwykle, zawsze, rzadko, natychmiast, nigdy, często, w dzień, w nocy, o północy, ostatnio, już, wcześniej, później i wtedy.",
+          "keyFacts": [
+            "„Dzisiaj” i „dziś” oznaczają ten sam czas.",
+            "„Przedwczoraj” oznacza dwa dni przed dzisiaj.",
+            "„Pojutrze” oznacza dwa dni po dzisiaj.",
+            "Można mówić: w tym roku, w następnym roku i w zeszłym roku.",
+            "Do częstych określeń czasu należą: zawsze, zwykle, czasem, rzadko i nigdy."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "language-time-2",
+          "title": "Dni tygodnia",
+          "content": "Dni tygodnia w języku polskim to: poniedziałek, wtorek, środa, czwartek, piątek, sobota i niedziela. Przy podawaniu dnia używa się form: w poniedziałek, we wtorek, w środę, w czwartek, w piątek, w sobotę i w niedzielę.",
+          "keyFacts": [
+            "Tydzień zaczyna się od poniedziałku.",
+            "Mówimy: w poniedziałek, we wtorek, w środę.",
+            "Mówimy: w czwartek, w piątek, w sobotę, w niedzielę."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "language-time-3",
+          "title": "Pory roku",
+          "content": "Pory roku w języku polskim to: lato, jesień, zima i wiosna. Poprawne formy używane w zdaniu to: latem albo w lecie, jesienią albo na jesieni, zimą albo w zimie, wiosną albo na wiosnę.",
+          "keyFacts": [
+            "Pory roku to lato, jesień, zima i wiosna.",
+            "Mówimy: latem albo w lecie.",
+            "Mówimy: jesienią albo na jesieni.",
+            "Mówimy: zimą albo w zimie.",
+            "Mówimy: wiosną albo na wiosnę."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "language-time-4",
+          "title": "Miesiące",
+          "content": "Miesiące w języku polskim to: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad i grudzień. Przy określaniu czasu używa się form: w styczniu, w lutym, w marcu, w kwietniu, w maju, w czerwcu, w lipcu, w sierpniu, we wrześniu, w październiku, w listopadzie i w grudniu.",
+          "keyFacts": [
+            "Rok ma dwanaście miesięcy.",
+            "Pierwszy miesiąc to styczeń.",
+            "Ostatni miesiąc to grudzień.",
+            "Mówimy: w styczniu, w lutym, w marcu.",
+            "Mówimy: we wrześniu, w październiku, w listopadzie i w grudniu."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "basic-vocabulary",
+      "title": "Podstawowe słownictwo: zwroty, rodzina i pytania",
+      "icon": "🗣️",
+      "description": "Temat zawiera podstawowe polskie słownictwo dotyczące zwrotów grzecznościowych, rodziny oraz pytań.",
+      "sections": [
+        {
+          "id": "language-basics-1",
+          "title": "Zwroty grzecznościowe",
+          "content": "Do podstawowych zwrotów grzecznościowych w języku polskim należą: dzień dobry, dobry wieczór, cześć, żegnaj, dziękuję, proszę, przepraszam i na zdrowie. W rozmowie używa się także zwrotów: do zobaczenia, do widzenia, pozdrawiam, dobranoc, proszę przeprosić, smacznego oraz wszystkiego najlepszego.",
+          "keyFacts": [
+            "„Dzień dobry” to podstawowe powitanie.",
+            "„Dobry wieczór” mówi się wieczorem.",
+            "„Do widzenia” i „do zobaczenia” to zwroty pożegnalne.",
+            "„Dziękuję”, „proszę” i „przepraszam” to podstawowe zwroty grzecznościowe.",
+            "„Smacznego” mówi się przed jedzeniem.",
+            "„Wszystkiego najlepszego” to życzenia."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "language-basics-2",
+          "title": "Rodzina",
+          "content": "Słownictwo dotyczące rodziny obejmuje między innymi wyrazy: babcia, dziadek, matka, mama, ojciec, córka, syn, wnuk, wnuczka, siostra, brat, kuzynka, kuzyn, dziecko, dzieci, żona, mąż, kobieta, mężczyzna, ciocia, wujek, teściowa, teść, synowa, zięć, siostrzenica, siostrzeniec, bratanica, bratanek, macocha, ojczym, małżeństwo, rodzice, rodzeństwo i krewni.\n\nW języku polskim można tworzyć proste związki znaczeniowe: ojciec i matka to rodzice, syn i córka to dzieci, a babcia i dziadek to dziadkowie.",
+          "keyFacts": [
+            "Ojciec i matka to rodzice.",
+            "Syn i córka to dzieci.",
+            "Babcia i dziadek to dziadkowie.",
+            "Brat i siostra to rodzeństwo.",
+            "Krewni to osoby należące do rodziny."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        },
+        {
+          "id": "language-basics-3",
+          "title": "Pytania i słowa pytające",
+          "content": "W języku polskim często używa się słów pytających: kto, skąd, dokąd, dlaczego, kim, po co, który, czy, jak, co, kiedy, odkąd, naprawdę, ile i ilu. Formy pytające mogą też zmieniać się w zależności od rodzaju i liczby, na przykład: który, która, które oraz jaki, jaka, jakie.",
+          "keyFacts": [
+            "„Kto?” pyta o osobę.",
+            "„Co?” pyta o rzecz.",
+            "„Kiedy?” pyta o czas.",
+            "„Gdzie?” lub „dokąd?” pytają o miejsce albo kierunek.",
+            "„Dlaczego?” pyta o przyczynę.",
+            "„Ile?” i „ilu?” pytają o liczbę.",
+            "„Jaki?”, „jaka?” i „jakie?” zależą od rodzaju gramatycznego."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "holiday-vocabulary",
+      "title": "Słownictwo świąteczne",
+      "icon": "📖",
+      "description": "Temat zawiera podstawowe słowa związane z polskimi świętami i tradycjami.",
+      "sections": [
+        {
+          "id": "language-holiday-vocab-1",
+          "title": "Co to jest?",
+          "content": "Wśród ważnych słów związanych ze świętami znajdują się: adwent, wieniec adwentowy, roraty, Wigilia, Pasterka, opłatek, szopka, popielec, Triduum Paschalne, rezurekcja i święconka. Są to pojęcia związane głównie z Bożym Narodzeniem, Wielkim Postem, Wielkanocą oraz rokiem liturgicznym.",
+          "keyFacts": [
+            "Adwent to okres przygotowania do Bożego Narodzenia.",
+            "Wieniec adwentowy i roraty są związane z Adwentem.",
+            "Wigilia i Pasterka są związane z Bożym Narodzeniem.",
+            "Opłatek jest używany podczas Wigilii.",
+            "Popielec rozpoczyna Wielki Post.",
+            "Triduum Paschalne i rezurekcja są związane z Wielkanocą.",
+            "Święconka to pokarmy święcone w Wielką Sobotę."
+          ],
+          "importantDates": [],
+          "importantPeople": []
+        }
+      ],
+      "category": "language"
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "cards": [
+    {
+      "id": "fc_core_001",
+      "topic": "symbols",
+      "front": "Jakie są trzy główne symbole narodowe Polski?",
+      "back": "Godło, flaga i hymn."
+    },
+    {
+      "id": "fc_core_002",
+      "topic": "symbols",
+      "front": "Co jest godłem Polski?",
+      "back": "Orzeł Biały na czerwonym tle."
+    },
+    {
+      "id": "fc_core_003",
+      "topic": "symbols",
+      "front": "Jak wygląda Orzeł Biały w godle Polski?",
+      "back": "Ma złotą koronę, złoty dziób i złote szpony."
+    },
+    {
+      "id": "fc_core_004",
+      "topic": "symbols",
+      "front": "W którą stronę zwrócona jest głowa orła w polskim godle?",
+      "back": "W prawą stronę."
+    },
+    {
+      "id": "fc_core_005",
+      "topic": "symbols",
+      "front": "Kto wprowadził wizerunek białego orła do godła państwowego?",
+      "back": "Przemysł II."
+    },
+    {
+      "id": "fc_core_006",
+      "topic": "symbols",
+      "front": "W którym roku Przemysł II wprowadził białego orła do godła państwowego?",
+      "back": "W 1295 roku."
+    },
+    {
+      "id": "fc_core_007",
+      "topic": "symbols",
+      "front": "Jakie kolory ma flaga Polski?",
+      "back": "Biały i czerwony."
+    },
+    {
+      "id": "fc_core_008",
+      "topic": "symbols",
+      "front": "Jaki kolor znajduje się na górze flagi Polski?",
+      "back": "Biały."
+    },
+    {
+      "id": "fc_core_009",
+      "topic": "symbols",
+      "front": "Jaki kolor znajduje się na dole flagi Polski?",
+      "back": "Czerwony."
+    },
+    {
+      "id": "fc_core_010",
+      "topic": "symbols",
+      "front": "Co symbolizuje biały kolor na fladze Polski?",
+      "back": "Czystość intencji."
+    },
+    {
+      "id": "fc_core_011",
+      "topic": "symbols",
+      "front": "Co symbolizuje czerwony kolor na fladze Polski?",
+      "back": "Odwagę, waleczność, krew i ogień."
+    },
+    {
+      "id": "fc_core_012",
+      "topic": "symbols",
+      "front": "Jaki jest hymn Polski?",
+      "back": "Mazurek Dąbrowskiego."
+    },
+    {
+      "id": "fc_core_013",
+      "topic": "symbols",
+      "front": "Kto napisał słowa Mazurka Dąbrowskiego?",
+      "back": "Józef Wybicki."
+    },
+    {
+      "id": "fc_core_014",
+      "topic": "symbols",
+      "front": "Od kiedy Mazurek Dąbrowskiego jest oficjalnym hymnem Polski?",
+      "back": "Od 26 lutego 1927 roku."
+    },
+    {
+      "id": "fc_core_015",
+      "topic": "symbols",
+      "front": "Jaki był pierwotny tytuł Mazurka Dąbrowskiego?",
+      "back": "Pieśń Legionów Polskich we Włoszech."
+    },
+    {
+      "id": "fc_core_016",
+      "topic": "symbols",
+      "front": "Kto według legendy był założycielem Polski?",
+      "back": "Lech."
+    },
+    {
+      "id": "fc_core_017",
+      "topic": "symbols",
+      "front": "Skąd według legendy pochodzi nazwa Gniezno?",
+      "back": "Od gniazda orłów."
+    },
+    {
+      "id": "fc_core_018",
+      "topic": "symbols",
+      "front": "Jaki ptak stał się według legendy symbolem Polski?",
+      "back": "Biały orzeł."
+    },
+    {
+      "id": "fc_core_019",
+      "topic": "geography",
+      "front": "Jaka jest stolica Polski?",
+      "back": "Warszawa."
+    },
+    {
+      "id": "fc_core_020",
+      "topic": "geography",
+      "front": "Jakie miasto było pierwszą stolicą Polski?",
+      "back": "Gniezno."
+    },
+    {
+      "id": "fc_core_021",
+      "topic": "geography",
+      "front": "Jakie miasto było drugą stolicą Polski?",
+      "back": "Kraków."
+    },
+    {
+      "id": "fc_core_022",
+      "topic": "geography",
+      "front": "Z iloma państwami graniczy Polska?",
+      "back": "Z siedmioma."
+    },
+    {
+      "id": "fc_core_023",
+      "topic": "geography",
+      "front": "Z jakim państwem Polska graniczy od zachodu?",
+      "back": "Z Niemcami."
+    },
+    {
+      "id": "fc_core_024",
+      "topic": "geography",
+      "front": "Z jakimi państwami Polska graniczy od południa?",
+      "back": "Z Czechami i Słowacją."
+    },
+    {
+      "id": "fc_core_025",
+      "topic": "geography",
+      "front": "Z jakimi państwami Polska graniczy od wschodu?",
+      "back": "Z Ukrainą i Białorusią."
+    },
+    {
+      "id": "fc_core_026",
+      "topic": "geography",
+      "front": "Z jakimi państwami Polska graniczy od północy według materiału?",
+      "back": "Z Litwą i Rosją."
+    },
+    {
+      "id": "fc_core_027",
+      "topic": "geography",
+      "front": "Jakie są najdłuższe rzeki Polski?",
+      "back": "Wisła, Odra, Warta i Bug."
+    },
+    {
+      "id": "fc_core_028",
+      "topic": "geography",
+      "front": "Przez jakie ważne miasta przepływa Wisła?",
+      "back": "Przez Warszawę, Kraków i Gdańsk."
+    },
+    {
+      "id": "fc_core_029",
+      "topic": "geography",
+      "front": "Przez jakie ważne miasto przepływa Odra?",
+      "back": "Przez Wrocław."
+    },
+    {
+      "id": "fc_core_030",
+      "topic": "geography",
+      "front": "Jakie są największe jeziora w Polsce?",
+      "back": "Śniardwy i Mamry."
+    },
+    {
+      "id": "fc_core_031",
+      "topic": "geography",
+      "front": "Jakie jest najgłębsze jezioro w Polsce?",
+      "back": "Hańcza."
+    },
+    {
+      "id": "fc_core_032",
+      "topic": "geography",
+      "front": "Nad jakim morzem leży Polska?",
+      "back": "Nad Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_core_033",
+      "topic": "geography",
+      "front": "Jakie miasta tworzą Trójmiasto?",
+      "back": "Gdańsk, Gdynia i Sopot."
+    },
+    {
+      "id": "fc_core_034",
+      "topic": "geography",
+      "front": "Jaki jest najwyższy szczyt Tatr?",
+      "back": "Rysy."
+    },
+    {
+      "id": "fc_core_035",
+      "topic": "geography",
+      "front": "Jaki jest najwyższy szczyt Sudetów?",
+      "back": "Śnieżka."
+    },
+    {
+      "id": "fc_core_036",
+      "topic": "geography",
+      "front": "Ile parków narodowych jest w Polsce?",
+      "back": "23."
+    },
+    {
+      "id": "fc_core_037",
+      "topic": "geography",
+      "front": "Ile województw ma Polska?",
+      "back": "16."
+    },
+    {
+      "id": "fc_core_038",
+      "topic": "geography",
+      "front": "Które województwo ma stolice w Bydgoszczy i Toruniu?",
+      "back": "Kujawsko-pomorskie."
+    },
+    {
+      "id": "fc_core_039",
+      "topic": "geography",
+      "front": "Które województwo ma stolice w Gorzowie Wielkopolskim i Zielonej Górze?",
+      "back": "Lubuskie."
+    },
+    {
+      "id": "fc_core_040",
+      "topic": "geography",
+      "front": "Jakie jest największe miasto Polski?",
+      "back": "Warszawa."
+    },
+    {
+      "id": "fc_core_041",
+      "topic": "geography",
+      "front": "Nad jaką rzeką leży Warszawa?",
+      "back": "Nad Wisłą."
+    },
+    {
+      "id": "fc_core_042",
+      "topic": "geography",
+      "front": "Kto przeniósł stolicę z Krakowa do Warszawy?",
+      "back": "Zygmunt III Waza."
+    },
+    {
+      "id": "fc_core_043",
+      "topic": "geography",
+      "front": "Co jest symbolem Warszawy?",
+      "back": "Syrenka."
+    },
+    {
+      "id": "fc_core_044",
+      "topic": "geography",
+      "front": "Gdzie znajduje się serce Fryderyka Chopina?",
+      "back": "W Kościele Świętego Krzyża w Warszawie."
+    },
+    {
+      "id": "fc_core_045",
+      "topic": "geography",
+      "front": "Jakie miasto było dawną siedzibą królów Polski?",
+      "back": "Kraków."
+    },
+    {
+      "id": "fc_core_046",
+      "topic": "geography",
+      "front": "Co znajduje się w Kościele Mariackim w Krakowie?",
+      "back": "Ołtarz Wita Stwosza."
+    },
+    {
+      "id": "fc_core_047",
+      "topic": "geography",
+      "front": "Kto stworzył ołtarz w Kościele Mariackim?",
+      "back": "Wit Stwosz."
+    },
+    {
+      "id": "fc_core_048",
+      "topic": "geography",
+      "front": "Co było dawną rezydencją Jagiellonów w Krakowie?",
+      "back": "Zamek na Wawelu."
+    },
+    {
+      "id": "fc_core_049",
+      "topic": "geography",
+      "front": "Co jest symbolem Krakowa?",
+      "back": "Smok."
+    },
+    {
+      "id": "fc_core_050",
+      "topic": "geography",
+      "front": "Czym jest Kazimierz w Krakowie?",
+      "back": "Historyczną żydowską dzielnicą."
+    },
+    {
+      "id": "fc_core_051",
+      "topic": "geography",
+      "front": "Nad jakim morzem leży Gdańsk?",
+      "back": "Nad Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_core_052",
+      "topic": "geography",
+      "front": "Gdzie 1 września 1939 roku rozpoczęła się II wojna światowa?",
+      "back": "Na Westerplatte w Gdańsku."
+    },
+    {
+      "id": "fc_core_053",
+      "topic": "geography",
+      "front": "Co powstało w Gdańsku w sierpniu 1980 roku?",
+      "back": "Solidarność."
+    },
+    {
+      "id": "fc_core_054",
+      "topic": "geography",
+      "front": "Co jest symbolem Gdańska?",
+      "back": "Fontanna Neptuna."
+    },
+    {
+      "id": "fc_core_055",
+      "topic": "geography",
+      "front": "Z czego słynie Sopot nad Bałtykiem?",
+      "back": "Z najdłuższego molo nad Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_core_056",
+      "topic": "geography",
+      "front": "Nad jaką rzeką leży Wrocław?",
+      "back": "Nad Odrą."
+    },
+    {
+      "id": "fc_core_057",
+      "topic": "geography",
+      "front": "Jak nazywa się miasto 12 wysp i ponad 100 mostów?",
+      "back": "Wrocław."
+    },
+    {
+      "id": "fc_core_058",
+      "topic": "geography",
+      "front": "Co przedstawia Panorama Racławicka?",
+      "back": "Bitwę pod Racławicami."
+    },
+    {
+      "id": "fc_core_059",
+      "topic": "geography",
+      "front": "Co jest symbolem Wrocławia?",
+      "back": "Krasnale."
+    },
+    {
+      "id": "fc_core_060",
+      "topic": "geography",
+      "front": "Jakie ważne średniowieczne zabytki znajdują się w Krakowie?",
+      "back": "Wawel, Kościół Mariacki i Sukiennice."
+    },
+    {
+      "id": "fc_core_061",
+      "topic": "history",
+      "front": "Jaka była pierwsza dynastia rządząca Polską?",
+      "back": "Dynastia Piastów."
+    },
+    {
+      "id": "fc_core_062",
+      "topic": "history",
+      "front": "Kto był pierwszym władcą Polski?",
+      "back": "Mieszko I."
+    },
+    {
+      "id": "fc_core_063",
+      "topic": "history",
+      "front": "W którym roku odbył się chrzest Polski?",
+      "back": "W 966 roku."
+    },
+    {
+      "id": "fc_core_064",
+      "topic": "history",
+      "front": "Kto był pierwszym królem Polski?",
+      "back": "Bolesław Chrobry."
+    },
+    {
+      "id": "fc_core_065",
+      "topic": "history",
+      "front": "W którym roku koronowano Bolesława Chrobrego?",
+      "back": "W 1025 roku."
+    },
+    {
+      "id": "fc_core_066",
+      "topic": "history",
+      "front": "Co wydarzyło się po śmierci Bolesława III Krzywoustego w 1138 roku?",
+      "back": "Rozpoczęło się rozbicie dzielnicowe."
+    },
+    {
+      "id": "fc_core_067",
+      "topic": "history",
+      "front": "Kto zakończył okres rozbicia dzielnicowego?",
+      "back": "Władysław Łokietek."
+    },
+    {
+      "id": "fc_core_068",
+      "topic": "history",
+      "front": "Kto ufundował pierwszy uniwersytet w Polsce?",
+      "back": "Kazimierz III Wielki."
+    },
+    {
+      "id": "fc_core_069",
+      "topic": "history",
+      "front": "W którym roku powstał pierwszy uniwersytet w Polsce?",
+      "back": "W 1364 roku."
+    },
+    {
+      "id": "fc_core_070",
+      "topic": "history",
+      "front": "Kto został królem Polski w 1384 roku?",
+      "back": "Jadwiga Andegaweńska."
+    },
+    {
+      "id": "fc_core_071",
+      "topic": "history",
+      "front": "Kto został koronowany na władcę Polski w 1386 roku?",
+      "back": "Władysław II Jagiełło."
+    },
+    {
+      "id": "fc_core_072",
+      "topic": "history",
+      "front": "Co połączyła unia w Krewie?",
+      "back": "Polskę i Litwę."
+    },
+    {
+      "id": "fc_core_073",
+      "topic": "history",
+      "front": "W którym roku odbyła się bitwa pod Grunwaldem?",
+      "back": "W 1410 roku."
+    },
+    {
+      "id": "fc_core_074",
+      "topic": "history",
+      "front": "Co utworzyła unia lubelska w 1569 roku?",
+      "back": "Rzeczpospolitą Obojga Narodów."
+    },
+    {
+      "id": "fc_core_075",
+      "topic": "history",
+      "front": "Kto był ostatnim królem z dynastii Jagiellonów?",
+      "back": "Zygmunt II August."
+    },
+    {
+      "id": "fc_core_076",
+      "topic": "history",
+      "front": "Co wprowadzono w Polsce w 1573 roku?",
+      "back": "Wolną elekcję."
+    },
+    {
+      "id": "fc_core_077",
+      "topic": "history",
+      "front": "Czym był potop szwedzki?",
+      "back": "Wojną ze Szwecją w latach 1655-1660."
+    },
+    {
+      "id": "fc_core_078",
+      "topic": "history",
+      "front": "Kto zwyciężył Turków pod Wiedniem w 1683 roku?",
+      "back": "Jan III Sobieski."
+    },
+    {
+      "id": "fc_core_079",
+      "topic": "history",
+      "front": "Kiedy uchwalono Konstytucję 3 maja?",
+      "back": "3 maja 1791 roku."
+    },
+    {
+      "id": "fc_core_080",
+      "topic": "history",
+      "front": "Jakie znaczenie miała Konstytucja 3 maja?",
+      "back": "Była pierwszą konstytucją w Europie."
+    },
+    {
+      "id": "fc_core_081",
+      "topic": "history",
+      "front": "W jakich latach odbyły się trzy rozbiory Polski?",
+      "back": "1772, 1793 i 1795."
+    },
+    {
+      "id": "fc_core_082",
+      "topic": "history",
+      "front": "Jakie państwa dokonały rozbiorów Polski?",
+      "back": "Rosja, Prusy i Austria."
+    },
+    {
+      "id": "fc_core_083",
+      "topic": "history",
+      "front": "Na ile lat Polska zniknęła z mapy po III rozbiorze?",
+      "back": "Na 123 lata."
+    },
+    {
+      "id": "fc_core_084",
+      "topic": "history",
+      "front": "Kiedy wybuchło powstanie kościuszkowskie?",
+      "back": "W 1794 roku."
+    },
+    {
+      "id": "fc_core_085",
+      "topic": "history",
+      "front": "Kto był przywódcą powstania kościuszkowskiego?",
+      "back": "Tadeusz Kościuszko."
+    },
+    {
+      "id": "fc_core_086",
+      "topic": "history",
+      "front": "Kiedy trwało Powstanie Listopadowe?",
+      "back": "W latach 1830-1831."
+    },
+    {
+      "id": "fc_core_087",
+      "topic": "history",
+      "front": "Kiedy trwało Powstanie Styczniowe?",
+      "back": "W latach 1863-1864."
+    },
+    {
+      "id": "fc_core_088",
+      "topic": "history",
+      "front": "Kiedy Polska odzyskała niepodległość?",
+      "back": "11 listopada 1918 roku."
+    },
+    {
+      "id": "fc_core_089",
+      "topic": "history",
+      "front": "Kto objął władzę wojskową w Warszawie 11 listopada 1918 roku?",
+      "back": "Józef Piłsudski."
+    },
+    {
+      "id": "fc_core_090",
+      "topic": "history",
+      "front": "Jaki tytuł otrzymał Józef Piłsudski po odzyskaniu niepodległości?",
+      "back": "Naczelnik Państwa."
+    },
+    {
+      "id": "fc_core_091",
+      "topic": "history",
+      "front": "Jak nazywa się państwo polskie odrodzone w 1918 roku?",
+      "back": "II Rzeczpospolita."
+    },
+    {
+      "id": "fc_core_092",
+      "topic": "history",
+      "front": "Kiedy trwała wojna polsko-bolszewicka?",
+      "back": "W latach 1919-1921."
+    },
+    {
+      "id": "fc_core_093",
+      "topic": "history",
+      "front": "Jak nazywana jest Bitwa Warszawska z 1920 roku?",
+      "back": "Cud nad Wisłą."
+    },
+    {
+      "id": "fc_core_094",
+      "topic": "history",
+      "front": "Kiedy rozpoczęła się II wojna światowa?",
+      "back": "1 września 1939 roku."
+    },
+    {
+      "id": "fc_core_095",
+      "topic": "history",
+      "front": "Kto zaatakował Polskę 1 września 1939 roku?",
+      "back": "Niemcy."
+    },
+    {
+      "id": "fc_core_096",
+      "topic": "history",
+      "front": "Kiedy Związek Radziecki zaatakował Polskę?",
+      "back": "17 września 1939 roku."
+    },
+    {
+      "id": "fc_core_097",
+      "topic": "history",
+      "front": "Jak bywa nazywany pakt Ribbentrop-Mołotow?",
+      "back": "IV rozbiorem Polski."
+    },
+    {
+      "id": "fc_core_098",
+      "topic": "history",
+      "front": "Kiedy miała miejsce zbrodnia katyńska?",
+      "back": "W 1940 roku."
+    },
+    {
+      "id": "fc_core_099",
+      "topic": "history",
+      "front": "Kiedy wybuchło Powstanie Warszawskie?",
+      "back": "1 sierpnia 1944 roku."
+    },
+    {
+      "id": "fc_core_100",
+      "topic": "history",
+      "front": "Kiedy odbyła się bitwa o Monte Cassino?",
+      "back": "18 maja 1944 roku."
+    },
+    {
+      "id": "fc_core_101",
+      "topic": "history",
+      "front": "Kto dowodził Drugim Korpusem Polskim pod Monte Cassino?",
+      "back": "Generał Władysław Anders."
+    },
+    {
+      "id": "fc_core_102",
+      "topic": "history",
+      "front": "Co rozpoczęło się w Polsce po 1945 roku?",
+      "back": "Okres zależności od ZSRR i rządów komunistycznych."
+    },
+    {
+      "id": "fc_core_103",
+      "topic": "history",
+      "front": "Kiedy utworzono Polską Rzeczpospolitą Ludową?",
+      "back": "W 1952 roku."
+    },
+    {
+      "id": "fc_core_104",
+      "topic": "history",
+      "front": "Kiedy powstała Solidarność?",
+      "back": "W 1980 roku."
+    },
+    {
+      "id": "fc_core_105",
+      "topic": "history",
+      "front": "Gdzie powstała Solidarność?",
+      "back": "W Gdańsku."
+    },
+    {
+      "id": "fc_core_106",
+      "topic": "history",
+      "front": "Kto był przywódcą Solidarności?",
+      "back": "Lech Wałęsa."
+    },
+    {
+      "id": "fc_core_107",
+      "topic": "history",
+      "front": "Kiedy wprowadzono stan wojenny w Polsce?",
+      "back": "13 grudnia 1981 roku."
+    },
+    {
+      "id": "fc_core_108",
+      "topic": "history",
+      "front": "Kiedy odbyły się obrady Okrągłego Stołu?",
+      "back": "Od 6 lutego do 5 kwietnia 1989 roku."
+    },
+    {
+      "id": "fc_core_109",
+      "topic": "history",
+      "front": "Co wydarzyło się 4 czerwca 1989 roku?",
+      "back": "Odbyły się częściowo wolne wybory parlamentarne."
+    },
+    {
+      "id": "fc_core_110",
+      "topic": "history",
+      "front": "Kiedy powstała III Rzeczpospolita?",
+      "back": "W 1989 roku."
+    },
+    {
+      "id": "fc_core_111",
+      "topic": "history",
+      "front": "Kiedy Polska wstąpiła do NATO?",
+      "back": "12 marca 1999 roku."
+    },
+    {
+      "id": "fc_core_112",
+      "topic": "history",
+      "front": "Kiedy Polska wstąpiła do Unii Europejskiej?",
+      "back": "1 maja 2004 roku."
+    },
+    {
+      "id": "fc_core_113",
+      "topic": "history",
+      "front": "Jaką formą państwa jest Polska według ustroju?",
+      "back": "Republiką parlamentarną."
+    },
+    {
+      "id": "fc_core_114",
+      "topic": "history",
+      "front": "Ile izb ma parlament Polski?",
+      "back": "Dwie: Sejm i Senat."
+    },
+    {
+      "id": "fc_core_115",
+      "topic": "history",
+      "front": "Ilu posłów ma Sejm?",
+      "back": "460 posłów."
+    },
+    {
+      "id": "fc_core_116",
+      "topic": "history",
+      "front": "Ilu senatorów ma Senat?",
+      "back": "100 senatorów."
+    },
+    {
+      "id": "fc_core_117",
+      "topic": "history",
+      "front": "Co tworzy władzę ustawodawczą w Polsce?",
+      "back": "Sejm i Senat."
+    },
+    {
+      "id": "fc_core_118",
+      "topic": "history",
+      "front": "Co tworzy władzę wykonawczą w Polsce?",
+      "back": "Rada Ministrów i Prezydent."
+    },
+    {
+      "id": "fc_core_119",
+      "topic": "history",
+      "front": "Co tworzy władzę sądowniczą w Polsce?",
+      "back": "Sądy i trybunały."
+    },
+    {
+      "id": "fc_core_120",
+      "topic": "history",
+      "front": "Kto był pierwszym prezydentem Polski?",
+      "back": "Gabriel Narutowicz."
+    },
+    {
+      "id": "fc_core_121",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Niepodległości?",
+      "back": "11 listopada."
+    },
+    {
+      "id": "fc_core_122",
+      "topic": "culture",
+      "front": "Co upamiętnia Dzień Niepodległości?",
+      "back": "Odzyskanie przez Polskę niepodległości w 1918 roku."
+    },
+    {
+      "id": "fc_core_123",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Święto Konstytucji 3 maja?",
+      "back": "3 maja."
+    },
+    {
+      "id": "fc_core_124",
+      "topic": "culture",
+      "front": "Co upamiętnia Święto Konstytucji 3 maja?",
+      "back": "Uchwalenie Konstytucji 3 maja w 1791 roku."
+    },
+    {
+      "id": "fc_core_125",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Flagi Polskiej?",
+      "back": "2 maja."
+    },
+    {
+      "id": "fc_core_126",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Polonii i Polaków za Granicą?",
+      "back": "2 maja."
+    },
+    {
+      "id": "fc_core_127",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Wojska Polskiego?",
+      "back": "15 sierpnia."
+    },
+    {
+      "id": "fc_core_128",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Narodowy Dzień Pamięci Powstania Warszawskiego?",
+      "back": "1 sierpnia."
+    },
+    {
+      "id": "fc_core_129",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Boże Narodzenie?",
+      "back": "25 grudnia."
+    },
+    {
+      "id": "fc_core_130",
+      "topic": "culture",
+      "front": "Kiedy przypada Wigilia Bożego Narodzenia?",
+      "back": "24 grudnia."
+    },
+    {
+      "id": "fc_core_131",
+      "topic": "culture",
+      "front": "Kiedy tradycyjnie zaczyna się wieczerza wigilijna?",
+      "back": "Wraz z pierwszą gwiazdką."
+    },
+    {
+      "id": "fc_core_132",
+      "topic": "culture",
+      "front": "Ile potraw przygotowuje się tradycyjnie na Wigilię?",
+      "back": "12 potraw."
+    },
+    {
+      "id": "fc_core_133",
+      "topic": "culture",
+      "front": "Co oznacza pusty talerz na stole wigilijnym?",
+      "back": "Miejsce dla nieoczekiwanego gościa lub pamięć o zmarłych."
+    },
+    {
+      "id": "fc_core_134",
+      "topic": "culture",
+      "front": "Czym dzielą się Polacy podczas Wigilii?",
+      "back": "Opłatkiem."
+    },
+    {
+      "id": "fc_core_135",
+      "topic": "culture",
+      "front": "Jak nazywa się pierwsza msza związana z Bożym Narodzeniem?",
+      "back": "Pasterka."
+    },
+    {
+      "id": "fc_core_136",
+      "topic": "culture",
+      "front": "Co wkłada się pod obrus wigilijny?",
+      "back": "Sianko."
+    },
+    {
+      "id": "fc_core_137",
+      "topic": "culture",
+      "front": "Kiedy obchodzone są Mikołajki?",
+      "back": "6 grudnia."
+    },
+    {
+      "id": "fc_core_138",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Święto Trzech Króli?",
+      "back": "6 stycznia."
+    },
+    {
+      "id": "fc_core_139",
+      "topic": "culture",
+      "front": "Jakie imiona noszą Trzej Królowie?",
+      "back": "Kacper, Melchior i Baltazar."
+    },
+    {
+      "id": "fc_core_140",
+      "topic": "culture",
+      "front": "Co pisze się na drzwiach w Święto Trzech Króli?",
+      "back": "K+M+B albo C+M+B oraz aktualny rok."
+    },
+    {
+      "id": "fc_core_141",
+      "topic": "culture",
+      "front": "Co rozpoczyna Środa Popielcowa?",
+      "back": "Wielki Post."
+    },
+    {
+      "id": "fc_core_142",
+      "topic": "culture",
+      "front": "Ile dni trwa Wielki Post?",
+      "back": "40 dni."
+    },
+    {
+      "id": "fc_core_143",
+      "topic": "culture",
+      "front": "Co upamiętnia Niedziela Palmowa?",
+      "back": "Wjazd Chrystusa do Jerozolimy."
+    },
+    {
+      "id": "fc_core_144",
+      "topic": "culture",
+      "front": "Co obejmuje Triduum Paschalne?",
+      "back": "Wielki Czwartek, Wielki Piątek i Wielką Sobotę."
+    },
+    {
+      "id": "fc_core_145",
+      "topic": "culture",
+      "front": "Jakie jest najważniejsze święto chrześcijańskie?",
+      "back": "Wielkanoc."
+    },
+    {
+      "id": "fc_core_146",
+      "topic": "culture",
+      "front": "Co oznacza Wielkanoc?",
+      "back": "Zmartwychwstanie Pańskie."
+    },
+    {
+      "id": "fc_core_147",
+      "topic": "culture",
+      "front": "Czym jest święconka?",
+      "back": "Pokarmem święconym w koszyku wielkanocnym."
+    },
+    {
+      "id": "fc_core_148",
+      "topic": "culture",
+      "front": "Co symbolizuje baranek wielkanocny?",
+      "back": "Zmartwychwstałego Jezusa."
+    },
+    {
+      "id": "fc_core_149",
+      "topic": "culture",
+      "front": "Co symbolizują jajka w koszyku wielkanocnym?",
+      "back": "Nowe życie."
+    },
+    {
+      "id": "fc_core_150",
+      "topic": "culture",
+      "front": "Jakie są rodzaje ozdabianych jajek wielkanocnych?",
+      "back": "Pisanki, kraszanki, nalepianki, drapanki i oklejanki."
+    },
+    {
+      "id": "fc_core_151",
+      "topic": "culture",
+      "front": "Czym jest Lany Poniedziałek?",
+      "back": "Drugim dniem Wielkanocy, czyli Śmigusem-dyngusem."
+    },
+    {
+      "id": "fc_core_152",
+      "topic": "culture",
+      "front": "Na czym polega Śmigus-dyngus?",
+      "back": "Na wzajemnym oblewaniu się wodą."
+    },
+    {
+      "id": "fc_core_153",
+      "topic": "culture",
+      "front": "Kiedy obchodzone są Zielone Świątki?",
+      "back": "50 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_core_154",
+      "topic": "culture",
+      "front": "Kiedy przypada Boże Ciało?",
+      "back": "60 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_core_155",
+      "topic": "culture",
+      "front": "Co odbywa się w Boże Ciało?",
+      "back": "Procesja do czterech ołtarzy."
+    },
+    {
+      "id": "fc_core_156",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Wszystkich Świętych?",
+      "back": "1 listopada."
+    },
+    {
+      "id": "fc_core_157",
+      "topic": "culture",
+      "front": "Co robią Polacy w uroczystość Wszystkich Świętych?",
+      "back": "Odwiedzają cmentarze i modlą się za zmarłych."
+    },
+    {
+      "id": "fc_core_158",
+      "topic": "culture",
+      "front": "Kiedy topi się Marzannę?",
+      "back": "21 marca."
+    },
+    {
+      "id": "fc_core_159",
+      "topic": "culture",
+      "front": "Co symbolizuje topienie Marzanny?",
+      "back": "Pożegnanie zimy i początek wiosny."
+    },
+    {
+      "id": "fc_core_160",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest prima aprilis?",
+      "back": "1 kwietnia."
+    },
+    {
+      "id": "fc_core_161",
+      "topic": "culture",
+      "front": "Czym jest prima aprilis?",
+      "back": "Dniem żartów."
+    },
+    {
+      "id": "fc_core_162",
+      "topic": "culture",
+      "front": "Kiedy obchodzone są andrzejki?",
+      "back": "Z 29 na 30 listopada."
+    },
+    {
+      "id": "fc_core_163",
+      "topic": "culture",
+      "front": "Czym są andrzejki?",
+      "back": "Wróżbami dziewczyn o chłopaków."
+    },
+    {
+      "id": "fc_core_164",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Matki?",
+      "back": "26 maja."
+    },
+    {
+      "id": "fc_core_165",
+      "topic": "culture",
+      "front": "Kiedy obchodzony jest Dzień Ojca?",
+      "back": "23 czerwca."
+    },
+    {
+      "id": "fc_core_166",
+      "topic": "famous-poles",
+      "front": "Kto stworzył teorię heliocentryczną?",
+      "back": "Mikołaj Kopernik."
+    },
+    {
+      "id": "fc_core_167",
+      "topic": "famous-poles",
+      "front": "Na czym polega teoria heliocentryczna Kopernika?",
+      "back": "Słońce jest centrum układu, a Ziemia krąży wokół Słońca."
+    },
+    {
+      "id": "fc_core_168",
+      "topic": "famous-poles",
+      "front": "Kto była pierwszą kobietą wyróżnioną Nagrodą Nobla?",
+      "back": "Maria Skłodowska-Curie."
+    },
+    {
+      "id": "fc_core_169",
+      "topic": "famous-poles",
+      "front": "Ile Nagród Nobla otrzymała Maria Skłodowska-Curie?",
+      "back": "Dwie."
+    },
+    {
+      "id": "fc_core_170",
+      "topic": "famous-poles",
+      "front": "Za jakie dziedziny Maria Skłodowska-Curie otrzymała Nagrody Nobla?",
+      "back": "Za fizykę i chemię."
+    },
+    {
+      "id": "fc_core_171",
+      "topic": "famous-poles",
+      "front": "Jakie pierwiastki odkryła Maria Skłodowska-Curie?",
+      "back": "Polon i rad."
+    },
+    {
+      "id": "fc_core_172",
+      "topic": "famous-poles",
+      "front": "Kto jest najwybitniejszym polskim kompozytorem i pianistą według materiału?",
+      "back": "Fryderyk Chopin."
+    },
+    {
+      "id": "fc_core_173",
+      "topic": "famous-poles",
+      "front": "Gdzie urodził się Fryderyk Chopin?",
+      "back": "W Żelazowej Woli."
+    },
+    {
+      "id": "fc_core_174",
+      "topic": "famous-poles",
+      "front": "Kto skomponował opery Halka i Straszny dwór?",
+      "back": "Stanisław Moniuszko."
+    },
+    {
+      "id": "fc_core_175",
+      "topic": "famous-poles",
+      "front": "Kto był najsławniejszym polskim malarzem historycznym?",
+      "back": "Jan Matejko."
+    },
+    {
+      "id": "fc_core_176",
+      "topic": "famous-poles",
+      "front": "Jaki słynny obraz historyczny namalował Jan Matejko?",
+      "back": "Bitwę pod Grunwaldem."
+    },
+    {
+      "id": "fc_core_177",
+      "topic": "famous-poles",
+      "front": "Kto napisał Pana Tadeusza?",
+      "back": "Adam Mickiewicz."
+    },
+    {
+      "id": "fc_core_178",
+      "topic": "famous-poles",
+      "front": "Kto napisał Dziady?",
+      "back": "Adam Mickiewicz."
+    },
+    {
+      "id": "fc_core_179",
+      "topic": "famous-poles",
+      "front": "Kto jest autorem Trylogii: Ogniem i mieczem, Potop i Pan Wołodyjowski?",
+      "back": "Henryk Sienkiewicz."
+    },
+    {
+      "id": "fc_core_180",
+      "topic": "famous-poles",
+      "front": "Za co Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla?",
+      "back": "Za twórczość literacką, szczególnie Quo vadis."
+    },
+    {
+      "id": "fc_core_181",
+      "topic": "famous-poles",
+      "front": "Kto otrzymał Nobla za powieść Chłopi?",
+      "back": "Władysław Reymont."
+    },
+    {
+      "id": "fc_core_182",
+      "topic": "famous-poles",
+      "front": "Kto został uznany za ojca języka polskiego?",
+      "back": "Mikołaj Rej."
+    },
+    {
+      "id": "fc_core_183",
+      "topic": "famous-poles",
+      "front": "Kto napisał Rotę?",
+      "back": "Maria Konopnicka."
+    },
+    {
+      "id": "fc_core_184",
+      "topic": "famous-poles",
+      "front": "Kto napisał Kordiana i Balladynę?",
+      "back": "Juliusz Słowacki."
+    },
+    {
+      "id": "fc_core_185",
+      "topic": "famous-poles",
+      "front": "Kto był poetą polskiego renesansu?",
+      "back": "Jan Kochanowski."
+    },
+    {
+      "id": "fc_core_186",
+      "topic": "famous-poles",
+      "front": "Kto jest autorem Lalki i Faraona?",
+      "back": "Bolesław Prus."
+    },
+    {
+      "id": "fc_core_187",
+      "topic": "famous-poles",
+      "front": "Kto był Pierwszym Marszałkiem Polski?",
+      "back": "Józef Piłsudski."
+    },
+    {
+      "id": "fc_core_188",
+      "topic": "famous-poles",
+      "front": "Kto był liderem Solidarności i laureatem Pokojowej Nagrody Nobla?",
+      "back": "Lech Wałęsa."
+    },
+    {
+      "id": "fc_core_189",
+      "topic": "famous-poles",
+      "front": "Kiedy Lech Wałęsa otrzymał Pokojową Nagrodę Nobla?",
+      "back": "W 1983 roku."
+    },
+    {
+      "id": "fc_core_190",
+      "topic": "famous-poles",
+      "front": "Kim był Jan Paweł II przed wyborem na papieża?",
+      "back": "Karolem Wojtyłą."
+    },
+    {
+      "id": "fc_core_191",
+      "topic": "famous-poles",
+      "front": "Kto był pierwszym papieżem Słowianinem?",
+      "back": "Jan Paweł II."
+    },
+    {
+      "id": "fc_core_192",
+      "topic": "famous-poles",
+      "front": "Kiedy kanonizowano Jana Pawła II?",
+      "back": "27 kwietnia 2014 roku."
+    },
+    {
+      "id": "fc_core_193",
+      "topic": "famous-poles",
+      "front": "Kto jest patronem Polski według materiału?",
+      "back": "Święty Wojciech."
+    },
+    {
+      "id": "fc_core_194",
+      "topic": "famous-poles",
+      "front": "Kim był Jerzy Popiełuszko?",
+      "back": "Kapelanem warszawskiej Solidarności."
+    },
+    {
+      "id": "fc_core_195",
+      "topic": "famous-poles",
+      "front": "Która polska pisarka otrzymała Nobla za rok 2018?",
+      "back": "Olga Tokarczuk."
+    },
+    {
+      "id": "fc_core_196",
+      "topic": "culture",
+      "front": "Jakie są przykłady znanych polskich potraw narodowych?",
+      "back": "Bigos, żurek i flaczki."
+    },
+    {
+      "id": "fc_core_197",
+      "topic": "culture",
+      "front": "Z czego przygotowuje się bigos?",
+      "back": "Z kapusty oraz kawałków mięsa lub kiełbasy."
+    },
+    {
+      "id": "fc_core_198",
+      "topic": "culture",
+      "front": "Czym jest żurek?",
+      "back": "Zupą na zakwasie żytnim."
+    },
+    {
+      "id": "fc_core_199",
+      "topic": "culture",
+      "front": "Czym są flaczki?",
+      "back": "Gęstą zupą z paskami flaków wołowych."
+    },
+    {
+      "id": "fc_core_200",
+      "topic": "culture",
+      "front": "Jakie są popularne polskie słodkości?",
+      "back": "Makowiec, sernik, szarlotka, pączki i faworki."
+    }
+  ]
+}
