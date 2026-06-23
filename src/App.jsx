@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Topics from './pages/Topics';
 import TopicDetail from './pages/TopicDetail';
 import Quiz from './pages/Quiz';
+import Flipcards from './pages/Flipcards';
+import QuizEngine from './pages/QuizEngine';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="/topics" element={<Topics />} />
           <Route path="/topics/:topicId" element={<TopicDetail />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/quiz/flashcards" element={<Flipcards />} />
+          <Route path="/quiz/test" element={<QuizEngine />} />
         </Route>
       </Routes>
     </BrowserRouter>

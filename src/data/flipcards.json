@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "fc1",
+      "topic": "history",
+      "front": "W którym roku odbył się chrzest Polski?",
+      "back": "W 966 roku."
+    },
+    {
+      "id": "fc2",
+      "topic": "history",
+      "front": "Kto i w którym roku był pierwszym koronowanym królem Polski?",
+      "back": "Bolesław I Chrobry w 1025 roku."
+    },
+    {
+      "id": "fc3",
+      "topic": "symbols",
+      "front": "Jak wygląda godło Polski?",
+      "back": "To wizerunek białego orła w złotej koronie na czerwonym tle."
+    },
+    {
+      "id": "fc4",
+      "topic": "symbols",
+      "front": "Kto napisał słowa hymnu polskiego (Mazurka Dąbrowskiego)?",
+      "back": "Józef Wybicki."
+    },
+    {
+      "id": "fc5",
+      "topic": "culture",
+      "front": "Ile tradycyjnych potraw podaje się podczas Wigilii?",
+      "back": "Tradycyjnie podaje się 12 potraw."
+    },
+    {
+      "id": "fc6",
+      "topic": "geography",
+      "front": "Jaka jest najdłuższa rzeka w Polsce?",
+      "back": "Wisła (1047 km)."
+    }
+  ]
+}

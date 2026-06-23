@@ -1,0 +1,217 @@
+/* ===== Flipcards Page ===== */
+.flipcards-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flipcards__header {
+  margin-bottom: var(--space-xl);
+}
+
+.flipcards__back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--space-lg);
+}
+
+.flipcards__back:hover {
+  color: var(--text-primary);
+}
+
+.flipcards__title {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-md);
+}
+
+.flipcards__filter {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--bg-secondary);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.flipcards__filter label {
+  color: var(--text-secondary);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-sm);
+}
+
+.flipcards__filter select {
+  background: transparent;
+  color: var(--text-primary);
+  border: none;
+  font-size: var(--fs-base);
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  flex: 1;
+}
+
+.flipcards__empty {
+  text-align: center;
+  padding: var(--space-3xl) var(--space-xl);
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--border);
+}
+
+/* ===== Flipcard 3D Logic ===== */
+.flipcards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.flipcards__counter {
+  color: var(--text-tertiary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.flipcard {
+  width: 100%;
+  height: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flipcard__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-xl);
+}
+
+.flipcard--flipped .flipcard__inner {
+  transform: rotateY(180deg);
+}
+
+.flipcard__front,
+.flipcard__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-2xl);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+}
+
+.flipcard__front {
+  color: var(--text-primary);
+}
+
+.flipcard__back {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  transform: rotateY(180deg);
+  border-color: var(--accent);
+}
+
+.flipcard__topic-badge {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  background: var(--bg-primary);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+}
+
+.flipcard__text {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+  line-height: 1.4;
+}
+
+.flipcard__back .flipcard__text {
+  color: var(--accent);
+}
+
+.flipcard__hint {
+  position: absolute;
+  bottom: var(--space-md);
+  color: var(--text-tertiary);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+}
+
+/* ===== Controls ===== */
+.flipcards__controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+.flipcards__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-md) var(--space-xl);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-base);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex: 1;
+}
+
+.flipcards__btn:hover {
+  background: var(--bg-tertiary);
+}
+
+.flipcards__btn--primary {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.flipcards__btn--primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+@media (max-width: 600px) {
+  .flipcard {
+    height: 300px;
+  }
+  
+  .flipcard__text {
+    font-size: var(--fs-lg);
+  }
+}
