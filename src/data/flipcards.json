@@ -1,40 +1,5266 @@
 {
   "cards": [
     {
-      "id": "fc1",
-      "topic": "history",
-      "front": "W którym roku odbył się chrzest Polski?",
-      "back": "W 966 roku."
-    },
-    {
-      "id": "fc2",
-      "topic": "history",
-      "front": "Kto i w którym roku był pierwszym koronowanym królem Polski?",
-      "back": "Bolesław I Chrobry w 1025 roku."
-    },
-    {
-      "id": "fc3",
+      "id": "fc_0001",
       "topic": "symbols",
-      "front": "Jak wygląda godło Polski?",
-      "back": "To wizerunek białego orła w złotej koronie na czerwonym tle."
+      "front": "Co jest godłem Polski?",
+      "back": "Orzeł Biały na czerwonym tle."
     },
     {
-      "id": "fc4",
+      "id": "fc_0002",
       "topic": "symbols",
-      "front": "Kto napisał słowa hymnu polskiego (Mazurka Dąbrowskiego)?",
+      "front": "Co ma Orzeł?",
+      "back": "Złotą koronę, złote szpony i złoty dziób."
+    },
+    {
+      "id": "fc_0003",
+      "topic": "symbols",
+      "front": "Co wprowadził Przemysł II?",
+      "back": "Wizerunek białego orła do godła państwowego."
+    },
+    {
+      "id": "fc_0004",
+      "topic": "symbols",
+      "front": "Co obchodzone jest 26 czerwca?",
+      "back": "Rocznica ustanowienia godła."
+    },
+    {
+      "id": "fc_0005",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1295?",
+      "back": "Przemysł II wprowadził wizerunek białego orła do godła państwowego."
+    },
+    {
+      "id": "fc_0006",
+      "topic": "symbols",
+      "front": "Kiedy: Przemysł II wprowadził wizerunek białego orła do godła państwowego?",
+      "back": "1295."
+    },
+    {
+      "id": "fc_0007",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 26 czerwca?",
+      "back": "Dzień koronacji Przemysła II i rocznica ustanowienia godła."
+    },
+    {
+      "id": "fc_0008",
+      "topic": "symbols",
+      "front": "Kiedy: Dzień koronacji Przemysła II i rocznica ustanowienia godła?",
+      "back": "26 czerwca."
+    },
+    {
+      "id": "fc_0009",
+      "topic": "symbols",
+      "front": "Kim był(a) / jest Przemysł II?",
+      "back": "Król Polski z dynastii Piastów, który wprowadził wizerunek orła białego do godła państwowego."
+    },
+    {
+      "id": "fc_0010",
+      "topic": "symbols",
+      "front": "Czym / kim jest Lech?",
+      "back": "Legendarnym założycielem Polski."
+    },
+    {
+      "id": "fc_0011",
+      "topic": "symbols",
+      "front": "Od czego Gniezno według legendy otrzymało nazwę?",
+      "back": "Gniazda orłów."
+    },
+    {
+      "id": "fc_0012",
+      "topic": "symbols",
+      "front": "Czym stał się Biały orzeł?",
+      "back": "Symbolem Polski."
+    },
+    {
+      "id": "fc_0013",
+      "topic": "symbols",
+      "front": "Kim był(a) Gniezno?",
+      "back": "Pierwszą stolicą Polski."
+    },
+    {
+      "id": "fc_0014",
+      "topic": "symbols",
+      "front": "Kim był(a) / jest Lech?",
+      "back": "Mityczny założyciel Polski."
+    },
+    {
+      "id": "fc_0015",
+      "topic": "symbols",
+      "front": "Kim był(a) / jest Czech?",
+      "back": "Legendarny brat Lecha."
+    },
+    {
+      "id": "fc_0016",
+      "topic": "symbols",
+      "front": "Kim był(a) / jest Rus?",
+      "back": "Legendarny brat Lecha."
+    },
+    {
+      "id": "fc_0017",
+      "topic": "symbols",
+      "front": "Co ma Flaga Polski?",
+      "back": "Dwa kolory: biały i czerwony."
+    },
+    {
+      "id": "fc_0018",
+      "topic": "symbols",
+      "front": "Gdzie znajduje się Biały kolor?",
+      "back": "Na górze flagi."
+    },
+    {
+      "id": "fc_0019",
+      "topic": "symbols",
+      "front": "Gdzie znajduje się Czerwony kolor?",
+      "back": "Na dole flagi."
+    },
+    {
+      "id": "fc_0020",
+      "topic": "symbols",
+      "front": "Co oznacza Biel?",
+      "back": "Czystość intencji, a czerwień odwagę i waleczność."
+    },
+    {
+      "id": "fc_0021",
+      "topic": "symbols",
+      "front": "Co jest hymnem Polski?",
+      "back": "„Mazurek Dąbrowskiego”."
+    },
+    {
+      "id": "fc_0022",
+      "topic": "symbols",
+      "front": "Co jest autorem słów hymnu?",
       "back": "Józef Wybicki."
     },
     {
-      "id": "fc5",
-      "topic": "culture",
-      "front": "Ile tradycyjnych potraw podaje się podczas Wigilii?",
-      "back": "Tradycyjnie podaje się 12 potraw."
+      "id": "fc_0023",
+      "topic": "symbols",
+      "front": "Czym / kim jest Autor melodii?",
+      "back": "Nieznany."
     },
     {
-      "id": "fc6",
+      "id": "fc_0024",
+      "topic": "symbols",
+      "front": "Czym / kim jest Melodia hymnu oparta?",
+      "back": "Na motywach mazurka."
+    },
+    {
+      "id": "fc_0025",
+      "topic": "symbols",
+      "front": "Kim był(a) Pieśń?",
+      "back": "Śpiewana przez Polaków w czasie powstań, emigracji i wojen."
+    },
+    {
+      "id": "fc_0026",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1797?",
+      "back": "Powstała pieśń „Pieśń Legionów Polskich we Włoszech”."
+    },
+    {
+      "id": "fc_0027",
+      "topic": "symbols",
+      "front": "Kiedy: Powstała pieśń „Pieśń Legionów Polskich we Włoszech”?",
+      "back": "1797."
+    },
+    {
+      "id": "fc_0028",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 26 lutego 1927?",
+      "back": "„Mazurek Dąbrowskiego” został oficjalnym hymnem Polski."
+    },
+    {
+      "id": "fc_0029",
+      "topic": "symbols",
+      "front": "Kiedy: „Mazurek Dąbrowskiego” został oficjalnym hymnem Polski?",
+      "back": "26 lutego 1927."
+    },
+    {
+      "id": "fc_0030",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1830-1831?",
+      "back": "Pieśń zagrzewała do walki powstańców listopadowych."
+    },
+    {
+      "id": "fc_0031",
+      "topic": "symbols",
+      "front": "Kiedy: Pieśń zagrzewała do walki powstańców listopadowych?",
+      "back": "1830-1831."
+    },
+    {
+      "id": "fc_0032",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1863-1864?",
+      "back": "Pieśń była śpiewana podczas powstania styczniowego."
+    },
+    {
+      "id": "fc_0033",
+      "topic": "symbols",
+      "front": "Kiedy: Pieśń była śpiewana podczas powstania styczniowego?",
+      "back": "1863-1864."
+    },
+    {
+      "id": "fc_0034",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1905-1907?",
+      "back": "Pieśń śpiewali uczestnicy rewolucji."
+    },
+    {
+      "id": "fc_0035",
+      "topic": "symbols",
+      "front": "Kiedy: Pieśń śpiewali uczestnicy rewolucji?",
+      "back": "1905-1907."
+    },
+    {
+      "id": "fc_0036",
+      "topic": "symbols",
+      "front": "Co wydarzyło się: 1848?",
+      "back": "Podczas Wiosny Ludów pieśń śpiewano między innymi w Pradze, Wiedniu i Berlinie."
+    },
+    {
+      "id": "fc_0037",
+      "topic": "symbols",
+      "front": "Kiedy: Podczas Wiosny Ludów pieśń śpiewano między innymi w Pradze, Wiedniu i Berlinie?",
+      "back": "1848."
+    },
+    {
+      "id": "fc_0038",
+      "topic": "symbols",
+      "front": "Kim był(a) / jest Józef Wybicki?",
+      "back": "Autor słów hymnu Polski."
+    },
+    {
+      "id": "fc_0039",
       "topic": "geography",
-      "front": "Jaka jest najdłuższa rzeka w Polsce?",
-      "back": "Wisła (1047 km)."
+      "front": "Co jest stolicą Polski?",
+      "back": "Warszawa."
+    },
+    {
+      "id": "fc_0040",
+      "topic": "geography",
+      "front": "Kim był(a) Pierwszą stolicą Polski?",
+      "back": "Gniezno."
+    },
+    {
+      "id": "fc_0041",
+      "topic": "geography",
+      "front": "Kim był(a) Drugą stolicą Polski?",
+      "back": "Kraków."
+    },
+    {
+      "id": "fc_0042",
+      "topic": "geography",
+      "front": "Z czym graniczy Polska?",
+      "back": "Siedmioma państwami."
+    },
+    {
+      "id": "fc_0043",
+      "topic": "geography",
+      "front": "Z czym graniczy Od zachodu Polska?",
+      "back": "Niemcami."
+    },
+    {
+      "id": "fc_0044",
+      "topic": "geography",
+      "front": "Z czym graniczy Od południa Polska?",
+      "back": "Czechami i Słowacją."
+    },
+    {
+      "id": "fc_0045",
+      "topic": "geography",
+      "front": "Z czym graniczy Od wschodu Polska?",
+      "back": "Ukrainą i Białorusią."
+    },
+    {
+      "id": "fc_0046",
+      "topic": "geography",
+      "front": "Z czym graniczy Od północy Polska?",
+      "back": "Litwą i Rosją, czyli obwodem kaliningradzkim."
+    },
+    {
+      "id": "fc_0047",
+      "topic": "geography",
+      "front": "Jakie są najdłuższe rzeki Polski?",
+      "back": "Wisła, Odra, Warta i Bug."
+    },
+    {
+      "id": "fc_0048",
+      "topic": "geography",
+      "front": "Jakie są największe jeziora?",
+      "back": "Śniardwy i Mamry."
+    },
+    {
+      "id": "fc_0049",
+      "topic": "geography",
+      "front": "Co jest najgłębszym jeziorem?",
+      "back": "Hańcza."
+    },
+    {
+      "id": "fc_0050",
+      "topic": "geography",
+      "front": "Nad czym leży Polska?",
+      "back": "Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_0051",
+      "topic": "geography",
+      "front": "Co tworzą Gdańsk, Gdynia i Sopot?",
+      "back": "Trójmiasto."
+    },
+    {
+      "id": "fc_0052",
+      "topic": "geography",
+      "front": "Jakie są najwyższy szczyt Tatr?",
+      "back": "Rysy."
+    },
+    {
+      "id": "fc_0053",
+      "topic": "geography",
+      "front": "Jakie są najwyższy szczyt Sudetów?",
+      "back": "Śnieżka."
+    },
+    {
+      "id": "fc_0054",
+      "topic": "geography",
+      "front": "Ile parków narodowych jest w Polsce?",
+      "back": "23 parki narodowe."
+    },
+    {
+      "id": "fc_0055",
+      "topic": "geography",
+      "front": "Co ma Pustynia Błędowska?",
+      "back": "Około 33 km²."
+    },
+    {
+      "id": "fc_0056",
+      "topic": "geography",
+      "front": "Czym / kim jest Pustynia Błędowska?",
+      "back": "Największym obszarem lotnych piasków w Polsce i jednym z największych tego typu obszarów w Europie."
+    },
+    {
+      "id": "fc_0057",
+      "topic": "geography",
+      "front": "Czym / kim jest Ważne zabytki średniowieczne?",
+      "back": "Wawel, Kościół Mariacki, Sukiennice i Zamek Krzyżacki w Malborku."
+    },
+    {
+      "id": "fc_0058",
+      "topic": "geography",
+      "front": "Na co dzieli się Polska?",
+      "back": "16 województw."
+    },
+    {
+      "id": "fc_0059",
+      "topic": "geography",
+      "front": "Co jest stolicą województwa mazowieckiego?",
+      "back": "Warszawa."
+    },
+    {
+      "id": "fc_0060",
+      "topic": "geography",
+      "front": "Co jest stolicą województwa małopolskiego?",
+      "back": "Kraków."
+    },
+    {
+      "id": "fc_0061",
+      "topic": "geography",
+      "front": "Co jest stolicą województwa wielkopolskiego?",
+      "back": "Poznań."
+    },
+    {
+      "id": "fc_0062",
+      "topic": "geography",
+      "front": "Co ma Województwo kujawsko-pomorskie?",
+      "back": "Dwie stolice: Bydgoszcz i Toruń."
+    },
+    {
+      "id": "fc_0063",
+      "topic": "geography",
+      "front": "Co ma Województwo lubuskie?",
+      "back": "Dwie stolice: Gorzów Wielkopolski i Zieloną Górę."
+    },
+    {
+      "id": "fc_0064",
+      "topic": "geography",
+      "front": "Czym / kim jest Warszawa?",
+      "back": "Największym miastem Polski."
+    },
+    {
+      "id": "fc_0065",
+      "topic": "geography",
+      "front": "Nad czym leży Warszawa?",
+      "back": "Wisłą."
+    },
+    {
+      "id": "fc_0066",
+      "topic": "geography",
+      "front": "Co przeniósł Zygmunt III Waza?",
+      "back": "Stolicę z Krakowa do Warszawy."
+    },
+    {
+      "id": "fc_0067",
+      "topic": "geography",
+      "front": "Co znajduje się w Warszawie?",
+      "back": "Zamek Królewski."
+    },
+    {
+      "id": "fc_0068",
+      "topic": "geography",
+      "front": "Co znajduje się w Kościele Świętego Krzyża?",
+      "back": "Serce Fryderyka Chopina."
+    },
+    {
+      "id": "fc_0069",
+      "topic": "geography",
+      "front": "Co jest symbolem Warszawy?",
+      "back": "Syrenka."
+    },
+    {
+      "id": "fc_0070",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Zygmunt III Waza?",
+      "back": "Król, który przeniósł stolicę z Krakowa do Warszawy."
+    },
+    {
+      "id": "fc_0071",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Józef Poniatowski?",
+      "back": "Postać upamiętniona pomnikiem konnym na Krakowskim Przedmieściu."
+    },
+    {
+      "id": "fc_0072",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Adam Mickiewicz?",
+      "back": "Polski poeta upamiętniony pomnikiem w Warszawie."
+    },
+    {
+      "id": "fc_0073",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Mikołaj Kopernik?",
+      "back": "Uczony upamiętniony pomnikiem w Warszawie."
+    },
+    {
+      "id": "fc_0074",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Fryderyk Chopin?",
+      "back": "Kompozytor, którego serce znajduje się w Kościele Świętego Krzyża."
+    },
+    {
+      "id": "fc_0075",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Władysław Reymont?",
+      "back": "Pisarz, którego serce znajduje się w Kościele Świętego Krzyża."
+    },
+    {
+      "id": "fc_0076",
+      "topic": "geography",
+      "front": "Nad czym leży Kraków?",
+      "back": "Wisłą."
+    },
+    {
+      "id": "fc_0077",
+      "topic": "geography",
+      "front": "Kim był(a) Kraków?",
+      "back": "Dawną stolicą Polski."
+    },
+    {
+      "id": "fc_0078",
+      "topic": "geography",
+      "front": "Co ma Kościół Mariacki?",
+      "back": "Ołtarz Wita Stwosza."
+    },
+    {
+      "id": "fc_0079",
+      "topic": "geography",
+      "front": "Kim był(a) Wawel?",
+      "back": "Rezydencją Jagiellonów."
+    },
+    {
+      "id": "fc_0080",
+      "topic": "geography",
+      "front": "Kim był(a) Katedra na Wawelu?",
+      "back": "Miejscem koronacji królów."
+    },
+    {
+      "id": "fc_0081",
+      "topic": "geography",
+      "front": "Czym / kim jest Smok?",
+      "back": "Symbolem Krakowa."
+    },
+    {
+      "id": "fc_0082",
+      "topic": "geography",
+      "front": "Czym / kim jest Kazimierz?",
+      "back": "Historyczna żydowska dzielnica Krakowa."
+    },
+    {
+      "id": "fc_0083",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Wit Stwosz?",
+      "back": "Twórca ołtarza w Kościele Mariackim."
+    },
+    {
+      "id": "fc_0084",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Jan III Sobieski?",
+      "back": "Król Polski pochowany w katedrze na Wawelu."
+    },
+    {
+      "id": "fc_0085",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Święta królowa Jadwiga?",
+      "back": "Królowa Polski pochowana w katedrze na Wawelu."
+    },
+    {
+      "id": "fc_0086",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Tadeusz Kościuszko?",
+      "back": "Naczelnik upamiętniony w kryptach na Wawelu."
+    },
+    {
+      "id": "fc_0087",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Józef Piłsudski?",
+      "back": "Marszałek Polski pochowany w katedrze na Wawelu."
+    },
+    {
+      "id": "fc_0088",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Adam Mickiewicz?",
+      "back": "Poeta pochowany w kryptach na Wawelu."
+    },
+    {
+      "id": "fc_0089",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Juliusz Słowacki?",
+      "back": "Poeta pochowany w kryptach na Wawelu."
+    },
+    {
+      "id": "fc_0090",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Lech Kaczyński?",
+      "back": "Prezydent Polski pochowany z małżonką na Wawelu."
+    },
+    {
+      "id": "fc_0091",
+      "topic": "geography",
+      "front": "Nad czym leży Gdańsk?",
+      "back": "Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_0092",
+      "topic": "geography",
+      "front": "Czym / kim jest Gdańsk?",
+      "back": "Jednym z najstarszych miast Polski."
+    },
+    {
+      "id": "fc_0093",
+      "topic": "geography",
+      "front": "Co wydarzyło się 1 września 1939 roku?",
+      "back": "Na Westerplatte rozpoczęła się II wojna światowa."
+    },
+    {
+      "id": "fc_0094",
+      "topic": "geography",
+      "front": "Co wydarzyło się w sierpniu 1980 roku?",
+      "back": "W Gdańsku powstała Solidarność."
+    },
+    {
+      "id": "fc_0095",
+      "topic": "geography",
+      "front": "Co znajduje się w Gdańsku?",
+      "back": "Fontanna Neptuna."
+    },
+    {
+      "id": "fc_0096",
+      "topic": "geography",
+      "front": "Co znajduje się w Gdyni?",
+      "back": "Statek „Dar Pomorza”."
+    },
+    {
+      "id": "fc_0097",
+      "topic": "geography",
+      "front": "Co ma Sopot?",
+      "back": "Najdłuższe molo nad Morzem Bałtyckim."
+    },
+    {
+      "id": "fc_0098",
+      "topic": "geography",
+      "front": "Co wydarzyło się: 1 września 1939?",
+      "back": "Początek II wojny światowej na Westerplatte."
+    },
+    {
+      "id": "fc_0099",
+      "topic": "geography",
+      "front": "Kiedy: Początek II wojny światowej na Westerplatte?",
+      "back": "1 września 1939."
+    },
+    {
+      "id": "fc_0100",
+      "topic": "geography",
+      "front": "Co wydarzyło się: sierpień 1980?",
+      "back": "Powstanie Solidarności w Gdańsku."
+    },
+    {
+      "id": "fc_0101",
+      "topic": "geography",
+      "front": "Kiedy: Powstanie Solidarności w Gdańsku?",
+      "back": "sierpień 1980."
+    },
+    {
+      "id": "fc_0102",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Hans Memling?",
+      "back": "Autor tryptyku „Sąd Ostateczny”."
+    },
+    {
+      "id": "fc_0103",
+      "topic": "geography",
+      "front": "Nad czym leży Wrocław?",
+      "back": "Odrą."
+    },
+    {
+      "id": "fc_0104",
+      "topic": "geography",
+      "front": "Czym / kim jest Wrocław?",
+      "back": "Miasto 12 wysp i ponad 100 mostów."
+    },
+    {
+      "id": "fc_0105",
+      "topic": "geography",
+      "front": "Czym / kim jest Ostrów Tumski?",
+      "back": "Ważnym zabytkiem Wrocławia."
+    },
+    {
+      "id": "fc_0106",
+      "topic": "geography",
+      "front": "Co znajduje się we Wrocławiu?",
+      "back": "Panorama Racławicka."
+    },
+    {
+      "id": "fc_0107",
+      "topic": "geography",
+      "front": "Co przedstawia Panorama Racławicka?",
+      "back": "Bitwę pod Racławicami."
+    },
+    {
+      "id": "fc_0108",
+      "topic": "geography",
+      "front": "Czym są Symbolem Wrocławia?",
+      "back": "Krasnale."
+    },
+    {
+      "id": "fc_0109",
+      "topic": "geography",
+      "front": "Co wydarzyło się: 4 kwietnia 1794?",
+      "back": "Bitwa pod Racławicami przedstawiona na Panoramie Racławickiej."
+    },
+    {
+      "id": "fc_0110",
+      "topic": "geography",
+      "front": "Kiedy: Bitwa pod Racławicami przedstawiona na Panoramie Racławickiej?",
+      "back": "4 kwietnia 1794."
+    },
+    {
+      "id": "fc_0111",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Jan Styka?",
+      "back": "Współautor Panoramy Racławickiej."
+    },
+    {
+      "id": "fc_0112",
+      "topic": "geography",
+      "front": "Kim był(a) / jest Wojciech Kossak?",
+      "back": "Współautor Panoramy Racławickiej."
+    },
+    {
+      "id": "fc_0113",
+      "topic": "culture",
+      "front": "Z czego robi się Bigos?",
+      "back": "Kapusty i kawałków kiełbasy lub mięsa."
+    },
+    {
+      "id": "fc_0114",
+      "topic": "culture",
+      "front": "Czym / kim jest Żurek?",
+      "back": "Zupą przygotowywaną na zakwasie żytnim."
+    },
+    {
+      "id": "fc_0115",
+      "topic": "culture",
+      "front": "Czym / kim jest Flaczki?",
+      "back": "Gęsta zupa z paskami flaków wołowych."
+    },
+    {
+      "id": "fc_0116",
+      "topic": "culture",
+      "front": "Co należy do znanych słodkości?",
+      "back": "Makowiec, sernik, szarlotka, pączki i faworki."
+    },
+    {
+      "id": "fc_0117",
+      "topic": "culture",
+      "front": "Co obchodzone jest 11 listopada?",
+      "back": "Dzień Niepodległości."
+    },
+    {
+      "id": "fc_0118",
+      "topic": "culture",
+      "front": "Kiedy Polska odzyskała niepodległość?",
+      "back": "1918 roku."
+    },
+    {
+      "id": "fc_0119",
+      "topic": "culture",
+      "front": "Co obchodzone jest 3 maja?",
+      "back": "Święto Konstytucji."
+    },
+    {
+      "id": "fc_0120",
+      "topic": "culture",
+      "front": "Kiedy Konstytucja 3 maja został(a) uchwalona?",
+      "back": "1791 roku."
+    },
+    {
+      "id": "fc_0121",
+      "topic": "culture",
+      "front": "Co obchodzone jest 2 maja?",
+      "back": "Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą."
+    },
+    {
+      "id": "fc_0122",
+      "topic": "culture",
+      "front": "Co obchodzone jest 15 sierpnia?",
+      "back": "Dzień Wojska Polskiego."
+    },
+    {
+      "id": "fc_0123",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 11 listopada?",
+      "back": "Dzień Niepodległości."
+    },
+    {
+      "id": "fc_0124",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Niepodległości?",
+      "back": "11 listopada."
+    },
+    {
+      "id": "fc_0125",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1918?",
+      "back": "Polska odzyskała niepodległość."
+    },
+    {
+      "id": "fc_0126",
+      "topic": "culture",
+      "front": "Kiedy: Polska odzyskała niepodległość?",
+      "back": "1918."
+    },
+    {
+      "id": "fc_0127",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 3 maja 1791?",
+      "back": "Uchwalenie Konstytucji 3 maja."
+    },
+    {
+      "id": "fc_0128",
+      "topic": "culture",
+      "front": "Kiedy: Uchwalenie Konstytucji 3 maja?",
+      "back": "3 maja 1791."
+    },
+    {
+      "id": "fc_0129",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 2 maja?",
+      "back": "Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą."
+    },
+    {
+      "id": "fc_0130",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Flagi Polskiej oraz Dzień Polonii i Polaków za Granicą?",
+      "back": "2 maja."
+    },
+    {
+      "id": "fc_0131",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 15 sierpnia?",
+      "back": "Dzień Wojska Polskiego."
+    },
+    {
+      "id": "fc_0132",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Wojska Polskiego?",
+      "back": "15 sierpnia."
+    },
+    {
+      "id": "fc_0133",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 sierpnia?",
+      "back": "Narodowy Dzień Pamięci Powstania Warszawskiego."
+    },
+    {
+      "id": "fc_0134",
+      "topic": "culture",
+      "front": "Kiedy: Narodowy Dzień Pamięci Powstania Warszawskiego?",
+      "back": "1 sierpnia."
+    },
+    {
+      "id": "fc_0135",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 marca?",
+      "back": "Dzień Pamięci Żołnierzy Wyklętych."
+    },
+    {
+      "id": "fc_0136",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Pamięci Żołnierzy Wyklętych?",
+      "back": "1 marca."
+    },
+    {
+      "id": "fc_0137",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Józef Piłsudski?",
+      "back": "Postać związana z odzyskaniem przez Polskę niepodległości."
+    },
+    {
+      "id": "fc_0138",
+      "topic": "culture",
+      "front": "Czym / kim jest Wielkanoc?",
+      "back": "Zmartwychwstanie Jezusa."
+    },
+    {
+      "id": "fc_0139",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Boże Narodzenie?",
+      "back": "25 grudnia."
+    },
+    {
+      "id": "fc_0140",
+      "topic": "culture",
+      "front": "Kiedy przypada Zielone Świątki?",
+      "back": "50 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_0141",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Wszystkich Świętych?",
+      "back": "1 listopada."
+    },
+    {
+      "id": "fc_0142",
+      "topic": "culture",
+      "front": "Kiedy przypada Boże Ciało?",
+      "back": "60 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_0143",
+      "topic": "culture",
+      "front": "Czym / kim jest Niedziela Palmowa?",
+      "back": "Niedzielą przed Wielkanocą."
+    },
+    {
+      "id": "fc_0144",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Trzech Króli?",
+      "back": "6 stycznia."
+    },
+    {
+      "id": "fc_0145",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Matki Bożej Zielnej?",
+      "back": "15 sierpnia."
+    },
+    {
+      "id": "fc_0146",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 25 grudnia?",
+      "back": "Boże Narodzenie."
+    },
+    {
+      "id": "fc_0147",
+      "topic": "culture",
+      "front": "Kiedy: Boże Narodzenie?",
+      "back": "25 grudnia."
+    },
+    {
+      "id": "fc_0148",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 50 dni po Wielkanocy?",
+      "back": "Zielone Świątki."
+    },
+    {
+      "id": "fc_0149",
+      "topic": "culture",
+      "front": "Kiedy: Zielone Świątki?",
+      "back": "50 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_0150",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 listopada?",
+      "back": "Wszystkich Świętych."
+    },
+    {
+      "id": "fc_0151",
+      "topic": "culture",
+      "front": "Kiedy: Wszystkich Świętych?",
+      "back": "1 listopada."
+    },
+    {
+      "id": "fc_0152",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 60 dni po Wielkanocy?",
+      "back": "Boże Ciało."
+    },
+    {
+      "id": "fc_0153",
+      "topic": "culture",
+      "front": "Kiedy: Boże Ciało?",
+      "back": "60 dni po Wielkanocy."
+    },
+    {
+      "id": "fc_0154",
+      "topic": "culture",
+      "front": "Co wydarzyło się: niedziela przed Wielkanocą?",
+      "back": "Niedziela Palmowa."
+    },
+    {
+      "id": "fc_0155",
+      "topic": "culture",
+      "front": "Kiedy: Niedziela Palmowa?",
+      "back": "Niedziela przed Wielkanocą."
+    },
+    {
+      "id": "fc_0156",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 6 stycznia?",
+      "back": "Trzech Króli."
+    },
+    {
+      "id": "fc_0157",
+      "topic": "culture",
+      "front": "Kiedy: Trzech Króli?",
+      "back": "6 stycznia."
+    },
+    {
+      "id": "fc_0158",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 15 sierpnia?",
+      "back": "Matki Bożej Zielnej."
+    },
+    {
+      "id": "fc_0159",
+      "topic": "culture",
+      "front": "Kiedy: Matki Bożej Zielnej?",
+      "back": "15 sierpnia."
+    },
+    {
+      "id": "fc_0160",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Centralna postać świąt chrześcijańskich."
+    },
+    {
+      "id": "fc_0161",
+      "topic": "culture",
+      "front": "Co rozpoczyna rok liturgiczny?",
+      "back": "Adwent."
+    },
+    {
+      "id": "fc_0162",
+      "topic": "culture",
+      "front": "Co obejmuje Adwent?",
+      "back": "Cztery niedziele przed Bożym Narodzeniem."
+    },
+    {
+      "id": "fc_0163",
+      "topic": "culture",
+      "front": "Co ma Wieniec adwentowy?",
+      "back": "Cztery świece symbolizujące cztery niedziele adwentowe."
+    },
+    {
+      "id": "fc_0164",
+      "topic": "culture",
+      "front": "Co symbolizuje Świeca roratka?",
+      "back": "Maryję."
+    },
+    {
+      "id": "fc_0165",
+      "topic": "culture",
+      "front": "Czym / kim jest Roraty?",
+      "back": "Msze o wschodzie słońca w okresie adwentu."
+    },
+    {
+      "id": "fc_0166",
+      "topic": "culture",
+      "front": "Co obchodzone jest 6 grudnia?",
+      "back": "Mikołajki."
+    },
+    {
+      "id": "fc_0167",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 6 grudnia?",
+      "back": "Mikołajki."
+    },
+    {
+      "id": "fc_0168",
+      "topic": "culture",
+      "front": "Kiedy: Mikołajki?",
+      "back": "6 grudnia."
+    },
+    {
+      "id": "fc_0169",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 25 grudnia?",
+      "back": "Boże Narodzenie, do którego przygotowuje Adwent."
+    },
+    {
+      "id": "fc_0170",
+      "topic": "culture",
+      "front": "Kiedy: Boże Narodzenie, do którego przygotowuje Adwent?",
+      "back": "25 grudnia."
+    },
+    {
+      "id": "fc_0171",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Centralna postać Adwentu i Bożego Narodzenia."
+    },
+    {
+      "id": "fc_0172",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Maryja?",
+      "back": "Symbolizowana przez świecę roratkę."
+    },
+    {
+      "id": "fc_0173",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Święty Mikołaj?",
+      "back": "Biskup, patron podróżnych i uczonych, opiekun ubogich i dzieci."
+    },
+    {
+      "id": "fc_0174",
+      "topic": "culture",
+      "front": "Kiedy przypada Wigilia Bożego Narodzenia?",
+      "back": "24 grudnia."
+    },
+    {
+      "id": "fc_0175",
+      "topic": "culture",
+      "front": "Co rozpoczyna się wraz z pierwszą gwiazdką?",
+      "back": "Wieczerza wigilijna."
+    },
+    {
+      "id": "fc_0176",
+      "topic": "culture",
+      "front": "Co przygotowuje się Na Wigilię?",
+      "back": "12 potraw."
+    },
+    {
+      "id": "fc_0177",
+      "topic": "culture",
+      "front": "Co zostawia się na stole?",
+      "back": "Jeden pusty talerz."
+    },
+    {
+      "id": "fc_0178",
+      "topic": "culture",
+      "front": "Co dzielimy się w Wigilię?",
+      "back": "Opłatkiem i składamy sobie życzenia."
+    },
+    {
+      "id": "fc_0179",
+      "topic": "culture",
+      "front": "Czym / kim jest Pasterka?",
+      "back": "Pierwsza msza związana z Bożym Narodzeniem."
+    },
+    {
+      "id": "fc_0180",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 24 grudnia?",
+      "back": "Wigilia Bożego Narodzenia."
+    },
+    {
+      "id": "fc_0181",
+      "topic": "culture",
+      "front": "Kiedy: Wigilia Bożego Narodzenia?",
+      "back": "24 grudnia."
+    },
+    {
+      "id": "fc_0182",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Według tradycji chrześcijańskiej narodził się w Boże Narodzenie."
+    },
+    {
+      "id": "fc_0183",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Maryja?",
+      "back": "Matka Jezusa."
+    },
+    {
+      "id": "fc_0184",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Józef?",
+      "back": "Opiekun Jezusa."
+    },
+    {
+      "id": "fc_0185",
+      "topic": "culture",
+      "front": "Czym / kim jest Trzej Królowie?",
+      "back": "Kacper, Melchior i Baltazar."
+    },
+    {
+      "id": "fc_0186",
+      "topic": "culture",
+      "front": "Co zapisuje się na drzwiach?",
+      "back": "K+M+B albo C+M+B oraz aktualny rok."
+    },
+    {
+      "id": "fc_0187",
+      "topic": "culture",
+      "front": "Kiedy przypada Sylwester?",
+      "back": "31 grudnia."
+    },
+    {
+      "id": "fc_0188",
+      "topic": "culture",
+      "front": "Kiedy przypada Nowy Rok?",
+      "back": "1 stycznia."
+    },
+    {
+      "id": "fc_0189",
+      "topic": "culture",
+      "front": "Co mówi fakt zaczynający się od „Karnawał zaczyna się najczęściej w dniu Trzech Króli”?",
+      "back": "Karnawał zaczyna się najczęściej w dniu Trzech Króli."
+    },
+    {
+      "id": "fc_0190",
+      "topic": "culture",
+      "front": "Czym / kim jest Ostatki?",
+      "back": "Ostatnie trzy dni karnawału."
+    },
+    {
+      "id": "fc_0191",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 31 grudnia?",
+      "back": "Sylwester."
+    },
+    {
+      "id": "fc_0192",
+      "topic": "culture",
+      "front": "Kiedy: Sylwester?",
+      "back": "31 grudnia."
+    },
+    {
+      "id": "fc_0193",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 stycznia?",
+      "back": "Nowy Rok i uroczystość Świętej Bożej Rodzicielki."
+    },
+    {
+      "id": "fc_0194",
+      "topic": "culture",
+      "front": "Kiedy: Nowy Rok i uroczystość Świętej Bożej Rodzicielki?",
+      "back": "1 stycznia."
+    },
+    {
+      "id": "fc_0195",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 6 stycznia?",
+      "back": "Święto Trzech Króli."
+    },
+    {
+      "id": "fc_0196",
+      "topic": "culture",
+      "front": "Kiedy: Święto Trzech Króli?",
+      "back": "6 stycznia."
+    },
+    {
+      "id": "fc_0197",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Kacper?",
+      "back": "Jeden z Trzech Króli."
+    },
+    {
+      "id": "fc_0198",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Melchior?",
+      "back": "Jeden z Trzech Króli."
+    },
+    {
+      "id": "fc_0199",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Baltazar?",
+      "back": "Jeden z Trzech Króli."
+    },
+    {
+      "id": "fc_0200",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Postać, której pokłon oddali Trzej Królowie."
+    },
+    {
+      "id": "fc_0201",
+      "topic": "culture",
+      "front": "Co rozpoczyna Wielki Post?",
+      "back": "Środa Popielcowa."
+    },
+    {
+      "id": "fc_0202",
+      "topic": "culture",
+      "front": "Ile trwa Wielki Post?",
+      "back": "40 dni."
+    },
+    {
+      "id": "fc_0203",
+      "topic": "culture",
+      "front": "Czym / kim jest Nabożeństwa Wielkiego Postu?",
+      "back": "Droga Krzyżowa i Gorzkie Żale."
+    },
+    {
+      "id": "fc_0204",
+      "topic": "culture",
+      "front": "Co upamiętnia Niedziela Palmowa?",
+      "back": "Wjazd Chrystusa do Jerozolimy."
+    },
+    {
+      "id": "fc_0205",
+      "topic": "culture",
+      "front": "Co obejmuje Triduum Paschalne?",
+      "back": "Wielki Czwartek, Wielki Piątek i Wielką Sobotę."
+    },
+    {
+      "id": "fc_0206",
+      "topic": "culture",
+      "front": "Czym jest Wielkanoc?",
+      "back": "Najważniejszym świętem chrześcijańskim."
+    },
+    {
+      "id": "fc_0207",
+      "topic": "culture",
+      "front": "Co wydarzyło się: Wielki Czwartek?",
+      "back": "Wspomnienie Ostatniej Wieczerzy i ustanowienia Eucharystii oraz kapłaństwa."
+    },
+    {
+      "id": "fc_0208",
+      "topic": "culture",
+      "front": "Kiedy: Wspomnienie Ostatniej Wieczerzy i ustanowienia Eucharystii oraz kapłaństwa?",
+      "back": "Wielki Czwartek."
+    },
+    {
+      "id": "fc_0209",
+      "topic": "culture",
+      "front": "Co wydarzyło się: Wielki Piątek?",
+      "back": "Wspomnienie śmierci Jezusa na krzyżu."
+    },
+    {
+      "id": "fc_0210",
+      "topic": "culture",
+      "front": "Kiedy: Wspomnienie śmierci Jezusa na krzyżu?",
+      "back": "Wielki Piątek."
+    },
+    {
+      "id": "fc_0211",
+      "topic": "culture",
+      "front": "Co wydarzyło się: Wielka Sobota?",
+      "back": "Poświęcenie ognia i paschału."
+    },
+    {
+      "id": "fc_0212",
+      "topic": "culture",
+      "front": "Kiedy: Poświęcenie ognia i paschału?",
+      "back": "Wielka Sobota."
+    },
+    {
+      "id": "fc_0213",
+      "topic": "culture",
+      "front": "Co wydarzyło się: Wielkanoc?",
+      "back": "Zmartwychwstanie Pańskie."
+    },
+    {
+      "id": "fc_0214",
+      "topic": "culture",
+      "front": "Kiedy: Zmartwychwstanie Pańskie?",
+      "back": "Wielkanoc."
+    },
+    {
+      "id": "fc_0215",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Centralna postać Wielkiego Tygodnia i Wielkanocy."
+    },
+    {
+      "id": "fc_0216",
+      "topic": "culture",
+      "front": "Czym / kim jest Święconka?",
+      "back": "Pokarm święcony w koszyku wielkanocnym."
+    },
+    {
+      "id": "fc_0217",
+      "topic": "culture",
+      "front": "Co symbolizuje Baranek?",
+      "back": "Zmartwychwstałego Jezusa."
+    },
+    {
+      "id": "fc_0218",
+      "topic": "culture",
+      "front": "Co mówi fakt zaczynający się od „Jajka symbolizują nowe życie”?",
+      "back": "Jajka symbolizują nowe życie."
+    },
+    {
+      "id": "fc_0219",
+      "topic": "culture",
+      "front": "Czym / kim jest Pisanki, kraszanki, nalepianki, drapanki i oklejanki?",
+      "back": "Rodzaje malowanych jajek."
+    },
+    {
+      "id": "fc_0220",
+      "topic": "culture",
+      "front": "Czym / kim jest Lany poniedziałek?",
+      "back": "Drugi dzień Wielkanocy."
+    },
+    {
+      "id": "fc_0221",
+      "topic": "culture",
+      "front": "Na czym polega Śmigus-dyngus?",
+      "back": "Wzajemnym oblewaniu się wodą."
+    },
+    {
+      "id": "fc_0222",
+      "topic": "culture",
+      "front": "Co wydarzyło się: drugi dzień Wielkanocy?",
+      "back": "Lany poniedziałek, czyli Śmigus-dyngus."
+    },
+    {
+      "id": "fc_0223",
+      "topic": "culture",
+      "front": "Kiedy: Lany poniedziałek, czyli Śmigus-dyngus?",
+      "back": "Drugi dzień Wielkanocy."
+    },
+    {
+      "id": "fc_0224",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Symbolizowany przez baranka wielkanocnego."
+    },
+    {
+      "id": "fc_0225",
+      "topic": "culture",
+      "front": "Czym / kim jest Zielone Świątki?",
+      "back": "Zesłanie Ducha Świętego."
+    },
+    {
+      "id": "fc_0226",
+      "topic": "culture",
+      "front": "Co ozdabia się W Zielone Świątki?",
+      "back": "Domy brzozą i tatarakiem."
+    },
+    {
+      "id": "fc_0227",
+      "topic": "culture",
+      "front": "Z czym wiąże się Boże Ciało?",
+      "back": "Procesją do czterech ołtarzy."
+    },
+    {
+      "id": "fc_0228",
+      "topic": "culture",
+      "front": "Co przynosi się w Boże Ciało?",
+      "back": "Do domu gałązki brzozy."
+    },
+    {
+      "id": "fc_0229",
+      "topic": "culture",
+      "front": "Co wydarzyło się 15 sierpnia?",
+      "back": "Święci się kwiaty i zioła."
+    },
+    {
+      "id": "fc_0230",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 15 sierpnia?",
+      "back": "Święto Matki Bożej Zielnej, Matki Bożej Częstochowskiej, Dzień Wojska Polskiego i rocznica Bitwy Warszawskiej."
+    },
+    {
+      "id": "fc_0231",
+      "topic": "culture",
+      "front": "Kiedy: Święto Matki Bożej Zielnej, Matki Bożej Częstochowskiej, Dzień Wojska Polskiego i rocznica Bitwy Warszawskiej?",
+      "back": "15 sierpnia."
+    },
+    {
+      "id": "fc_0232",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Jezus Chrystus?",
+      "back": "Centralna postać uroczystości Bożego Ciała."
+    },
+    {
+      "id": "fc_0233",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Matka Boża?",
+      "back": "Postać związana ze świętem Matki Bożej Zielnej i Matki Bożej Częstochowskiej."
+    },
+    {
+      "id": "fc_0234",
+      "topic": "culture",
+      "front": "Co mówi fakt zaczynający się od „Tego dnia wspomina się wszystkich znanych i nieznanych świętych”?",
+      "back": "Tego dnia wspomina się wszystkich znanych i nieznanych świętych."
+    },
+    {
+      "id": "fc_0235",
+      "topic": "culture",
+      "front": "Co mówi fakt zaczynający się od „Polacy idą na cmentarze i modlą się za zmarłych”?",
+      "back": "Polacy idą na cmentarze i modlą się za zmarłych."
+    },
+    {
+      "id": "fc_0236",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Zaduszki?",
+      "back": "2 listopada."
+    },
+    {
+      "id": "fc_0237",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 listopada?",
+      "back": "Uroczystość Wszystkich Świętych."
+    },
+    {
+      "id": "fc_0238",
+      "topic": "culture",
+      "front": "Kiedy: Uroczystość Wszystkich Świętych?",
+      "back": "1 listopada."
+    },
+    {
+      "id": "fc_0239",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 2 listopada?",
+      "back": "Zaduszki."
+    },
+    {
+      "id": "fc_0240",
+      "topic": "culture",
+      "front": "Kiedy: Zaduszki?",
+      "back": "2 listopada."
+    },
+    {
+      "id": "fc_0241",
+      "topic": "culture",
+      "front": "Co je się w tłusty czwartek?",
+      "back": "Pączki."
+    },
+    {
+      "id": "fc_0242",
+      "topic": "culture",
+      "front": "Kiedy obchodzone jest Topienie Marzanny?",
+      "back": "21 marca."
+    },
+    {
+      "id": "fc_0243",
+      "topic": "culture",
+      "front": "Czym / kim jest Prima aprilis?",
+      "back": "Dzień żartów."
+    },
+    {
+      "id": "fc_0244",
+      "topic": "culture",
+      "front": "Czym / kim jest Noc świętojańska związana?",
+      "back": "Z wróżbami o miłości i małżeństwie."
+    },
+    {
+      "id": "fc_0245",
+      "topic": "culture",
+      "front": "Czym są Katarzynki?",
+      "back": "Wróżbami chłopców o dziewczyny."
+    },
+    {
+      "id": "fc_0246",
+      "topic": "culture",
+      "front": "Czym są Andrzejki?",
+      "back": "Wróżbami dziewczyn o chłopaków."
+    },
+    {
+      "id": "fc_0247",
+      "topic": "culture",
+      "front": "Kiedy przypada Dzień Matki?",
+      "back": "26 maja."
+    },
+    {
+      "id": "fc_0248",
+      "topic": "culture",
+      "front": "Kiedy przypada Dzień Babci?",
+      "back": "21 stycznia."
+    },
+    {
+      "id": "fc_0249",
+      "topic": "culture",
+      "front": "Kiedy przypada Dzień Dziadka?",
+      "back": "22 stycznia."
+    },
+    {
+      "id": "fc_0250",
+      "topic": "culture",
+      "front": "Kiedy przypada Dzień Ojca?",
+      "back": "23 czerwca."
+    },
+    {
+      "id": "fc_0251",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 21 marca?",
+      "back": "Topienie Marzanny, pierwszy dzień wiosny i dzień wagarowicza."
+    },
+    {
+      "id": "fc_0252",
+      "topic": "culture",
+      "front": "Kiedy: Topienie Marzanny, pierwszy dzień wiosny i dzień wagarowicza?",
+      "back": "21 marca."
+    },
+    {
+      "id": "fc_0253",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 1 kwietnia?",
+      "back": "Prima aprilis."
+    },
+    {
+      "id": "fc_0254",
+      "topic": "culture",
+      "front": "Kiedy: Prima aprilis?",
+      "back": "1 kwietnia."
+    },
+    {
+      "id": "fc_0255",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 24 czerwca?",
+      "back": "Noc świętojańska."
+    },
+    {
+      "id": "fc_0256",
+      "topic": "culture",
+      "front": "Kiedy: Noc świętojańska?",
+      "back": "24 czerwca."
+    },
+    {
+      "id": "fc_0257",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 24-25 listopada?",
+      "back": "Katarzynki."
+    },
+    {
+      "id": "fc_0258",
+      "topic": "culture",
+      "front": "Kiedy: Katarzynki?",
+      "back": "24-25 listopada."
+    },
+    {
+      "id": "fc_0259",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 29-30 listopada?",
+      "back": "Andrzejki."
+    },
+    {
+      "id": "fc_0260",
+      "topic": "culture",
+      "front": "Kiedy: Andrzejki?",
+      "back": "29-30 listopada."
+    },
+    {
+      "id": "fc_0261",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 26 maja?",
+      "back": "Dzień Matki."
+    },
+    {
+      "id": "fc_0262",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Matki?",
+      "back": "26 maja."
+    },
+    {
+      "id": "fc_0263",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 21 stycznia?",
+      "back": "Dzień Babci."
+    },
+    {
+      "id": "fc_0264",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Babci?",
+      "back": "21 stycznia."
+    },
+    {
+      "id": "fc_0265",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 22 stycznia?",
+      "back": "Dzień Dziadka."
+    },
+    {
+      "id": "fc_0266",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Dziadka?",
+      "back": "22 stycznia."
+    },
+    {
+      "id": "fc_0267",
+      "topic": "culture",
+      "front": "Co wydarzyło się: 23 czerwca?",
+      "back": "Dzień Ojca."
+    },
+    {
+      "id": "fc_0268",
+      "topic": "culture",
+      "front": "Kiedy: Dzień Ojca?",
+      "back": "23 czerwca."
+    },
+    {
+      "id": "fc_0269",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Święty Jan?",
+      "back": "Postać związana z nocą świętojańską."
+    },
+    {
+      "id": "fc_0270",
+      "topic": "culture",
+      "front": "Kim był(a) / jest Święty Andrzej?",
+      "back": "Postać związana z andrzejkami."
+    },
+    {
+      "id": "fc_0271",
+      "topic": "culture",
+      "front": "Co daruje się na Mikołajki?",
+      "back": "Prezenty."
+    },
+    {
+      "id": "fc_0272",
+      "topic": "culture",
+      "front": "Co dzieli się w Wigilię?",
+      "back": "Opłatkiem i przygotowuje 12 potraw."
+    },
+    {
+      "id": "fc_0273",
+      "topic": "culture",
+      "front": "Co zostawia się na stole wigilijnym?",
+      "back": "Pusty talerz dla nieoczekiwanego gościa."
+    },
+    {
+      "id": "fc_0274",
+      "topic": "culture",
+      "front": "Co zapisuje się na Trzech Króli na drzwiach?",
+      "back": "K+M+B i aktualny rok."
+    },
+    {
+      "id": "fc_0275",
+      "topic": "culture",
+      "front": "Co święci się W Wielką Sobotę?",
+      "back": "Święconkę."
+    },
+    {
+      "id": "fc_0276",
+      "topic": "culture",
+      "front": "Co dzieli się w Niedzielę Wielkanocną?",
+      "back": "Poświęconym jajkiem."
+    },
+    {
+      "id": "fc_0277",
+      "topic": "culture",
+      "front": "Co ozdabia się Na Zielone Świątki domy?",
+      "back": "Tatarakiem i brzozą."
+    },
+    {
+      "id": "fc_0278",
+      "topic": "culture",
+      "front": "Co odbywa się na Boże Ciało?",
+      "back": "Procesja do czterech ołtarzy."
+    },
+    {
+      "id": "fc_0279",
+      "topic": "culture",
+      "front": "Co odwiedza się na Wszystkich Świętych?",
+      "back": "Cmentarze."
+    },
+    {
+      "id": "fc_0280",
+      "topic": "famous-poles",
+      "front": "Co otrzymała Maria Skłodowska-Curie?",
+      "back": "Dwie Nagrody Nobla."
+    },
+    {
+      "id": "fc_0281",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się w 1903 roku?",
+      "back": "Dostała Nagrodę Nobla z fizyki."
+    },
+    {
+      "id": "fc_0282",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się w 1911 roku?",
+      "back": "Dostała Nagrodę Nobla z chemii."
+    },
+    {
+      "id": "fc_0283",
+      "topic": "famous-poles",
+      "front": "Co odkryła ta osoba?",
+      "back": "Polon i rad."
+    },
+    {
+      "id": "fc_0284",
+      "topic": "famous-poles",
+      "front": "Co prowadzono pod kierunkiem Marii Skłodowskiej-Curie?",
+      "back": "Prowadzono badania nad leczeniem raka za pomocą promieniotwórczości."
+    },
+    {
+      "id": "fc_0285",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1867-1934?",
+      "back": "Lata życia Marii Skłodowskiej-Curie."
+    },
+    {
+      "id": "fc_0286",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Marii Skłodowskiej-Curie?",
+      "back": "1867-1934."
+    },
+    {
+      "id": "fc_0287",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1903?",
+      "back": "Nagroda Nobla w dziedzinie fizyki."
+    },
+    {
+      "id": "fc_0288",
+      "topic": "famous-poles",
+      "front": "Kiedy: Nagroda Nobla w dziedzinie fizyki?",
+      "back": "1903."
+    },
+    {
+      "id": "fc_0289",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1911?",
+      "back": "Nagroda Nobla w dziedzinie chemii."
+    },
+    {
+      "id": "fc_0290",
+      "topic": "famous-poles",
+      "front": "Kiedy: Nagroda Nobla w dziedzinie chemii?",
+      "back": "1911."
+    },
+    {
+      "id": "fc_0291",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Maria Skłodowska-Curie?",
+      "back": "Polska uczona, dwukrotna laureatka Nagrody Nobla."
+    },
+    {
+      "id": "fc_0292",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Henryk Sienkiewicz?",
+      "back": "Nobla głównie za twórczość literacką, w tym „Quo vadis”."
+    },
+    {
+      "id": "fc_0293",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Władysław Reymont?",
+      "back": "Nobla za powieść „Chłopi”."
+    },
+    {
+      "id": "fc_0294",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Czesław Miłosz?",
+      "back": "Nobla za twórczość poetycką."
+    },
+    {
+      "id": "fc_0295",
+      "topic": "famous-poles",
+      "front": "Co otrzymała Wisława Szymborska?",
+      "back": "Nobla za całą twórczość."
+    },
+    {
+      "id": "fc_0296",
+      "topic": "famous-poles",
+      "front": "Co otrzymała Olga Tokarczuk?",
+      "back": "Nobla za rok 2018."
+    },
+    {
+      "id": "fc_0297",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1846-1925?",
+      "back": "Lata życia Henryka Sienkiewicza."
+    },
+    {
+      "id": "fc_0298",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Henryka Sienkiewicza?",
+      "back": "1846-1925."
+    },
+    {
+      "id": "fc_0299",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1905?",
+      "back": "Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0300",
+      "topic": "famous-poles",
+      "front": "Kiedy: Henryk Sienkiewicz otrzymał Literacką Nagrodę Nobla?",
+      "back": "1905."
+    },
+    {
+      "id": "fc_0301",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1867-1925?",
+      "back": "Lata życia Władysława Reymonta."
+    },
+    {
+      "id": "fc_0302",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Władysława Reymonta?",
+      "back": "1867-1925."
+    },
+    {
+      "id": "fc_0303",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1924?",
+      "back": "Władysław Reymont otrzymał Literacką Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0304",
+      "topic": "famous-poles",
+      "front": "Kiedy: Władysław Reymont otrzymał Literacką Nagrodę Nobla?",
+      "back": "1924."
+    },
+    {
+      "id": "fc_0305",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1911-2004?",
+      "back": "Lata życia Czesława Miłosza."
+    },
+    {
+      "id": "fc_0306",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Czesława Miłosza?",
+      "back": "1911-2004."
+    },
+    {
+      "id": "fc_0307",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1980?",
+      "back": "Czesław Miłosz otrzymał Literacką Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0308",
+      "topic": "famous-poles",
+      "front": "Kiedy: Czesław Miłosz otrzymał Literacką Nagrodę Nobla?",
+      "back": "1980."
+    },
+    {
+      "id": "fc_0309",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1923-2012?",
+      "back": "Lata życia Wisławy Szymborskiej."
+    },
+    {
+      "id": "fc_0310",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Wisławy Szymborskiej?",
+      "back": "1923-2012."
+    },
+    {
+      "id": "fc_0311",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1996?",
+      "back": "Wisława Szymborska otrzymała Literacką Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0312",
+      "topic": "famous-poles",
+      "front": "Kiedy: Wisława Szymborska otrzymała Literacką Nagrodę Nobla?",
+      "back": "1996."
+    },
+    {
+      "id": "fc_0313",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1962?",
+      "back": "Rok urodzenia Olgi Tokarczuk."
+    },
+    {
+      "id": "fc_0314",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Olgi Tokarczuk?",
+      "back": "1962."
+    },
+    {
+      "id": "fc_0315",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 2019?",
+      "back": "Olga Tokarczuk otrzymała Literacką Nagrodę Nobla za rok 2018."
+    },
+    {
+      "id": "fc_0316",
+      "topic": "famous-poles",
+      "front": "Kiedy: Olga Tokarczuk otrzymała Literacką Nagrodę Nobla za rok 2018?",
+      "back": "2019."
+    },
+    {
+      "id": "fc_0317",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Henryk Sienkiewicz?",
+      "back": "Polski pisarz i publicysta, laureat Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0318",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Władysław Reymont?",
+      "back": "Polski pisarz, laureat Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0319",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Czesław Miłosz?",
+      "back": "Polski poeta, laureat Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0320",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Wisława Szymborska?",
+      "back": "Polska poetka, laureatka Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0321",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Olga Tokarczuk?",
+      "back": "Polska pisarka, eseistka, poetka i psycholog, laureatka Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0322",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Lech Wałęsa?",
+      "back": "Liderem Solidarności."
+    },
+    {
+      "id": "fc_0323",
+      "topic": "famous-poles",
+      "front": "Jaką funkcję pełniła ta osoba?",
+      "back": "Prezydentem Polski w latach 1990-1995."
+    },
+    {
+      "id": "fc_0324",
+      "topic": "famous-poles",
+      "front": "Co otrzymała ta osoba?",
+      "back": "Pokojową Nagrodę Nobla w 1983 roku."
+    },
+    {
+      "id": "fc_0325",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1943?",
+      "back": "Rok urodzenia Lecha Wałęsy."
+    },
+    {
+      "id": "fc_0326",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Lecha Wałęsy?",
+      "back": "1943."
+    },
+    {
+      "id": "fc_0327",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1983?",
+      "back": "Lech Wałęsa otrzymał Pokojową Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0328",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lech Wałęsa otrzymał Pokojową Nagrodę Nobla?",
+      "back": "1983."
+    },
+    {
+      "id": "fc_0329",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1990-1995?",
+      "back": "Lech Wałęsa był prezydentem Polski."
+    },
+    {
+      "id": "fc_0330",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lech Wałęsa był prezydentem Polski?",
+      "back": "1990-1995."
+    },
+    {
+      "id": "fc_0331",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Lech Wałęsa?",
+      "back": "Lider Solidarności, prezydent Polski, laureat Pokojowej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0332",
+      "topic": "famous-poles",
+      "front": "Co stworzył Mikołaj Kopernik?",
+      "back": "Teorię heliocentryczną."
+    },
+    {
+      "id": "fc_0333",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Według teorii heliocentrycznej Słońce?",
+      "back": "Centrum układu słonecznego."
+    },
+    {
+      "id": "fc_0334",
+      "topic": "famous-poles",
+      "front": "Co otrzymała Maria Skłodowska-Curie?",
+      "back": "Nagrodę Nobla dwukrotnie."
+    },
+    {
+      "id": "fc_0335",
+      "topic": "famous-poles",
+      "front": "Co dostała Maria Skłodowska-Curie?",
+      "back": "Nobla z fizyki i chemii."
+    },
+    {
+      "id": "fc_0336",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1473-1543?",
+      "back": "Lata życia Mikołaja Kopernika."
+    },
+    {
+      "id": "fc_0337",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Mikołaja Kopernika?",
+      "back": "1473-1543."
+    },
+    {
+      "id": "fc_0338",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1903?",
+      "back": "Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie fizyki."
+    },
+    {
+      "id": "fc_0339",
+      "topic": "famous-poles",
+      "front": "Kiedy: Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie fizyki?",
+      "back": "1903."
+    },
+    {
+      "id": "fc_0340",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1911?",
+      "back": "Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie chemii."
+    },
+    {
+      "id": "fc_0341",
+      "topic": "famous-poles",
+      "front": "Kiedy: Maria Skłodowska-Curie otrzymała Nagrodę Nobla w dziedzinie chemii?",
+      "back": "1911."
+    },
+    {
+      "id": "fc_0342",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Mikołaj Kopernik?",
+      "back": "Polski astronom, lekarz i tłumacz, twórca teorii heliocentrycznej."
+    },
+    {
+      "id": "fc_0343",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Fryderyk Chopin?",
+      "back": "Jednym z najwybitniejszych polskich kompozytorów."
+    },
+    {
+      "id": "fc_0344",
+      "topic": "famous-poles",
+      "front": "Gdzie znajduje się Serce Chopina?",
+      "back": "W Kościele Świętego Krzyża w Warszawie."
+    },
+    {
+      "id": "fc_0345",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Stanisław Moniuszko?",
+      "back": "Autorem oper „Halka”, „Straszny dwór” i „Paria”."
+    },
+    {
+      "id": "fc_0346",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Karol Szymanowski?",
+      "back": "Nazywany ojcem polskiej muzyki XX wieku."
+    },
+    {
+      "id": "fc_0347",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Ignacy Jan Paderewski?",
+      "back": "Pianistą, kompozytorem i politykiem."
+    },
+    {
+      "id": "fc_0348",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Paderewski?",
+      "back": "Premierem Polski i ministrem spraw zagranicznych RP."
+    },
+    {
+      "id": "fc_0349",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1810-1849?",
+      "back": "Lata życia Fryderyka Chopina."
+    },
+    {
+      "id": "fc_0350",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Fryderyka Chopina?",
+      "back": "1810-1849."
+    },
+    {
+      "id": "fc_0351",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1819-1872?",
+      "back": "Lata życia Stanisława Moniuszki."
+    },
+    {
+      "id": "fc_0352",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Stanisława Moniuszki?",
+      "back": "1819-1872."
+    },
+    {
+      "id": "fc_0353",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1882-1937?",
+      "back": "Lata życia Karola Szymanowskiego."
+    },
+    {
+      "id": "fc_0354",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Karola Szymanowskiego?",
+      "back": "1882-1937."
+    },
+    {
+      "id": "fc_0355",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1860-1941?",
+      "back": "Lata życia Ignacego Jana Paderewskiego."
+    },
+    {
+      "id": "fc_0356",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Ignacego Jana Paderewskiego?",
+      "back": "1860-1941."
+    },
+    {
+      "id": "fc_0357",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1919?",
+      "back": "Ignacy Jan Paderewski był premierem Polski i ministrem spraw zagranicznych RP."
+    },
+    {
+      "id": "fc_0358",
+      "topic": "famous-poles",
+      "front": "Kiedy: Ignacy Jan Paderewski był premierem Polski i ministrem spraw zagranicznych RP?",
+      "back": "1919."
+    },
+    {
+      "id": "fc_0359",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Fryderyk Chopin?",
+      "back": "Polski kompozytor i pianista."
+    },
+    {
+      "id": "fc_0360",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Stanisław Moniuszko?",
+      "back": "Polski kompozytor, dyrygent, pedagog i organista."
+    },
+    {
+      "id": "fc_0361",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Karol Szymanowski?",
+      "back": "Polski kompozytor i pianista."
+    },
+    {
+      "id": "fc_0362",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Ignacy Jan Paderewski?",
+      "back": "Polski pianista, kompozytor, polityk, premier Polski i minister spraw zagranicznych RP."
+    },
+    {
+      "id": "fc_0363",
+      "topic": "famous-poles",
+      "front": "Co tworzył Jan Matejko?",
+      "back": "Obrazy historyczne."
+    },
+    {
+      "id": "fc_0364",
+      "topic": "famous-poles",
+      "front": "Co należy do znanych obrazów Matejki?",
+      "back": "„Bitwa pod Grunwaldem”."
+    },
+    {
+      "id": "fc_0365",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Jacek Malczewski?",
+      "back": "Przedstawicielem symbolizmu."
+    },
+    {
+      "id": "fc_0366",
+      "topic": "famous-poles",
+      "front": "Co należy do znanych obrazów Malczewskiego?",
+      "back": "„Wigilia na Syberii” i „Melancholia”."
+    },
+    {
+      "id": "fc_0367",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1838-1893?",
+      "back": "Lata życia Jana Matejki."
+    },
+    {
+      "id": "fc_0368",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jana Matejki?",
+      "back": "1838-1893."
+    },
+    {
+      "id": "fc_0369",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1854-1929?",
+      "back": "Lata życia Jacka Malczewskiego."
+    },
+    {
+      "id": "fc_0370",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jacka Malczewskiego?",
+      "back": "1854-1929."
+    },
+    {
+      "id": "fc_0371",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1923-2011?",
+      "back": "Lata życia Jerzego Nowosielskiego."
+    },
+    {
+      "id": "fc_0372",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jerzego Nowosielskiego?",
+      "back": "1923-2011."
+    },
+    {
+      "id": "fc_0373",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1930-2009?",
+      "back": "Lata życia Franciszka Starowieyskiego."
+    },
+    {
+      "id": "fc_0374",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Franciszka Starowieyskiego?",
+      "back": "1930-2009."
+    },
+    {
+      "id": "fc_0375",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1941-2004?",
+      "back": "Lata życia Jerzego Dudy-Gracza."
+    },
+    {
+      "id": "fc_0376",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jerzego Dudy-Gracza?",
+      "back": "1941-2004."
+    },
+    {
+      "id": "fc_0377",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jan Matejko?",
+      "back": "Polski malarz, twórca obrazów historycznych."
+    },
+    {
+      "id": "fc_0378",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jacek Malczewski?",
+      "back": "Polski malarz, przedstawiciel symbolizmu."
+    },
+    {
+      "id": "fc_0379",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jerzy Nowosielski?",
+      "back": "Współczesny polski malarz."
+    },
+    {
+      "id": "fc_0380",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Franciszek Starowieyski?",
+      "back": "Współczesny polski malarz."
+    },
+    {
+      "id": "fc_0381",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jerzy Duda-Gracz?",
+      "back": "Współczesny polski malarz."
+    },
+    {
+      "id": "fc_0382",
+      "topic": "famous-poles",
+      "front": "Co napisał Adam Mickiewicz?",
+      "back": "„Pana Tadeusza” i „Dziady”."
+    },
+    {
+      "id": "fc_0383",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Henryk Sienkiewicz?",
+      "back": "Literacką Nagrodę Nobla w 1905 roku."
+    },
+    {
+      "id": "fc_0384",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Mikołaj Rej?",
+      "back": "Uznawany za ojca języka polskiego."
+    },
+    {
+      "id": "fc_0385",
+      "topic": "famous-poles",
+      "front": "Co napisała Maria Konopnicka?",
+      "back": "Wiersz patriotyczny „Rota”."
+    },
+    {
+      "id": "fc_0386",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Juliusz Słowacki?",
+      "back": "Poetą polskiego romantyzmu."
+    },
+    {
+      "id": "fc_0387",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Jan Kochanowski?",
+      "back": "Poetą renesansu."
+    },
+    {
+      "id": "fc_0388",
+      "topic": "famous-poles",
+      "front": "Co nazwał Józef Ignacy Kraszewski?",
+      "back": "Żytomierz stolicą Polaków na Ukrainie."
+    },
+    {
+      "id": "fc_0389",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Bolesław Prus?",
+      "back": "Autorem „Lalki” i „Faraona”."
+    },
+    {
+      "id": "fc_0390",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1798-1855?",
+      "back": "Lata życia Adama Mickiewicza."
+    },
+    {
+      "id": "fc_0391",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Adama Mickiewicza?",
+      "back": "1798-1855."
+    },
+    {
+      "id": "fc_0392",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1505-1569?",
+      "back": "Lata życia Mikołaja Reja."
+    },
+    {
+      "id": "fc_0393",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Mikołaja Reja?",
+      "back": "1505-1569."
+    },
+    {
+      "id": "fc_0394",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1842-1910?",
+      "back": "Lata życia Marii Konopnickiej."
+    },
+    {
+      "id": "fc_0395",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Marii Konopnickiej?",
+      "back": "1842-1910."
+    },
+    {
+      "id": "fc_0396",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1809-1849?",
+      "back": "Lata życia Juliusza Słowackiego."
+    },
+    {
+      "id": "fc_0397",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Juliusza Słowackiego?",
+      "back": "1809-1849."
+    },
+    {
+      "id": "fc_0398",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1530-1584?",
+      "back": "Lata życia Jana Kochanowskiego."
+    },
+    {
+      "id": "fc_0399",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jana Kochanowskiego?",
+      "back": "1530-1584."
+    },
+    {
+      "id": "fc_0400",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1812-1887?",
+      "back": "Lata życia Józefa Ignacego Kraszewskiego."
+    },
+    {
+      "id": "fc_0401",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Józefa Ignacego Kraszewskiego?",
+      "back": "1812-1887."
+    },
+    {
+      "id": "fc_0402",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1857-1924?",
+      "back": "Lata życia Józefa Konrada Korzeniowskiego."
+    },
+    {
+      "id": "fc_0403",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Józefa Konrada Korzeniowskiego?",
+      "back": "1857-1924."
+    },
+    {
+      "id": "fc_0404",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1954?",
+      "back": "Rok urodzenia Janusza Wiśniewskiego."
+    },
+    {
+      "id": "fc_0405",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Janusza Wiśniewskiego?",
+      "back": "1954."
+    },
+    {
+      "id": "fc_0406",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1894-1980?",
+      "back": "Lata życia Jarosława Iwaszkiewicza."
+    },
+    {
+      "id": "fc_0407",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jarosława Iwaszkiewicza?",
+      "back": "1894-1980."
+    },
+    {
+      "id": "fc_0408",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1847-1912?",
+      "back": "Lata życia Bolesława Prusa."
+    },
+    {
+      "id": "fc_0409",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Bolesława Prusa?",
+      "back": "1847-1912."
+    },
+    {
+      "id": "fc_0410",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Adam Mickiewicz?",
+      "back": "Polski poeta i działacz polityczny."
+    },
+    {
+      "id": "fc_0411",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Henryk Sienkiewicz?",
+      "back": "Polski pisarz, laureat Literackiej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0412",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Mikołaj Rej?",
+      "back": "Pierwszy polski pisarz, ojciec języka polskiego."
+    },
+    {
+      "id": "fc_0413",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Maria Konopnicka?",
+      "back": "Polska poetka i nowelistka."
+    },
+    {
+      "id": "fc_0414",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Feliks Nowowiejski?",
+      "back": "Kompozytor muzyki do wiersza „Rota”."
+    },
+    {
+      "id": "fc_0415",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Juliusz Słowacki?",
+      "back": "Poeta polskiego romantyzmu."
+    },
+    {
+      "id": "fc_0416",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jan Kochanowski?",
+      "back": "Poeta polskiego renesansu."
+    },
+    {
+      "id": "fc_0417",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Józef Ignacy Kraszewski?",
+      "back": "Polski pisarz, historyk i działacz polityczny."
+    },
+    {
+      "id": "fc_0418",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Józef Konrad Korzeniowski?",
+      "back": "Pisarz polskiego pochodzenia."
+    },
+    {
+      "id": "fc_0419",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Janusz Wiśniewski?",
+      "back": "Współczesny polski pisarz."
+    },
+    {
+      "id": "fc_0420",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jarosław Iwaszkiewicz?",
+      "back": "Polski poeta."
+    },
+    {
+      "id": "fc_0421",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Bolesław Prus?",
+      "back": "Polski pisarz okresu pozytywizmu."
+    },
+    {
+      "id": "fc_0422",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Józef Piłsudski?",
+      "back": "Pierwszym Marszałkiem Polski."
+    },
+    {
+      "id": "fc_0423",
+      "topic": "famous-poles",
+      "front": "Jaką rolę odegrał Józef Piłsudski?",
+      "back": "Bardzo ważną rolę w odzyskaniu przez Polskę niepodległości w 1918 roku."
+    },
+    {
+      "id": "fc_0424",
+      "topic": "famous-poles",
+      "front": "O co walczył Tadeusz Kościuszko?",
+      "back": "O wolność Polski i niepodległość Ameryki Północnej."
+    },
+    {
+      "id": "fc_0425",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Lech Wałęsa?",
+      "back": "Liderem „Solidarności” i prezydentem Polski."
+    },
+    {
+      "id": "fc_0426",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Lech Wałęsa?",
+      "back": "Pokojową Nagrodę Nobla."
+    },
+    {
+      "id": "fc_0427",
+      "topic": "famous-poles",
+      "front": "Czym/kim dowodził Władysław Anders?",
+      "back": "Żołnierzami, którzy zdobyli Monte Cassino."
+    },
+    {
+      "id": "fc_0428",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1867-1935?",
+      "back": "Lata życia Józefa Piłsudskiego."
+    },
+    {
+      "id": "fc_0429",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Józefa Piłsudskiego?",
+      "back": "1867-1935."
+    },
+    {
+      "id": "fc_0430",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1918-1922?",
+      "back": "Józef Piłsudski był Naczelnikiem Państwa."
+    },
+    {
+      "id": "fc_0431",
+      "topic": "famous-poles",
+      "front": "Kiedy: Józef Piłsudski był Naczelnikiem Państwa?",
+      "back": "1918-1922."
+    },
+    {
+      "id": "fc_0432",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1918?",
+      "back": "Polska odzyskała niepodległość i powstała II Rzeczpospolita."
+    },
+    {
+      "id": "fc_0433",
+      "topic": "famous-poles",
+      "front": "Kiedy: Polska odzyskała niepodległość i powstała II Rzeczpospolita?",
+      "back": "1918."
+    },
+    {
+      "id": "fc_0434",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1746-1817?",
+      "back": "Lata życia Tadeusza Kościuszki."
+    },
+    {
+      "id": "fc_0435",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Tadeusza Kościuszki?",
+      "back": "1746-1817."
+    },
+    {
+      "id": "fc_0436",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1794?",
+      "back": "Tadeusz Kościuszko stanął na czele powstania przeciw Rosji i Prusom."
+    },
+    {
+      "id": "fc_0437",
+      "topic": "famous-poles",
+      "front": "Kiedy: Tadeusz Kościuszko stanął na czele powstania przeciw Rosji i Prusom?",
+      "back": "1794."
+    },
+    {
+      "id": "fc_0438",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1892-1970?",
+      "back": "Lata życia Władysława Andersa."
+    },
+    {
+      "id": "fc_0439",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Władysława Andersa?",
+      "back": "1892-1970."
+    },
+    {
+      "id": "fc_0440",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: maj 1944?",
+      "back": "Żołnierze Władysława Andersa zdobyli Monte Cassino."
+    },
+    {
+      "id": "fc_0441",
+      "topic": "famous-poles",
+      "front": "Kiedy: Żołnierze Władysława Andersa zdobyli Monte Cassino?",
+      "back": "maj 1944."
+    },
+    {
+      "id": "fc_0442",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Józef Piłsudski?",
+      "back": "Pierwszy Marszałek Polski, Naczelnik Państwa i Naczelny Wódz Armii Polskiej."
+    },
+    {
+      "id": "fc_0443",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Tadeusz Kościuszko?",
+      "back": "Polski i amerykański generał, przywódca powstania narodowego."
+    },
+    {
+      "id": "fc_0444",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Lech Wałęsa?",
+      "back": "Lider „Solidarności”, prezydent Polski i laureat Pokojowej Nagrody Nobla."
+    },
+    {
+      "id": "fc_0445",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Władysław Anders?",
+      "back": "Generał Armii Polskiej, dowódca spod Monte Cassino."
+    },
+    {
+      "id": "fc_0446",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Jan Paweł II?",
+      "back": "Pierwszym papieżem Słowianinem."
+    },
+    {
+      "id": "fc_0447",
+      "topic": "famous-poles",
+      "front": "Kiedy Jan Paweł II został(a) kanonizowany?",
+      "back": "2014 roku."
+    },
+    {
+      "id": "fc_0448",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Święty Wojciech?",
+      "back": "Patronem Polski."
+    },
+    {
+      "id": "fc_0449",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Jerzy Popiełuszko?",
+      "back": "Kapelanem warszawskiej „Solidarności”."
+    },
+    {
+      "id": "fc_0450",
+      "topic": "famous-poles",
+      "front": "Kim był(a) Święta Jadwiga?",
+      "back": "Mecenasem Akademii Krakowskiej."
+    },
+    {
+      "id": "fc_0451",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 18 maja 1920 - 2 kwietnia 2005?",
+      "back": "Lata życia Jana Pawła II."
+    },
+    {
+      "id": "fc_0452",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jana Pawła II?",
+      "back": "18 maja 1920 - 2 kwietnia 2005."
+    },
+    {
+      "id": "fc_0453",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 27 kwietnia 2014?",
+      "back": "Kanonizacja Jana Pawła II w Rzymie."
+    },
+    {
+      "id": "fc_0454",
+      "topic": "famous-poles",
+      "front": "Kiedy: Kanonizacja Jana Pawła II w Rzymie?",
+      "back": "27 kwietnia 2014."
+    },
+    {
+      "id": "fc_0455",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 956-997?",
+      "back": "Lata życia Świętego Wojciecha."
+    },
+    {
+      "id": "fc_0456",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Świętego Wojciecha?",
+      "back": "956-997."
+    },
+    {
+      "id": "fc_0457",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1039?",
+      "back": "Najazd Brzetysława Czeskiego na Polskę; relikwie Świętego Wojciecha znalazły się później w Pradze."
+    },
+    {
+      "id": "fc_0458",
+      "topic": "famous-poles",
+      "front": "Kiedy: Najazd Brzetysława Czeskiego na Polskę; relikwie Świętego Wojciecha znalazły się później w Pradze?",
+      "back": "1039."
+    },
+    {
+      "id": "fc_0459",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1947-1984?",
+      "back": "Lata życia Jerzego Popiełuszki."
+    },
+    {
+      "id": "fc_0460",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Jerzego Popiełuszki?",
+      "back": "1947-1984."
+    },
+    {
+      "id": "fc_0461",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1373/74-1399?",
+      "back": "Lata życia Świętej Jadwigi."
+    },
+    {
+      "id": "fc_0462",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Świętej Jadwigi?",
+      "back": "1373/74-1399."
+    },
+    {
+      "id": "fc_0463",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jan Paweł II?",
+      "back": "Papież, poeta, poliglota, aktor, dramaturg i pedagog."
+    },
+    {
+      "id": "fc_0464",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Karol Wojtyła?",
+      "back": "Imię i nazwisko Jana Pawła II przed wyborem na papieża."
+    },
+    {
+      "id": "fc_0465",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Święty Wojciech?",
+      "back": "Biskup, męczennik i patron Polski."
+    },
+    {
+      "id": "fc_0466",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jerzy Aleksander Popiełuszko?",
+      "back": "Kapelan warszawskiej „Solidarności”, błogosławiony."
+    },
+    {
+      "id": "fc_0467",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Święta Jadwiga?",
+      "back": "Król Polski, mecenas Akademii Krakowskiej."
+    },
+    {
+      "id": "fc_0468",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Władysław II Jagiełło?",
+      "back": "Książę litewski i późniejszy król Polski, mąż Jadwigi."
+    },
+    {
+      "id": "fc_0469",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Andrzej Wajda?",
+      "back": "Oscara za całokształt twórczości."
+    },
+    {
+      "id": "fc_0470",
+      "topic": "famous-poles",
+      "front": "Co zekranizował Jerzy Hoffmann?",
+      "back": "Trylogię Henryka Sienkiewicza."
+    },
+    {
+      "id": "fc_0471",
+      "topic": "famous-poles",
+      "front": "Co otrzymał Paweł Pawlikowski?",
+      "back": "Oscara za film „Ida”."
+    },
+    {
+      "id": "fc_0472",
+      "topic": "famous-poles",
+      "front": "Co otrzymała Ewa Braun?",
+      "back": "Oscara za dekorację wnętrz do filmu „Lista Schindlera”."
+    },
+    {
+      "id": "fc_0473",
+      "topic": "famous-poles",
+      "front": "Co należy do znanych polskich zespołów?",
+      "back": "„Stare Dobre Małżeństwo”, „Czerwone Gitary”, „Feel”, „Taraka” i „Enej”."
+    },
+    {
+      "id": "fc_0474",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1926-2016?",
+      "back": "Lata życia Andrzeja Wajdy."
+    },
+    {
+      "id": "fc_0475",
+      "topic": "famous-poles",
+      "front": "Kiedy: Lata życia Andrzeja Wajdy?",
+      "back": "1926-2016."
+    },
+    {
+      "id": "fc_0476",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1932?",
+      "back": "Rok urodzenia Jerzego Hoffmanna."
+    },
+    {
+      "id": "fc_0477",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Jerzego Hoffmanna?",
+      "back": "1932."
+    },
+    {
+      "id": "fc_0478",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1957?",
+      "back": "Rok urodzenia Pawła Pawlikowskiego."
+    },
+    {
+      "id": "fc_0479",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Pawła Pawlikowskiego?",
+      "back": "1957."
+    },
+    {
+      "id": "fc_0480",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 2015?",
+      "back": "Paweł Pawlikowski otrzymał Oscara za film „Ida”."
+    },
+    {
+      "id": "fc_0481",
+      "topic": "famous-poles",
+      "front": "Kiedy: Paweł Pawlikowski otrzymał Oscara za film „Ida”?",
+      "back": "2015."
+    },
+    {
+      "id": "fc_0482",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1944?",
+      "back": "Rok urodzenia Ewy Braun."
+    },
+    {
+      "id": "fc_0483",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Ewy Braun?",
+      "back": "1944."
+    },
+    {
+      "id": "fc_0484",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1994?",
+      "back": "Ewa Braun otrzymała Oscara za dekorację wnętrz do filmu „Lista Schindlera”."
+    },
+    {
+      "id": "fc_0485",
+      "topic": "famous-poles",
+      "front": "Kiedy: Ewa Braun otrzymała Oscara za dekorację wnętrz do filmu „Lista Schindlera”?",
+      "back": "1994."
+    },
+    {
+      "id": "fc_0486",
+      "topic": "famous-poles",
+      "front": "Co wydarzyło się: 1972?",
+      "back": "Rok urodzenia Piotra Adamczyka."
+    },
+    {
+      "id": "fc_0487",
+      "topic": "famous-poles",
+      "front": "Kiedy: Rok urodzenia Piotra Adamczyka?",
+      "back": "1972."
+    },
+    {
+      "id": "fc_0488",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Andrzej Wajda?",
+      "back": "Polski reżyser filmowy i teatralny."
+    },
+    {
+      "id": "fc_0489",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jerzy Hoffmann?",
+      "back": "Polski reżyser i scenarzysta filmowy."
+    },
+    {
+      "id": "fc_0490",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Paweł Pawlikowski?",
+      "back": "Polski reżyser, laureat Oscara."
+    },
+    {
+      "id": "fc_0491",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Ewa Braun?",
+      "back": "Polska scenografka i dekoratorka wnętrz, laureatka Oscara."
+    },
+    {
+      "id": "fc_0492",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Piotr Adamczyk?",
+      "back": "Polski aktor."
+    },
+    {
+      "id": "fc_0493",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Cezary Pazura?",
+      "back": "Polski aktor."
+    },
+    {
+      "id": "fc_0494",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Bogusław Linda?",
+      "back": "Polski aktor."
+    },
+    {
+      "id": "fc_0495",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Natalia Kukulska?",
+      "back": "Polska piosenkarka."
+    },
+    {
+      "id": "fc_0496",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Anna Wyszkoni?",
+      "back": "Polska piosenkarka."
+    },
+    {
+      "id": "fc_0497",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Edyta Górniak?",
+      "back": "Polska piosenkarka."
+    },
+    {
+      "id": "fc_0498",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Anita Włodarczyk?",
+      "back": "Rekordzistką świata w rzucie młotem."
+    },
+    {
+      "id": "fc_0499",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Zbigniew Bródka?",
+      "back": "Polskim łyżwiarzem szybkim i mistrzem olimpijskim."
+    },
+    {
+      "id": "fc_0500",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Kamil Stoch?",
+      "back": "Polskim skoczkiem narciarskim i mistrzem olimpijskim."
+    },
+    {
+      "id": "fc_0501",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Justyna Kowalczyk?",
+      "back": "Polską biegaczką narciarską i mistrzynią olimpijską."
+    },
+    {
+      "id": "fc_0502",
+      "topic": "famous-poles",
+      "front": "Czym są Robert Lewandowski i Jakub Błaszczykowski?",
+      "back": "Polskimi piłkarzami."
+    },
+    {
+      "id": "fc_0503",
+      "topic": "famous-poles",
+      "front": "Czym / kim jest Andrzej Gołota?",
+      "back": "Polskim bokserem."
+    },
+    {
+      "id": "fc_0504",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Anita Włodarczyk?",
+      "back": "Polska lekkoatletka, rekordzistka świata w rzucie młotem."
+    },
+    {
+      "id": "fc_0505",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Zbigniew Bródka?",
+      "back": "Polski łyżwiarz szybki, mistrz olimpijski."
+    },
+    {
+      "id": "fc_0506",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Kamil Stoch?",
+      "back": "Polski skoczek narciarski, mistrz olimpijski."
+    },
+    {
+      "id": "fc_0507",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Justyna Kowalczyk?",
+      "back": "Polska biegaczka narciarska, mistrzyni olimpijska."
+    },
+    {
+      "id": "fc_0508",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Robert Lewandowski?",
+      "back": "Polski piłkarz."
+    },
+    {
+      "id": "fc_0509",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Jakub Błaszczykowski?",
+      "back": "Polski piłkarz."
+    },
+    {
+      "id": "fc_0510",
+      "topic": "famous-poles",
+      "front": "Kim był(a) / jest Andrzej Gołota?",
+      "back": "Polski bokser."
+    },
+    {
+      "id": "fc_0511",
+      "topic": "history",
+      "front": "Kiedy Żytomierz został(a) założony?",
+      "back": "884 Roku."
+    },
+    {
+      "id": "fc_0512",
+      "topic": "history",
+      "front": "Co wydarzyło się w 1793 roku?",
+      "back": "Został odłączony od Rzeczypospolitej w wyniku drugiego rozbioru."
+    },
+    {
+      "id": "fc_0513",
+      "topic": "history",
+      "front": "Czym / kim jest Żytomierz?",
+      "back": "Jednym z ważnych ośrodków Polaków na Ukrainie."
+    },
+    {
+      "id": "fc_0514",
+      "topic": "history",
+      "front": "Co wydarzyło się w latach trzydziestych?",
+      "back": "Wielu Polaków z Żytomierza i okolic zostało represjonowanych."
+    },
+    {
+      "id": "fc_0515",
+      "topic": "history",
+      "front": "Co wydarzyło się: 884?",
+      "back": "Założenie Żytomierza."
+    },
+    {
+      "id": "fc_0516",
+      "topic": "history",
+      "front": "Kiedy: Założenie Żytomierza?",
+      "back": "884."
+    },
+    {
+      "id": "fc_0517",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1793?",
+      "back": "Odłączenie Żytomierza od Rzeczypospolitej w wyniku drugiego rozbioru."
+    },
+    {
+      "id": "fc_0518",
+      "topic": "history",
+      "front": "Kiedy: Odłączenie Żytomierza od Rzeczypospolitej w wyniku drugiego rozbioru?",
+      "back": "1793."
+    },
+    {
+      "id": "fc_0519",
+      "topic": "history",
+      "front": "Co wydarzyło się: lata 30. XX wieku?",
+      "back": "Aresztowania, rozstrzelania i deportacje Polaków z Żytomierza i okolic."
+    },
+    {
+      "id": "fc_0520",
+      "topic": "history",
+      "front": "Kiedy: Aresztowania, rozstrzelania i deportacje Polaków z Żytomierza i okolic?",
+      "back": "Lata 30. XX wieku."
+    },
+    {
+      "id": "fc_0521",
+      "topic": "history",
+      "front": "Kim był(a) Juliusz Zarębski?",
+      "back": "Kompozytorem i pianistą."
+    },
+    {
+      "id": "fc_0522",
+      "topic": "history",
+      "front": "Kim był(a) Tadeusz Borowski?",
+      "back": "Poetą, prozaikiem i publicystą."
+    },
+    {
+      "id": "fc_0523",
+      "topic": "history",
+      "front": "Kim był(a) Jarosław Dąbrowski?",
+      "back": "Generałem związanym z przygotowaniami do powstania styczniowego."
+    },
+    {
+      "id": "fc_0524",
+      "topic": "history",
+      "front": "Co stało się z Mieczysław Pawlikowski służył w Polskich Siłach Powietrznych na Zachodzie i?",
+      "back": "Dwukrotnie odznaczony Krzyżem Walecznym."
+    },
+    {
+      "id": "fc_0525",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1854-1885?",
+      "back": "Lata życia Juliusza Zarębskiego."
+    },
+    {
+      "id": "fc_0526",
+      "topic": "history",
+      "front": "Kiedy: Lata życia Juliusza Zarębskiego?",
+      "back": "1854-1885."
+    },
+    {
+      "id": "fc_0527",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1922-1951?",
+      "back": "Lata życia Tadeusza Borowskiego."
+    },
+    {
+      "id": "fc_0528",
+      "topic": "history",
+      "front": "Kiedy: Lata życia Tadeusza Borowskiego?",
+      "back": "1922-1951."
+    },
+    {
+      "id": "fc_0529",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1836-1871?",
+      "back": "Lata życia Jarosława Dąbrowskiego."
+    },
+    {
+      "id": "fc_0530",
+      "topic": "history",
+      "front": "Kiedy: Lata życia Jarosława Dąbrowskiego?",
+      "back": "1836-1871."
+    },
+    {
+      "id": "fc_0531",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1863?",
+      "back": "Jarosław Dąbrowski działał w przygotowaniach do powstania styczniowego."
+    },
+    {
+      "id": "fc_0532",
+      "topic": "history",
+      "front": "Kiedy: Jarosław Dąbrowski działał w przygotowaniach do powstania styczniowego?",
+      "back": "1863."
+    },
+    {
+      "id": "fc_0533",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1920-1978?",
+      "back": "Lata życia Mieczysława Pawlikowskiego."
+    },
+    {
+      "id": "fc_0534",
+      "topic": "history",
+      "front": "Kiedy: Lata życia Mieczysława Pawlikowskiego?",
+      "back": "1920-1978."
+    },
+    {
+      "id": "fc_0535",
+      "topic": "history",
+      "front": "Kim był(a) / jest Juliusz Zarębski?",
+      "back": "Kompozytor i pianista urodzony w Żytomierzu."
+    },
+    {
+      "id": "fc_0536",
+      "topic": "history",
+      "front": "Kim był(a) / jest Tadeusz Borowski?",
+      "back": "Polski poeta, prozaik i publicysta urodzony w Żytomierzu."
+    },
+    {
+      "id": "fc_0537",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jarosław Dąbrowski?",
+      "back": "Generał, działacz związany z przygotowaniami do powstania styczniowego."
+    },
+    {
+      "id": "fc_0538",
+      "topic": "history",
+      "front": "Kim był(a) / jest Mieczysław Pawlikowski?",
+      "back": "Polski wojskowy, aktor teatralny i filmowy."
+    },
+    {
+      "id": "fc_0539",
+      "topic": "history",
+      "front": "Czym / kim jest Cmentarz polski w Żytomierzu?",
+      "back": "Jednym z największych poza granicami Polski."
+    },
+    {
+      "id": "fc_0540",
+      "topic": "history",
+      "front": "Kto spoczywa na cmentarzu?",
+      "back": "Juliusz Zarębski."
+    },
+    {
+      "id": "fc_0541",
+      "topic": "history",
+      "front": "Kto spoczywają na cmentarzu?",
+      "back": "Bliscy Ignacego Jana Paderewskiego."
+    },
+    {
+      "id": "fc_0542",
+      "topic": "history",
+      "front": "Czym są Na cmentarzu pochowani?",
+      "back": "Także krewni Stanisława Moniuszki i Józefa Kraszewskiego."
+    },
+    {
+      "id": "fc_0543",
+      "topic": "history",
+      "front": "Kim był(a) / jest Juliusz Zarębski?",
+      "back": "Kompozytor i pianista pochowany na cmentarzu polskim w Żytomierzu."
+    },
+    {
+      "id": "fc_0544",
+      "topic": "history",
+      "front": "Kim był(a) / jest Ignacy Jan Paderewski?",
+      "back": "Polski pianista i polityk, którego rodzina jest związana z cmentarzem w Żytomierzu."
+    },
+    {
+      "id": "fc_0545",
+      "topic": "history",
+      "front": "Kim był(a) / jest Stanisław Moniuszko?",
+      "back": "Polski kompozytor, którego krewni są pochowani w Żytomierzu."
+    },
+    {
+      "id": "fc_0546",
+      "topic": "history",
+      "front": "Kim był(a) / jest Józef Ignacy Kraszewski?",
+      "back": "Polski pisarz, którego krewni są pochowani w Żytomierzu."
+    },
+    {
+      "id": "fc_0547",
+      "topic": "history",
+      "front": "Kim był(a) / jest Bronisław Matyjewicz-Maciejewicz?",
+      "back": "Polski lotnik i jeden z pierwszych polskich pilotów."
+    },
+    {
+      "id": "fc_0548",
+      "topic": "history",
+      "front": "Kim był(a) Żytomierska Filharmonia?",
+      "back": "Dawniej teatrem dramatycznym."
+    },
+    {
+      "id": "fc_0549",
+      "topic": "history",
+      "front": "Kim był(a) Do rewolucji bolszewickiej?",
+      "back": "Ośrodkiem kultury polskiej."
+    },
+    {
+      "id": "fc_0550",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Józef Ignacy Kraszewski wniósł ważny wkład w rozwój teatru w Żytomierzu”?",
+      "back": "Józef Ignacy Kraszewski wniósł ważny wkład w rozwój teatru w Żytomierzu."
+    },
+    {
+      "id": "fc_0551",
+      "topic": "history",
+      "front": "Co znajduje się w Żytomierzu?",
+      "back": "Pomnik Jana Pawła II."
+    },
+    {
+      "id": "fc_0552",
+      "topic": "history",
+      "front": "Czym są W mieście?",
+      "back": "Liczne tablice pamiątkowe związane z Polakami."
+    },
+    {
+      "id": "fc_0553",
+      "topic": "history",
+      "front": "Co wydarzyło się: druga połowa XIX wieku?",
+      "back": "Józef Ignacy Kraszewski wniósł wkład w budowę teatru w Żytomierzu."
+    },
+    {
+      "id": "fc_0554",
+      "topic": "history",
+      "front": "Kiedy: Józef Ignacy Kraszewski wniósł wkład w budowę teatru w Żytomierzu?",
+      "back": "Druga połowa XIX wieku."
+    },
+    {
+      "id": "fc_0555",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1920?",
+      "back": "Zawarto militarny sojusz między Polską a Ukrainą, upamiętniony tablicą na fasadzie kina „Ukraina”."
+    },
+    {
+      "id": "fc_0556",
+      "topic": "history",
+      "front": "Kiedy: Zawarto militarny sojusz między Polską a Ukrainą, upamiętniony tablicą na fasadzie kina „Ukraina”?",
+      "back": "1920."
+    },
+    {
+      "id": "fc_0557",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1944?",
+      "back": "Latem w jednym z budynków przy ulicy Michajłowskiej mieścił się główny sztab polskich jednostek wojskowych na Żytomierszczyźnie."
+    },
+    {
+      "id": "fc_0558",
+      "topic": "history",
+      "front": "Kiedy: Latem w jednym z budynków przy ulicy Michajłowskiej mieścił się główny sztab polskich jednostek wojskowych na Żytomierszczyźnie?",
+      "back": "1944."
+    },
+    {
+      "id": "fc_0559",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1851?",
+      "back": "Zygmunt Feliński studiował w Seminarium Duchownym w Żytomierzu."
+    },
+    {
+      "id": "fc_0560",
+      "topic": "history",
+      "front": "Kiedy: Zygmunt Feliński studiował w Seminarium Duchownym w Żytomierzu?",
+      "back": "1851."
+    },
+    {
+      "id": "fc_0561",
+      "topic": "history",
+      "front": "Kim był(a) / jest Józef Ignacy Kraszewski?",
+      "back": "Polski pisarz, kurator szkół polskich i dyrektor Teatru Żytomierskiego."
+    },
+    {
+      "id": "fc_0562",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jan Paweł II?",
+      "back": "Papież upamiętniony pomnikiem w Żytomierzu."
+    },
+    {
+      "id": "fc_0563",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jarosław Dąbrowski?",
+      "back": "Generał upamiętniony pomnikiem i tablicą w Żytomierzu."
+    },
+    {
+      "id": "fc_0564",
+      "topic": "history",
+      "front": "Kim był(a) / jest Ignacy Jan Paderewski?",
+      "back": "Postać upamiętniona tablicami w Żytomierzu."
+    },
+    {
+      "id": "fc_0565",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Kaczyński?",
+      "back": "Postać upamiętniona tablicą i ulicą w Żytomierzu."
+    },
+    {
+      "id": "fc_0566",
+      "topic": "history",
+      "front": "Kim był(a) / jest Zygmunt Feliński?",
+      "back": "Arcybiskup Warszawy, związany z seminarium w Żytomierzu."
+    },
+    {
+      "id": "fc_0567",
+      "topic": "history",
+      "front": "Kim był(a) / jest Róża Czacka?",
+      "back": "Założycielka Zgromadzenia Sióstr Franciszkanek Służebnic Krzyża."
+    },
+    {
+      "id": "fc_0568",
+      "topic": "history",
+      "front": "Kim był(a) / jest Kasper Borowski?",
+      "back": "Biskup diecezji łucko-żytomierskiej."
+    },
+    {
+      "id": "fc_0569",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jan Samuel Ożga?",
+      "back": "Biskup, który uczynił Żytomierz stolicą diecezji i rozpoczął budowę katedry św. Zofii."
+    },
+    {
+      "id": "fc_0570",
+      "topic": "history",
+      "front": "Jakie są najważniejsze kościoły?",
+      "back": "Katedra Świętej Zofii, Kościół Seminaryjny Świętego Jana z Dukli, Kościół Bożego Miłosierdzia i Kościół Świętego Wacława."
+    },
+    {
+      "id": "fc_0571",
+      "topic": "history",
+      "front": "Co działa w Żytomierzu?",
+      "back": "Dom Polski imienia Ignacego Jana Paderewskiego."
+    },
+    {
+      "id": "fc_0572",
+      "topic": "history",
+      "front": "Co działają w mieście?",
+      "back": "Zespoły „Poleskie Sokoły” i „Dzwoneczki”."
+    },
+    {
+      "id": "fc_0573",
+      "topic": "history",
+      "front": "Czym są W Żytomierzu?",
+      "back": "Ulice Jana Pawła II, Lecha Kaczyńskiego i Zygmunta Felińskiego."
+    },
+    {
+      "id": "fc_0574",
+      "topic": "history",
+      "front": "Kim był(a) / jest Ignacy Jan Paderewski?",
+      "back": "Patron Domu Polskiego w Żytomierzu."
+    },
+    {
+      "id": "fc_0575",
+      "topic": "history",
+      "front": "Kim był(a) / jest Juliusz Zarębski?",
+      "back": "Patron chóru w Żytomierzu."
+    },
+    {
+      "id": "fc_0576",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jan Paweł II?",
+      "back": "Patron ulicy w Żytomierzu."
+    },
+    {
+      "id": "fc_0577",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Kaczyński?",
+      "back": "Patron ulicy w Żytomierzu."
+    },
+    {
+      "id": "fc_0578",
+      "topic": "history",
+      "front": "Kim był(a) / jest Zygmunt Feliński?",
+      "back": "Patron ulicy w Żytomierzu, arcybiskup Warszawy zesłany na Syberię."
+    },
+    {
+      "id": "fc_0579",
+      "topic": "history",
+      "front": "Kim był(a) Mieszko I?",
+      "back": "Pierwszym władcą Polski."
+    },
+    {
+      "id": "fc_0580",
+      "topic": "history",
+      "front": "Co miał Chrzest Polski?",
+      "back": "Miejsce w 966 roku."
+    },
+    {
+      "id": "fc_0581",
+      "topic": "history",
+      "front": "Kim był(a) Bolesław Chrobry?",
+      "back": "Pierwszym królem Polski."
+    },
+    {
+      "id": "fc_0582",
+      "topic": "history",
+      "front": "Kiedy rozpoczęło się Rozbicie dzielnicowe?",
+      "back": "Po śmierci Bolesława III Krzywoustego."
+    },
+    {
+      "id": "fc_0583",
+      "topic": "history",
+      "front": "Co zakończył Władysław Łokietek?",
+      "back": "Okres rozbicia dzielnicowego."
+    },
+    {
+      "id": "fc_0584",
+      "topic": "history",
+      "front": "Co ufundował Kazimierz III Wielki?",
+      "back": "Pierwszy uniwersytet w Polsce."
+    },
+    {
+      "id": "fc_0585",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po śmierci Kazimierza Wielkiego wygasła dynastia Piastów”?",
+      "back": "Po śmierci Kazimierza Wielkiego wygasła dynastia Piastów."
+    },
+    {
+      "id": "fc_0586",
+      "topic": "history",
+      "front": "Co wydarzyło się: 966?",
+      "back": "Chrzest Polski za panowania Mieszka I."
+    },
+    {
+      "id": "fc_0587",
+      "topic": "history",
+      "front": "Kiedy: Chrzest Polski za panowania Mieszka I?",
+      "back": "966."
+    },
+    {
+      "id": "fc_0588",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1025?",
+      "back": "Koronacja Bolesława Chrobrego na pierwszego króla Polski."
+    },
+    {
+      "id": "fc_0589",
+      "topic": "history",
+      "front": "Kiedy: Koronacja Bolesława Chrobrego na pierwszego króla Polski?",
+      "back": "1025."
+    },
+    {
+      "id": "fc_0590",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1138?",
+      "back": "Początek rozbicia dzielnicowego po śmierci Bolesława III Krzywoustego."
+    },
+    {
+      "id": "fc_0591",
+      "topic": "history",
+      "front": "Kiedy: Początek rozbicia dzielnicowego po śmierci Bolesława III Krzywoustego?",
+      "back": "1138."
+    },
+    {
+      "id": "fc_0592",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1320?",
+      "back": "Władysław Łokietek koronował się na króla Polski."
+    },
+    {
+      "id": "fc_0593",
+      "topic": "history",
+      "front": "Kiedy: Władysław Łokietek koronował się na króla Polski?",
+      "back": "1320."
+    },
+    {
+      "id": "fc_0594",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1364?",
+      "back": "Kazimierz III Wielki ufundował pierwszy uniwersytet w Polsce."
+    },
+    {
+      "id": "fc_0595",
+      "topic": "history",
+      "front": "Kiedy: Kazimierz III Wielki ufundował pierwszy uniwersytet w Polsce?",
+      "back": "1364."
+    },
+    {
+      "id": "fc_0596",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1370?",
+      "back": "Śmierć Kazimierza Wielkiego i wygaśnięcie dynastii Piastów."
+    },
+    {
+      "id": "fc_0597",
+      "topic": "history",
+      "front": "Kiedy: Śmierć Kazimierza Wielkiego i wygaśnięcie dynastii Piastów?",
+      "back": "1370."
+    },
+    {
+      "id": "fc_0598",
+      "topic": "history",
+      "front": "Kim był(a) / jest Mieszko I?",
+      "back": "Pierwszy władca Polski."
+    },
+    {
+      "id": "fc_0599",
+      "topic": "history",
+      "front": "Kim był(a) / jest Dobrawa?",
+      "back": "Czeska księżniczka i żona Mieszka I."
+    },
+    {
+      "id": "fc_0600",
+      "topic": "history",
+      "front": "Kim był(a) / jest Bolesław Chrobry?",
+      "back": "Pierwszy król Polski."
+    },
+    {
+      "id": "fc_0601",
+      "topic": "history",
+      "front": "Kim był(a) / jest Bolesław III Krzywousty?",
+      "back": "Władca, po którego śmierci rozpoczęło się rozbicie dzielnicowe."
+    },
+    {
+      "id": "fc_0602",
+      "topic": "history",
+      "front": "Kim był(a) / jest Władysław Łokietek?",
+      "back": "Król, który zakończył okres rozbicia dzielnicowego."
+    },
+    {
+      "id": "fc_0603",
+      "topic": "history",
+      "front": "Kim był(a) / jest Kazimierz III Wielki?",
+      "back": "Król Polski, reformator i fundator pierwszego uniwersytetu w Polsce."
+    },
+    {
+      "id": "fc_0604",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po śmierci Kazimierza Wielkiego tron przejął Ludwik Węgierski”?",
+      "back": "Po śmierci Kazimierza Wielkiego tron przejął Ludwik Węgierski."
+    },
+    {
+      "id": "fc_0605",
+      "topic": "history",
+      "front": "Co stało się z Jadwiga Andegaweńska?",
+      "back": "Królem Polski w 1384 roku."
+    },
+    {
+      "id": "fc_0606",
+      "topic": "history",
+      "front": "Co stało się z Władysław II Jagiełło?",
+      "back": "Koronowany na władcę Polski w 1386 roku."
+    },
+    {
+      "id": "fc_0607",
+      "topic": "history",
+      "front": "Co połączyła Unia w Krewie?",
+      "back": "Polskę i Litwę."
+    },
+    {
+      "id": "fc_0608",
+      "topic": "history",
+      "front": "Co pokonała W bitwie pod Grunwaldem armia polsko-litewska?",
+      "back": "Krzyżaków."
+    },
+    {
+      "id": "fc_0609",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Za Jagiellonów rozwijały się kultura, nauka i gospodarka”?",
+      "back": "Za Jagiellonów rozwijały się kultura, nauka i gospodarka."
+    },
+    {
+      "id": "fc_0610",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1370?",
+      "back": "Ludwik Węgierski przejął tron polski po śmierci Kazimierza Wielkiego."
+    },
+    {
+      "id": "fc_0611",
+      "topic": "history",
+      "front": "Kiedy: Ludwik Węgierski przejął tron polski po śmierci Kazimierza Wielkiego?",
+      "back": "1370."
+    },
+    {
+      "id": "fc_0612",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1384?",
+      "back": "Jadwiga Andegaweńska została królem Polski."
+    },
+    {
+      "id": "fc_0613",
+      "topic": "history",
+      "front": "Kiedy: Jadwiga Andegaweńska została królem Polski?",
+      "back": "1384."
+    },
+    {
+      "id": "fc_0614",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1385?",
+      "back": "Jadwiga Andegaweńska wyszła za Władysława II Jagiełłę."
+    },
+    {
+      "id": "fc_0615",
+      "topic": "history",
+      "front": "Kiedy: Jadwiga Andegaweńska wyszła za Władysława II Jagiełłę?",
+      "back": "1385."
+    },
+    {
+      "id": "fc_0616",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1386?",
+      "back": "Władysław II Jagiełło został koronowany na władcę Polski."
+    },
+    {
+      "id": "fc_0617",
+      "topic": "history",
+      "front": "Kiedy: Władysław II Jagiełło został koronowany na władcę Polski?",
+      "back": "1386."
+    },
+    {
+      "id": "fc_0618",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1410?",
+      "back": "Bitwa pod Grunwaldem."
+    },
+    {
+      "id": "fc_0619",
+      "topic": "history",
+      "front": "Kiedy: Bitwa pod Grunwaldem?",
+      "back": "1410."
+    },
+    {
+      "id": "fc_0620",
+      "topic": "history",
+      "front": "Kim był(a) / jest Ludwik Węgierski?",
+      "back": "Król Polski z dynastii Andegawenów."
+    },
+    {
+      "id": "fc_0621",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jadwiga Andegaweńska?",
+      "back": "Król Polski, córka Ludwika Węgierskiego."
+    },
+    {
+      "id": "fc_0622",
+      "topic": "history",
+      "front": "Kim był(a) / jest Władysław II Jagiełło?",
+      "back": "Wielki książę litewski i król Polski."
+    },
+    {
+      "id": "fc_0623",
+      "topic": "history",
+      "front": "Kim był(a) / jest Mikołaj Kopernik?",
+      "back": "Uczony związany z rozwojem nauki w okresie jagiellońskim."
+    },
+    {
+      "id": "fc_0624",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jan Kochanowski?",
+      "back": "Poeta związany z rozwojem kultury polskiej."
+    },
+    {
+      "id": "fc_0625",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Unia lubelska utworzyła Rzeczpospolitą Obojga Narodów”?",
+      "back": "Unia lubelska utworzyła Rzeczpospolitą Obojga Narodów."
+    },
+    {
+      "id": "fc_0626",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po śmierci Zygmunta II Augusta wprowadzono wolną elekcję”?",
+      "back": "Po śmierci Zygmunta II Augusta wprowadzono wolną elekcję."
+    },
+    {
+      "id": "fc_0627",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „W XVII wieku Rzeczpospolita walczyła między innymi ze Szwecją, Kozakami i Rosją”?",
+      "back": "W XVII wieku Rzeczpospolita walczyła między innymi ze Szwecją, Kozakami i Rosją."
+    },
+    {
+      "id": "fc_0628",
+      "topic": "history",
+      "front": "Co pokonał Jan III Sobieski?",
+      "back": "Turków pod Wiedniem."
+    },
+    {
+      "id": "fc_0629",
+      "topic": "history",
+      "front": "Kim był(a) Konstytucja 3 maja?",
+      "back": "Pierwszą konstytucją w Europie."
+    },
+    {
+      "id": "fc_0630",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1569?",
+      "back": "Unia lubelska i utworzenie Rzeczypospolitej Obojga Narodów."
+    },
+    {
+      "id": "fc_0631",
+      "topic": "history",
+      "front": "Kiedy: Unia lubelska i utworzenie Rzeczypospolitej Obojga Narodów?",
+      "back": "1569."
+    },
+    {
+      "id": "fc_0632",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1573?",
+      "back": "Wprowadzenie wolnej elekcji."
+    },
+    {
+      "id": "fc_0633",
+      "topic": "history",
+      "front": "Kiedy: Wprowadzenie wolnej elekcji?",
+      "back": "1573."
+    },
+    {
+      "id": "fc_0634",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1655-1660?",
+      "back": "Potop szwedzki."
+    },
+    {
+      "id": "fc_0635",
+      "topic": "history",
+      "front": "Kiedy: Potop szwedzki?",
+      "back": "1655-1660."
+    },
+    {
+      "id": "fc_0636",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1683?",
+      "back": "Jan III Sobieski pokonał Turków w bitwie pod Wiedniem."
+    },
+    {
+      "id": "fc_0637",
+      "topic": "history",
+      "front": "Kiedy: Jan III Sobieski pokonał Turków w bitwie pod Wiedniem?",
+      "back": "1683."
+    },
+    {
+      "id": "fc_0638",
+      "topic": "history",
+      "front": "Kim był(a) / jest Zygmunt II August?",
+      "back": "Ostatni król Polski z dynastii Jagiellonów."
+    },
+    {
+      "id": "fc_0639",
+      "topic": "history",
+      "front": "Kim był(a) / jest Jan III Sobieski?",
+      "back": "Król Polski, zwycięzca bitwy pod Wiedniem."
+    },
+    {
+      "id": "fc_0640",
+      "topic": "history",
+      "front": "Kim był(a) / jest Stanisław August Poniatowski?",
+      "back": "Ostatni król Polski, inicjator reform."
+    },
+    {
+      "id": "fc_0641",
+      "topic": "history",
+      "front": "Co stało się z Polska?",
+      "back": "Podzielona przez Rosję, Prusy i Austrię."
+    },
+    {
+      "id": "fc_0642",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Rozbiory Polski miały miejsce w latach 1772, 1793 i 1795”?",
+      "back": "Rozbiory Polski miały miejsce w latach 1772, 1793 i 1795."
+    },
+    {
+      "id": "fc_0643",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po III rozbiorze Polska zniknęła z mapy świata na 123 lata”?",
+      "back": "Po III rozbiorze Polska zniknęła z mapy świata na 123 lata."
+    },
+    {
+      "id": "fc_0644",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Powstanie kościuszkowskie wybuchło w 1794 roku”?",
+      "back": "Powstanie kościuszkowskie wybuchło w 1794 roku."
+    },
+    {
+      "id": "fc_0645",
+      "topic": "history",
+      "front": "Co wydarzyło się w 1807 roku?",
+      "back": "Utworzono Księstwo Warszawskie."
+    },
+    {
+      "id": "fc_0646",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po 1815 roku powstało Królestwo Polskie zależne od Rosji”?",
+      "back": "Po 1815 roku powstało Królestwo Polskie zależne od Rosji."
+    },
+    {
+      "id": "fc_0647",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1772?",
+      "back": "I rozbiór Polski przez Rosję, Prusy i Austrię."
+    },
+    {
+      "id": "fc_0648",
+      "topic": "history",
+      "front": "Kiedy: I rozbiór Polski przez Rosję, Prusy i Austrię?",
+      "back": "1772."
+    },
+    {
+      "id": "fc_0649",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1793?",
+      "back": "II rozbiór Polski przez Rosję i Prusy."
+    },
+    {
+      "id": "fc_0650",
+      "topic": "history",
+      "front": "Kiedy: II rozbiór Polski przez Rosję i Prusy?",
+      "back": "1793."
+    },
+    {
+      "id": "fc_0651",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1794?",
+      "back": "Powstanie kościuszkowskie."
+    },
+    {
+      "id": "fc_0652",
+      "topic": "history",
+      "front": "Kiedy: Powstanie kościuszkowskie?",
+      "back": "1794."
+    },
+    {
+      "id": "fc_0653",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1795?",
+      "back": "III rozbiór Polski przez Rosję, Prusy i Austrię."
+    },
+    {
+      "id": "fc_0654",
+      "topic": "history",
+      "front": "Kiedy: III rozbiór Polski przez Rosję, Prusy i Austrię?",
+      "back": "1795."
+    },
+    {
+      "id": "fc_0655",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1807?",
+      "back": "Utworzenie Księstwa Warszawskiego."
+    },
+    {
+      "id": "fc_0656",
+      "topic": "history",
+      "front": "Kiedy: Utworzenie Księstwa Warszawskiego?",
+      "back": "1807."
+    },
+    {
+      "id": "fc_0657",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1815?",
+      "back": "Powstanie Królestwa Polskiego zależnego od Rosji."
+    },
+    {
+      "id": "fc_0658",
+      "topic": "history",
+      "front": "Kiedy: Powstanie Królestwa Polskiego zależnego od Rosji?",
+      "back": "1815."
+    },
+    {
+      "id": "fc_0659",
+      "topic": "history",
+      "front": "Kim był(a) / jest Tadeusz Kościuszko?",
+      "back": "Przywódca powstania kościuszkowskiego."
+    },
+    {
+      "id": "fc_0660",
+      "topic": "history",
+      "front": "Kim był(a) / jest Napoleon Bonaparte?",
+      "back": "Władca Francji, z którym Polacy wiązali nadzieje na odzyskanie niepodległości."
+    },
+    {
+      "id": "fc_0661",
+      "topic": "history",
+      "front": "Kim był(a) / jest Aleksander I?",
+      "back": "Car Rosji, który nadał konstytucję Królestwu Polskiemu."
+    },
+    {
+      "id": "fc_0662",
+      "topic": "history",
+      "front": "Kim był(a) Powstanie Listopadowe?",
+      "back": "Skierowane przeciwko Rosji."
+    },
+    {
+      "id": "fc_0663",
+      "topic": "history",
+      "front": "Kiedy trwało Powstanie Listopadowe?",
+      "back": "W latach 1830-1831."
+    },
+    {
+      "id": "fc_0664",
+      "topic": "history",
+      "front": "Kim był(a) Powstanie Styczniowe?",
+      "back": "Skierowane przeciwko Imperium Rosyjskiemu."
+    },
+    {
+      "id": "fc_0665",
+      "topic": "history",
+      "front": "Kiedy trwało Powstanie Styczniowe?",
+      "back": "W latach 1863-1864."
+    },
+    {
+      "id": "fc_0666",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Oba powstania zakończyły się klęską Polaków”?",
+      "back": "Oba powstania zakończyły się klęską Polaków."
+    },
+    {
+      "id": "fc_0667",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1830-1831?",
+      "back": "Powstanie Listopadowe."
+    },
+    {
+      "id": "fc_0668",
+      "topic": "history",
+      "front": "Kiedy: Powstanie Listopadowe?",
+      "back": "1830-1831."
+    },
+    {
+      "id": "fc_0669",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1863-1864?",
+      "back": "Powstanie Styczniowe."
+    },
+    {
+      "id": "fc_0670",
+      "topic": "history",
+      "front": "Kiedy: Powstanie Styczniowe?",
+      "back": "1863-1864."
+    },
+    {
+      "id": "fc_0671",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „II Rzeczpospolita powstała w 1918 roku”?",
+      "back": "II Rzeczpospolita powstała w 1918 roku."
+    },
+    {
+      "id": "fc_0672",
+      "topic": "history",
+      "front": "Co wydarzyło się 11 listopada 1918 roku?",
+      "back": "Józef Piłsudski objął władzę wojskową w Warszawie."
+    },
+    {
+      "id": "fc_0673",
+      "topic": "history",
+      "front": "Co otrzymał Józef Piłsudski?",
+      "back": "Tytuł Naczelnika Państwa."
+    },
+    {
+      "id": "fc_0674",
+      "topic": "history",
+      "front": "Co wydarzyło się w latach 1918-1921?",
+      "back": "Polska prowadziła wojny z sąsiadami."
+    },
+    {
+      "id": "fc_0675",
+      "topic": "history",
+      "front": "Czym / kim jest Bitwa Warszawska z 1920 roku nazywana?",
+      "back": "Cudem nad Wisłą."
+    },
+    {
+      "id": "fc_0676",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Polacy pokonali bolszewików w wojnie polsko-bolszewickiej”?",
+      "back": "Polacy pokonali bolszewików w wojnie polsko-bolszewickiej."
+    },
+    {
+      "id": "fc_0677",
+      "topic": "history",
+      "front": "Co wydarzyło się: 11 listopada 1918?",
+      "back": "Początek II Rzeczypospolitej i objęcie władzy wojskowej przez Józefa Piłsudskiego."
+    },
+    {
+      "id": "fc_0678",
+      "topic": "history",
+      "front": "Kiedy: Początek II Rzeczypospolitej i objęcie władzy wojskowej przez Józefa Piłsudskiego?",
+      "back": "11 listopada 1918."
+    },
+    {
+      "id": "fc_0679",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1918-1921?",
+      "back": "Okres wojen Polski z sąsiadami."
+    },
+    {
+      "id": "fc_0680",
+      "topic": "history",
+      "front": "Kiedy: Okres wojen Polski z sąsiadami?",
+      "back": "1918-1921."
+    },
+    {
+      "id": "fc_0681",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1919-1921?",
+      "back": "Wojna polsko-bolszewicka."
+    },
+    {
+      "id": "fc_0682",
+      "topic": "history",
+      "front": "Kiedy: Wojna polsko-bolszewicka?",
+      "back": "1919-1921."
+    },
+    {
+      "id": "fc_0683",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1920?",
+      "back": "Bitwa Warszawska, zwana Cudem nad Wisłą."
+    },
+    {
+      "id": "fc_0684",
+      "topic": "history",
+      "front": "Kiedy: Bitwa Warszawska, zwana Cudem nad Wisłą?",
+      "back": "1920."
+    },
+    {
+      "id": "fc_0685",
+      "topic": "history",
+      "front": "Kim był(a) / jest Józef Piłsudski?",
+      "back": "Naczelnik Państwa, postać związana z odzyskaniem niepodległości przez Polskę."
+    },
+    {
+      "id": "fc_0686",
+      "topic": "history",
+      "front": "Kiedy rozpoczęło się II wojna światowa?",
+      "back": "1 września 1939 roku."
+    },
+    {
+      "id": "fc_0687",
+      "topic": "history",
+      "front": "Co wydarzyło się 17 września 1939 roku?",
+      "back": "Związek Radziecki zaatakował Polskę."
+    },
+    {
+      "id": "fc_0688",
+      "topic": "history",
+      "front": "Czym / kim jest Pakt Ribbentrop-Mołotow określany?",
+      "back": "Jako IV rozbiór Polski."
+    },
+    {
+      "id": "fc_0689",
+      "topic": "history",
+      "front": "Co zdobył Drugi Korpus Polski?",
+      "back": "Monte Cassino."
+    },
+    {
+      "id": "fc_0690",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Powstanie Warszawskie wybuchło 1 sierpnia 1944 roku”?",
+      "back": "Powstanie Warszawskie wybuchło 1 sierpnia 1944 roku."
+    },
+    {
+      "id": "fc_0691",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po 1945 roku rozpoczął się okres zależności Polski od ZSRR i rządów komunistycznych”?",
+      "back": "Po 1945 roku rozpoczął się okres zależności Polski od ZSRR i rządów komunistycznych."
+    },
+    {
+      "id": "fc_0692",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1 września 1939?",
+      "back": "Początek II wojny światowej i atak Niemiec na Polskę."
+    },
+    {
+      "id": "fc_0693",
+      "topic": "history",
+      "front": "Kiedy: Początek II wojny światowej i atak Niemiec na Polskę?",
+      "back": "1 września 1939."
+    },
+    {
+      "id": "fc_0694",
+      "topic": "history",
+      "front": "Co wydarzyło się: 17 września 1939?",
+      "back": "Atak Związku Radzieckiego na Polskę."
+    },
+    {
+      "id": "fc_0695",
+      "topic": "history",
+      "front": "Kiedy: Atak Związku Radzieckiego na Polskę?",
+      "back": "17 września 1939."
+    },
+    {
+      "id": "fc_0696",
+      "topic": "history",
+      "front": "Co wydarzyło się: 18 maja 1944?",
+      "back": "Bitwa o Monte Cassino."
+    },
+    {
+      "id": "fc_0697",
+      "topic": "history",
+      "front": "Kiedy: Bitwa o Monte Cassino?",
+      "back": "18 maja 1944."
+    },
+    {
+      "id": "fc_0698",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1 sierpnia 1944?",
+      "back": "Wybuch Powstania Warszawskiego."
+    },
+    {
+      "id": "fc_0699",
+      "topic": "history",
+      "front": "Kiedy: Wybuch Powstania Warszawskiego?",
+      "back": "1 sierpnia 1944."
+    },
+    {
+      "id": "fc_0700",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1945?",
+      "back": "Koniec II wojny światowej i początek zależności Polski od ZSRR oraz rządów komunistycznych."
+    },
+    {
+      "id": "fc_0701",
+      "topic": "history",
+      "front": "Kiedy: Koniec II wojny światowej i początek zależności Polski od ZSRR oraz rządów komunistycznych?",
+      "back": "1945."
+    },
+    {
+      "id": "fc_0702",
+      "topic": "history",
+      "front": "Kim był(a) / jest Władysław Anders?",
+      "back": "Generał, dowódca Drugiego Korpusu Polskiego pod Monte Cassino."
+    },
+    {
+      "id": "fc_0703",
+      "topic": "history",
+      "front": "Co stało się z Polska Rzeczpospolita Ludowa?",
+      "back": "Utworzona w 1952 roku."
+    },
+    {
+      "id": "fc_0704",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „W PRL prześladowano opozycję, Kościół i działaczy publicznych”?",
+      "back": "W PRL prześladowano opozycję, Kościół i działaczy publicznych."
+    },
+    {
+      "id": "fc_0705",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Solidarność powstała w 1980 roku w Gdańsku”?",
+      "back": "Solidarność powstała w 1980 roku w Gdańsku."
+    },
+    {
+      "id": "fc_0706",
+      "topic": "history",
+      "front": "Kim był(a) Przywódcą Solidarności?",
+      "back": "Lech Wałęsa."
+    },
+    {
+      "id": "fc_0707",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Stan wojenny trwał od 13 grudnia 1981 do 22 lipca 1983 roku”?",
+      "back": "Stan wojenny trwał od 13 grudnia 1981 do 22 lipca 1983 roku."
+    },
+    {
+      "id": "fc_0708",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Obrady Okrągłego Stołu odbyły się w 1989 roku”?",
+      "back": "Obrady Okrągłego Stołu odbyły się w 1989 roku."
+    },
+    {
+      "id": "fc_0709",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Pierwsze częściowo wolne wybory wyznaczono na 4 czerwca 1989 roku”?",
+      "back": "Pierwsze częściowo wolne wybory wyznaczono na 4 czerwca 1989 roku."
+    },
+    {
+      "id": "fc_0710",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1952?",
+      "back": "Utworzenie Polskiej Rzeczypospolitej Ludowej."
+    },
+    {
+      "id": "fc_0711",
+      "topic": "history",
+      "front": "Kiedy: Utworzenie Polskiej Rzeczypospolitej Ludowej?",
+      "back": "1952."
+    },
+    {
+      "id": "fc_0712",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1953?",
+      "back": "Śmierć Stalina."
+    },
+    {
+      "id": "fc_0713",
+      "topic": "history",
+      "front": "Kiedy: Śmierć Stalina?",
+      "back": "1953."
+    },
+    {
+      "id": "fc_0714",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1956?",
+      "back": "Protesty robotników w Poznaniu."
+    },
+    {
+      "id": "fc_0715",
+      "topic": "history",
+      "front": "Kiedy: Protesty robotników w Poznaniu?",
+      "back": "1956."
+    },
+    {
+      "id": "fc_0716",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1970?",
+      "back": "Protesty robotników na Wybrzeżu."
+    },
+    {
+      "id": "fc_0717",
+      "topic": "history",
+      "front": "Kiedy: Protesty robotników na Wybrzeżu?",
+      "back": "1970."
+    },
+    {
+      "id": "fc_0718",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1980?",
+      "back": "Powstanie Solidarności."
+    },
+    {
+      "id": "fc_0719",
+      "topic": "history",
+      "front": "Kiedy: Powstanie Solidarności?",
+      "back": "1980."
+    },
+    {
+      "id": "fc_0720",
+      "topic": "history",
+      "front": "Co wydarzyło się: 13 grudnia 1981?",
+      "back": "Wprowadzenie stanu wojennego w Polsce."
+    },
+    {
+      "id": "fc_0721",
+      "topic": "history",
+      "front": "Kiedy: Wprowadzenie stanu wojennego w Polsce?",
+      "back": "13 grudnia 1981."
+    },
+    {
+      "id": "fc_0722",
+      "topic": "history",
+      "front": "Co wydarzyło się: 22 lipca 1983?",
+      "back": "Zniesienie stanu wojennego."
+    },
+    {
+      "id": "fc_0723",
+      "topic": "history",
+      "front": "Kiedy: Zniesienie stanu wojennego?",
+      "back": "22 lipca 1983."
+    },
+    {
+      "id": "fc_0724",
+      "topic": "history",
+      "front": "Co wydarzyło się: 6 lutego - 5 kwietnia 1989?",
+      "back": "Obrady Okrągłego Stołu."
+    },
+    {
+      "id": "fc_0725",
+      "topic": "history",
+      "front": "Kiedy: Obrady Okrągłego Stołu?",
+      "back": "6 lutego - 5 kwietnia 1989."
+    },
+    {
+      "id": "fc_0726",
+      "topic": "history",
+      "front": "Co wydarzyło się: 4 czerwca 1989?",
+      "back": "Pierwsze częściowo wolne wybory do parlamentu."
+    },
+    {
+      "id": "fc_0727",
+      "topic": "history",
+      "front": "Kiedy: Pierwsze częściowo wolne wybory do parlamentu?",
+      "back": "4 czerwca 1989."
+    },
+    {
+      "id": "fc_0728",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Wałęsa?",
+      "back": "Przywódca Solidarności i przedstawiciel demokratycznej opozycji."
+    },
+    {
+      "id": "fc_0729",
+      "topic": "history",
+      "front": "Kim był(a) / jest Czesław Kiszczak?",
+      "back": "Minister spraw wewnętrznych, przedstawiciel władz PRL podczas rozmów Okrągłego Stołu."
+    },
+    {
+      "id": "fc_0730",
+      "topic": "history",
+      "front": "Kim był(a) / jest Józef Stalin?",
+      "back": "Przywódca ZSRR, z którego okresem związano stalinizację PRL."
+    },
+    {
+      "id": "fc_0731",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Chrzest Polski odbył się w 966 roku”?",
+      "back": "Chrzest Polski odbył się w 966 roku."
+    },
+    {
+      "id": "fc_0732",
+      "topic": "history",
+      "front": "Czym / kim jest Pakt Ribbentrop-Mołotow nazywany?",
+      "back": "IV rozbiorem Polski."
+    },
+    {
+      "id": "fc_0733",
+      "topic": "history",
+      "front": "Co wydarzyło się w 1940 roku?",
+      "back": "Miała miejsce zbrodnia katyńska."
+    },
+    {
+      "id": "fc_0734",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Polska wstąpiła do NATO w 1999 roku”?",
+      "back": "Polska wstąpiła do NATO w 1999 roku."
+    },
+    {
+      "id": "fc_0735",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Polska wstąpiła do Unii Europejskiej w 2004 roku”?",
+      "back": "Polska wstąpiła do Unii Europejskiej w 2004 roku."
+    },
+    {
+      "id": "fc_0736",
+      "topic": "history",
+      "front": "Co wydarzyło się: 966?",
+      "back": "Chrzest Polski."
+    },
+    {
+      "id": "fc_0737",
+      "topic": "history",
+      "front": "Kiedy: Chrzest Polski?",
+      "back": "966."
+    },
+    {
+      "id": "fc_0738",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1 września 1939?",
+      "back": "Atak Niemiec na Polskę i początek II wojny światowej."
+    },
+    {
+      "id": "fc_0739",
+      "topic": "history",
+      "front": "Kiedy: Atak Niemiec na Polskę i początek II wojny światowej?",
+      "back": "1 września 1939."
+    },
+    {
+      "id": "fc_0740",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1940?",
+      "back": "Zbrodnia katyńska."
+    },
+    {
+      "id": "fc_0741",
+      "topic": "history",
+      "front": "Kiedy: Zbrodnia katyńska?",
+      "back": "1940."
+    },
+    {
+      "id": "fc_0742",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1989?",
+      "back": "Utworzenie III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0743",
+      "topic": "history",
+      "front": "Kiedy: Utworzenie III Rzeczypospolitej?",
+      "back": "1989."
+    },
+    {
+      "id": "fc_0744",
+      "topic": "history",
+      "front": "Co wydarzyło się: 12 marca 1999?",
+      "back": "Wstąpienie Polski do NATO."
+    },
+    {
+      "id": "fc_0745",
+      "topic": "history",
+      "front": "Kiedy: Wstąpienie Polski do NATO?",
+      "back": "12 marca 1999."
+    },
+    {
+      "id": "fc_0746",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1 maja 2004?",
+      "back": "Wstąpienie Polski do Unii Europejskiej."
+    },
+    {
+      "id": "fc_0747",
+      "topic": "history",
+      "front": "Kiedy: Wstąpienie Polski do Unii Europejskiej?",
+      "back": "1 maja 2004."
+    },
+    {
+      "id": "fc_0748",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Bitwa pod Grunwaldem odbyła się w 1410 roku”?",
+      "back": "Bitwa pod Grunwaldem odbyła się w 1410 roku."
+    },
+    {
+      "id": "fc_0749",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Jan III Sobieski zwyciężył pod Wiedniem w 1683 roku”?",
+      "back": "Jan III Sobieski zwyciężył pod Wiedniem w 1683 roku."
+    },
+    {
+      "id": "fc_0750",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Bitwa o Monte Cassino odbyła się 18 maja 1944 roku”?",
+      "back": "Bitwa o Monte Cassino odbyła się 18 maja 1944 roku."
+    },
+    {
+      "id": "fc_0751",
+      "topic": "history",
+      "front": "Co zdobył Monte Cassino?",
+      "back": "Drugi Korpus Polski generała Władysława Andersa."
+    },
+    {
+      "id": "fc_0752",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1683?",
+      "back": "Bitwa pod Wiedniem."
+    },
+    {
+      "id": "fc_0753",
+      "topic": "history",
+      "front": "Kiedy: Bitwa pod Wiedniem?",
+      "back": "1683."
+    },
+    {
+      "id": "fc_0754",
+      "topic": "history",
+      "front": "Co wydarzyło się: 15 sierpnia 1920?",
+      "back": "Bitwa Warszawska, czyli Cud nad Wisłą."
+    },
+    {
+      "id": "fc_0755",
+      "topic": "history",
+      "front": "Kiedy: Bitwa Warszawska, czyli Cud nad Wisłą?",
+      "back": "15 sierpnia 1920."
+    },
+    {
+      "id": "fc_0756",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Po powstaniu kościuszkowskim nastąpił III rozbiór Polski”?",
+      "back": "Po powstaniu kościuszkowskim nastąpił III rozbiór Polski."
+    },
+    {
+      "id": "fc_0757",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Solidarność powstała w 1980 roku”?",
+      "back": "Solidarność powstała w 1980 roku."
+    },
+    {
+      "id": "fc_0758",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1 sierpnia 1944?",
+      "back": "Powstanie Warszawskie."
+    },
+    {
+      "id": "fc_0759",
+      "topic": "history",
+      "front": "Kiedy: Powstanie Warszawskie?",
+      "back": "1 sierpnia 1944."
+    },
+    {
+      "id": "fc_0760",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „I rozbiór Polski odbył się w 1772 roku”?",
+      "back": "I rozbiór Polski odbył się w 1772 roku."
+    },
+    {
+      "id": "fc_0761",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „II rozbiór Polski odbył się w 1793 roku”?",
+      "back": "II rozbiór Polski odbył się w 1793 roku."
+    },
+    {
+      "id": "fc_0762",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „III rozbiór Polski odbył się w 1795 roku”?",
+      "back": "III rozbiór Polski odbył się w 1795 roku."
+    },
+    {
+      "id": "fc_0763",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „I Rzeczpospolita powstała w 1569 roku”?",
+      "back": "I Rzeczpospolita powstała w 1569 roku."
+    },
+    {
+      "id": "fc_0764",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „III Rzeczpospolita powstała w 1989 roku”?",
+      "back": "III Rzeczpospolita powstała w 1989 roku."
+    },
+    {
+      "id": "fc_0765",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1569?",
+      "back": "Utworzenie I Rzeczypospolitej po unii lubelskiej."
+    },
+    {
+      "id": "fc_0766",
+      "topic": "history",
+      "front": "Kiedy: Utworzenie I Rzeczypospolitej po unii lubelskiej?",
+      "back": "1569."
+    },
+    {
+      "id": "fc_0767",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1772?",
+      "back": "I rozbiór Polski."
+    },
+    {
+      "id": "fc_0768",
+      "topic": "history",
+      "front": "Kiedy: I rozbiór Polski?",
+      "back": "1772."
+    },
+    {
+      "id": "fc_0769",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1793?",
+      "back": "II rozbiór Polski."
+    },
+    {
+      "id": "fc_0770",
+      "topic": "history",
+      "front": "Kiedy: II rozbiór Polski?",
+      "back": "1793."
+    },
+    {
+      "id": "fc_0771",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1795?",
+      "back": "III rozbiór Polski i koniec I Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0772",
+      "topic": "history",
+      "front": "Kiedy: III rozbiór Polski i koniec I Rzeczypospolitej?",
+      "back": "1795."
+    },
+    {
+      "id": "fc_0773",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1918?",
+      "back": "Utworzenie II Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0774",
+      "topic": "history",
+      "front": "Kiedy: Utworzenie II Rzeczypospolitej?",
+      "back": "1918."
+    },
+    {
+      "id": "fc_0775",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1939?",
+      "back": "Koniec II Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0776",
+      "topic": "history",
+      "front": "Kiedy: Koniec II Rzeczypospolitej?",
+      "back": "1939."
+    },
+    {
+      "id": "fc_0777",
+      "topic": "history",
+      "front": "Co stało się z III Rzeczpospolita?",
+      "back": "Utworzona w wyniku przemian ustrojowych 1989 roku."
+    },
+    {
+      "id": "fc_0778",
+      "topic": "history",
+      "front": "Co wydarzyło się 4 czerwca 1989 roku?",
+      "back": "Odbyły się częściowo wolne wybory parlamentarne."
+    },
+    {
+      "id": "fc_0779",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Wybory z 1989 roku oznaczały początek transformacji demokratycznej w Polsce”?",
+      "back": "Wybory z 1989 roku oznaczały początek transformacji demokratycznej w Polsce."
+    },
+    {
+      "id": "fc_0780",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Polska wstąpiła do NATO 12 marca 1999 roku”?",
+      "back": "Polska wstąpiła do NATO 12 marca 1999 roku."
+    },
+    {
+      "id": "fc_0781",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Polska wstąpiła do Unii Europejskiej 1 maja 2004 roku”?",
+      "back": "Polska wstąpiła do Unii Europejskiej 1 maja 2004 roku."
+    },
+    {
+      "id": "fc_0782",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „Katastrofa smoleńska wydarzyła się 10 kwietnia 2010 roku”?",
+      "back": "Katastrofa smoleńska wydarzyła się 10 kwietnia 2010 roku."
+    },
+    {
+      "id": "fc_0783",
+      "topic": "history",
+      "front": "Co mówi fakt zaczynający się od „W katastrofie smoleńskiej zginęło 96 osób”?",
+      "back": "W katastrofie smoleńskiej zginęło 96 osób."
+    },
+    {
+      "id": "fc_0784",
+      "topic": "history",
+      "front": "Co wydarzyło się: 4 czerwca 1989?",
+      "back": "Częściowo wolne wybory parlamentarne i początek transformacji demokratycznej w Polsce."
+    },
+    {
+      "id": "fc_0785",
+      "topic": "history",
+      "front": "Kiedy: Częściowo wolne wybory parlamentarne i początek transformacji demokratycznej w Polsce?",
+      "back": "4 czerwca 1989."
+    },
+    {
+      "id": "fc_0786",
+      "topic": "history",
+      "front": "Co wydarzyło się: 10 kwietnia 2010?",
+      "back": "Katastrofa polskiego samolotu pod Smoleńskiem."
+    },
+    {
+      "id": "fc_0787",
+      "topic": "history",
+      "front": "Kiedy: Katastrofa polskiego samolotu pod Smoleńskiem?",
+      "back": "10 kwietnia 2010."
+    },
+    {
+      "id": "fc_0788",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Wałęsa?",
+      "back": "Polityk związany z powstaniem III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0789",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Kaczyński?",
+      "back": "Prezydent Polski, zginął w katastrofie smoleńskiej."
+    },
+    {
+      "id": "fc_0790",
+      "topic": "history",
+      "front": "Kim był(a) Gabriel Narutowicz?",
+      "back": "Pierwszym prezydentem Polski."
+    },
+    {
+      "id": "fc_0791",
+      "topic": "history",
+      "front": "Kim był(a) Lech Wałęsa?",
+      "back": "Prezydentem w latach 1990-1995."
+    },
+    {
+      "id": "fc_0792",
+      "topic": "history",
+      "front": "Kim był(a) Aleksander Kwaśniewski?",
+      "back": "Prezydentem w latach 1995-2005."
+    },
+    {
+      "id": "fc_0793",
+      "topic": "history",
+      "front": "Kim był(a) Lech Kaczyński?",
+      "back": "Prezydentem w latach 2005-2010."
+    },
+    {
+      "id": "fc_0794",
+      "topic": "history",
+      "front": "Kim był(a) Bronisław Komorowski?",
+      "back": "Prezydentem w latach 2010-2015."
+    },
+    {
+      "id": "fc_0795",
+      "topic": "history",
+      "front": "Kim był(a) Andrzej Duda?",
+      "back": "Prezydentem w latach 2015-2025."
+    },
+    {
+      "id": "fc_0796",
+      "topic": "history",
+      "front": "Czym / kim jest Karol Nawrocki?",
+      "back": "Prezydentem Polski od 6 sierpnia 2025 roku."
+    },
+    {
+      "id": "fc_0797",
+      "topic": "history",
+      "front": "Czym / kim jest Donald Tusk?",
+      "back": "Premierem Polski."
+    },
+    {
+      "id": "fc_0798",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1922?",
+      "back": "Gabriel Narutowicz został pierwszym prezydentem Polski."
+    },
+    {
+      "id": "fc_0799",
+      "topic": "history",
+      "front": "Kiedy: Gabriel Narutowicz został pierwszym prezydentem Polski?",
+      "back": "1922."
+    },
+    {
+      "id": "fc_0800",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1990-1995?",
+      "back": "Prezydentura Lecha Wałęsy."
+    },
+    {
+      "id": "fc_0801",
+      "topic": "history",
+      "front": "Kiedy: Prezydentura Lecha Wałęsy?",
+      "back": "1990-1995."
+    },
+    {
+      "id": "fc_0802",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1995-2005?",
+      "back": "Prezydentura Aleksandra Kwaśniewskiego."
+    },
+    {
+      "id": "fc_0803",
+      "topic": "history",
+      "front": "Kiedy: Prezydentura Aleksandra Kwaśniewskiego?",
+      "back": "1995-2005."
+    },
+    {
+      "id": "fc_0804",
+      "topic": "history",
+      "front": "Co wydarzyło się: 2005-2010?",
+      "back": "Prezydentura Lecha Kaczyńskiego."
+    },
+    {
+      "id": "fc_0805",
+      "topic": "history",
+      "front": "Kiedy: Prezydentura Lecha Kaczyńskiego?",
+      "back": "2005-2010."
+    },
+    {
+      "id": "fc_0806",
+      "topic": "history",
+      "front": "Co wydarzyło się: 2010-2015?",
+      "back": "Prezydentura Bronisława Komorowskiego."
+    },
+    {
+      "id": "fc_0807",
+      "topic": "history",
+      "front": "Kiedy: Prezydentura Bronisława Komorowskiego?",
+      "back": "2010-2015."
+    },
+    {
+      "id": "fc_0808",
+      "topic": "history",
+      "front": "Co wydarzyło się: 2015-2025?",
+      "back": "Prezydentura Andrzeja Dudy."
+    },
+    {
+      "id": "fc_0809",
+      "topic": "history",
+      "front": "Kiedy: Prezydentura Andrzeja Dudy?",
+      "back": "2015-2025."
+    },
+    {
+      "id": "fc_0810",
+      "topic": "history",
+      "front": "Co wydarzyło się: 6 sierpnia 2025?",
+      "back": "Karol Nawrocki objął urząd Prezydenta Rzeczypospolitej Polskiej."
+    },
+    {
+      "id": "fc_0811",
+      "topic": "history",
+      "front": "Kiedy: Karol Nawrocki objął urząd Prezydenta Rzeczypospolitej Polskiej?",
+      "back": "6 sierpnia 2025."
+    },
+    {
+      "id": "fc_0812",
+      "topic": "history",
+      "front": "Kim był(a) / jest Gabriel Narutowicz?",
+      "back": "Pierwszy prezydent Polski."
+    },
+    {
+      "id": "fc_0813",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Wałęsa?",
+      "back": "Prezydent III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0814",
+      "topic": "history",
+      "front": "Kim był(a) / jest Aleksander Kwaśniewski?",
+      "back": "Prezydent III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0815",
+      "topic": "history",
+      "front": "Kim był(a) / jest Lech Kaczyński?",
+      "back": "Prezydent III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0816",
+      "topic": "history",
+      "front": "Kim był(a) / jest Bronisław Komorowski?",
+      "back": "Prezydent III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0817",
+      "topic": "history",
+      "front": "Kim był(a) / jest Andrzej Duda?",
+      "back": "Prezydent III Rzeczypospolitej."
+    },
+    {
+      "id": "fc_0818",
+      "topic": "history",
+      "front": "Kim był(a) / jest Karol Nawrocki?",
+      "back": "Prezydent Rzeczypospolitej Polskiej od 6 sierpnia 2025 roku."
+    },
+    {
+      "id": "fc_0819",
+      "topic": "history",
+      "front": "Kim był(a) / jest Donald Tusk?",
+      "back": "Premier Polski."
+    },
+    {
+      "id": "fc_0820",
+      "topic": "history",
+      "front": "Czym / kim jest Polska?",
+      "back": "Republiką parlamentarną."
+    },
+    {
+      "id": "fc_0821",
+      "topic": "history",
+      "front": "Czym / kim jest Parlament Polski?",
+      "back": "Dwuizbowy."
+    },
+    {
+      "id": "fc_0822",
+      "topic": "history",
+      "front": "Co ma Sejm?",
+      "back": "460 Posłów."
+    },
+    {
+      "id": "fc_0823",
+      "topic": "history",
+      "front": "Co ma Senat?",
+      "back": "100 Senatorów."
+    },
+    {
+      "id": "fc_0824",
+      "topic": "history",
+      "front": "Czym / kim jest Władza ustawodawcza?",
+      "back": "Sejm i Senat."
+    },
+    {
+      "id": "fc_0825",
+      "topic": "history",
+      "front": "Czym / kim jest Władza wykonawcza?",
+      "back": "Rada Ministrów i Prezydent."
+    },
+    {
+      "id": "fc_0826",
+      "topic": "history",
+      "front": "Czym / kim jest Władza sądownicza?",
+      "back": "Sądy i trybunały."
+    },
+    {
+      "id": "fc_0827",
+      "topic": "history",
+      "front": "Czym są Piątniczki pod Charkowem?",
+      "back": "Jednym z miejsc pamięci zbrodni katyńskiej."
+    },
+    {
+      "id": "fc_0828",
+      "topic": "history",
+      "front": "Czym / kim jest Bykownia koło Kijowa?",
+      "back": "Miejscem pochówku ofiar represji sowieckich, w tym Polaków."
+    },
+    {
+      "id": "fc_0829",
+      "topic": "history",
+      "front": "Kim był(a) Na Wołyniu w latach 1943-1944 Polacy?",
+      "back": "Mordowani przez oddziały UPA."
+    },
+    {
+      "id": "fc_0830",
+      "topic": "history",
+      "front": "Kim był(a) Ofiarami zbrodni?",
+      "back": "Także osoby cywilne."
+    },
+    {
+      "id": "fc_0831",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1940?",
+      "back": "Zbrodnie NKWD na polskich jeńcach i przedstawicielach elit, między innymi w Piątniczkach i Bykowni."
+    },
+    {
+      "id": "fc_0832",
+      "topic": "history",
+      "front": "Kiedy: Zbrodnie NKWD na polskich jeńcach i przedstawicielach elit, między innymi w Piątniczkach i Bykowni?",
+      "back": "1940."
+    },
+    {
+      "id": "fc_0833",
+      "topic": "history",
+      "front": "Co wydarzyło się: 1943-1944?",
+      "back": "Zbrodnie na Polakach na Wołyniu dokonane przez oddziały UPA."
+    },
+    {
+      "id": "fc_0834",
+      "topic": "history",
+      "front": "Kiedy: Zbrodnie na Polakach na Wołyniu dokonane przez oddziały UPA?",
+      "back": "1943-1944."
+    },
+    {
+      "id": "fc_0835",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Dzisiaj” i „dziś” oznaczają ten sam czas”?",
+      "back": "„Dzisiaj” i „dziś” oznaczają ten sam czas."
+    },
+    {
+      "id": "fc_0836",
+      "topic": "language",
+      "front": "Co oznacza „Przedwczoraj”?",
+      "back": "Dwa dni przed dzisiaj."
+    },
+    {
+      "id": "fc_0837",
+      "topic": "language",
+      "front": "Co oznacza „Pojutrze”?",
+      "back": "Dwa dni po dzisiaj."
+    },
+    {
+      "id": "fc_0838",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Można mówić: w tym roku, w następnym roku i w zeszłym roku”?",
+      "back": "Można mówić: w tym roku, w następnym roku i w zeszłym roku."
+    },
+    {
+      "id": "fc_0839",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Do częstych określeń czasu należą: zawsze, zwykle, czasem, rzadko i nigdy”?",
+      "back": "Do częstych określeń czasu należą: zawsze, zwykle, czasem, rzadko i nigdy."
+    },
+    {
+      "id": "fc_0840",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Tydzień zaczyna się od poniedziałku”?",
+      "back": "Tydzień zaczyna się od poniedziałku."
+    },
+    {
+      "id": "fc_0841",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: w poniedziałek, we wtorek, w środę”?",
+      "back": "Mówimy: w poniedziałek, we wtorek, w środę."
+    },
+    {
+      "id": "fc_0842",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: w czwartek, w piątek, w sobotę, w niedzielę”?",
+      "back": "Mówimy: w czwartek, w piątek, w sobotę, w niedzielę."
+    },
+    {
+      "id": "fc_0843",
+      "topic": "language",
+      "front": "Czym / kim jest Pory roku?",
+      "back": "Lato, jesień, zima i wiosna."
+    },
+    {
+      "id": "fc_0844",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: latem albo w lecie”?",
+      "back": "Mówimy: latem albo w lecie."
+    },
+    {
+      "id": "fc_0845",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: jesienią albo na jesieni”?",
+      "back": "Mówimy: jesienią albo na jesieni."
+    },
+    {
+      "id": "fc_0846",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: zimą albo w zimie”?",
+      "back": "Mówimy: zimą albo w zimie."
+    },
+    {
+      "id": "fc_0847",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: wiosną albo na wiosnę”?",
+      "back": "Mówimy: wiosną albo na wiosnę."
+    },
+    {
+      "id": "fc_0848",
+      "topic": "language",
+      "front": "Co ma Rok?",
+      "back": "Dwanaście miesięcy."
+    },
+    {
+      "id": "fc_0849",
+      "topic": "language",
+      "front": "Czym / kim jest Pierwszy miesiąc?",
+      "back": "Styczeń."
+    },
+    {
+      "id": "fc_0850",
+      "topic": "language",
+      "front": "Czym / kim jest Ostatni miesiąc?",
+      "back": "Grudzień."
+    },
+    {
+      "id": "fc_0851",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: w styczniu, w lutym, w marcu”?",
+      "back": "Mówimy: w styczniu, w lutym, w marcu."
+    },
+    {
+      "id": "fc_0852",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „Mówimy: we wrześniu, w październiku, w listopadzie i w grudniu”?",
+      "back": "Mówimy: we wrześniu, w październiku, w listopadzie i w grudniu."
+    },
+    {
+      "id": "fc_0853",
+      "topic": "language",
+      "front": "Czym / kim jest „Dzień dobry”?",
+      "back": "Podstawowe powitanie."
+    },
+    {
+      "id": "fc_0854",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Dobry wieczór” mówi się wieczorem”?",
+      "back": "„Dobry wieczór” mówi się wieczorem."
+    },
+    {
+      "id": "fc_0855",
+      "topic": "language",
+      "front": "Czym / kim jest „Do widzenia” i „do zobaczenia”?",
+      "back": "Zwroty pożegnalne."
+    },
+    {
+      "id": "fc_0856",
+      "topic": "language",
+      "front": "Czym / kim jest „Dziękuję”, „proszę” i „przepraszam”?",
+      "back": "Podstawowe zwroty grzecznościowe."
+    },
+    {
+      "id": "fc_0857",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Smacznego” mówi się przed jedzeniem”?",
+      "back": "„Smacznego” mówi się przed jedzeniem."
+    },
+    {
+      "id": "fc_0858",
+      "topic": "language",
+      "front": "Czym / kim jest „Wszystkiego najlepszego”?",
+      "back": "Życzenia."
+    },
+    {
+      "id": "fc_0859",
+      "topic": "language",
+      "front": "Czym / kim jest Ojciec i matka?",
+      "back": "Rodzice."
+    },
+    {
+      "id": "fc_0860",
+      "topic": "language",
+      "front": "Czym / kim jest Syn i córka?",
+      "back": "Dzieci."
+    },
+    {
+      "id": "fc_0861",
+      "topic": "language",
+      "front": "Czym / kim jest Babcia i dziadek?",
+      "back": "Dziadkowie."
+    },
+    {
+      "id": "fc_0862",
+      "topic": "language",
+      "front": "Czym / kim jest Brat i siostra?",
+      "back": "Rodzeństwo."
+    },
+    {
+      "id": "fc_0863",
+      "topic": "language",
+      "front": "Czym / kim jest Krewni?",
+      "back": "Osoby należące do rodziny."
+    },
+    {
+      "id": "fc_0864",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Kto?” pyta o osobę”?",
+      "back": "„Kto?” pyta o osobę."
+    },
+    {
+      "id": "fc_0865",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Co?” pyta o rzecz”?",
+      "back": "„Co?” pyta o rzecz."
+    },
+    {
+      "id": "fc_0866",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Kiedy?” pyta o czas”?",
+      "back": "„Kiedy?” pyta o czas."
+    },
+    {
+      "id": "fc_0867",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Gdzie?” lub „dokąd?” pytają o miejsce albo kierunek”?",
+      "back": "„Gdzie?” lub „dokąd?” pytają o miejsce albo kierunek."
+    },
+    {
+      "id": "fc_0868",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Dlaczego?” pyta o przyczynę”?",
+      "back": "„Dlaczego?” pyta o przyczynę."
+    },
+    {
+      "id": "fc_0869",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Ile?” i „ilu?” pytają o liczbę”?",
+      "back": "„Ile?” i „ilu?” pytają o liczbę."
+    },
+    {
+      "id": "fc_0870",
+      "topic": "language",
+      "front": "Co mówi fakt zaczynający się od „„Jaki?”, „jaka?” i „jakie?” zależą od rodzaju gramatycznego”?",
+      "back": "„Jaki?”, „jaka?” i „jakie?” zależą od rodzaju gramatycznego."
+    },
+    {
+      "id": "fc_0871",
+      "topic": "language",
+      "front": "Czym / kim jest Adwent?",
+      "back": "Okres przygotowania do Bożego Narodzenia."
+    },
+    {
+      "id": "fc_0872",
+      "topic": "language",
+      "front": "Z czym związane są Wieniec adwentowy i roraty?",
+      "back": "Adwentem."
+    },
+    {
+      "id": "fc_0873",
+      "topic": "language",
+      "front": "Z czym związane są Wigilia i Pasterka?",
+      "back": "Bożym Narodzeniem."
+    },
+    {
+      "id": "fc_0874",
+      "topic": "language",
+      "front": "Czym / kim jest Opłatek?",
+      "back": "Używany podczas Wigilii."
+    },
+    {
+      "id": "fc_0875",
+      "topic": "language",
+      "front": "Co rozpoczyna Wielki Post?",
+      "back": "Popielec."
+    },
+    {
+      "id": "fc_0876",
+      "topic": "language",
+      "front": "Z czym związane są Triduum Paschalne i rezurekcja?",
+      "back": "Wielkanocą."
+    },
+    {
+      "id": "fc_0877",
+      "topic": "language",
+      "front": "Czym / kim jest Święconka?",
+      "back": "Pokarmy święcone w Wielką Sobotę."
     }
   ]
 }

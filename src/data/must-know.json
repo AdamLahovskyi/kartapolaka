@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": "fc_core_001",
+      "topic": "symbols",
+      "front": "Jakie są trzy główne symbole narodowe Polski?",
+      "back": "Godło, flaga i hymn."
+    },
+    {
+      "id": "fc_core_002",
+      "topic": "symbols",
+      "front": "Co jest godłem Polski?",
+      "back": "Orzeł Biały na czerwonym tle."
+    }
+  ]
+}
