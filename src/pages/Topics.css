@@ -35,12 +35,15 @@
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
 }
 
 .topics__card:hover {
-  border-color: var(--border);
-  box-shadow: var(--shadow-sm);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-subtle), var(--shadow-md);
+  transform: translateY(-2px);
 }
 
 .topics__card-header {

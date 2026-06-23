@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import knowledgeData from '../data/knowledge.json';
 import './Topics.css';
 
@@ -13,7 +14,7 @@ function Topics() {
 
       <div className="topics__grid">
         {knowledgeData.topics.map((topic) => (
-          <div key={topic.id} className="topics__card">
+          <Link key={topic.id} to={`/topics/${topic.id}`} className="topics__card">
             <div className="topics__card-header">
               <span className="topics__card-icon">{topic.icon}</span>
               <h2 className="topics__card-title">{topic.title}</h2>
@@ -26,7 +27,7 @@ function Topics() {
                   : `${topic.sections.length} ${topic.sections.length === 1 ? 'sekcja' : topic.sections.length < 5 ? 'sekcje' : 'sekcji'}`}
               </span>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

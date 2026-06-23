@@ -17,13 +17,28 @@
             "Gniezno było pierwszą stolicą Polski"
           ],
           "importantDates": [
-            { "year": "966", "event": "Chrzest Polski — przyjęcie chrześcijaństwa" },
-            { "year": "1025", "event": "Koronacja Bolesława I Chrobrego" },
-            { "year": "1038", "event": "Przeniesienie stolicy do Krakowa" }
+            {
+              "year": "966",
+              "event": "Chrzest Polski — przyjęcie chrześcijaństwa"
+            },
+            {
+              "year": "1025",
+              "event": "Koronacja Bolesława I Chrobrego"
+            },
+            {
+              "year": "1038",
+              "event": "Przeniesienie stolicy do Krakowa"
+            }
           ],
           "importantPeople": [
-            { "name": "Mieszko I", "role": "Pierwszy historyczny władca Polski" },
-            { "name": "Bolesław I Chrobry", "role": "Pierwszy koronowany król Polski" }
+            {
+              "name": "Mieszko I",
+              "role": "Pierwszy historyczny władca Polski"
+            },
+            {
+              "name": "Bolesław I Chrobry",
+              "role": "Pierwszy koronowany król Polski"
+            }
           ]
         },
         {
@@ -37,13 +52,28 @@
             "Rzeczpospolita Obojga Narodów łączyła Polskę i Litwę"
           ],
           "importantDates": [
-            { "year": "1569", "event": "Unia Lubelska" },
-            { "year": "1573", "event": "Pierwsza wolna elekcja króla" },
-            { "year": "1791", "event": "Uchwalenie Konstytucji 3 Maja" }
+            {
+              "year": "1569",
+              "event": "Unia Lubelska"
+            },
+            {
+              "year": "1573",
+              "event": "Pierwsza wolna elekcja króla"
+            },
+            {
+              "year": "1791",
+              "event": "Uchwalenie Konstytucji 3 Maja"
+            }
           ],
           "importantPeople": [
-            { "name": "Zygmunt II August", "role": "Ostatni Jagiellon, inicjator Unii Lubelskiej" },
-            { "name": "Stanisław August Poniatowski", "role": "Ostatni król Polski, współautor Konstytucji 3 Maja" }
+            {
+              "name": "Zygmunt II August",
+              "role": "Ostatni Jagiellon, inicjator Unii Lubelskiej"
+            },
+            {
+              "name": "Stanisław August Poniatowski",
+              "role": "Ostatni król Polski, współautor Konstytucji 3 Maja"
+            }
           ]
         },
         {
@@ -57,14 +87,32 @@
             "Józef Piłsudski — Naczelnik Państwa po odzyskaniu niepodległości"
           ],
           "importantDates": [
-            { "year": "1772", "event": "Pierwszy rozbiór Polski" },
-            { "year": "1793", "event": "Drugi rozbiór Polski" },
-            { "year": "1795", "event": "Trzeci rozbiór — Polska znika z mapy" },
-            { "year": "1918", "event": "Odzyskanie niepodległości" }
+            {
+              "year": "1772",
+              "event": "Pierwszy rozbiór Polski"
+            },
+            {
+              "year": "1793",
+              "event": "Drugi rozbiór Polski"
+            },
+            {
+              "year": "1795",
+              "event": "Trzeci rozbiór — Polska znika z mapy"
+            },
+            {
+              "year": "1918",
+              "event": "Odzyskanie niepodległości"
+            }
           ],
           "importantPeople": [
-            { "name": "Tadeusz Kościuszko", "role": "Przywódca Powstania Kościuszkowskiego" },
-            { "name": "Józef Piłsudski", "role": "Naczelnik Państwa, odzyskanie niepodległości" }
+            {
+              "name": "Tadeusz Kościuszko",
+              "role": "Przywódca Powstania Kościuszkowskiego"
+            },
+            {
+              "name": "Józef Piłsudski",
+              "role": "Naczelnik Państwa, odzyskanie niepodległości"
+            }
           ]
         }
       ]
@@ -124,8 +172,14 @@
             "Sąsiedzi: Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa, Rosja (obwód kaliningradzki)"
           ],
           "importantDates": [
-            { "year": "1999", "event": "Przystąpienie do NATO" },
-            { "year": "2004", "event": "Przystąpienie do Unii Europejskiej" }
+            {
+              "year": "1999",
+              "event": "Przystąpienie do NATO"
+            },
+            {
+              "year": "2004",
+              "event": "Przystąpienie do Unii Europejskiej"
+            }
           ],
           "importantPeople": []
         },
@@ -162,14 +216,32 @@
             "Polon — nazwany na cześć Polski"
           ],
           "importantDates": [
-            { "year": "1473", "event": "Urodziny Mikołaja Kopernika" },
-            { "year": "1543", "event": "Publikacja 'De revolutionibus'" },
-            { "year": "1903", "event": "Pierwszy Nobel Marii Skłodowskiej-Curie (fizyka)" },
-            { "year": "1911", "event": "Drugi Nobel Marii Skłodowskiej-Curie (chemia)" }
+            {
+              "year": "1473",
+              "event": "Urodziny Mikołaja Kopernika"
+            },
+            {
+              "year": "1543",
+              "event": "Publikacja 'De revolutionibus'"
+            },
+            {
+              "year": "1903",
+              "event": "Pierwszy Nobel Marii Skłodowskiej-Curie (fizyka)"
+            },
+            {
+              "year": "1911",
+              "event": "Drugi Nobel Marii Skłodowskiej-Curie (chemia)"
+            }
           ],
           "importantPeople": [
-            { "name": "Mikołaj Kopernik", "role": "Astronom, twórca teorii heliocentrycznej" },
-            { "name": "Maria Skłodowska-Curie", "role": "Fizyk i chemik, podwójna noblistka" }
+            {
+              "name": "Mikołaj Kopernik",
+              "role": "Astronom, twórca teorii heliocentrycznej"
+            },
+            {
+              "name": "Maria Skłodowska-Curie",
+              "role": "Fizyk i chemik, podwójna noblistka"
+            }
           ]
         },
         {
@@ -185,9 +257,18 @@
           ],
           "importantDates": [],
           "importantPeople": [
-            { "name": "Fryderyk Chopin", "role": "Kompozytor, pianista" },
-            { "name": "Adam Mickiewicz", "role": "Poeta, autor 'Pana Tadeusza'" },
-            { "name": "Wisława Szymborska", "role": "Poetka, noblistka" }
+            {
+              "name": "Fryderyk Chopin",
+              "role": "Kompozytor, pianista"
+            },
+            {
+              "name": "Adam Mickiewicz",
+              "role": "Poeta, autor 'Pana Tadeusza'"
+            },
+            {
+              "name": "Wisława Szymborska",
+              "role": "Poetka, noblistka"
+            }
           ]
         }
       ]
@@ -210,12 +291,24 @@
             "2 maja — Dzień Flagi Rzeczypospolitej Polskiej"
           ],
           "importantDates": [
-            { "year": "1797", "event": "Napisanie 'Mazurka Dąbrowskiego'" },
-            { "year": "1927", "event": "Oficjalne przyjęcie hymnu" }
+            {
+              "year": "1797",
+              "event": "Napisanie 'Mazurka Dąbrowskiego'"
+            },
+            {
+              "year": "1927",
+              "event": "Oficjalne przyjęcie hymnu"
+            }
           ],
           "importantPeople": [
-            { "name": "Józef Wybicki", "role": "Autor słów hymnu polskiego" },
-            { "name": "Jan Henryk Dąbrowski", "role": "Generał, bohater hymnu" }
+            {
+              "name": "Józef Wybicki",
+              "role": "Autor słów hymnu polskiego"
+            },
+            {
+              "name": "Jan Henryk Dąbrowski",
+              "role": "Generał, bohater hymnu"
+            }
           ]
         }
       ]
