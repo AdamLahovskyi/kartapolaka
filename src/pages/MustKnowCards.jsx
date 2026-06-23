@@ -13,11 +13,24 @@ function MustKnowCards() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [shuffleSeed, setShuffleSeed] = useState(0);
 
+  const categoryMap = {
+    history: { title: 'Historia Polski', icon: '📜' },
+    culture: { title: 'Kultura i tradycje', icon: '🎭' },
+    geography: { title: 'Geografia Polski', icon: '🗺️' },
+    'famous-poles': { title: 'Znani Polacy', icon: '👨‍🔬' },
+    symbols: { title: 'Symbole narodowe', icon: '🇵🇱' },
+    language: { title: 'Język polski', icon: '📝' },
+  };
+
   // Dynamically extract only topics that actually exist in must-know
   const availableTopics = useMemo(() => {
     if (!mustKnowData.cards) return [];
     const existingTopicIds = new Set(mustKnowData.cards.map((c) => c.topic).filter(Boolean));
-    return knowledgeData.topics.filter((t) => existingTopicIds.has(t.id));
+    return Array.from(existingTopicIds).map(topicId => ({
+      id: topicId,
+      title: categoryMap[topicId]?.title || topicId,
+      icon: categoryMap[topicId]?.icon || '📚'
+    }));
   }, []);
 
   const filteredCards = useMemo(() => {
@@ -117,7 +130,10 @@ function MustKnowCards() {
 
   // Study Screen
   const currentCard = filteredCards[currentIndex];
-  const topicInfo = currentCard?.topic ? knowledgeData.topics.find((t) => t.id === currentCard.topic) : null;
+  const topicInfo = currentCard?.topic ? {
+    title: categoryMap[currentCard.topic]?.title || currentCard.topic,
+    icon: categoryMap[currentCard.topic]?.icon || '📚'
+  } : null;
 
   return (
     <div className="flipcards-page">

@@ -16,10 +16,23 @@ function QuizEngine() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
 
+  const categoryMap = {
+    history: { title: 'Historia Polski', icon: '📜' },
+    culture: { title: 'Kultura i tradycje', icon: '🎭' },
+    geography: { title: 'Geografia Polski', icon: '🗺️' },
+    'famous-poles': { title: 'Znani Polacy', icon: '👨‍🔬' },
+    symbols: { title: 'Symbole narodowe', icon: '🇵🇱' },
+    language: { title: 'Język polski', icon: '📝' },
+  };
+
   // Dynamically extract only topics that actually have quiz questions
   const availableTopics = useMemo(() => {
     const existingTopicIds = new Set(quizData.questions.map((q) => q.topic).filter(Boolean));
-    return knowledgeData.topics.filter((t) => existingTopicIds.has(t.id));
+    return Array.from(existingTopicIds).map(topicId => ({
+      id: topicId,
+      title: categoryMap[topicId]?.title || topicId,
+      icon: categoryMap[topicId]?.icon || '📚'
+    }));
   }, []);
 
   // Filter questions based on topic selection
@@ -157,7 +170,10 @@ function QuizEngine() {
 
   // 3. Question Screen
   const q = filteredQuestions[currentIndex];
-  const topicInfo = knowledgeData.topics.find((t) => t.id === q.topic);
+  const topicInfo = q?.topic ? {
+    title: categoryMap[q.topic]?.title || q.topic,
+    icon: categoryMap[q.topic]?.icon || '📚'
+  } : null;
   
   // Determine if answer is correct (for styling)
   const getOptionClass = (option) => {

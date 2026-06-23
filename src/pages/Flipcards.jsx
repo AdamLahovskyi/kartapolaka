@@ -13,10 +13,23 @@ function Flipcards() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [shuffleSeed, setShuffleSeed] = useState(0);
 
-  // Dynamically extract only topics that actually have flashcards
+  const categoryMap = {
+    history: { title: 'Historia Polski', icon: '📜' },
+    culture: { title: 'Kultura i tradycje', icon: '🎭' },
+    geography: { title: 'Geografia Polski', icon: '🗺️' },
+    'famous-poles': { title: 'Znani Polacy', icon: '👨‍🔬' },
+    symbols: { title: 'Symbole narodowe', icon: '🇵🇱' },
+    language: { title: 'Język polski', icon: '📝' },
+  };
+
+  // Dynamically extract unique topics directly from the flashcards
   const availableTopics = useMemo(() => {
     const existingTopicIds = new Set(flipcardsData.cards.map((c) => c.topic).filter(Boolean));
-    return knowledgeData.topics.filter((t) => existingTopicIds.has(t.id));
+    return Array.from(existingTopicIds).map(topicId => ({
+      id: topicId,
+      title: categoryMap[topicId]?.title || topicId,
+      icon: categoryMap[topicId]?.icon || '📚'
+    }));
   }, []);
 
   const filteredCards = useMemo(() => {
@@ -112,7 +125,10 @@ function Flipcards() {
 
   // Study Screen
   const currentCard = filteredCards[currentIndex];
-  const topicInfo = currentCard?.topic ? knowledgeData.topics.find((t) => t.id === currentCard.topic) : null;
+  const topicInfo = currentCard?.topic ? {
+    title: categoryMap[currentCard.topic]?.title || currentCard.topic,
+    icon: categoryMap[currentCard.topic]?.icon || '📚'
+  } : null;
 
   return (
     <div className="flipcards-page">
