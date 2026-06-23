@@ -16,6 +16,12 @@ function QuizEngine() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
 
+  // Dynamically extract only topics that actually have quiz questions
+  const availableTopics = useMemo(() => {
+    const existingTopicIds = new Set(quizData.questions.map((q) => q.topic).filter(Boolean));
+    return knowledgeData.topics.filter((t) => existingTopicIds.has(t.id));
+  }, []);
+
   // Filter questions based on topic selection
   const filteredQuestions = useMemo(() => {
     let questions = [...quizData.questions];
@@ -91,8 +97,8 @@ function QuizEngine() {
         <div className="quiz-engine__setup">
           <label htmlFor="topic-select">Wybierz zakres:</label>
           <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
-            <option value="all">Wszystkie tematy (Miks)</option>
-            {knowledgeData.topics.map((t) => (
+            <option value="all">Wszystkie dostępne tematy (Miks)</option>
+            {availableTopics.map((t) => (
               <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
             ))}
           </select>
