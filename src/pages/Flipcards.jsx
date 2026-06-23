@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import flipcardsData from '../data/flipcards.json';
 import knowledgeData from '../data/knowledge.json';
@@ -6,18 +6,44 @@ import './Flipcards.css';
 
 function Flipcards() {
   const [selectedTopic, setSelectedTopic] = useState('all');
+  const [isRandom, setIsRandom] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  
+  // We need to keep track of a "shuffle seed" so it doesn't re-shuffle on every render
+  const [shuffleSeed, setShuffleSeed] = useState(0);
 
   const filteredCards = useMemo(() => {
-    if (selectedTopic === 'all') return flipcardsData.cards;
-    return flipcardsData.cards.filter((card) => card.topic === selectedTopic);
-  }, [selectedTopic]);
+    let cards = flipcardsData.cards;
+    if (selectedTopic !== 'all') {
+      cards = cards.filter((card) => card.topic === selectedTopic);
+    }
+    
+    if (isRandom) {
+      // Create a copy and shuffle it predictably for this seed
+      let shuffled = [...cards];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+    
+    return cards;
+  }, [selectedTopic, isRandom, shuffleSeed]);
 
   const handleTopicChange = (e) => {
     setSelectedTopic(e.target.value);
     setCurrentIndex(0);
     setIsFlipped(false);
+    if (isRandom) setShuffleSeed(Math.random());
+  };
+
+  const handleRandomToggle = (e) => {
+    setIsRandom(e.target.checked);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    if (e.target.checked) setShuffleSeed(Math.random());
   };
 
   const handleNext = () => {
@@ -50,14 +76,20 @@ function Flipcards() {
           </Link>
           <h1 className="flipcards__title">Fiszki</h1>
           
-          <div className="flipcards__filter">
-            <label htmlFor="topic-select">Temat:</label>
-            <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
-              <option value="all">Wszystkie tematy</option>
-              {knowledgeData.topics.map((t) => (
-                <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
-              ))}
-            </select>
+          <div className="flipcards__controls-bar">
+            <div className="flipcards__filter">
+              <label htmlFor="topic-select">Temat:</label>
+              <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+                <option value="all">Wszystkie tematy</option>
+                {knowledgeData.topics.map((t) => (
+                  <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+                ))}
+              </select>
+            </div>
+            <label className="flipcards__toggle">
+              <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
+              <span>Losowa kolejność</span>
+            </label>
           </div>
         </div>
         <div className="flipcards__empty">
@@ -81,14 +113,20 @@ function Flipcards() {
         </Link>
         <h1 className="flipcards__title">Fiszki</h1>
         
-        <div className="flipcards__filter">
-          <label htmlFor="topic-select">Wybierz temat:</label>
-          <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
-            <option value="all">Wszystkie tematy</option>
-            {knowledgeData.topics.map((t) => (
-              <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
-            ))}
-          </select>
+        <div className="flipcards__controls-bar">
+          <div className="flipcards__filter">
+            <label htmlFor="topic-select">Temat:</label>
+            <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+              <option value="all">Wszystkie tematy</option>
+              {knowledgeData.topics.map((t) => (
+                <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+              ))}
+            </select>
+          </div>
+          <label className="flipcards__toggle">
+            <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
+            <span>Losowa kolejność</span>
+          </label>
         </div>
       </div>
 

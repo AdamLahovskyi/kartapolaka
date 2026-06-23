@@ -1,26 +1,60 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import mustKnowData from '../data/must-know.json';
 import knowledgeData from '../data/knowledge.json';
-import './Flipcards.css'; // We reuse the exact same CSS
+import './Flipcards.css'; // Reusing Flipcards styles
 
 function MustKnowCards() {
+  const [selectedTopic, setSelectedTopic] = useState('all');
+  const [isRandom, setIsRandom] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(0);
 
-  const cards = mustKnowData.cards || [];
+  const filteredCards = useMemo(() => {
+    let cards = mustKnowData.cards || [];
+    if (selectedTopic !== 'all') {
+      cards = cards.filter((card) => card.topic === selectedTopic);
+    }
+    
+    if (isRandom) {
+      // Predictable shuffle based on seed
+      let shuffled = [...cards];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+    
+    return cards;
+  }, [selectedTopic, isRandom, shuffleSeed]);
+
+  const handleTopicChange = (e) => {
+    setSelectedTopic(e.target.value);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    if (isRandom) setShuffleSeed(Math.random());
+  };
+
+  const handleRandomToggle = (e) => {
+    setIsRandom(e.target.checked);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    if (e.target.checked) setShuffleSeed(Math.random());
+  };
 
   const handleNext = () => {
     setIsFlipped(false);
     setTimeout(() => {
-      setCurrentIndex((prev) => (prev + 1) % cards.length);
+      setCurrentIndex((prev) => (prev + 1) % filteredCards.length);
     }, 150);
   };
 
   const handlePrev = () => {
     setIsFlipped(false);
     setTimeout(() => {
-      setCurrentIndex((prev) => (prev - 1 + cards.length) % cards.length);
+      setCurrentIndex((prev) => (prev - 1 + filteredCards.length) % filteredCards.length);
     }, 150);
   };
 
@@ -28,7 +62,7 @@ function MustKnowCards() {
     setIsFlipped(!isFlipped);
   };
 
-  if (cards.length === 0) {
+  if (filteredCards.length === 0) {
     return (
       <div className="flipcards-page">
         <div className="flipcards__header">
@@ -39,16 +73,31 @@ function MustKnowCards() {
             Powrót
           </Link>
           <h1 className="flipcards__title">Niezbędnik</h1>
+          
+          <div className="flipcards__controls-bar">
+            <div className="flipcards__filter">
+              <label htmlFor="topic-select">Temat:</label>
+              <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+                <option value="all">Wszystkie tematy</option>
+                {knowledgeData.topics.map((t) => (
+                  <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+                ))}
+              </select>
+            </div>
+            <label className="flipcards__toggle">
+              <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
+              <span>Losowa kolejność</span>
+            </label>
+          </div>
         </div>
         <div className="flipcards__empty">
-          Trwa ładowanie bazy niezbędnika...
+          Brak fiszek dla tego tematu w Niezbędniku.
         </div>
       </div>
     );
   }
 
-  const currentCard = cards[currentIndex];
-  // Attempt to find topic info for the icon, if provided
+  const currentCard = filteredCards[currentIndex];
   const topicInfo = currentCard.topic 
     ? knowledgeData.topics.find((t) => t.id === currentCard.topic)
     : null;
@@ -66,11 +115,27 @@ function MustKnowCards() {
         <p style={{ color: 'var(--text-secondary)', fontSize: 'var(--fs-sm)', marginTop: '-10px', marginBottom: '20px' }}>
           Absolutne minimum wiedzy do opanowania.
         </p>
+
+        <div className="flipcards__controls-bar">
+          <div className="flipcards__filter">
+            <label htmlFor="topic-select">Temat:</label>
+            <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+              <option value="all">Wszystkie tematy</option>
+              {knowledgeData.topics.map((t) => (
+                <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+              ))}
+            </select>
+          </div>
+          <label className="flipcards__toggle">
+            <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
+            <span>Losowa kolejność</span>
+          </label>
+        </div>
       </div>
 
       <div className="flipcards__container">
         <div className="flipcards__counter">
-          Karta {currentIndex + 1} z {cards.length}
+          Karta {currentIndex + 1} z {filteredCards.length}
         </div>
 
         <div className={`flipcard ${isFlipped ? 'flipcard--flipped' : ''}`} onClick={toggleFlip}>

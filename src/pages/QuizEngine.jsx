@@ -6,6 +6,7 @@ import './QuizEngine.css';
 
 function QuizEngine() {
   const [selectedTopic, setSelectedTopic] = useState('all');
+  const [isRandom, setIsRandom] = useState(true);
   
   // Quiz states
   const [hasStarted, setHasStarted] = useState(false);
@@ -17,17 +18,26 @@ function QuizEngine() {
 
   // Filter questions based on topic selection
   const filteredQuestions = useMemo(() => {
-    // Shuffle the array so it's a real quiz test experience
     let questions = [...quizData.questions];
     if (selectedTopic !== 'all') {
       questions = questions.filter((q) => q.topic === selectedTopic);
     }
-    // Simple shuffle
-    return questions.sort(() => Math.random() - 0.5);
-  }, [selectedTopic, hasStarted]); // re-shuffle when quiz (re)starts
+    if (isRandom) {
+      // Shuffle the array
+      for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+      }
+    }
+    return questions;
+  }, [selectedTopic, isRandom, hasStarted]); // re-shuffle when quiz (re)starts
 
   const handleTopicChange = (e) => {
     setSelectedTopic(e.target.value);
+  };
+
+  const handleRandomToggle = (e) => {
+    setIsRandom(e.target.checked);
   };
 
   const startQuiz = () => {
@@ -86,6 +96,11 @@ function QuizEngine() {
               <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
             ))}
           </select>
+
+          <label className="quiz-engine__setup-toggle" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginTop: '10px' }}>
+            <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
+            <span>Losowa kolejność pytań</span>
+          </label>
           
           <div className="quiz-engine__setup-info">
             Liczba pytań w puli: <strong>{filteredQuestions.length}</strong>

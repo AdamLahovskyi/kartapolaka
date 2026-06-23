@@ -31,6 +31,20 @@
   margin-bottom: var(--space-md);
 }
 
+.flipcards__controls-bar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+@media (min-width: 480px) {
+  .flipcards__controls-bar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .flipcards__filter {
   display: flex;
   align-items: center;
@@ -39,6 +53,7 @@
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
+  flex: 1;
 }
 
 .flipcards__filter label {
@@ -56,6 +71,26 @@
   outline: none;
   cursor: pointer;
   flex: 1;
+}
+
+.flipcards__toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  user-select: none;
+  background: var(--bg-secondary);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.flipcards__toggle:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
 }
 
 .flipcards__empty {
