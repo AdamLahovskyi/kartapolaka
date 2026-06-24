@@ -17,6 +17,7 @@ function QuizEngine() {
   const [hasStarted, setHasStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
   const [isAnswered, setIsAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
@@ -76,6 +77,7 @@ function QuizEngine() {
     setHasStarted(true);
     setCurrentIndex(0);
     setScore(0);
+    setWrongCount(0);
     setIsAnswered(false);
     setSelectedAnswer(null);
     setIsFinished(false);
@@ -88,6 +90,8 @@ function QuizEngine() {
     const currentQ = filteredQuestions[currentIndex];
     if (answer === currentQ.correctAnswer) {
       setScore((prev) => prev + 1);
+    } else {
+      setWrongCount((prev) => prev + 1);
     }
   };
 
@@ -173,19 +177,36 @@ function QuizEngine() {
     const percentage = Math.round((score / filteredQuestions.length) * 100);
 
     let message = "Musisz jeszcze poćwiczyć.";
-    if (percentage >= 80) message = "Świetna robota! Jesteś gotowy na egzamin.";
-    else if (percentage >= 50) message = "Nieźle, ale warto jeszcze powtórzyć materiał.";
+    let emoji = "📚";
+    if (percentage >= 80) { message = "Świetna robota! Jesteś gotowy na egzamin."; emoji = "🏆"; }
+    else if (percentage >= 50) { message = "Nieźle, ale warto jeszcze powtórzyć materiał."; emoji = "💪"; }
 
     return (
       <div className="quiz-engine">
         <div className="quiz-engine__results">
+          <div className="quiz-engine__results-emoji">{emoji}</div>
           <h2>Koniec Testu</h2>
           <div className="quiz-engine__score-circle">
-            <span className="quiz-engine__score-num">{score}</span>
-            <span className="quiz-engine__score-total">/ {filteredQuestions.length}</span>
+            <span className="quiz-engine__score-num">{percentage}%</span>
           </div>
-          <p className="quiz-engine__results-percent">{percentage}% poprawnych odpowiedzi</p>
           <p className="quiz-engine__results-msg">{message}</p>
+
+          <div className="quiz-engine__results-breakdown">
+            <div className="quiz-engine__breakdown-item quiz-engine__breakdown-item--correct">
+              <span className="quiz-engine__breakdown-val">{score}</span>
+              <span className="quiz-engine__breakdown-label">Poprawne</span>
+            </div>
+            <div className="quiz-engine__breakdown-divider" />
+            <div className="quiz-engine__breakdown-item quiz-engine__breakdown-item--wrong">
+              <span className="quiz-engine__breakdown-val">{wrongCount}</span>
+              <span className="quiz-engine__breakdown-label">Błędne</span>
+            </div>
+            <div className="quiz-engine__breakdown-divider" />
+            <div className="quiz-engine__breakdown-item">
+              <span className="quiz-engine__breakdown-val">{filteredQuestions.length}</span>
+              <span className="quiz-engine__breakdown-label">Łącznie</span>
+            </div>
+          </div>
           
           <div className="quiz-engine__results-actions">
             <button className="quiz-engine__btn quiz-engine__btn--primary" onClick={startQuiz}>
@@ -232,8 +253,9 @@ function QuizEngine() {
           {currentIndex + 1} / {filteredQuestions.length}
         </div>
         
-        <div className="quiz-engine__score-mini">
-          ✓ {score}
+        <div className="quiz-engine__score-counters">
+          <span className="quiz-engine__score-mini quiz-engine__score-mini--correct">✓ {score}</span>
+          <span className="quiz-engine__score-mini quiz-engine__score-mini--wrong">✗ {wrongCount}</span>
         </div>
       </div>
 

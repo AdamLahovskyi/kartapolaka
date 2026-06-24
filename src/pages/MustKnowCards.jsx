@@ -8,14 +8,18 @@ function MustKnowCards() {
   const searchParams = new URLSearchParams(location.search);
   const initialTopic = searchParams.get('topic') || 'all';
 
+  // Setup state
   const [hasStarted, setHasStarted] = useState(false);
   const [selectedTopic, setSelectedTopic] = useState(initialTopic);
   const [isRandom, setIsRandom] = useState(false);
   const [questionLimit, setQuestionLimit] = useState('all');
-  
+  const [shuffleSeed, setShuffleSeed] = useState(0);
+
+  // Study state
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [shuffleSeed, setShuffleSeed] = useState(0);
+  const [knownCards, setKnownCards] = useState(new Set());
+  const [isFinished, setIsFinished] = useState(false);
 
   const categoryMap = {
     history: { title: 'Historia Polski', icon: '📜' },
@@ -55,40 +59,48 @@ function MustKnowCards() {
     return cards;
   }, [selectedTopic, isRandom, questionLimit, shuffleSeed, hasStarted]);
 
-  const handleTopicChange = (e) => setSelectedTopic(e.target.value);
-  const handleRandomToggle = (e) => setIsRandom(e.target.checked);
-  const handleLimitChange = (e) => setQuestionLimit(e.target.value);
-
   const allCount = useMemo(() => {
     let cards = mustKnowData.cards || [];
     if (selectedTopic !== 'all') cards = cards.filter((c) => c.topic === selectedTopic);
     return cards.length;
   }, [selectedTopic]);
 
+  const handleTopicChange = (e) => setSelectedTopic(e.target.value);
+  const handleRandomToggle = (e) => setIsRandom(e.target.checked);
+  const handleLimitChange = (e) => setQuestionLimit(e.target.value);
+
   const startStudying = () => {
     setHasStarted(true);
     setCurrentIndex(0);
     setIsFlipped(false);
+    setKnownCards(new Set());
+    setIsFinished(false);
     if (isRandom) setShuffleSeed(Math.random());
   };
 
-  const handleNext = () => {
+  const goToNext = () => {
     setIsFlipped(false);
     setTimeout(() => {
-      setCurrentIndex((prev) => (prev + 1) % filteredCards.length);
+      if (currentIndex + 1 >= filteredCards.length) {
+        setIsFinished(true);
+      } else {
+        setCurrentIndex((prev) => prev + 1);
+      }
     }, 150);
   };
 
-  const handlePrev = () => {
-    setIsFlipped(false);
-    setTimeout(() => {
-      setCurrentIndex((prev) => (prev - 1 + filteredCards.length) % filteredCards.length);
-    }, 150);
+  const handleKnow = () => {
+    setKnownCards((prev) => new Set([...prev, currentIndex]));
+    goToNext();
+  };
+
+  const handleDontKnow = () => {
+    goToNext();
   };
 
   const toggleFlip = () => setIsFlipped(!isFlipped);
 
-  // Setup Screen
+  // ── Setup Screen ──────────────────────────────────────────────────────
   if (!hasStarted) {
     return (
       <div className="flipcards-page">
@@ -101,7 +113,7 @@ function MustKnowCards() {
           </Link>
           <h1 className="flipcards__title">Niezbędnik</h1>
           <p className="flipcards__subtitle">
-            Absolutne minimum wiedzy, które musisz znać na pamięć.
+            Absolutne minimum, które musisz znać. Oceń każdą kartę — czy ją znasz?
           </p>
         </div>
 
@@ -118,7 +130,6 @@ function MustKnowCards() {
                 </select>
               </div>
             )}
-            
             <div className="flipcards__setup-field">
               <label htmlFor="limit-select">Liczba fiszek</label>
               <select id="limit-select" value={questionLimit} onChange={handleLimitChange}>
@@ -140,7 +151,7 @@ function MustKnowCards() {
           </div>
 
           <button 
-            className="flipcards__btn flipcards__btn--primary flipcards__setup-start-btn" 
+            className="flipcards__btn flipcards__btn--primary flipcards__setup-start-btn"
             onClick={startStudying}
             disabled={filteredCards.length === 0}
           >
@@ -151,7 +162,55 @@ function MustKnowCards() {
     );
   }
 
-  // Study Screen
+  // ── Results Screen ────────────────────────────────────────────────────
+  if (isFinished) {
+    const total = filteredCards.length;
+    const known = knownCards.size;
+    const unknown = total - known;
+    const pct = Math.round((known / total) * 100);
+    let emoji = '📚';
+    let message = 'Wróć do tych kart i powtórz.';
+    if (pct >= 80) { emoji = '🏆'; message = 'Świetna robota! Znasz prawie wszystko!'; }
+    else if (pct >= 50) { emoji = '💪'; message = 'Nieźle! Powtórz te, których nie znasz.'; }
+
+    return (
+      <div className="flipcards-page">
+        <div className="flipcards__results">
+          <div className="flipcards__results-emoji">{emoji}</div>
+          <h2 className="flipcards__results-title">Koniec sesji!</h2>
+          <p className="flipcards__results-msg">{message}</p>
+
+          <div className="flipcards__results-breakdown">
+            <div className="flipcards__breakdown-item flipcards__breakdown-item--known">
+              <span className="flipcards__breakdown-val">{known}</span>
+              <span className="flipcards__breakdown-label">Znam ✓</span>
+            </div>
+            <div className="flipcards__breakdown-divider" />
+            <div className="flipcards__breakdown-item flipcards__breakdown-item--unknown">
+              <span className="flipcards__breakdown-val">{unknown}</span>
+              <span className="flipcards__breakdown-label">Do nauki ✗</span>
+            </div>
+            <div className="flipcards__breakdown-divider" />
+            <div className="flipcards__breakdown-item">
+              <span className="flipcards__breakdown-val">{pct}%</span>
+              <span className="flipcards__breakdown-label">Wynik</span>
+            </div>
+          </div>
+
+          <div className="flipcards__results-actions">
+            <button className="flipcards__btn flipcards__btn--primary" onClick={startStudying}>
+              Powtórz sesję
+            </button>
+            <button className="flipcards__btn" onClick={() => setHasStarted(false)}>
+              Zmień ustawienia
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Study Screen ──────────────────────────────────────────────────────
   if (filteredCards.length === 0) return null;
   const currentCard = filteredCards[currentIndex];
   const topicInfo = currentCard?.topic ? {
@@ -169,8 +228,16 @@ function MustKnowCards() {
           Przerwij
         </button>
         <div className="flipcards__counter">
-          Karta {currentIndex + 1} z {filteredCards.length}
+          {currentIndex + 1} / {filteredCards.length}
         </div>
+        <div className="flipcards__session-score">
+          <span className="flipcards__session-known">✓ {knownCards.size}</span>
+          <span className="flipcards__session-unknown">✗ {currentIndex - knownCards.size}</span>
+        </div>
+      </div>
+
+      <div className="flipcards__progress-bar">
+        <div className="flipcards__progress-fill" style={{ width: `${(currentIndex / filteredCards.length) * 100}%` }} />
       </div>
 
       <div className="flipcards__container">
@@ -183,7 +250,7 @@ function MustKnowCards() {
                 </div>
               )}
               <p className="flipcard__text">{currentCard.front}</p>
-              <span className="flipcard__hint">Kliknij, aby odwrócić</span>
+              <span className="flipcard__hint">Kliknij, aby zobaczyć odpowiedź</span>
             </div>
             <div className="flipcard__back">
               {topicInfo && (
@@ -192,25 +259,29 @@ function MustKnowCards() {
                 </div>
               )}
               <p className="flipcard__text">{currentCard.back}</p>
-              <span className="flipcard__hint">Kliknij, aby odwrócić</span>
+              <span className="flipcard__hint">Oceń swoją odpowiedź poniżej</span>
             </div>
           </div>
         </div>
 
-        <div className="flipcards__controls">
-          <button className="flipcards__btn" onClick={handlePrev}>
-            <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-              <path fillRule="evenodd" d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z" clipRule="evenodd" />
-            </svg>
-            Poprzednia
-          </button>
-          <button className="flipcards__btn flipcards__btn--primary" onClick={handleNext}>
-            Następna
-            <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-              <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
-            </svg>
-          </button>
-        </div>
+        {isFlipped ? (
+          <div className="flipcards__grade-buttons">
+            <button className="flipcards__grade-btn flipcards__grade-btn--unknown" onClick={handleDontKnow}>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+              Nie znam
+            </button>
+            <button className="flipcards__grade-btn flipcards__grade-btn--known" onClick={handleKnow}>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              Znam!
+            </button>
+          </div>
+        ) : (
+          <p className="flipcards__flip-prompt">Kliknij kartę, aby zobaczyć odpowiedź</p>
+        )}
       </div>
     </div>
   );
