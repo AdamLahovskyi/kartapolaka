@@ -19,6 +19,7 @@ function Flipcards() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [knownCards, setKnownCards] = useState(new Set()); // indices of "known" cards
+  const [totalAnswered, setTotalAnswered] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
 
   const categoryMap = {
@@ -73,6 +74,7 @@ function Flipcards() {
     setCurrentIndex(0);
     setIsFlipped(false);
     setKnownCards(new Set());
+    setTotalAnswered(0);
     setIsFinished(false);
     if (isRandom) setShuffleSeed(Math.random());
   };
@@ -90,10 +92,12 @@ function Flipcards() {
 
   const handleKnow = () => {
     setKnownCards((prev) => new Set([...prev, currentIndex]));
+    setTotalAnswered((prev) => prev + 1);
     goToNext();
   };
 
   const handleDontKnow = () => {
+    setTotalAnswered((prev) => prev + 1);
     goToNext();
   };
 
@@ -229,7 +233,7 @@ function Flipcards() {
         </div>
         <div className="flipcards__session-score">
           <span className="flipcards__session-known">✓ {knownCards.size}</span>
-          <span className="flipcards__session-unknown">✗ {currentIndex - knownCards.size}</span>
+          <span className="flipcards__session-unknown">✗ {totalAnswered - knownCards.size}</span>
         </div>
       </div>
 
