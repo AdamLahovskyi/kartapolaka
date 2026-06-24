@@ -3,7 +3,11 @@ import knowledgeData from '../data/knowledge.json';
 import quizData from '../data/quiz.json';
 import './Home.css';
 
+import { useContext } from 'react';
+import { AuthContext } from '../context/AuthContext';
+
 function Home() {
+  const { user, progress } = useContext(AuthContext);
   const topicCount = knowledgeData.topics.length;
   const questionCount = quizData.questions.length;
 
@@ -65,10 +69,17 @@ function Home() {
           <span className="home__stat-label">Pytań</span>
         </div>
         <div className="home__stat-divider"></div>
-        <div className="home__stat">
-          <span className="home__stat-value">—</span>
-          <span className="home__stat-label">Wynik</span>
-        </div>
+        {user ? (
+          <div className="home__stat">
+            <span className="home__stat-value" style={{ color: 'var(--color-primary)' }}>{progress.overallScore}%</span>
+            <span className="home__stat-label">Twój wynik</span>
+          </div>
+        ) : (
+          <Link to="/account" className="home__stat" style={{ textDecoration: 'none', cursor: 'pointer' }}>
+            <span className="home__stat-value" style={{ fontSize: '1.5rem', color: 'var(--color-text-light)' }}>Logowanie</span>
+            <span className="home__stat-label">Zapisz postęp</span>
+          </Link>
+        )}
       </section>
     </div>
   );

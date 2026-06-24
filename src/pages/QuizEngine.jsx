@@ -1,11 +1,16 @@
-import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useMemo, useContext } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
 import quizData from '../data/quiz.json';
 import knowledgeData from '../data/knowledge.json';
 import './QuizEngine.css';
 
 function QuizEngine() {
-  const [selectedTopic, setSelectedTopic] = useState('all');
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const initialTopic = searchParams.get('topic') || 'all';
+  
+  const [selectedTopic, setSelectedTopic] = useState(initialTopic);
   const [isRandom, setIsRandom] = useState(true);
   
   // Quiz states
@@ -90,6 +95,8 @@ function QuizEngine() {
     }
   };
 
+  const { updateQuizScore } = useContext(AuthContext);
+
   // 1. Setup Screen
   if (!hasStarted) {
     return (
@@ -140,6 +147,12 @@ function QuizEngine() {
   // 2. Results Screen
   if (isFinished) {
     const percentage = Math.round((score / filteredQuestions.length) * 100);
+    
+    // Save the score if it's not the 'all' topic (or save 'all' as well)
+    if (selectedTopic !== 'all') {
+      updateQuizScore(selectedTopic, percentage);
+    }
+
     let message = "Musisz jeszcze poćwiczyć.";
     if (percentage >= 80) message = "Świetna robota! Jesteś gotowy na egzamin.";
     else if (percentage >= 50) message = "Nieźle, ale warto jeszcze powtórzyć materiał.";

@@ -73,6 +73,17 @@ function Layout() {
               </svg>
               Quiz
             </NavLink>
+            <NavLink
+              to="/account"
+              className={({ isActive }) =>
+                `header__link ${isActive ? 'header__link--active' : ''}`
+              }
+            >
+              <svg className="header__link-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+              </svg>
+              Konto
+            </NavLink>
           </nav>
 
           <div className="header__actions">

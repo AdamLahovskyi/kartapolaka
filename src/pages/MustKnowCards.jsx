@@ -1,12 +1,16 @@
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import mustKnowData from '../data/must-know.json';
 import knowledgeData from '../data/knowledge.json';
 import './Flipcards.css';
 
 function MustKnowCards() {
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const initialTopic = searchParams.get('topic') || 'all';
+
   const [hasStarted, setHasStarted] = useState(false);
-  const [selectedTopic, setSelectedTopic] = useState('all');
+  const [selectedTopic, setSelectedTopic] = useState(initialTopic);
   const [isRandom, setIsRandom] = useState(false);
   
   const [currentIndex, setCurrentIndex] = useState(0);

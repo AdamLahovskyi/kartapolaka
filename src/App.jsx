@@ -7,6 +7,7 @@ import Quiz from './pages/Quiz';
 import Flipcards from './pages/Flipcards';
 import QuizEngine from './pages/QuizEngine';
 import MustKnowCards from './pages/MustKnowCards';
+import Account from './pages/Account';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/quiz/flashcards" element={<Flipcards />} />
           <Route path="/quiz/test" element={<QuizEngine />} />
           <Route path="/quiz/must-know" element={<MustKnowCards />} />
+          <Route path="/account" element={<Account />} />
         </Route>
       </Routes>
     </BrowserRouter>
