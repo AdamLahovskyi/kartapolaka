@@ -96,3 +96,8 @@
     grid-template-columns: 1fr;
   }
 }
+
+.quiz__mode-icon--danger {
+  color: var(--error);
+  background: var(--error-subtle);
+}

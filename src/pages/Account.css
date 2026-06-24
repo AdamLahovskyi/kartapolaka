@@ -1,0 +1,246 @@
+.account-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.account-page--auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.account-auth-card {
+  background: var(--bg-elevated);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.account-auth-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--accent-subtle);
+  color: var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.account-auth-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.account-title {
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.account-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.account-form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+}
+
+.account-form-group label {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.account-form-group input {
+  padding: 0.8rem 1rem;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.account-form-group input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.account-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  font-family: inherit;
+}
+
+.account-btn:hover {
+  transform: translateY(-2px);
+}
+
+.account-btn:active {
+  transform: translateY(0);
+}
+
+.account-btn--primary {
+  background: var(--accent);
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.account-btn--primary:hover {
+  background: var(--accent-hover);
+}
+
+.account-btn--secondary {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.account-btn--secondary:hover {
+  background: var(--border);
+}
+
+.account-toggle-auth {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-weight: 500;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.account-toggle-auth:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Styles */
+.account-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.account-dashboard-welcome h1 {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.account-dashboard-welcome p {
+  color: var(--text-secondary);
+}
+
+.account-stats-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.account-stat-box {
+  background: var(--bg-elevated);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--border-subtle);
+}
+
+.account-stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.account-stat-value {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.account-stat-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.account-section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.account-progress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.account-progress-card {
+  background: var(--bg-elevated);
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.account-progress-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.account-progress-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.account-progress-title {
+  font-weight: 600;
+  flex: 1;
+  color: var(--text-primary);
+}
+
+.account-progress-score {
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.account-progress-bar-bg {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.account-progress-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
