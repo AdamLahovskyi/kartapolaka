@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import flipcardsData from '../data/flipcards.json';
-import knowledgeData from '../data/knowledge.json';
 import './Flipcards.css';
 
 function Flipcards() {
@@ -27,7 +26,6 @@ function Flipcards() {
     language: { title: 'Język polski', icon: '📝' },
   };
 
-  // Dynamically extract unique topics directly from the flashcards
   const availableTopics = useMemo(() => {
     const existingTopicIds = new Set(flipcardsData.cards.map((c) => c.topic).filter(Boolean));
     return Array.from(existingTopicIds).map(topicId => ({
@@ -42,7 +40,6 @@ function Flipcards() {
     if (selectedTopic !== 'all') {
       cards = cards.filter((card) => card.topic === selectedTopic);
     }
-    
     if (isRandom) {
       let shuffled = [...cards];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -51,17 +48,21 @@ function Flipcards() {
       }
       cards = shuffled;
     }
-    
     if (questionLimit !== 'all') {
       cards = cards.slice(0, Number(questionLimit));
     }
-    
     return cards;
   }, [selectedTopic, isRandom, questionLimit, shuffleSeed, hasStarted]);
 
   const handleTopicChange = (e) => setSelectedTopic(e.target.value);
   const handleRandomToggle = (e) => setIsRandom(e.target.checked);
   const handleLimitChange = (e) => setQuestionLimit(e.target.value);
+
+  const allCount = useMemo(() => {
+    let cards = flipcardsData.cards || [];
+    if (selectedTopic !== 'all') cards = cards.filter((c) => c.topic === selectedTopic);
+    return cards.length;
+  }, [selectedTopic]);
 
   const startStudying = () => {
     setHasStarted(true);
@@ -98,15 +99,15 @@ function Flipcards() {
             Powrót
           </Link>
           <h1 className="flipcards__title">Fiszki</h1>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--space-xl)' }}>
+          <p className="flipcards__subtitle">
             Wybierz temat i rozpocznij powtarzanie materiału.
           </p>
         </div>
 
         <div className="flipcards__setup">
-          <div className="flipcards__setup-row" style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-            <div style={{ flex: 1 }}>
-              <label htmlFor="topic-select">Wybierz temat:</label>
+          <div className="flipcards__setup-row">
+            <div className="flipcards__setup-field">
+              <label htmlFor="topic-select">Wybierz temat</label>
               <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
                 <option value="all">Wszystkie dostępne tematy</option>
                 {availableTopics.map((t) => (
@@ -115,28 +116,28 @@ function Flipcards() {
               </select>
             </div>
             
-            <div style={{ flex: 1 }}>
-              <label htmlFor="limit-select">Liczba fiszek:</label>
+            <div className="flipcards__setup-field">
+              <label htmlFor="limit-select">Liczba fiszek</label>
               <select id="limit-select" value={questionLimit} onChange={handleLimitChange}>
                 <option value="10">10 fiszek</option>
                 <option value="20">20 fiszek</option>
                 <option value="50">50 fiszek</option>
-                <option value="all">Wszystkie</option>
+                <option value="all">Wszystkie ({allCount})</option>
               </select>
             </div>
           </div>
 
-          <label className="flipcards__setup-toggle" style={{ marginTop: '15px' }}>
+          <label className="flipcards__setup-toggle">
             <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
             <span>Losowa kolejność kart</span>
           </label>
           
           <div className="flipcards__setup-info">
-            Liczba fiszek w puli: <strong>{filteredCards.length}</strong>
+            Fiszek w tej sesji: <strong>{filteredCards.length}</strong>
           </div>
 
           <button 
-            className="flipcards__btn flipcards__btn--primary" 
+            className="flipcards__btn flipcards__btn--primary flipcards__setup-start-btn" 
             onClick={startStudying}
             disabled={filteredCards.length === 0}
           >
@@ -148,6 +149,7 @@ function Flipcards() {
   }
 
   // Study Screen
+  if (filteredCards.length === 0) return null;
   const currentCard = filteredCards[currentIndex];
   const topicInfo = currentCard?.topic ? {
     title: categoryMap[currentCard.topic]?.title || currentCard.topic,
@@ -163,13 +165,12 @@ function Flipcards() {
           </svg>
           Przerwij
         </button>
-      </div>
-
-      <div className="flipcards__container">
         <div className="flipcards__counter">
           Karta {currentIndex + 1} z {filteredCards.length}
         </div>
+      </div>
 
+      <div className="flipcards__container">
         <div className={`flipcard ${isFlipped ? 'flipcard--flipped' : ''}`} onClick={toggleFlip}>
           <div className="flipcard__inner">
             <div className="flipcard__front">

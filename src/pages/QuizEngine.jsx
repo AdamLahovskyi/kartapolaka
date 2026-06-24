@@ -1,8 +1,7 @@
-import { useState, useMemo, useContext } from 'react';
+import { useState, useMemo, useContext, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import quizData from '../data/quiz.json';
-import knowledgeData from '../data/knowledge.json';
 import './QuizEngine.css';
 
 function QuizEngine() {
@@ -21,6 +20,8 @@ function QuizEngine() {
   const [isAnswered, setIsAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
+
+  const { updateQuizScore } = useContext(AuthContext);
 
   const categoryMap = {
     history: { title: 'Historia Polski', icon: '📜' },
@@ -41,38 +42,35 @@ function QuizEngine() {
     }));
   }, []);
 
-  // Filter questions based on topic selection
+  // Filter & shuffle questions
   const filteredQuestions = useMemo(() => {
     let questions = [...quizData.questions];
     if (selectedTopic !== 'all') {
       questions = questions.filter((q) => q.topic === selectedTopic);
     }
     if (isRandom) {
-      // Shuffle the array
       for (let i = questions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [questions[i], questions[j]] = [questions[j], questions[i]];
       }
     }
-    
     if (questionLimit !== 'all') {
       questions = questions.slice(0, Number(questionLimit));
     }
-    
     return questions;
-  }, [selectedTopic, isRandom, questionLimit, hasStarted]); // re-shuffle when quiz (re)starts
+  }, [selectedTopic, isRandom, questionLimit, hasStarted]);
 
-  const handleTopicChange = (e) => {
-    setSelectedTopic(e.target.value);
-  };
+  // BUG FIX: Save score in an effect, not during render
+  useEffect(() => {
+    if (isFinished && filteredQuestions.length > 0 && selectedTopic !== 'all') {
+      const percentage = Math.round((score / filteredQuestions.length) * 100);
+      updateQuizScore(selectedTopic, percentage);
+    }
+  }, [isFinished]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleRandomToggle = (e) => {
-    setIsRandom(e.target.checked);
-  };
-  
-  const handleLimitChange = (e) => {
-    setQuestionLimit(e.target.value);
-  };
+  const handleTopicChange = (e) => setSelectedTopic(e.target.value);
+  const handleRandomToggle = (e) => setIsRandom(e.target.checked);
+  const handleLimitChange = (e) => setQuestionLimit(e.target.value);
 
   const startQuiz = () => {
     setHasStarted(true);
@@ -85,10 +83,8 @@ function QuizEngine() {
 
   const handleAnswerSelect = (answer) => {
     if (isAnswered) return;
-    
     setSelectedAnswer(answer);
     setIsAnswered(true);
-    
     const currentQ = filteredQuestions[currentIndex];
     if (answer === currentQ.correctAnswer) {
       setScore((prev) => prev + 1);
@@ -105,10 +101,14 @@ function QuizEngine() {
     }
   };
 
-  const { updateQuizScore } = useContext(AuthContext);
-
   // 1. Setup Screen
   if (!hasStarted) {
+    const allCount = (() => {
+      let q = [...quizData.questions];
+      if (selectedTopic !== 'all') q = q.filter(x => x.topic === selectedTopic);
+      return q.length;
+    })();
+
     return (
       <div className="quiz-engine">
         <div className="quiz-engine__header">
@@ -125,9 +125,9 @@ function QuizEngine() {
         </div>
 
         <div className="quiz-engine__setup">
-          <div className="quiz-engine__setup-row" style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-            <div style={{ flex: 1 }}>
-              <label htmlFor="topic-select">Wybierz zakres:</label>
+          <div className="quiz-engine__setup-row">
+            <div className="quiz-engine__setup-field">
+              <label htmlFor="topic-select">Wybierz zakres</label>
               <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
                 <option value="all">Wszystkie dostępne tematy (Miks)</option>
                 {availableTopics.map((t) => (
@@ -136,31 +136,30 @@ function QuizEngine() {
               </select>
             </div>
             
-            <div style={{ flex: 1 }}>
-              <label htmlFor="limit-select">Liczba pytań:</label>
+            <div className="quiz-engine__setup-field">
+              <label htmlFor="limit-select">Liczba pytań</label>
               <select id="limit-select" value={questionLimit} onChange={handleLimitChange}>
                 <option value="10">10 pytań</option>
                 <option value="20">20 pytań</option>
                 <option value="50">50 pytań</option>
-                <option value="all">Wszystkie</option>
+                <option value="all">Wszystkie ({allCount})</option>
               </select>
             </div>
           </div>
 
-          <label className="quiz-engine__setup-toggle" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginTop: '15px' }}>
+          <label className="quiz-engine__setup-toggle">
             <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
             <span>Losowa kolejność pytań</span>
           </label>
           
-          <div className="quiz-engine__setup-info" style={{ marginTop: '10px' }}>
-            Liczba pytań w puli testu: <strong>{filteredQuestions.length}</strong>
+          <div className="quiz-engine__setup-info">
+            Pytań w tej sesji: <strong>{filteredQuestions.length}</strong>
           </div>
 
           <button 
-            className="quiz-engine__btn quiz-engine__btn--primary" 
+            className="quiz-engine__btn quiz-engine__btn--primary quiz-engine__btn--start"
             onClick={startQuiz}
             disabled={filteredQuestions.length === 0}
-            style={{ marginTop: '20px' }}
           >
             Rozpocznij Test
           </button>
@@ -172,11 +171,6 @@ function QuizEngine() {
   // 2. Results Screen
   if (isFinished) {
     const percentage = Math.round((score / filteredQuestions.length) * 100);
-    
-    // Save the score if it's not the 'all' topic (or save 'all' as well)
-    if (selectedTopic !== 'all') {
-      updateQuizScore(selectedTopic, percentage);
-    }
 
     let message = "Musisz jeszcze poćwiczyć.";
     if (percentage >= 80) message = "Świetna robota! Jesteś gotowy na egzamin.";
@@ -198,7 +192,7 @@ function QuizEngine() {
               Spróbuj ponownie
             </button>
             <button className="quiz-engine__btn" onClick={() => setHasStarted(false)}>
-              Zmień temat
+              Zmień ustawienia
             </button>
           </div>
         </div>
@@ -208,18 +202,21 @@ function QuizEngine() {
 
   // 3. Question Screen
   const q = filteredQuestions[currentIndex];
+  if (!q) return null;
+
   const topicInfo = q?.topic ? {
     title: categoryMap[q.topic]?.title || q.topic,
     icon: categoryMap[q.topic]?.icon || '📚'
   } : null;
   
-  // Determine if answer is correct (for styling)
   const getOptionClass = (option) => {
     if (!isAnswered) return '';
     if (option === q.correctAnswer) return 'quiz-engine__option--correct';
     if (option === selectedAnswer && selectedAnswer !== q.correctAnswer) return 'quiz-engine__option--incorrect';
     return 'quiz-engine__option--dimmed';
   };
+
+  const progressPct = ((currentIndex + (isAnswered ? 1 : 0)) / filteredQuestions.length) * 100;
 
   return (
     <div className="quiz-engine">
@@ -232,18 +229,18 @@ function QuizEngine() {
         </button>
         
         <div className="quiz-engine__progress">
-          Pytanie {currentIndex + 1} z {filteredQuestions.length}
+          {currentIndex + 1} / {filteredQuestions.length}
         </div>
         
         <div className="quiz-engine__score-mini">
-          Wynik: {score}
+          ✓ {score}
         </div>
       </div>
 
       <div className="quiz-engine__progress-bar">
         <div 
           className="quiz-engine__progress-fill" 
-          style={{ width: `${((currentIndex) / filteredQuestions.length) * 100}%` }}
+          style={{ width: `${progressPct}%` }}
         />
       </div>
 
@@ -276,14 +273,14 @@ function QuizEngine() {
                 onClick={() => handleAnswerSelect(true)}
                 disabled={isAnswered}
               >
-                Prawda
+                ✓ Prawda
               </button>
               <button 
                 className={`quiz-engine__option ${getOptionClass(false)}`}
                 onClick={() => handleAnswerSelect(false)}
                 disabled={isAnswered}
               >
-                Fałsz
+                ✗ Fałsz
               </button>
             </div>
           )}
@@ -291,14 +288,11 @@ function QuizEngine() {
         
         {isAnswered && (
           <div className={`quiz-engine__explanation ${selectedAnswer === q.correctAnswer ? 'quiz-engine__explanation--success' : 'quiz-engine__explanation--error'}`}>
-            <h3>{selectedAnswer === q.correctAnswer ? 'Poprawnie!' : 'Niestety, błąd.'}</h3>
+            <h3>{selectedAnswer === q.correctAnswer ? '✓ Poprawnie!' : '✗ Niestety, błąd.'}</h3>
             <p>{q.explanation}</p>
             
             <button className="quiz-engine__btn quiz-engine__btn--primary quiz-engine__btn--next" onClick={handleNextQuestion}>
-              {currentIndex + 1 === filteredQuestions.length ? 'Zakończ test' : 'Następne pytanie'}
-              <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-                <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
-              </svg>
+              {currentIndex + 1 === filteredQuestions.length ? 'Zakończ test' : 'Następne pytanie →'}
             </button>
           </div>
         )}
