@@ -12,6 +12,7 @@ function Flipcards() {
   const [hasStarted, setHasStarted] = useState(false);
   const [selectedTopic, setSelectedTopic] = useState(initialTopic);
   const [isRandom, setIsRandom] = useState(false);
+  const [questionLimit, setQuestionLimit] = useState('all');
   
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -48,14 +49,19 @@ function Flipcards() {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
-      return shuffled;
+      cards = shuffled;
+    }
+    
+    if (questionLimit !== 'all') {
+      cards = cards.slice(0, Number(questionLimit));
     }
     
     return cards;
-  }, [selectedTopic, isRandom, shuffleSeed, hasStarted]);
+  }, [selectedTopic, isRandom, questionLimit, shuffleSeed, hasStarted]);
 
   const handleTopicChange = (e) => setSelectedTopic(e.target.value);
   const handleRandomToggle = (e) => setIsRandom(e.target.checked);
+  const handleLimitChange = (e) => setQuestionLimit(e.target.value);
 
   const startStudying = () => {
     setHasStarted(true);
@@ -98,15 +104,29 @@ function Flipcards() {
         </div>
 
         <div className="flipcards__setup">
-          <label htmlFor="topic-select">Wybierz temat:</label>
-          <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
-            <option value="all">Wszystkie dostępne tematy</option>
-            {availableTopics.map((t) => (
-              <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
-            ))}
-          </select>
+          <div className="flipcards__setup-row" style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+            <div style={{ flex: 1 }}>
+              <label htmlFor="topic-select">Wybierz temat:</label>
+              <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+                <option value="all">Wszystkie dostępne tematy</option>
+                {availableTopics.map((t) => (
+                  <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+                ))}
+              </select>
+            </div>
+            
+            <div style={{ flex: 1 }}>
+              <label htmlFor="limit-select">Liczba fiszek:</label>
+              <select id="limit-select" value={questionLimit} onChange={handleLimitChange}>
+                <option value="10">10 fiszek</option>
+                <option value="20">20 fiszek</option>
+                <option value="50">50 fiszek</option>
+                <option value="all">Wszystkie</option>
+              </select>
+            </div>
+          </div>
 
-          <label className="flipcards__setup-toggle">
+          <label className="flipcards__setup-toggle" style={{ marginTop: '15px' }}>
             <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
             <span>Losowa kolejność kart</span>
           </label>

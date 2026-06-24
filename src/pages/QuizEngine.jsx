@@ -12,6 +12,7 @@ function QuizEngine() {
   
   const [selectedTopic, setSelectedTopic] = useState(initialTopic);
   const [isRandom, setIsRandom] = useState(true);
+  const [questionLimit, setQuestionLimit] = useState('all');
   
   // Quiz states
   const [hasStarted, setHasStarted] = useState(false);
@@ -53,8 +54,13 @@ function QuizEngine() {
         [questions[i], questions[j]] = [questions[j], questions[i]];
       }
     }
+    
+    if (questionLimit !== 'all') {
+      questions = questions.slice(0, Number(questionLimit));
+    }
+    
     return questions;
-  }, [selectedTopic, isRandom, hasStarted]); // re-shuffle when quiz (re)starts
+  }, [selectedTopic, isRandom, questionLimit, hasStarted]); // re-shuffle when quiz (re)starts
 
   const handleTopicChange = (e) => {
     setSelectedTopic(e.target.value);
@@ -62,6 +68,10 @@ function QuizEngine() {
 
   const handleRandomToggle = (e) => {
     setIsRandom(e.target.checked);
+  };
+  
+  const handleLimitChange = (e) => {
+    setQuestionLimit(e.target.value);
   };
 
   const startQuiz = () => {
@@ -115,27 +125,42 @@ function QuizEngine() {
         </div>
 
         <div className="quiz-engine__setup">
-          <label htmlFor="topic-select">Wybierz zakres:</label>
-          <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
-            <option value="all">Wszystkie dostępne tematy (Miks)</option>
-            {availableTopics.map((t) => (
-              <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
-            ))}
-          </select>
+          <div className="quiz-engine__setup-row" style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+            <div style={{ flex: 1 }}>
+              <label htmlFor="topic-select">Wybierz zakres:</label>
+              <select id="topic-select" value={selectedTopic} onChange={handleTopicChange}>
+                <option value="all">Wszystkie dostępne tematy (Miks)</option>
+                {availableTopics.map((t) => (
+                  <option key={t.id} value={t.id}>{t.icon} {t.title}</option>
+                ))}
+              </select>
+            </div>
+            
+            <div style={{ flex: 1 }}>
+              <label htmlFor="limit-select">Liczba pytań:</label>
+              <select id="limit-select" value={questionLimit} onChange={handleLimitChange}>
+                <option value="10">10 pytań</option>
+                <option value="20">20 pytań</option>
+                <option value="50">50 pytań</option>
+                <option value="all">Wszystkie</option>
+              </select>
+            </div>
+          </div>
 
-          <label className="quiz-engine__setup-toggle" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginTop: '10px' }}>
+          <label className="quiz-engine__setup-toggle" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginTop: '15px' }}>
             <input type="checkbox" checked={isRandom} onChange={handleRandomToggle} />
             <span>Losowa kolejność pytań</span>
           </label>
           
-          <div className="quiz-engine__setup-info">
-            Liczba pytań w puli: <strong>{filteredQuestions.length}</strong>
+          <div className="quiz-engine__setup-info" style={{ marginTop: '10px' }}>
+            Liczba pytań w puli testu: <strong>{filteredQuestions.length}</strong>
           </div>
 
           <button 
             className="quiz-engine__btn quiz-engine__btn--primary" 
             onClick={startQuiz}
             disabled={filteredQuestions.length === 0}
+            style={{ marginTop: '20px' }}
           >
             Rozpocznij Test
           </button>
