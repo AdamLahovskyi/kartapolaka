@@ -1,4 +1,5 @@
 import { useState, useContext } from 'react';
+import { motion } from 'framer-motion';
 import { AuthContext } from '../context/AuthContext';
 import knowledgeData from '../data/knowledge.json';
 import './Account.css';
@@ -27,7 +28,12 @@ function Account() {
 
   if (!user) {
     return (
-      <div className="account-page account-page--auth">
+      <motion.div 
+        className="account-page account-page--auth"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <div className="account-auth-card">
           <div className="account-auth-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -78,7 +84,7 @@ function Account() {
               : 'Nie masz konta? Zarejestruj się.'}
           </button>
         </div>
-      </div>
+      </motion.div>
     );
   }
 
@@ -86,9 +92,27 @@ function Account() {
   const topics = knowledgeData.topics.map(t => t.category);
   const uniqueTopics = [...new Set(topics)];
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { staggerChildren: 0.1 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
+  };
+
   return (
-    <div className="account-page">
-      <div className="account-dashboard-header">
+    <motion.div 
+      className="account-page"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
+      <motion.div className="account-dashboard-header" variants={itemVariants}>
         <div className="account-dashboard-welcome">
           <h1>Cześć, {user.username}! 👋</h1>
           <p>Oto Twój postęp w przygotowaniach do Karty Polaka.</p>
@@ -96,27 +120,29 @@ function Account() {
         <button onClick={logout} className="account-btn account-btn--secondary">
           Wyloguj się
         </button>
-      </div>
+      </motion.div>
 
-      <div className="account-stats-overview">
-        <div className="account-stat-box">
+      <motion.div className="account-stats-overview" variants={containerVariants}>
+        <motion.div className="account-stat-box" variants={itemVariants}>
           <div className="account-stat-value">{progress.overallScore}%</div>
           <div className="account-stat-label">Średni wynik z quizów</div>
-        </div>
-        <div className="account-stat-box">
+        </motion.div>
+        <motion.div className="account-stat-box" variants={itemVariants}>
           <div className="account-stat-value">{Object.keys(progress.quizScores).length}</div>
           <div className="account-stat-label">Rozpoczęte tematy</div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
-      <h2 className="account-section-title">Twoje wyniki z działów</h2>
-      <div className="account-progress-grid">
+      <motion.h2 className="account-section-title" variants={itemVariants}>
+        Twoje wyniki z działów
+      </motion.h2>
+      <motion.div className="account-progress-grid" variants={containerVariants}>
         {uniqueTopics.map(topicId => {
           const score = progress.quizScores[topicId] || 0;
           const info = categoryMap[topicId] || { title: topicId, icon: '📚' };
           
           return (
-            <div key={topicId} className="account-progress-card">
+            <motion.div key={topicId} className="account-progress-card" variants={itemVariants}>
               <div className="account-progress-header">
                 <span className="account-progress-icon">{info.icon}</span>
                 <span className="account-progress-title">{info.title}</span>
@@ -125,14 +151,14 @@ function Account() {
               <div className="account-progress-bar-bg">
                 <div 
                   className="account-progress-bar-fill" 
-                  style={{ width: `${score}%`, backgroundColor: score >= 80 ? 'var(--color-success)' : score > 0 ? 'var(--color-primary)' : 'var(--color-gray-300)' }}
+                  style={{ width: `${score}%`, backgroundColor: score >= 80 ? 'var(--success)' : score > 0 ? 'var(--accent)' : 'var(--bg-tertiary)' }}
                 />
               </div>
-            </div>
+            </motion.div>
           );
         })}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 

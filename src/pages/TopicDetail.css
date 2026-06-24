@@ -165,6 +165,55 @@
   line-height: 1.5;
 }
 
+/* ===== Action Buttons ===== */
+.topic-detail__actions {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-2xl);
+  flex-wrap: wrap;
+}
+
+.topic-detail__action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 0.6rem 1.2rem;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  border-radius: 100px; /* pill shape */
+  transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.topic-detail__action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.topic-detail__action-btn:active {
+  transform: translateY(0);
+}
+
+.topic-detail__action-btn--primary {
+  background-color: var(--accent);
+  color: white;
+}
+
+.topic-detail__action-btn--primary:hover {
+  background-color: var(--accent-hover);
+}
+
+.topic-detail__action-btn--secondary {
+  background-color: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.topic-detail__action-btn--secondary:hover {
+  background-color: var(--accent-subtle);
+}
+
 /* ===== Mobile ===== */
 @media (max-width: 768px) {
   .topic-detail__title {

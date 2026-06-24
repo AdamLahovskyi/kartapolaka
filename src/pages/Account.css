@@ -2,7 +2,6 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  animation: fadeIn 0.4s ease-out;
 }
 
 .account-page--auth {
@@ -13,21 +12,20 @@
 }
 
 .account-auth-card {
-  background: white;
+  background: var(--bg-elevated);
   padding: 3rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: var(--shadow-md);
   width: 100%;
   max-width: 400px;
   text-align: center;
-  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .account-auth-icon {
   width: 64px;
   height: 64px;
-  background: var(--color-primary-light);
-  color: var(--color-primary);
+  background: var(--accent-subtle);
+  color: var(--accent);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -42,12 +40,12 @@
 
 .account-title {
   font-size: 1.75rem;
-  color: var(--color-text);
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
 .account-subtitle {
-  color: var(--color-text-light);
+  color: var(--text-secondary);
   font-size: 0.95rem;
   margin-bottom: 2rem;
 }
@@ -67,13 +65,15 @@
 
 .account-form-group label {
   font-weight: 500;
-  color: var(--color-text);
+  color: var(--text-primary);
   font-size: 0.9rem;
 }
 
 .account-form-group input {
   padding: 0.8rem 1rem;
-  border: 1px solid var(--color-gray-200);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
   border-radius: 10px;
   font-family: inherit;
   font-size: 1rem;
@@ -82,8 +82,8 @@
 
 .account-form-group input:focus {
   outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.1);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
 .account-btn {
@@ -106,28 +106,28 @@
 }
 
 .account-btn--primary {
-  background: var(--color-primary);
+  background: var(--accent);
   color: white;
   margin-top: 0.5rem;
 }
 
 .account-btn--primary:hover {
-  background: #c01030;
+  background: var(--accent-hover);
 }
 
 .account-btn--secondary {
-  background: var(--color-gray-100);
-  color: var(--color-text);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
 }
 
 .account-btn--secondary:hover {
-  background: var(--color-gray-200);
+  background: var(--border);
 }
 
 .account-toggle-auth {
   background: none;
   border: none;
-  color: var(--color-primary);
+  color: var(--accent);
   font-weight: 500;
   margin-top: 1.5rem;
   cursor: pointer;
@@ -144,17 +144,16 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 3rem;
-  animation: slideDown 0.4s ease-out;
 }
 
 .account-dashboard-welcome h1 {
   font-size: 2rem;
-  color: var(--color-text);
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
 .account-dashboard-welcome p {
-  color: var(--color-text-light);
+  color: var(--text-secondary);
 }
 
 .account-stats-overview {
@@ -165,12 +164,13 @@
 }
 
 .account-stat-box {
-  background: white;
+  background: var(--bg-elevated);
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  box-shadow: var(--shadow-sm);
   text-align: center;
   transition: transform 0.3s ease;
+  border: 1px solid var(--border-subtle);
 }
 
 .account-stat-box:hover {
@@ -180,20 +180,20 @@
 .account-stat-value {
   font-size: 3rem;
   font-weight: 800;
-  color: var(--color-primary);
+  color: var(--accent);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
 
 .account-stat-label {
-  color: var(--color-text-light);
+  color: var(--text-secondary);
   font-weight: 500;
 }
 
 .account-section-title {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  color: var(--color-text);
+  color: var(--text-primary);
 }
 
 .account-progress-grid {
@@ -203,10 +203,11 @@
 }
 
 .account-progress-card {
-  background: white;
+  background: var(--bg-elevated);
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-subtle);
 }
 
 .account-progress-header {
@@ -223,16 +224,17 @@
 .account-progress-title {
   font-weight: 600;
   flex: 1;
+  color: var(--text-primary);
 }
 
 .account-progress-score {
   font-weight: 700;
-  color: var(--color-text-light);
+  color: var(--text-secondary);
 }
 
 .account-progress-bar-bg {
   height: 8px;
-  background: var(--color-gray-100);
+  background: var(--bg-tertiary);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -241,19 +243,4 @@
   height: 100%;
   border-radius: 4px;
   transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
 }
