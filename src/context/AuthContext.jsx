@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
+import knowledgeData from '../data/knowledge.json';
 
 export const AuthContext = createContext();
 
@@ -18,7 +19,16 @@ export function AuthProvider({ children }) {
       setUser(JSON.parse(savedUser));
     }
     if (savedProgress) {
-      setProgress(JSON.parse(savedProgress));
+      try {
+        const parsedProgress = JSON.parse(savedProgress);
+        // Ensure structure is safe
+        setProgress({
+          quizScores: parsedProgress?.quizScores || {},
+          overallScore: parsedProgress?.overallScore || 0
+        });
+      } catch(e) {
+        // Fallback
+      }
     }
   }, []);
 
@@ -36,16 +46,20 @@ export function AuthProvider({ children }) {
 
   const updateQuizScore = (topicId, percentage) => {
     setProgress(prev => {
-      const currentBest = prev.quizScores[topicId] || 0;
+      const currentBest = prev.quizScores?.[topicId] || 0;
       // Only update if new score is better
       if (percentage <= currentBest) return prev;
 
       const newScores = { ...prev.quizScores, [topicId]: percentage };
       
-      // Calculate new overall score
-      const topics = Object.keys(newScores);
-      const totalScore = topics.reduce((sum, t) => sum + newScores[t], 0);
-      const overall = topics.length > 0 ? Math.round(totalScore / topics.length) : 0;
+      // Calculate new overall score based on ALL available topics
+      const allTopicCategories = [...new Set(knowledgeData.topics.map(t => t.category).filter(Boolean))];
+      const totalTopicsCount = allTopicCategories.length;
+      
+      const topicsWithScore = Object.keys(newScores);
+      const totalScore = topicsWithScore.reduce((sum, t) => sum + newScores[t], 0);
+      
+      const overall = totalTopicsCount > 0 ? Math.round(totalScore / totalTopicsCount) : 0;
 
       const newProgress = { quizScores: newScores, overallScore: overall };
       localStorage.setItem('kp_progress', JSON.stringify(newProgress));

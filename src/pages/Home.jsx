@@ -93,7 +93,7 @@ function Home() {
         <div className="home__stat-divider"></div>
         {user ? (
           <div className="home__stat">
-            <span className="home__stat-value" style={{ color: 'var(--accent)' }}>{progress.overallScore}%</span>
+            <span className="home__stat-value" style={{ color: 'var(--accent)' }}>{progress?.overallScore || 0}%</span>
             <span className="home__stat-label">Twój wynik</span>
           </div>
         ) : (

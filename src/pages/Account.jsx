@@ -89,7 +89,7 @@ function Account() {
   }
 
   // Dashboard View
-  const topics = knowledgeData.topics.map(t => t.category);
+  const topics = knowledgeData.topics.map(t => t.category).filter(Boolean);
   const uniqueTopics = [...new Set(topics)];
 
   const containerVariants = {
@@ -104,6 +104,9 @@ function Account() {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
   };
+
+  const quizScores = progress?.quizScores || {};
+  const overallScore = progress?.overallScore || 0;
 
   return (
     <motion.div 
@@ -124,11 +127,11 @@ function Account() {
 
       <motion.div className="account-stats-overview" variants={containerVariants}>
         <motion.div className="account-stat-box" variants={itemVariants}>
-          <div className="account-stat-value">{progress.overallScore}%</div>
-          <div className="account-stat-label">Średni wynik z quizów</div>
+          <div className="account-stat-value">{overallScore}%</div>
+          <div className="account-stat-label">Ogólny postęp nauki</div>
         </motion.div>
         <motion.div className="account-stat-box" variants={itemVariants}>
-          <div className="account-stat-value">{Object.keys(progress.quizScores).length}</div>
+          <div className="account-stat-value">{Object.keys(quizScores).length} / {uniqueTopics.length}</div>
           <div className="account-stat-label">Rozpoczęte tematy</div>
         </motion.div>
       </motion.div>
